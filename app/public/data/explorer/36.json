@@ -1,0 +1,208 @@
+{
+  "id": "36",
+  "title": "Delegaciones Municipales",
+  "source": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+  "description": "Listado y localización de las delegaciones municipales de Luján de Cuyo",
+  "category": "Gobierno Municipal",
+  "categorySlug": "gobierto-y-sector-publico",
+  "updatedAt": "2025-12-21T21:02:17.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "delegaciones.csv",
+      "formato": "CSV",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/36/delegaciones.csv",
+      "bytes": 1851
+    },
+    {
+      "nombre": "delegaciones_2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/36/1752668408750-delegaciones_2025.xlsx",
+      "bytes": 11339
+    }
+  ],
+  "columns": [
+    {
+      "name": "dependenci",
+      "type": "string",
+      "label": "dependenci"
+    },
+    {
+      "name": "direccion",
+      "type": "string",
+      "label": "direccion"
+    },
+    {
+      "name": "delegado",
+      "type": "string",
+      "label": "delegado"
+    },
+    {
+      "name": "telefono",
+      "type": "string",
+      "label": "telefono"
+    },
+    {
+      "name": "latitud",
+      "type": "number",
+      "label": "latitud"
+    },
+    {
+      "name": "longitud",
+      "type": "number",
+      "label": "longitud"
+    },
+    {
+      "name": "x",
+      "type": "number",
+      "label": "x"
+    },
+    {
+      "name": "y",
+      "type": "number",
+      "label": "y"
+    },
+    {
+      "name": "distritos",
+      "type": "string",
+      "label": "distritos"
+    }
+  ],
+  "rows": [
+    {
+      "dependenci": "DELEGACION EL CARRIZAL",
+      "direccion": "RUTA 16 S/N",
+      "delegado": "ALDO REINOSO",
+      "telefono": "2612085057",
+      "latitud": -33.3233846938,
+      "longitud": -68.7573738331,
+      "x": 6313325.67282,
+      "y": 2522591.14457,
+      "distritos": "EL CARRIZAL"
+    },
+    {
+      "dependenci": "DELEGACION CENTRAL LUJAN",
+      "direccion": "XX DE SETIEMBRE 83",
+      "delegado": "GONZALO RUIZ",
+      "telefono": "2615561530",
+      "latitud": -33.0399181855,
+      "longitud": -68.8796837862,
+      "x": 6344784.13347,
+      "y": 2511238.87435,
+      "distritos": "CIUDAD"
+    },
+    {
+      "dependenci": "DELEGACION CHACRAS DE CORIA",
+      "direccion": "ITALIA 5475",
+      "delegado": "SANTIAGO SCONFIENZA",
+      "telefono": "4960363 / 2615966107",
+      "latitud": -32.9862307008,
+      "longitud": -68.8811882251,
+      "x": 6350738.49243,
+      "y": 2511105.06993,
+      "distritos": "CHACRAS DE CORIA"
+    },
+    {
+      "dependenci": "DELEGACION CARRODILLA",
+      "direccion": "J J PASO Y SAN MARTIN",
+      "delegado": "CECILIA SOULE",
+      "telefono": "4361181 / 2613353323",
+      "latitud": -32.9660463588,
+      "longitud": -68.8538115337,
+      "x": 6352973.79865,
+      "y": 2513667.01864,
+      "distritos": "CARRODILLA"
+    },
+    {
+      "dependenci": "DELEGACION PERDRIEL",
+      "direccion": "VASCONCELLOS & J L BORGES",
+      "delegado": "MIGUEL GUZMAN",
+      "telefono": "4882036 / 2616795387",
+      "latitud": -33.0748597032,
+      "longitud": -68.8884741633,
+      "x": 6340909.8305,
+      "y": 2510413.6402,
+      "distritos": "PERDRIEL"
+    },
+    {
+      "dependenci": "DELEGACION AGRELO",
+      "direccion": "CALLE 8 S/N",
+      "delegado": "GABRIELA DELLABLANCA",
+      "telefono": "4989004 / 2615925268",
+      "latitud": -33.1287624802,
+      "longitud": -68.8892023219,
+      "x": 6334931.742,
+      "y": 2510339.3354,
+      "distritos": "AGRELO"
+    },
+    {
+      "dependenci": "DELEGACION UGARTECHE",
+      "direccion": "SARMIENTO S/N Y RUTA 15",
+      "delegado": "MARISA BAREA",
+      "telefono": "2613015543",
+      "latitud": -33.2090073678,
+      "longitud": -68.8901784644,
+      "x": 6326032.0741,
+      "y": 2510238.9115,
+      "distritos": "UGARTECHE"
+    },
+    {
+      "dependenci": "DELEGACION MAYOR DRUMMOND",
+      "direccion": "SAN MARTIN 2470",
+      "delegado": "GABRIEL CUNSOLO",
+      "telefono": "2615945615",
+      "latitud": -33.01642765,
+      "longitud": -68.8716065096,
+      "x": 6347388.46016,
+      "y": 2511996.56446,
+      "distritos": "MAYOR DRUMMOND"
+    },
+    {
+      "dependenci": "DELEGACION LAS COMPUERTAS & VISTALBA",
+      "direccion": "RUTA 82 KM 22",
+      "delegado": "GUILLERMO HERAS",
+      "telefono": "4901055 / 2612075528",
+      "latitud": -33.0369035429,
+      "longitud": -68.9788116439,
+      "x": 6345124.70713,
+      "y": 2501979.29527,
+      "distritos": "LAS COMPUERTAS"
+    },
+    {
+      "dependenci": "DELEGACION POTRERILLOS",
+      "direccion": "CAMINO DEL HUARPE 630",
+      "delegado": "ARNALDO MARTINEZ",
+      "telefono": "4900333 / 4882036 / 2615891453",
+      "latitud": -32.9612855626,
+      "longitud": -69.1976437135,
+      "x": 6353493.93624,
+      "y": 2481521.48214,
+      "distritos": "POTRERILLOS"
+    },
+    {
+      "dependenci": "DELEGACION VERTIENTES DEL PEDEMONTE",
+      "direccion": "LA UNION 4902",
+      "delegado": "ADRIANA AGUERO",
+      "telefono": "2615758259",
+      "latitud": -32.9994790268,
+      "longitud": -68.9098932379,
+      "x": 6349271.8581,
+      "y": 2508420.8175,
+      "distritos": "VERTIENTES DEL PEDEMONTE"
+    },
+    {
+      "dependenci": "DELEGACION LA PUNTILLA",
+      "direccion": "MANUEL BALDOMERO UGARTE 675",
+      "delegado": "LEONARDO RUIZ",
+      "telefono": "4631355 / 2614858761",
+      "latitud": -32.9613706897,
+      "longitud": -68.8599895656,
+      "x": 6353493.13376,
+      "y": 2513090.12938,
+      "distritos": "LA PUNTILLA"
+    }
+  ],
+  "totalRows": 12,
+  "previewSourceFile": "delegaciones.csv",
+  "municipios": []
+}

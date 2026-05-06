@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "id": "cultura-y-turismo",
+    "title": "Turismo y Cultura",
+    "category": "Turismo y Cultura",
+    "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
+    "date": "2026-05-06"
+  },
+  "kpis": [
+    {
+      "id": "kpi-datasets",
+      "label": "Datasets",
+      "value": 7,
+      "formatted": "7"
+    },
+    {
+      "id": "kpi-archivos",
+      "label": "Archivos descargables",
+      "value": 6,
+      "formatted": "6"
+    },
+    {
+      "id": "kpi-mb",
+      "label": "MB publicados",
+      "value": 4,
+      "formatted": "3.7 MB"
+    },
+    {
+      "id": "kpi-orgs",
+      "label": "Áreas que publican",
+      "value": 3,
+      "formatted": "3"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart-orgs",
+      "type": "bar",
+      "title": "Datasets por área que publica",
+      "sectionId": "areas-que-publican",
+      "data": [
+        {
+          "id": "Dirección de Turismo",
+          "datasets": 5
+        },
+        {
+          "id": "Apoderado Municipal",
+          "datasets": 1
+        },
+        {
+          "id": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "id",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "chart-formats",
+      "type": "pie",
+      "title": "Distribución de formatos",
+      "sectionId": "formatos-disponibles",
+      "data": [
+        {
+          "id": "CSV",
+          "label": "CSV",
+          "value": 3
+        },
+        {
+          "id": "KML",
+          "label": "KML",
+          "value": 2
+        },
+        {
+          "id": "XLS",
+          "label": "XLS",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rank-datasets-archivos",
+      "title": "Datasets con más archivos",
+      "sectionId": "",
+      "items": [
+        {
+          "name": "Transporte Público",
+          "value": 2
+        },
+        {
+          "name": "Alojamiento",
+          "value": 1
+        },
+        {
+          "name": "Senderos de Trekking",
+          "value": 1
+        },
+        {
+          "name": "Aventura",
+          "value": 1
+        },
+        {
+          "name": "Gastronomía",
+          "value": 1
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

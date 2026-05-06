@@ -1,0 +1,28 @@
+{
+  "id": "1",
+  "title": "Organigrama Municipal 2020",
+  "source": "Secretaria de Gobierno",
+  "description": "Estructura del organigrama del Municipio de Luján de Cuyo.",
+  "category": "Gobierno Municipal",
+  "categorySlug": "gobierto-y-sector-publico",
+  "updatedAt": "2025-12-21T14:22:36.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "dec-59-organigrama-oficial.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/1/dec-59-organigrama-oficial.pdf",
+      "bytes": 1337059
+    },
+    {
+      "nombre": "dec-24-organigrama-municipal.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/1/dec-24-organigrama-municipal.pdf",
+      "bytes": 1712662
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

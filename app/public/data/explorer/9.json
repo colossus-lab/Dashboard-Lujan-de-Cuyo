@@ -1,0 +1,2797 @@
+{
+  "id": "9",
+  "title": "Espacios Verdes",
+  "source": "Intendencia Municipalidad de Luján de Cuyo",
+  "description": "Espacios verdes  que comprenden plazas y paseos",
+  "category": "Urbanismo y Territorio",
+  "categorySlug": "urbanismo-y-territorio",
+  "updatedAt": "2025-12-20T22:26:09.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "espacios_verdes.csv",
+      "formato": "CSV",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/9/espacios_verdes.csv",
+      "bytes": 20800
+    },
+    {
+      "nombre": "espacios-verdes.kml",
+      "formato": "KML",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/9/espacios-verdes.kml",
+      "bytes": 276212
+    },
+    {
+      "nombre": "Espacios Públicos_2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/9/1752668783547-Espacios Públicos_2025.xlsx",
+      "bytes": 23696
+    }
+  ],
+  "columns": [
+    {
+      "name": "gid",
+      "type": "number",
+      "label": "gid"
+    },
+    {
+      "name": "nombre",
+      "type": "string",
+      "label": "nombre"
+    },
+    {
+      "name": "tipo",
+      "type": "string",
+      "label": "tipo"
+    },
+    {
+      "name": "sup_m2",
+      "type": "number",
+      "label": "sup_m2"
+    },
+    {
+      "name": "shape_leng",
+      "type": "string",
+      "label": "shape_leng"
+    },
+    {
+      "name": "shape_area",
+      "type": "number",
+      "label": "shape_area"
+    },
+    {
+      "name": "distrito",
+      "type": "string",
+      "label": "distrito"
+    },
+    {
+      "name": "estado",
+      "type": "string",
+      "label": "estado"
+    }
+  ],
+  "rows": [
+    {
+      "gid": 8,
+      "nombre": "PLAZA LOTEO OZAN (BARRIO LAS ACACIAS)",
+      "tipo": "PLAZA",
+      "sup_m2": 1611.91694527487,
+      "shape_leng": "",
+      "shape_area": 1611.91602204758,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 9,
+      "nombre": "PLAZA BARRIO LAS ROSAS_CHINO",
+      "tipo": "PLAZA",
+      "sup_m2": 1703.2949398921,
+      "shape_leng": "",
+      "shape_area": 1703.29560868442,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 11,
+      "nombre": "PLAZA BARRIO VILLA DEL RIO_CEC",
+      "tipo": "PLAZA",
+      "sup_m2": 1358.50817176059,
+      "shape_leng": "",
+      "shape_area": 1358.49749426171,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 291,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 1047.89708363315,
+      "shape_leng": "",
+      "shape_area": 1047.89711313276,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 296,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 341.06884390219,
+      "shape_leng": "",
+      "shape_area": 341.061205666512,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 297,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 1191.1608247982,
+      "shape_leng": "",
+      "shape_area": 1191.1433436349,
+      "distrito": "CARRODILLA{",
+      "estado": ""
+    },
+    {
+      "gid": 298,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 829.126493309781,
+      "shape_leng": "",
+      "shape_area": 829.134888241533,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 311,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": "",
+      "shape_leng": "",
+      "shape_area": "",
+      "distrito": "VISTALBA",
+      "estado": ""
+    },
+    {
+      "gid": 30,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 2294.2415252917,
+      "shape_leng": "",
+      "shape_area": 2294.2160247704,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 1,
+      "nombre": "PLAZA BARRIO LAS GLICINAS",
+      "tipo": "PLAZA",
+      "sup_m2": 3516.4786846509,
+      "shape_leng": "",
+      "shape_area": 3516.45362690091,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 3,
+      "nombre": "PLAZA HUMBERTO BEGHIN",
+      "tipo": "PLAZA",
+      "sup_m2": 4126.57820502015,
+      "shape_leng": "",
+      "shape_area": 4126.62525899708,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 4,
+      "nombre": "PLAZA LOS SOLES (CEFERINO NAMUNCURA)",
+      "tipo": "PLAZA",
+      "sup_m2": 1500.54727257691,
+      "shape_leng": "",
+      "shape_area": 1500.54670993844,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 5,
+      "nombre": "PLAZA BARRIO LOS OLIVOS",
+      "tipo": "PLAZA",
+      "sup_m2": 4401.06981237773,
+      "shape_leng": "",
+      "shape_area": 4401.06803393364,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 6,
+      "nombre": "PLAZA BARRIO FADER",
+      "tipo": "PLAZA",
+      "sup_m2": 1963.86930320581,
+      "shape_leng": "",
+      "shape_area": 1963.89756983891,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 7,
+      "nombre": "PLAZA BARRIO PARQUE DRUMMOND",
+      "tipo": "PLAZA",
+      "sup_m2": 5114.06366039827,
+      "shape_leng": "",
+      "shape_area": 5114.12151838839,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 14,
+      "nombre": "PLAZOLETA DE LOS ESCRITORES",
+      "tipo": "PLAZA",
+      "sup_m2": 1759.62611349483,
+      "shape_leng": "",
+      "shape_area": 1759.66042263061,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 16,
+      "nombre": "PLAZA LOS BOMBEROS",
+      "tipo": "PLAZA",
+      "sup_m2": 3693.36805332781,
+      "shape_leng": "",
+      "shape_area": 3693.36031451635,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 19,
+      "nombre": "FELIPE VITALE",
+      "tipo": "PLAZA",
+      "sup_m2": 3909.15339586259,
+      "shape_leng": "",
+      "shape_area": 3909.12417262793,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 28,
+      "nombre": "LAS TINAJAS",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 4852.33756157372,
+      "shape_leng": "",
+      "shape_area": 4852.35715123639,
+      "distrito": "VISTALBA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 32,
+      "nombre": "ESPACIO VERDE BARRIO VICTOR HUGO I",
+      "tipo": "PLAZA",
+      "sup_m2": 1752.08523308715,
+      "shape_leng": "",
+      "shape_area": 1752.08449016721,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 47,
+      "nombre": "PLAZA QUITO",
+      "tipo": "PLAZA",
+      "sup_m2": 2870.86175743027,
+      "shape_leng": "",
+      "shape_area": 2870.90421711653,
+      "distrito": "LA PUNTILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 222,
+      "nombre": "MONUMENTO PEJERREY",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 393.861287508509,
+      "shape_leng": "",
+      "shape_area": 393.869470899925,
+      "distrito": "EL CARRIZAL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 314,
+      "nombre": "PLAZA GRAL ESPEJO - PLAZA DE CHACRAS",
+      "tipo": "PLAZA",
+      "sup_m2": "",
+      "shape_leng": "",
+      "shape_area": "",
+      "distrito": "CHACRAS DE CORIA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 315,
+      "nombre": "PLAZA GRAL ESPEJO - PLAZA DE CHACRAS",
+      "tipo": "PLAZA",
+      "sup_m2": "",
+      "shape_leng": "",
+      "shape_area": "",
+      "distrito": "CHACRAS DE CORIA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 10,
+      "nombre": "PLAZA DEPARTAMENTAL SAN MARTIN",
+      "tipo": "PLAZA",
+      "sup_m2": 6854.99096279631,
+      "shape_leng": "",
+      "shape_area": 6855.0019556107,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 273,
+      "nombre": "ROTONDA",
+      "tipo": "ROTONDA",
+      "sup_m2": 156.931838063137,
+      "shape_leng": "",
+      "shape_area": 156.941001351408,
+      "distrito": "VERTIENTES DE PEDEMONTE",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 274,
+      "nombre": "ROTONDA",
+      "tipo": "ROTONDA",
+      "sup_m2": 156.948803691063,
+      "shape_leng": "",
+      "shape_area": 156.941641286187,
+      "distrito": "VERTIENTES DE PEDEMONTE",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 275,
+      "nombre": "ROTONDA PALMARES",
+      "tipo": "ROTONDA",
+      "sup_m2": 13606.5256198076,
+      "shape_leng": "",
+      "shape_area": 13606.5256956555,
+      "distrito": "VERTIENTES DE PEDEMONTE",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 283,
+      "nombre": "PARQUE CIVICO",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 8984.32956515999,
+      "shape_leng": "",
+      "shape_area": 8984.38435833436,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 77,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 210.683450494619,
+      "shape_leng": "",
+      "shape_area": 210.682303667068,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 78,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 159.104628923335,
+      "shape_leng": "",
+      "shape_area": 159.105293706059,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 2,
+      "nombre": "PLAZA BARRIO 21 DE JULIO",
+      "tipo": "PLAZA",
+      "sup_m2": 7939.49741967094,
+      "shape_leng": "",
+      "shape_area": 7939.48478612304,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 97,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 11377.9005313162,
+      "shape_leng": "",
+      "shape_area": 11378.2184863724,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 165,
+      "nombre": "ISAAC CORREA",
+      "tipo": "PLAZA",
+      "sup_m2": 157.194018826416,
+      "shape_leng": "",
+      "shape_area": 157.192773074377,
+      "distrito": "LA PUNTILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 294,
+      "nombre": "ROTONDA PASO",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 4954.17452262744,
+      "shape_leng": "",
+      "shape_area": 4954.17453353771,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 309,
+      "nombre": "BARRIO CORDON DEL PLATA",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 12531.117285891,
+      "shape_leng": "",
+      "shape_area": 12531.0973797822,
+      "distrito": "VISTALBA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 310,
+      "nombre": "PLAZA VERTIENTES DE PEDEMONTE",
+      "tipo": "",
+      "sup_m2": "",
+      "shape_leng": "",
+      "shape_area": "",
+      "distrito": "VERTIENTES DE PEDEMONTE",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 312,
+      "nombre": "CASA DEL FUTURO",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": "",
+      "shape_leng": "",
+      "shape_area": "",
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 313,
+      "nombre": "PLAZA BARRIO CLAVELES MENDOCINOS",
+      "tipo": "PLAZA",
+      "sup_m2": "",
+      "shape_leng": "",
+      "shape_area": "",
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 60,
+      "nombre": "",
+      "tipo": "ROTONDA",
+      "sup_m2": 2335.81492734065,
+      "shape_leng": "",
+      "shape_area": 2335.8053008616,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 160,
+      "nombre": "ESPACIO VERDE",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 1175.73307043643,
+      "shape_leng": "",
+      "shape_area": 1175.72186278831,
+      "distrito": "PERDRIEL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 167,
+      "nombre": "CARRODILLA - LA PUNTILLA",
+      "tipo": "PASARELA",
+      "sup_m2": 236.121005429714,
+      "shape_leng": "",
+      "shape_area": 236.230837623356,
+      "distrito": "LA PUNTILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 166,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 143.097449810433,
+      "shape_leng": "",
+      "shape_area": 143.09356649965,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 168,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 60.1610575751475,
+      "shape_leng": "",
+      "shape_area": 60.1610580452252,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 101,
+      "nombre": "PLAZA BARRIO MUTUAL YPF",
+      "tipo": "PLAZA",
+      "sup_m2": 3444.03174725822,
+      "shape_leng": "",
+      "shape_area": 3443.99310591444,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 102,
+      "nombre": "PLAZA EL NOGAL",
+      "tipo": "PLAZA",
+      "sup_m2": 1324.80129903884,
+      "shape_leng": "",
+      "shape_area": 1324.80114393588,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 99,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 8802.39025521576,
+      "shape_leng": "",
+      "shape_area": 8802.21214031242,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 181,
+      "nombre": "PLAZA JACARANDA",
+      "tipo": "PLAZA",
+      "sup_m2": 2202.3073425015,
+      "shape_leng": "",
+      "shape_area": 2202.31162895914,
+      "distrito": "LA PUNTILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 103,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 208.165235455503,
+      "shape_leng": "",
+      "shape_area": 208.163670696318,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 104,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 391.283056904526,
+      "shape_leng": "",
+      "shape_area": 391.283980116248,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 105,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 151.809982240372,
+      "shape_leng": "",
+      "shape_area": 151.811235750094,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 106,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 520.657779993452,
+      "shape_leng": "",
+      "shape_area": 520.655956463888,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 107,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 337.721536972954,
+      "shape_leng": "",
+      "shape_area": 337.721723742783,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 172,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 1150.21978797085,
+      "shape_leng": "",
+      "shape_area": 1150.22047725692,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 173,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 2014.58443576416,
+      "shape_leng": "",
+      "shape_area": 2014.60805210937,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 174,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 698.531395859971,
+      "shape_leng": "",
+      "shape_area": 698.535214021802,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 175,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 1765.35504008156,
+      "shape_leng": "",
+      "shape_area": 1765.34730843082,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 176,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 1000.73495745128,
+      "shape_leng": "",
+      "shape_area": 1000.74242174253,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 177,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 337.491085015876,
+      "shape_leng": "",
+      "shape_area": 337.490998763591,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 178,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 325.650697286469,
+      "shape_leng": "",
+      "shape_area": 325.650330800563,
+      "distrito": "CHACRAS DE CORIA",
+      "estado": ""
+    },
+    {
+      "gid": 180,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 914.219430249653,
+      "shape_leng": "",
+      "shape_area": 914.219539801838,
+      "distrito": "CHACRAS DE CORIA",
+      "estado": ""
+    },
+    {
+      "gid": 184,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 86.2214148517259,
+      "shape_leng": "",
+      "shape_area": 86.2643301230855,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 185,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 86.3091297630966,
+      "shape_leng": "",
+      "shape_area": 86.2643219917081,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 186,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 74.0550335213794,
+      "shape_leng": "",
+      "shape_area": 74.0920226962771,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 46,
+      "nombre": "ESPACIO VERDE",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 4561.83254582831,
+      "shape_leng": "",
+      "shape_area": 4561.85534279048,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 48,
+      "nombre": "ESPACIO VERDE",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 2535.92084620981,
+      "shape_leng": "",
+      "shape_area": 2535.88895531744,
+      "distrito": "CHACRAS DE CORIS",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 49,
+      "nombre": "PLAZOLETA BARRIO JUAN 23",
+      "tipo": "PLAZA",
+      "sup_m2": 915.852756485451,
+      "shape_leng": "",
+      "shape_area": 915.854315329343,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 100,
+      "nombre": "ESPACIO VERDE",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 3556.67542912615,
+      "shape_leng": "",
+      "shape_area": 3556.65185215324,
+      "distrito": "LA PUNTILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 213,
+      "nombre": "PLAZA BARRIO JARDIN DE CARRODILLA",
+      "tipo": "PLAZA",
+      "sup_m2": 421.193860406336,
+      "shape_leng": "",
+      "shape_area": 421.178146228194,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 214,
+      "nombre": "PLAZA LOS AROMOS",
+      "tipo": "PLAZA",
+      "sup_m2": 4896.0069840243,
+      "shape_leng": "",
+      "shape_area": 4896.00064688921,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 98,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 5665.88694872197,
+      "shape_leng": "",
+      "shape_area": 5665.9287436381,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 215,
+      "nombre": "PLAZA BARRIO PARQUE UNIVERSITARIO",
+      "tipo": "PLAZA",
+      "sup_m2": 4782.89380900451,
+      "shape_leng": "",
+      "shape_area": 4782.857896626,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 141,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 1702.97913600591,
+      "shape_leng": "",
+      "shape_area": 1702.98018783551,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 142,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 1748.80822889295,
+      "shape_leng": "",
+      "shape_area": 1748.80713616987,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 187,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 80.0729596292431,
+      "shape_leng": "",
+      "shape_area": 80.0773205070291,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 188,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 68.7042853077622,
+      "shape_leng": "",
+      "shape_area": 68.7073017763905,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 216,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 1997.46779606585,
+      "shape_leng": "",
+      "shape_area": 1997.45231096447,
+      "distrito": "EL CARRIZAL",
+      "estado": ""
+    },
+    {
+      "gid": 217,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 8313.26236370547,
+      "shape_leng": "",
+      "shape_area": 8313.29291081429,
+      "distrito": "EL CARRIZAL",
+      "estado": ""
+    },
+    {
+      "gid": 218,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 160.229787984577,
+      "shape_leng": "",
+      "shape_area": 160.22919690609,
+      "distrito": "EL CARRIZAL",
+      "estado": ""
+    },
+    {
+      "gid": 219,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 82.4007073069629,
+      "shape_leng": "",
+      "shape_area": 82.4080927036703,
+      "distrito": "EL CARRIZAL",
+      "estado": ""
+    },
+    {
+      "gid": 220,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 138.600209533083,
+      "shape_leng": "",
+      "shape_area": 138.595516717993,
+      "distrito": "EL CARRIZAL",
+      "estado": ""
+    },
+    {
+      "gid": 221,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 144.026756005474,
+      "shape_leng": "",
+      "shape_area": 144.024308735505,
+      "distrito": "EL CARRIZAL",
+      "estado": ""
+    },
+    {
+      "gid": 223,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 7935.2752183722,
+      "shape_leng": "",
+      "shape_area": 7935.28632934391,
+      "distrito": "EL CARRIZAL",
+      "estado": ""
+    },
+    {
+      "gid": 224,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 626.293596627597,
+      "shape_leng": "",
+      "shape_area": 626.342536897399,
+      "distrito": "EL CARRIZAL",
+      "estado": ""
+    },
+    {
+      "gid": 225,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 689.052864829317,
+      "shape_leng": "",
+      "shape_area": 689.084548808169,
+      "distrito": "EL CARRIZAL",
+      "estado": ""
+    },
+    {
+      "gid": 226,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 1765.88273320889,
+      "shape_leng": "",
+      "shape_area": 1765.81682898151,
+      "distrito": "EL CARRIZAL",
+      "estado": ""
+    },
+    {
+      "gid": 227,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 3740.31547883239,
+      "shape_leng": "",
+      "shape_area": 3740.31135374308,
+      "distrito": "EL CARRIZAL",
+      "estado": ""
+    },
+    {
+      "gid": 17,
+      "nombre": "PLAZA SAN IGNACIO DE LOYOLA",
+      "tipo": "PLAZA",
+      "sup_m2": 6506.24640505064,
+      "shape_leng": "",
+      "shape_area": 6506.3203811273,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 270,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 3379.13528602907,
+      "shape_leng": "",
+      "shape_area": 3379.15497401729,
+      "distrito": "VERTIENTES DE PEDEMONTE",
+      "estado": ""
+    },
+    {
+      "gid": 18,
+      "nombre": "PASEO MALBEC",
+      "tipo": "PASEO",
+      "sup_m2": 11884.9353510734,
+      "shape_leng": "",
+      "shape_area": 11884.9744674191,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 228,
+      "nombre": "PLAYON DEPORTIVO EL REMANSO",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 13764.1088338897,
+      "shape_leng": "",
+      "shape_area": 13764.1628506258,
+      "distrito": "EL CARRIZAL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 233,
+      "nombre": "CERRO DE LA VIRGEN",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 43230.1197862531,
+      "shape_leng": "",
+      "shape_area": 43230.111126413,
+      "distrito": "POTRERILLOS",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 236,
+      "nombre": "RINCON DE VISTALBA",
+      "tipo": "PLAZA",
+      "sup_m2": 5630.83508075849,
+      "shape_leng": "",
+      "shape_area": 5630.80571811646,
+      "distrito": "VISTALBA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 153,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 459.910950112263,
+      "shape_leng": "",
+      "shape_area": 459.919117870275,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 154,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 233.505064885909,
+      "shape_leng": "",
+      "shape_area": 233.507239010566,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 155,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 207.987267983951,
+      "shape_leng": "",
+      "shape_area": 207.983478475075,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 235,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 1654.44553909321,
+      "shape_leng": "",
+      "shape_area": 1654.45393955335,
+      "distrito": "VISTALBA",
+      "estado": ""
+    },
+    {
+      "gid": 25,
+      "nombre": "PASEO LAS ADVOCACIONES",
+      "tipo": "PASEO",
+      "sup_m2": 11349.9310948407,
+      "shape_leng": "",
+      "shape_area": 11349.9586422145,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 26,
+      "nombre": "PASEO LAS ADVOCACIONES",
+      "tipo": "PASEO",
+      "sup_m2": 8187.31187394678,
+      "shape_leng": "",
+      "shape_area": 8187.32610847056,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 24,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 9944.16318885906,
+      "shape_leng": "",
+      "shape_area": 9944.16108773672,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 293,
+      "nombre": "VIRGEN DE LA CARRODILLA",
+      "tipo": "PASEO",
+      "sup_m2": 2091.04495933763,
+      "shape_leng": "",
+      "shape_area": 2091.04971769359,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 285,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 1787.1725849992,
+      "shape_leng": "",
+      "shape_area": 1787.16832745448,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 286,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 1504.83234031492,
+      "shape_leng": "",
+      "shape_area": 1504.83376489216,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 295,
+      "nombre": "HEROES MENDOCINOS DE MALVINAS",
+      "tipo": "PASEO",
+      "sup_m2": 4927.68054702443,
+      "shape_leng": "",
+      "shape_area": 4927.59449841687,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 306,
+      "nombre": "JUJUY",
+      "tipo": "PASEO",
+      "sup_m2": 1241.91684924439,
+      "shape_leng": "",
+      "shape_area": 1241.91684924439,
+      "distrito": "MAYOR DRUMOND",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 292,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 15354.8586671784,
+      "shape_leng": "",
+      "shape_area": 15354.9072519615,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 27,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 29788.382895883,
+      "shape_leng": "",
+      "shape_area": 29788.3456777958,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 23,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 2430.90238362422,
+      "shape_leng": "",
+      "shape_area": 2430.91510834545,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 20,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 14228.5906961564,
+      "shape_leng": "",
+      "shape_area": 14228.6154161021,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 34,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 663.78124497938,
+      "shape_leng": "",
+      "shape_area": 663.77942638658,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 21,
+      "nombre": "SABA HERNANDEZ",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 13292.0287979419,
+      "shape_leng": "",
+      "shape_area": 13292.0254572588,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 29,
+      "nombre": "PLAZA BARRIO 27 DE ABRIL",
+      "tipo": "PLAZA",
+      "sup_m2": 5157.19411841671,
+      "shape_leng": "",
+      "shape_area": 5157.21024677157,
+      "distrito": "VISTALBA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 31,
+      "nombre": "PLAZA BARRIO LA CAMPINA",
+      "tipo": "PLAZA",
+      "sup_m2": 3216.65952394777,
+      "shape_leng": "",
+      "shape_area": 3216.6366648674,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 229,
+      "nombre": "PLAZA LAS VEGAS",
+      "tipo": "PLAZA",
+      "sup_m2": 309.513097226404,
+      "shape_leng": "",
+      "shape_area": 309.516296245158,
+      "distrito": "POTRERILLOS",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 35,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 1057.01140156618,
+      "shape_leng": "",
+      "shape_area": 1057.00421873806,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 36,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 875.351466976558,
+      "shape_leng": "",
+      "shape_area": 875.306814387441,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 58,
+      "nombre": "",
+      "tipo": "ROTONDA",
+      "sup_m2": 7285.0421582939,
+      "shape_leng": "",
+      "shape_area": 7285.02998592705,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 59,
+      "nombre": "",
+      "tipo": "ROTONDA",
+      "sup_m2": 5899.32870715278,
+      "shape_leng": "",
+      "shape_area": 5899.34750821861,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 62,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 3124.89255359076,
+      "shape_leng": "",
+      "shape_area": 3124.91135137528,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 182,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 1063.69596635573,
+      "shape_leng": "",
+      "shape_area": 1063.69030071422,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 183,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 3008.76263318574,
+      "shape_leng": "",
+      "shape_area": 3008.71592311002,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 41,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 1395.05482144408,
+      "shape_leng": "",
+      "shape_area": 1395.04777289927,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 40,
+      "nombre": "PLAZA BARRIO BUENA VISTA",
+      "tipo": "PLAZA",
+      "sup_m2": 3276.2156152526,
+      "shape_leng": "",
+      "shape_area": 3276.21966764331,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 43,
+      "nombre": "PARQUE FERRI",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 53780.8960227492,
+      "shape_leng": "",
+      "shape_area": 53780.8707157779,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 51,
+      "nombre": "PLAZA SAN ANTONIO",
+      "tipo": "PLAZA",
+      "sup_m2": 1588.39051232315,
+      "shape_leng": "",
+      "shape_area": 1588.39127932861,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 67,
+      "nombre": "PLAZA BARRIO PAULA ALBARRACIN",
+      "tipo": "PLAZA",
+      "sup_m2": 3895.01591412368,
+      "shape_leng": "",
+      "shape_area": 3895.01481084898,
+      "distrito": "PERDRIEL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 88,
+      "nombre": "PLAZOLETA CIOPPO",
+      "tipo": "PLAZA",
+      "sup_m2": 1459.94772441753,
+      "shape_leng": "",
+      "shape_area": 1459.93278482673,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 63,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 5780.45621064608,
+      "shape_leng": "",
+      "shape_area": 5780.48636166658,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 42,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 1509.70431190303,
+      "shape_leng": "",
+      "shape_area": 1509.71606271714,
+      "distrito": "CHACRAS DE CORIS",
+      "estado": ""
+    },
+    {
+      "gid": 64,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 2418.60690489073,
+      "shape_leng": "",
+      "shape_area": 2418.61859402293,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 82,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 1268.18237496892,
+      "shape_leng": "",
+      "shape_area": 1268.17648753151,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 84,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 6358.90062963267,
+      "shape_leng": "",
+      "shape_area": 6358.86495511793,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 85,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 4529.13790613472,
+      "shape_leng": "",
+      "shape_area": 4529.1356068328,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 90,
+      "nombre": "",
+      "tipo": "ROTONDA",
+      "sup_m2": 922.244772981231,
+      "shape_leng": "",
+      "shape_area": 922.240936818275,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 230,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 68.2189500693102,
+      "shape_leng": "",
+      "shape_area": 68.2189802583307,
+      "distrito": "POTRERILLOS",
+      "estado": ""
+    },
+    {
+      "gid": 44,
+      "nombre": "PLAZA BARRIO XUMEC",
+      "tipo": "PLAZA",
+      "sup_m2": 1185.13663354748,
+      "shape_leng": "",
+      "shape_area": 1185.12386650592,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 50,
+      "nombre": "JUJUY",
+      "tipo": "PASEO",
+      "sup_m2": 9517.2602105319,
+      "shape_leng": "",
+      "shape_area": 9517.36315056833,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 53,
+      "nombre": "LENCINAS",
+      "tipo": "PASEO",
+      "sup_m2": 589.734065342257,
+      "shape_leng": "",
+      "shape_area": 589.736754302401,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 45,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 1333.13368599865,
+      "shape_leng": "",
+      "shape_area": 1333.13377861492,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 54,
+      "nombre": "LENCINAS",
+      "tipo": "PASEO",
+      "sup_m2": 898.725953339604,
+      "shape_leng": "",
+      "shape_area": 898.724992627744,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 52,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 610.354810498199,
+      "shape_leng": "",
+      "shape_area": 610.350566262845,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 91,
+      "nombre": "",
+      "tipo": "ROTONDA",
+      "sup_m2": 335.914223191377,
+      "shape_leng": "",
+      "shape_area": 335.916708080098,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 94,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 692.375024257644,
+      "shape_leng": "",
+      "shape_area": 692.372117616236,
+      "distrito": "CHACRAS DE CORIS",
+      "estado": ""
+    },
+    {
+      "gid": 96,
+      "nombre": "ROTONDA VIRGEN DE LUJAN",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 6760.43597359426,
+      "shape_leng": "",
+      "shape_area": 6760.43136015767,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 231,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 173.339534285504,
+      "shape_leng": "",
+      "shape_area": 173.341174247442,
+      "distrito": "POTRERILLOS",
+      "estado": ""
+    },
+    {
+      "gid": 232,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 131.141056874095,
+      "shape_leng": "",
+      "shape_area": 131.144660350145,
+      "distrito": "POTRERILLOS",
+      "estado": ""
+    },
+    {
+      "gid": 55,
+      "nombre": "LENCINAS",
+      "tipo": "PASEO",
+      "sup_m2": 420.199919776561,
+      "shape_leng": "",
+      "shape_area": 420.197465572099,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 56,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 387.869508421306,
+      "shape_leng": "",
+      "shape_area": 387.871104775229,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 119,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 6756.14428341393,
+      "shape_leng": "",
+      "shape_area": 6756.17893710919,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 121,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 1471.03793774592,
+      "shape_leng": "",
+      "shape_area": 1471.03729819506,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 122,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 2184.66468299794,
+      "shape_leng": "",
+      "shape_area": 2184.66854127496,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 123,
+      "nombre": "",
+      "tipo": "RUTA",
+      "sup_m2": 1024.04482673276,
+      "shape_leng": "",
+      "shape_area": 1024.04463451356,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 124,
+      "nombre": "",
+      "tipo": "RUTA",
+      "sup_m2": 1807.3307990475,
+      "shape_leng": "",
+      "shape_area": 1807.33134953678,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 125,
+      "nombre": "",
+      "tipo": "RUTA",
+      "sup_m2": 474.926364604293,
+      "shape_leng": "",
+      "shape_area": 474.928396709263,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 126,
+      "nombre": "",
+      "tipo": "RUTA",
+      "sup_m2": 562.622100669881,
+      "shape_leng": "",
+      "shape_area": 562.618325978518,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 127,
+      "nombre": "",
+      "tipo": "RUTA",
+      "sup_m2": 243.903228849426,
+      "shape_leng": "",
+      "shape_area": 243.905400946736,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 132,
+      "nombre": "",
+      "tipo": "RUTA",
+      "sup_m2": 5994.80421025097,
+      "shape_leng": "",
+      "shape_area": 5994.79036615044,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 234,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 21245.2847415128,
+      "shape_leng": "",
+      "shape_area": 21245.2710898519,
+      "distrito": "POTRERILLOS",
+      "estado": ""
+    },
+    {
+      "gid": 156,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 165.698563637808,
+      "shape_leng": "",
+      "shape_area": 165.698562829755,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 65,
+      "nombre": "ESPACIO VERDE BARRIO PERDRIEL III",
+      "tipo": "PLAZA",
+      "sup_m2": 1650.60080685032,
+      "shape_leng": "",
+      "shape_area": 1650.59957501478,
+      "distrito": "PERDRIEL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 66,
+      "nombre": "ESPACIO VERDE BARRIO LAS ACHIRAS",
+      "tipo": "PLAZA",
+      "sup_m2": 2814.83437030172,
+      "shape_leng": "",
+      "shape_area": 2814.83420702443,
+      "distrito": "PERDRIEL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 86,
+      "nombre": "PLAZOLETA AYMONT",
+      "tipo": "PLAZA",
+      "sup_m2": 1384.22726795148,
+      "shape_leng": "",
+      "shape_area": 1384.23102871329,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 307,
+      "nombre": "PARQUE RIBERA",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 218143.176372409,
+      "shape_leng": "",
+      "shape_area": 194762.200480498,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 308,
+      "nombre": "PLAZA DE LOS NIÑOS",
+      "tipo": "PLAZA",
+      "sup_m2": 218143.176372409,
+      "shape_leng": "",
+      "shape_area": 23380.9752192721,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 57,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 743.762985370721,
+      "shape_leng": "",
+      "shape_area": 743.763079887023,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 61,
+      "nombre": "",
+      "tipo": "CORTINA FORESTAL",
+      "sup_m2": 7887.93545574677,
+      "shape_leng": "",
+      "shape_area": 7888.17570549995,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 161,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 968.609906191654,
+      "shape_leng": "",
+      "shape_area": 968.60992238624,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 162,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 239.962155113482,
+      "shape_leng": "",
+      "shape_area": 239.957033695562,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 163,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 83.1779356521632,
+      "shape_leng": "",
+      "shape_area": 83.1780193028972,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 164,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 214.575747470753,
+      "shape_leng": "",
+      "shape_area": 214.567395453341,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 71,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 707.917602550737,
+      "shape_leng": "",
+      "shape_area": 707.917800276249,
+      "distrito": "CHACRAS DE CORIS",
+      "estado": ""
+    },
+    {
+      "gid": 15,
+      "nombre": "PLAZA MOSCONI",
+      "tipo": "PLAZA",
+      "sup_m2": 7870.4455016994,
+      "shape_leng": "",
+      "shape_area": 7870.45779629052,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 251,
+      "nombre": "ESPACIO VERDE BARRIO ATICO",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 1472.93922302065,
+      "shape_leng": "",
+      "shape_area": 1472.93649271131,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 254,
+      "nombre": "ESPACIO VERDE",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 1902.39577644493,
+      "shape_leng": "",
+      "shape_area": 1902.3573793564,
+      "distrito": "PERDRIEL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 255,
+      "nombre": "ESPACIO VERDE",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 578.828224474043,
+      "shape_leng": "",
+      "shape_area": 578.828018226428,
+      "distrito": "PERDRIEL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 256,
+      "nombre": "ESPACIO VERDE BARRIO MURGIA",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 2612.8937727616,
+      "shape_leng": "",
+      "shape_area": 2612.8867739588,
+      "distrito": "PERDRIEL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 257,
+      "nombre": "PLAZA BARRIO CUADRO ESTACION III",
+      "tipo": "PLAZA",
+      "sup_m2": 4467.77678994694,
+      "shape_leng": "",
+      "shape_area": 4467.79173782095,
+      "distrito": "PERDRIEL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 258,
+      "nombre": " PLAZA BARRIO PERDRIEL IV",
+      "tipo": "PLAZA",
+      "sup_m2": 1177.55821031624,
+      "shape_leng": "",
+      "shape_area": 1177.57373805344,
+      "distrito": "PERDRIEL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 259,
+      "nombre": "PLAYON DEPORTIVO NUEVA VIDA",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 1667.76725510119,
+      "shape_leng": "",
+      "shape_area": 1667.76726977481,
+      "distrito": "PERDRIEL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 272,
+      "nombre": "BARRIO LUGAR ESCONDIDO",
+      "tipo": "PASEO",
+      "sup_m2": 2154.20200705429,
+      "shape_leng": "",
+      "shape_area": 2154.18991748989,
+      "distrito": "VERTIENTES DE PEDEMONTE",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 240,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 544.515789256056,
+      "shape_leng": "",
+      "shape_area": 544.517797166249,
+      "distrito": "VISTALBA",
+      "estado": ""
+    },
+    {
+      "gid": 69,
+      "nombre": "PLAZA BARRIO ACCIONAR",
+      "tipo": "PLAZA",
+      "sup_m2": 1740.47778014456,
+      "shape_leng": "",
+      "shape_area": 1740.47837982792,
+      "distrito": "PERDRIEL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 79,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 462.222468761055,
+      "shape_leng": "",
+      "shape_area": 462.222440674901,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 80,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 566.791210113555,
+      "shape_leng": "",
+      "shape_area": 566.788517907262,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 76,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 224.244848774252,
+      "shape_leng": "",
+      "shape_area": 224.243431124836,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 110,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 212.120333206093,
+      "shape_leng": "",
+      "shape_area": 212.105046649463,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 111,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 196.952074021784,
+      "shape_leng": "",
+      "shape_area": 196.96183572989,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 112,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 234.609665710683,
+      "shape_leng": "",
+      "shape_area": 234.585410268046,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 113,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 224.484058828737,
+      "shape_leng": "",
+      "shape_area": 224.50332151074,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 114,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 294.487872596706,
+      "shape_leng": "",
+      "shape_area": 294.4956166232,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 115,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 208.561725854139,
+      "shape_leng": "",
+      "shape_area": 208.604176632129,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 189,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 582.810150962643,
+      "shape_leng": "",
+      "shape_area": 582.786639101803,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 120,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 1952.3728036823,
+      "shape_leng": "",
+      "shape_area": 1952.37430039048,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 287,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 1035.42322158521,
+      "shape_leng": "",
+      "shape_area": 1035.43175024353,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 288,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 1367.17656488593,
+      "shape_leng": "",
+      "shape_area": 1367.17653878732,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 289,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 5521.07932364525,
+      "shape_leng": "",
+      "shape_area": 5521.08315873425,
+      "distrito": "LA PUNTILLA",
+      "estado": ""
+    },
+    {
+      "gid": 191,
+      "nombre": "PLAZA BARRIO SOLARES DE GABRIELLI",
+      "tipo": "PLAZA",
+      "sup_m2": 6801.74368219422,
+      "shape_leng": "",
+      "shape_area": 6801.73064241558,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 193,
+      "nombre": "BARRIO ALTOS DE DRUMMOND",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 2621.32851576958,
+      "shape_leng": "",
+      "shape_area": 2621.35561286565,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 197,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 16821.5625046085,
+      "shape_leng": "",
+      "shape_area": 16821.9803604621,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 198,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 383.727461033644,
+      "shape_leng": "",
+      "shape_area": 383.727112986147,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 194,
+      "nombre": "SERVIDUMBRE JJ PASO - CARRODILLA",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 6112.53887957368,
+      "shape_leng": "",
+      "shape_area": 6112.53646849096,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 196,
+      "nombre": "BARRIO LOYOLA",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 459.350128000917,
+      "shape_leng": "",
+      "shape_area": 459.351593343541,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 199,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 164.359308359508,
+      "shape_leng": "",
+      "shape_area": 164.360601834953,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 200,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 581.182953545051,
+      "shape_leng": "",
+      "shape_area": 581.182191666216,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 201,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 308.328549984165,
+      "shape_leng": "",
+      "shape_area": 308.328370599076,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 202,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 2293.06465395248,
+      "shape_leng": "",
+      "shape_area": 2293.06649218954,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 203,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 321.215423667652,
+      "shape_leng": "",
+      "shape_area": 321.215398233384,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 204,
+      "nombre": "PLAZA AGUA Y ENERGIA",
+      "tipo": "PLAZA",
+      "sup_m2": 3796.98432659718,
+      "shape_leng": "",
+      "shape_area": 3796.98419103866,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 206,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 1990.05082484509,
+      "shape_leng": "",
+      "shape_area": 1990.13613040745,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 205,
+      "nombre": "PLAZA HUARPES 3",
+      "tipo": "PLAZA",
+      "sup_m2": 1001.13055470925,
+      "shape_leng": "",
+      "shape_area": 1001.1301811859,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 207,
+      "nombre": "PLAZA MIRAFLORES",
+      "tipo": "PLAZA",
+      "sup_m2": 2367.42252304904,
+      "shape_leng": "",
+      "shape_area": 2367.41435902566,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 208,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 512.670546994193,
+      "shape_leng": "",
+      "shape_area": 512.687265116721,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 209,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 619.982859222317,
+      "shape_leng": "",
+      "shape_area": 620.030938994139,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 211,
+      "nombre": "ESPACIO VERDE",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 2945.96448258316,
+      "shape_leng": "",
+      "shape_area": 2945.88725283137,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 210,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 1094.68264304706,
+      "shape_leng": "",
+      "shape_area": 1094.64691994712,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 276,
+      "nombre": "PASEO CALLE CHIARA YACIPINI",
+      "tipo": "PASEO",
+      "sup_m2": 480.697340987314,
+      "shape_leng": "",
+      "shape_area": 480.69751368463,
+      "distrito": "VERTIENTES DE PEDEMONTE",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 241,
+      "nombre": "BARRIO SOLAR DEL PLATA",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 7171.26971827603,
+      "shape_leng": "",
+      "shape_area": 7171.25303882919,
+      "distrito": "VISTALBA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 243,
+      "nombre": "BARRIO TERRAZAS DE CHACRAS",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 3187.76853473903,
+      "shape_leng": "",
+      "shape_area": 3187.72770827264,
+      "distrito": "LAS COMPUERTAS",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 244,
+      "nombre": "BARRIO JARDINES DE SANTA OLIVA",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 3627.99817516212,
+      "shape_leng": "",
+      "shape_area": 3628.03297120798,
+      "distrito": "LAS COMPUERTAS",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 245,
+      "nombre": "PLAZA BARRIO VALLE DE CHACRAS",
+      "tipo": "PLAZA",
+      "sup_m2": 2560.90258678185,
+      "shape_leng": "",
+      "shape_area": 2560.89933414012,
+      "distrito": "CHACRAS DE CORIA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 246,
+      "nombre": "PLAZA LOTE CRESMASCHI",
+      "tipo": "PLAZA",
+      "sup_m2": 2975.39171588347,
+      "shape_leng": "",
+      "shape_area": 2975.31096790731,
+      "distrito": "CHACRAS DE CORIA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 247,
+      "nombre": "PLAZA BARRIO COLLOVATTI",
+      "tipo": "PLAZA",
+      "sup_m2": 792.979643149673,
+      "shape_leng": "",
+      "shape_area": 792.980368703604,
+      "distrito": "CHACRAS DE CORIA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 250,
+      "nombre": "PLAZA BARRIO QUINTA BOEDO",
+      "tipo": "PLAZA",
+      "sup_m2": 1077.94423757846,
+      "shape_leng": "",
+      "shape_area": 1077.97677184455,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 284,
+      "nombre": "PARQUE CIVICO",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 5269.43255083023,
+      "shape_leng": "",
+      "shape_area": 5269.43316409364,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 268,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 3831.33844158162,
+      "shape_leng": "",
+      "shape_area": 3831.3494559424,
+      "distrito": "VERTIENTES DE PEDEMOTNE",
+      "estado": ""
+    },
+    {
+      "gid": 269,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 3291.35250742972,
+      "shape_leng": "",
+      "shape_area": 3291.33700250229,
+      "distrito": "VERTIENTES DE PEDEMONTE",
+      "estado": ""
+    },
+    {
+      "gid": 37,
+      "nombre": "PLAZA BARRIO JARDIN VISTALBA",
+      "tipo": "PLAZA",
+      "sup_m2": 3727.31583931605,
+      "shape_leng": "",
+      "shape_area": 3727.31584764397,
+      "distrito": "VISTALBA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 38,
+      "nombre": "ROTONDA",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 1564.18062427619,
+      "shape_leng": "",
+      "shape_area": 1564.17921690061,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 39,
+      "nombre": "ROTONDA",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 654.999947462676,
+      "shape_leng": "",
+      "shape_area": 654.997301362455,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 70,
+      "nombre": "ESPACIO VERDE",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 2817.63257617039,
+      "shape_leng": "",
+      "shape_area": 2817.63294556318,
+      "distrito": "PERDRIEL",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 72,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 668.717901153577,
+      "shape_leng": "",
+      "shape_area": 668.716341664549,
+      "distrito": "CHACRAS DE CORIS",
+      "estado": ""
+    },
+    {
+      "gid": 73,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 648.349156040689,
+      "shape_leng": "",
+      "shape_area": 648.34472059086,
+      "distrito": "CHACRAS DE CORIS",
+      "estado": ""
+    },
+    {
+      "gid": 74,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 214.432340781329,
+      "shape_leng": "",
+      "shape_area": 214.430863064248,
+      "distrito": "CHACRAS DE CORIS",
+      "estado": ""
+    },
+    {
+      "gid": 81,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 1032.62767475839,
+      "shape_leng": "",
+      "shape_area": 1032.62154263258,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 83,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 1332.4670058529,
+      "shape_leng": "",
+      "shape_area": 1332.46504447609,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 95,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 606.784933408391,
+      "shape_leng": "",
+      "shape_area": 606.837576321792,
+      "distrito": "CHACRAS DE CORIS",
+      "estado": ""
+    },
+    {
+      "gid": 109,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 184.673679450754,
+      "shape_leng": "",
+      "shape_area": 184.691874267533,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 116,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 1059.41700095267,
+      "shape_leng": "",
+      "shape_area": 1059.41836416349,
+      "distrito": "CHACRAS DE CORIS",
+      "estado": ""
+    },
+    {
+      "gid": 118,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 10922.6026012382,
+      "shape_leng": "",
+      "shape_area": 10922.5261951536,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 128,
+      "nombre": "",
+      "tipo": "RUTA",
+      "sup_m2": 4367.57669327626,
+      "shape_leng": "",
+      "shape_area": 4367.57665546983,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 130,
+      "nombre": "",
+      "tipo": "RUTA",
+      "sup_m2": 1966.12861905006,
+      "shape_leng": "",
+      "shape_area": 1966.11254974455,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 131,
+      "nombre": "",
+      "tipo": "RUTA",
+      "sup_m2": 4347.60120132286,
+      "shape_leng": "",
+      "shape_area": 4347.60494405776,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 133,
+      "nombre": "",
+      "tipo": "RUTA",
+      "sup_m2": 1810.8602235344,
+      "shape_leng": "",
+      "shape_area": 1810.8608346954,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 134,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 638.432333508597,
+      "shape_leng": "",
+      "shape_area": 638.440483018756,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 135,
+      "nombre": "",
+      "tipo": "LATERAL RUTA",
+      "sup_m2": 1018.05055669543,
+      "shape_leng": "",
+      "shape_area": 1018.05134873092,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 136,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 8628.53226473726,
+      "shape_leng": "",
+      "shape_area": 8628.66431172937,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 137,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 9755.72302184264,
+      "shape_leng": "",
+      "shape_area": 9755.75675680791,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 138,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 294.292890572175,
+      "shape_leng": "",
+      "shape_area": 294.290568053722,
+      "distrito": "CHACRAS DE CORIS",
+      "estado": ""
+    },
+    {
+      "gid": 139,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 1203.5719673612,
+      "shape_leng": "",
+      "shape_area": 1203.57534712901,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 140,
+      "nombre": "",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 2048.87351433296,
+      "shape_leng": "",
+      "shape_area": 2048.86354008317,
+      "distrito": "MAYOR DRUMMOND",
+      "estado": ""
+    },
+    {
+      "gid": 143,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 1757.07709854553,
+      "shape_leng": "",
+      "shape_area": 1757.07873544411,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 281,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 841.015003572477,
+      "shape_leng": "",
+      "shape_area": 841.008888603625,
+      "distrito": "CARRODILLA",
+      "estado": ""
+    },
+    {
+      "gid": 144,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 226.130765795728,
+      "shape_leng": "",
+      "shape_area": 226.129908834114,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 145,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 183.477008911571,
+      "shape_leng": "",
+      "shape_area": 183.476768109016,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 146,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 950.616013008191,
+      "shape_leng": "",
+      "shape_area": 950.6161160107,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 147,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 1023.25538541974,
+      "shape_leng": "",
+      "shape_area": 1023.25488820087,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 148,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 161.274302606041,
+      "shape_leng": "",
+      "shape_area": 161.27384755481,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 149,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 359.919136523427,
+      "shape_leng": "",
+      "shape_area": 359.918933962297,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 150,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 429.37711213234,
+      "shape_leng": "",
+      "shape_area": 429.370712923585,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 299,
+      "nombre": "ROTONDA DEL INMIGRANTE",
+      "tipo": "ROTONDA",
+      "sup_m2": 2076.07290250023,
+      "shape_leng": "",
+      "shape_area": 2076.07288659387,
+      "distrito": "VISTALBA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 300,
+      "nombre": "PARQUE RIBERA",
+      "tipo": "ESPACIO VERDE",
+      "sup_m2": 85860.9123328026,
+      "shape_leng": "",
+      "shape_area": 85860.9813980293,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 302,
+      "nombre": "RUINAS DE FADER",
+      "tipo": "PARADOR MIRADOR",
+      "sup_m2": 10901.8271821707,
+      "shape_leng": "",
+      "shape_area": 10901.7642692029,
+      "distrito": "CACHEUTA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 303,
+      "nombre": "PASEO VISTA AL ALBA",
+      "tipo": "PASEO",
+      "sup_m2": 2764.92059269513,
+      "shape_leng": "",
+      "shape_area": 2764.91955501435,
+      "distrito": "VISTALBA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 304,
+      "nombre": "PASEO ADVOCACIONES",
+      "tipo": "PASEO",
+      "sup_m2": 538.291023773899,
+      "shape_leng": "",
+      "shape_area": 538.290442488156,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 151,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 205.626367113978,
+      "shape_leng": "",
+      "shape_area": 205.621820485219,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 305,
+      "nombre": "PASEO CONTARDI",
+      "tipo": "PASEO",
+      "sup_m2": 1987.91896628227,
+      "shape_leng": "",
+      "shape_area": 1987.92260720837,
+      "distrito": "CIUDAD",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 25449,
+      "nombre": "PLAZA BARRIO CHACRAS DE BOEDO",
+      "tipo": "PLAZA",
+      "sup_m2": 1164.55424043933,
+      "shape_leng": "",
+      "shape_area": 1164.58372118697,
+      "distrito": "CARRODILLA",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 152,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 919.647668912905,
+      "shape_leng": "",
+      "shape_area": 919.64429242193,
+      "distrito": "CIUDAD",
+      "estado": ""
+    },
+    {
+      "gid": 279,
+      "nombre": "PLAZA DE SAN MARTIN",
+      "tipo": "PLAZA",
+      "sup_m2": 1467.24040930229,
+      "shape_leng": "",
+      "shape_area": 1467.24146594852,
+      "distrito": "VERTIENTES DE PEDEMONTE",
+      "estado": "PUBLICO"
+    },
+    {
+      "gid": 282,
+      "nombre": "",
+      "tipo": "ESPACIO PUBLICO",
+      "sup_m2": 598.917790942243,
+      "shape_leng": "",
+      "shape_area": 598.814293330302,
+      "distrito": "CHACRAS DE CORIA",
+      "estado": ""
+    },
+    {
+      "gid": 278,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 668.102019630237,
+      "shape_leng": "",
+      "shape_area": 668.117039365694,
+      "distrito": "VERTIENTES DE PEDEMONTE",
+      "estado": ""
+    },
+    {
+      "gid": 277,
+      "nombre": "",
+      "tipo": "BOULEVARD",
+      "sup_m2": 597.526721418971,
+      "shape_leng": "",
+      "shape_area": 597.424023423082,
+      "distrito": "VERTIENTES DE PEDEMONTE",
+      "estado": ""
+    }
+  ],
+  "totalRows": 272,
+  "previewSourceFile": "espacios_verdes.csv",
+  "municipios": []
+}

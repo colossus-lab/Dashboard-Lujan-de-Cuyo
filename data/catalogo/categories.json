@@ -1,0 +1,131 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 12,
+      "name": "COVID-19",
+      "slug": "covid-19",
+      "description": "Detalle de los casos positivos, en tratamiento y recuperados. Períodod 2020-2021-2022",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 1
+    },
+    {
+      "id": 6,
+      "name": "Deporte, Educación y Salud",
+      "slug": "deporte-educacion-y-salud",
+      "description": "",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 9
+    },
+    {
+      "id": 5,
+      "name": "Desarrollo Humano",
+      "slug": "desarrollo-humano",
+      "description": "",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 7
+    },
+    {
+      "id": 4,
+      "name": "Economía",
+      "slug": "economia",
+      "description": "",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 19
+    },
+    {
+      "id": 13,
+      "name": "Elecciones",
+      "slug": "elecciones",
+      "description": "Resultados Electorales del Departamento",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 4
+    },
+    {
+      "id": 11,
+      "name": "Género y Diversidad",
+      "slug": "genero",
+      "description": "",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 3
+    },
+    {
+      "id": 14,
+      "name": "Gestión de Datos",
+      "slug": "gestion_de_datos",
+      "description": "Gestión de datos integrales e interoperables de la Dirección de Gestión del Datos y Gobierno Abierto",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 3
+    },
+    {
+      "id": 7,
+      "name": "Gobierno Municipal",
+      "slug": "gobierto-y-sector-publico",
+      "description": "",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 33
+    },
+    {
+      "id": 8,
+      "name": "Honorable Concejo Deliberante Luján de Cuyo",
+      "slug": "honorable-consejo-deliberante-lujan-de-cuyo",
+      "description": "",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 9
+    },
+    {
+      "id": 2,
+      "name": "Medio Ambiente y Desarrollo Sustentable",
+      "slug": "medio-ambiente-y-desarrollo-sustentable",
+      "description": "",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 23
+    },
+    {
+      "id": 3,
+      "name": "Movilidad",
+      "slug": "movilidad",
+      "description": "",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 6
+    },
+    {
+      "id": 9,
+      "name": "Seguridad",
+      "slug": "seguridad",
+      "description": "",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 2
+    },
+    {
+      "id": 10,
+      "name": "Turismo y Cultura",
+      "slug": "cultura-y-turismo",
+      "description": "",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 8
+    },
+    {
+      "id": 1,
+      "name": "Urbanismo y Territorio",
+      "slug": "urbanismo-y-territorio",
+      "description": "",
+      "icon": null,
+      "state": "active",
+      "dataset_count": 14
+    }
+  ]
+}

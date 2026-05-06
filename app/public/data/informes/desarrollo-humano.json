@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "id": "desarrollo-humano",
+    "title": "Desarrollo Humano",
+    "category": "Desarrollo Humano",
+    "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
+    "date": "2026-05-06"
+  },
+  "kpis": [
+    {
+      "id": "kpi-datasets",
+      "label": "Datasets",
+      "value": 5,
+      "formatted": "5"
+    },
+    {
+      "id": "kpi-archivos",
+      "label": "Archivos descargables",
+      "value": 10,
+      "formatted": "10"
+    },
+    {
+      "id": "kpi-mb",
+      "label": "MB publicados",
+      "value": 4,
+      "formatted": "3.6 MB"
+    },
+    {
+      "id": "kpi-orgs",
+      "label": "Áreas que publican",
+      "value": 4,
+      "formatted": "4"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart-orgs",
+      "type": "bar",
+      "title": "Datasets por área que publica",
+      "sectionId": "areas-que-publican",
+      "data": [
+        {
+          "id": "Intendencia Municipalidad de Luján de Cuyo",
+          "datasets": 2
+        },
+        {
+          "id": "Secretaría de Infraestructura y Desarrollo Sostenible",
+          "datasets": 1
+        },
+        {
+          "id": "Secretaría de Desarrollo Humano",
+          "datasets": 1
+        },
+        {
+          "id": "Dirección de Género y Diversidad",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "id",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "chart-formats",
+      "type": "pie",
+      "title": "Distribución de formatos",
+      "sectionId": "formatos-disponibles",
+      "data": [
+        {
+          "id": "XLSX",
+          "label": "XLSX",
+          "value": 6
+        },
+        {
+          "id": "CSV",
+          "label": "CSV",
+          "value": 2
+        },
+        {
+          "id": "ZIP",
+          "label": "ZIP",
+          "value": 1
+        },
+        {
+          "id": "DOC",
+          "label": "DOC",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rank-datasets-archivos",
+      "title": "Datasets con más archivos",
+      "sectionId": "",
+      "items": [
+        {
+          "name": "Estadísticas de Género",
+          "value": 7
+        },
+        {
+          "name": "Barrios Populares",
+          "value": 2
+        },
+        {
+          "name": "Uniones Vecinales",
+          "value": 1
+        },
+        {
+          "name": "Economía Circular",
+          "value": 0
+        },
+        {
+          "name": "Polideportivos",
+          "value": 0
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

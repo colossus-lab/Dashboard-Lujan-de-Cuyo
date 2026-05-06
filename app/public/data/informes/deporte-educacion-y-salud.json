@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "id": "deporte-educacion-y-salud",
+    "title": "Deporte, Educación y Salud",
+    "category": "Deporte, Educación y Salud",
+    "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
+    "date": "2026-05-06"
+  },
+  "kpis": [
+    {
+      "id": "kpi-datasets",
+      "label": "Datasets",
+      "value": 9,
+      "formatted": "9"
+    },
+    {
+      "id": "kpi-archivos",
+      "label": "Archivos descargables",
+      "value": 22,
+      "formatted": "22"
+    },
+    {
+      "id": "kpi-mb",
+      "label": "MB publicados",
+      "value": 6,
+      "formatted": "6.2 MB"
+    },
+    {
+      "id": "kpi-orgs",
+      "label": "Áreas que publican",
+      "value": 6,
+      "formatted": "6"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart-orgs",
+      "type": "bar",
+      "title": "Datasets por área que publica",
+      "sectionId": "areas-que-publican",
+      "data": [
+        {
+          "id": "Secretaría de Desarrollo Humano",
+          "datasets": 4
+        },
+        {
+          "id": "Intendencia Municipalidad de Luján de Cuyo",
+          "datasets": 1
+        },
+        {
+          "id": "Dirección de Turismo",
+          "datasets": 1
+        },
+        {
+          "id": "Apoderado Municipal",
+          "datasets": 1
+        },
+        {
+          "id": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
+          "datasets": 1
+        },
+        {
+          "id": "Subsecretaría de Gestión del Talento Humano",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "id",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "chart-formats",
+      "type": "pie",
+      "title": "Distribución de formatos",
+      "sectionId": "formatos-disponibles",
+      "data": [
+        {
+          "id": "XLSX",
+          "label": "XLSX",
+          "value": 14
+        },
+        {
+          "id": "CSV",
+          "label": "CSV",
+          "value": 4
+        },
+        {
+          "id": "KML",
+          "label": "KML",
+          "value": 2
+        },
+        {
+          "id": "PDF",
+          "label": "PDF",
+          "value": 2
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rank-datasets-archivos",
+      "title": "Datasets con más archivos",
+      "sectionId": "",
+      "items": [
+        {
+          "name": "Calidad del Agua",
+          "value": 11
+        },
+        {
+          "name": "Espacios Verdes",
+          "value": 3
+        },
+        {
+          "name": "Centros de Salud",
+          "value": 3
+        },
+        {
+          "name": "Escuelas de Luján de Cuyo",
+          "value": 2
+        },
+        {
+          "name": "Aventura",
+          "value": 1
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

@@ -1,0 +1,201 @@
+{
+  "id": "24",
+  "title": "Comisarias Luján de Cuyo",
+  "source": "Secretario del Juzgado Vial Nro 1",
+  "description": "Localización de las comisarías del departamento",
+  "category": "Seguridad",
+  "categorySlug": "seguridad",
+  "updatedAt": "2025-12-22T00:37:11.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "comisarias.kml",
+      "formato": "KML",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/24/comisarias.kml",
+      "bytes": 4866
+    },
+    {
+      "nombre": "Comisarias_2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/24/1752668626659-Comisarias_2025.xlsx",
+      "bytes": 4310
+    }
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "type": "number",
+      "label": "id"
+    },
+    {
+      "name": "id_departa",
+      "type": "number",
+      "label": "id_departa"
+    },
+    {
+      "name": "departamen",
+      "type": "string",
+      "label": "departamen"
+    },
+    {
+      "name": "latitud",
+      "type": "string",
+      "label": "latitud"
+    },
+    {
+      "name": "longitud",
+      "type": "string",
+      "label": "longitud"
+    },
+    {
+      "name": "latitud_d",
+      "type": "number",
+      "label": "latitud_d"
+    },
+    {
+      "name": "longitud_d",
+      "type": "number",
+      "label": "longitud_d"
+    },
+    {
+      "name": "nombre_des",
+      "type": "string",
+      "label": "nombre_des"
+    },
+    {
+      "name": "domicilio_",
+      "type": "string",
+      "label": "domicilio_"
+    },
+    {
+      "name": "telefono_d",
+      "type": "string",
+      "label": "telefono_d"
+    },
+    {
+      "name": "tipo_desta",
+      "type": "string",
+      "label": "tipo_desta"
+    },
+    {
+      "name": "distrito",
+      "type": "string",
+      "label": "distrito"
+    },
+    {
+      "name": "fiscalia",
+      "type": "string",
+      "label": "fiscalia"
+    }
+  ],
+  "rows": [
+    {
+      "id": 1221,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud": "-33.289.947",
+      "longitud": "-68.726.651",
+      "latitud_d": -33.289,
+      "longitud_d": -68.726,
+      "nombre_des": "Sub-Comisaría Ruiz Quipildor",
+      "domicilio_": "Ruta 61 Km.41 1/2-Empalme con Ruta 16- El Carrizal",
+      "telefono_d": "155657610",
+      "tipo_desta": "POLICIA",
+      "distrito": "EL CARRIZAL",
+      "fiscalia": ""
+    },
+    {
+      "id": 1222,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud": "-33.203.469",
+      "longitud": "-68.888.326",
+      "latitud_d": -33.203,
+      "longitud_d": -68.888,
+      "nombre_des": "Subcomisaría UGARTECHE",
+      "domicilio_": "Ruta 16 s/n a 30 mtros de Ruta 15 costado Norte",
+      "telefono_d": "4991041",
+      "tipo_desta": "POLICIA",
+      "distrito": "AGRELO",
+      "fiscalia": ""
+    },
+    {
+      "id": 1223,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud": "-33.114.532",
+      "longitud": "-68.888.911",
+      "latitud_d": -33.114,
+      "longitud_d": -68.888,
+      "nombre_des": "Comisaría 48º",
+      "domicilio_": "Ruta 15 Km.27 Bº Valle de Agrelo I-Luján",
+      "telefono_d": "4900126",
+      "tipo_desta": "POLICIA",
+      "distrito": "AGRELO",
+      "fiscalia": ""
+    },
+    {
+      "id": 1226,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud": "-32.955.828",
+      "longitud": "-69.196.831",
+      "latitud_d": -32.955,
+      "longitud_d": -69.196,
+      "nombre_des": "Comisaría 53º",
+      "domicilio_": "Ex Ruta Nac.7 y Av.Los Cóndores-Potrerillos",
+      "telefono_d": "02624-482016/482020",
+      "tipo_desta": "POLICIA",
+      "distrito": "POTRERILLOS",
+      "fiscalia": ""
+    },
+    {
+      "id": 1219,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud": "-33.037.071",
+      "longitud": "-68.883.785",
+      "latitud_d": -33.037,
+      "longitud_d": -68.883,
+      "nombre_des": "Comisaría 11º",
+      "domicilio_": "Guiñazu 340",
+      "telefono_d": "4980406/4980097",
+      "tipo_desta": "POLICIA",
+      "distrito": "CIUDAD",
+      "fiscalia": "SI"
+    },
+    {
+      "id": 1220,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud": "-32.966.895",
+      "longitud": "-68.854.316",
+      "latitud_d": -32.966,
+      "longitud_d": -68.854,
+      "nombre_des": "Comisaría 47º",
+      "domicilio_": "San Martín Nº 7686- Carrodilla- Luján",
+      "telefono_d": "4361537/4360103",
+      "tipo_desta": "POLICIA",
+      "distrito": "CARRODILLA",
+      "fiscalia": "SI"
+    },
+    {
+      "id": 1227,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud": "-33.094219",
+      "longitud": "-69.047251",
+      "latitud_d": -33.094219,
+      "longitud_d": -69.047251,
+      "nombre_des": "COMPLEJO PENITENCIARIA ALMAFUERTE",
+      "domicilio_": "",
+      "telefono_d": "",
+      "tipo_desta": "PENAL",
+      "distrito": "CACHEUTA",
+      "fiscalia": "NO"
+    }
+  ],
+  "totalRows": 7,
+  "previewSourceFile": "Comisarias_2025.xlsx",
+  "municipios": []
+}

@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "id": "urbanismo-y-territorio",
+    "title": "Urbanismo y Territorio",
+    "category": "Urbanismo y Territorio",
+    "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
+    "date": "2026-05-06"
+  },
+  "kpis": [
+    {
+      "id": "kpi-datasets",
+      "label": "Datasets",
+      "value": 14,
+      "formatted": "14"
+    },
+    {
+      "id": "kpi-archivos",
+      "label": "Archivos descargables",
+      "value": 18,
+      "formatted": "18"
+    },
+    {
+      "id": "kpi-mb",
+      "label": "MB publicados",
+      "value": 13,
+      "formatted": "12.9 MB"
+    },
+    {
+      "id": "kpi-orgs",
+      "label": "Áreas que publican",
+      "value": 5,
+      "formatted": "5"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart-orgs",
+      "type": "bar",
+      "title": "Datasets por área que publica",
+      "sectionId": "areas-que-publican",
+      "data": [
+        {
+          "id": "Secretaría de Infraestructura y Desarrollo Sostenible",
+          "datasets": 7
+        },
+        {
+          "id": "Intendencia Municipalidad de Luján de Cuyo",
+          "datasets": 4
+        },
+        {
+          "id": "Apoderado Municipal",
+          "datasets": 1
+        },
+        {
+          "id": "Dirección de Ordenamiento Territorial",
+          "datasets": 1
+        },
+        {
+          "id": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "id",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "chart-formats",
+      "type": "pie",
+      "title": "Distribución de formatos",
+      "sectionId": "formatos-disponibles",
+      "data": [
+        {
+          "id": "CSV",
+          "label": "CSV",
+          "value": 5
+        },
+        {
+          "id": "KML",
+          "label": "KML",
+          "value": 3
+        },
+        {
+          "id": "ZIP",
+          "label": "ZIP",
+          "value": 2
+        },
+        {
+          "id": "GEOJSON",
+          "label": "GEOJSON",
+          "value": 2
+        },
+        {
+          "id": "XLSX",
+          "label": "XLSX",
+          "value": 2
+        },
+        {
+          "id": "KMZ",
+          "label": "KMZ",
+          "value": 2
+        },
+        {
+          "id": "PDF",
+          "label": "PDF",
+          "value": 1
+        },
+        {
+          "id": "XLS",
+          "label": "XLS",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rank-datasets-archivos",
+      "title": "Datasets con más archivos",
+      "sectionId": "",
+      "items": [
+        {
+          "name": "Limites Administrativos de Luján de Cuyo",
+          "value": 4
+        },
+        {
+          "name": "Espacios Verdes",
+          "value": 3
+        },
+        {
+          "name": "Barrios Populares",
+          "value": 2
+        },
+        {
+          "name": "Radios Fracciones Censales Luján de Cuyo",
+          "value": 2
+        },
+        {
+          "name": "Barrios del Departamento de Luján de Cuyo",
+          "value": 2
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

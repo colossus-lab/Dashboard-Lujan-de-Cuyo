@@ -1,0 +1,22 @@
+{
+  "id": "3",
+  "title": "Organigrama HDC",
+  "source": "Honorable Concejo Deliberante de Luján de Cuyo",
+  "description": "Estructura del HDC.\r\nExpte en proceso de aprobación Nro 006-P-21",
+  "category": "Gobierno Municipal",
+  "categorySlug": "gobierto-y-sector-publico",
+  "updatedAt": "2025-12-21T12:41:26.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "organograma.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/3/organograma.pdf",
+      "bytes": 14476
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

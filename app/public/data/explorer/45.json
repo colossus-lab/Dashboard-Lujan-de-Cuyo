@@ -1,0 +1,22 @@
+{
+  "id": "45",
+  "title": "Calles por la Vida",
+  "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+  "description": "Semana Mundial de las Naciones Unidas para la Seguridad Vial",
+  "category": "Medio Ambiente y Desarrollo Sustentable",
+  "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+  "updatedAt": "2025-12-21T13:17:08.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "calles_por_la_vida.jpg",
+      "formato": "JPG",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/45/calles_por_la_vida.jpg",
+      "bytes": 208210
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

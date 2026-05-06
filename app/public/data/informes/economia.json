@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "id": "economia",
+    "title": "Economía",
+    "category": "Economía",
+    "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
+    "date": "2026-05-06"
+  },
+  "kpis": [
+    {
+      "id": "kpi-datasets",
+      "label": "Datasets",
+      "value": 19,
+      "formatted": "19"
+    },
+    {
+      "id": "kpi-archivos",
+      "label": "Archivos descargables",
+      "value": 44,
+      "formatted": "44"
+    },
+    {
+      "id": "kpi-mb",
+      "label": "MB publicados",
+      "value": 18,
+      "formatted": "18.1 MB"
+    },
+    {
+      "id": "kpi-orgs",
+      "label": "Áreas que publican",
+      "value": 7,
+      "formatted": "7"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart-orgs",
+      "type": "bar",
+      "title": "Datasets por área que publica",
+      "sectionId": "areas-que-publican",
+      "data": [
+        {
+          "id": "Secretaría de Economía e Ingresos Públicos",
+          "datasets": 9
+        },
+        {
+          "id": "Secretaría de Hacienda",
+          "datasets": 4
+        },
+        {
+          "id": "Intendencia Municipalidad de Luján de Cuyo",
+          "datasets": 2
+        },
+        {
+          "id": "Dirección de Comunicación Estratégica",
+          "datasets": 1
+        },
+        {
+          "id": "Secretaría de Infraestructura y Desarrollo Sostenible",
+          "datasets": 1
+        },
+        {
+          "id": "Secretaria de Gobierno",
+          "datasets": 1
+        },
+        {
+          "id": "Secretaría de Obras y Espacio Público",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "id",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "chart-formats",
+      "type": "pie",
+      "title": "Distribución de formatos",
+      "sectionId": "formatos-disponibles",
+      "data": [
+        {
+          "id": "XLSX",
+          "label": "XLSX",
+          "value": 19
+        },
+        {
+          "id": "PDF",
+          "label": "PDF",
+          "value": 7
+        },
+        {
+          "id": "XLS",
+          "label": "XLS",
+          "value": 6
+        },
+        {
+          "id": "CSV",
+          "label": "CSV",
+          "value": 5
+        },
+        {
+          "id": "ZIP",
+          "label": "ZIP",
+          "value": 2
+        },
+        {
+          "id": "DOCX",
+          "label": "DOCX",
+          "value": 2
+        },
+        {
+          "id": "GEOJSON",
+          "label": "GEOJSON",
+          "value": 2
+        },
+        {
+          "id": "JPG",
+          "label": "JPG",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "chart-timeline",
+      "type": "line",
+      "title": "Datasets publicados por mes",
+      "sectionId": "timeline-de-publicacion",
+      "data": [
+        {
+          "mes": "2025-05",
+          "datasets": 16
+        },
+        {
+          "mes": "2025-07",
+          "datasets": 3
+        }
+      ],
+      "config": {
+        "xAxis": "mes"
+      }
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rank-datasets-archivos",
+      "title": "Datasets con más archivos",
+      "sectionId": "",
+      "items": [
+        {
+          "name": "Presupuesto de Gobierno",
+          "value": 7
+        },
+        {
+          "name": "Unidades Comerciales",
+          "value": 6
+        },
+        {
+          "name": "Gasto Público Municipal",
+          "value": 5
+        },
+        {
+          "name": "Limites Administrativos de Luján de Cuyo",
+          "value": 4
+        },
+        {
+          "name": "Pauta Publicitaria",
+          "value": 3
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

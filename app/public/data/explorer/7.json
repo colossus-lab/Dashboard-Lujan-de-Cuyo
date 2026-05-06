@@ -1,0 +1,22 @@
+{
+  "id": "7",
+  "title": "Presupuestaria 2023",
+  "source": "Secretaría de Economía e Ingresos Públicos",
+  "description": "Rige lo importes de las Tasas Municipales para el 2023",
+  "category": "Economía",
+  "categorySlug": "economia",
+  "updatedAt": "2025-12-21T12:25:56.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "ordenanza-n-14342-2022-presupuesto-2023.docx",
+      "formato": "DOCX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/7/ordenanza-n-14342-2022-presupuesto-2023.docx",
+      "bytes": 192164
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

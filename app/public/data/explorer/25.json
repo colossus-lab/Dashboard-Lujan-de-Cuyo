@@ -1,0 +1,141 @@
+{
+  "id": "25",
+  "title": "Bancos",
+  "source": "Secretaría de Economía e Ingresos Públicos",
+  "description": "Sucursales de los bancos localizados en el departamento",
+  "category": "Economía",
+  "categorySlug": "economia",
+  "updatedAt": "2025-12-21T01:49:16.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "bancos.csv",
+      "formato": "CSV",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/25/bancos.csv",
+      "bytes": 1086
+    }
+  ],
+  "columns": [
+    {
+      "name": "NombreFant",
+      "type": "string",
+      "label": "NombreFant"
+    },
+    {
+      "name": "CalleComer",
+      "type": "string",
+      "label": "CalleComer"
+    },
+    {
+      "name": "AlturaCome",
+      "type": "number",
+      "label": "AlturaCome"
+    },
+    {
+      "name": "LocalidadC",
+      "type": "string",
+      "label": "LocalidadC"
+    },
+    {
+      "name": "CodigoPost",
+      "type": "number",
+      "label": "CodigoPost"
+    },
+    {
+      "name": "latitud",
+      "type": "number",
+      "label": "latitud"
+    },
+    {
+      "name": "longitud",
+      "type": "number",
+      "label": "longitud"
+    }
+  ],
+  "rows": [
+    {
+      "NombreFant": "BCO FRANCES",
+      "CalleComer": "SAN MARTIN",
+      "AlturaCome": 550,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "latitud": -33.0359042477,
+      "longitud": -68.8794795491
+    },
+    {
+      "NombreFant": "CAJERO SUPERVILLE",
+      "CalleComer": "DOCTOR MARIANO BOEDO",
+      "AlturaCome": 385,
+      "LocalidadC": "CARRODILLA",
+      "CodigoPost": 5505,
+      "latitud": -32.9844740311,
+      "longitud": -68.8552909186
+    },
+    {
+      "NombreFant": "BANCO NACION",
+      "CalleComer": "XX DE SET Y STA.M.DE ORO",
+      "AlturaCome": 0,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "latitud": -33.0396434438,
+      "longitud": -68.878972666
+    },
+    {
+      "NombreFant": "BANCO GALICIA",
+      "CalleComer": "SAN MARTIN",
+      "AlturaCome": 0,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "latitud": -33.035780741,
+      "longitud": -68.878498291
+    },
+    {
+      "NombreFant": "GALICIA",
+      "CalleComer": "AGUINAGA",
+      "AlturaCome": 1305,
+      "LocalidadC": "CHACRAS DE CORIA",
+      "CodigoPost": 5505,
+      "latitud": -32.9861978508,
+      "longitud": -68.882713109
+    },
+    {
+      "NombreFant": "BANCO HSBC",
+      "CalleComer": "AZCUENAGA",
+      "AlturaCome": 70,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "latitud": -33.0362320287,
+      "longitud": -68.8780711755
+    },
+    {
+      "NombreFant": "BANCO DE SAN JUAN S.A.",
+      "CalleComer": "SAN MARTIN",
+      "AlturaCome": 458,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "latitud": -33.0368248785,
+      "longitud": -68.8795287993
+    },
+    {
+      "NombreFant": "BCO MACRO",
+      "CalleComer": "SAN MARTIN",
+      "AlturaCome": 637,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "latitud": -33.035111359,
+      "longitud": -68.8781494908
+    },
+    {
+      "NombreFant": "BANCO PATAGONIA",
+      "CalleComer": "SAN MARTIN",
+      "AlturaCome": 799,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "latitud": -33.0338604563,
+      "longitud": -68.8774316457
+    }
+  ],
+  "totalRows": 9,
+  "previewSourceFile": "bancos.csv",
+  "municipios": []
+}

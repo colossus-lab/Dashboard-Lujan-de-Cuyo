@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "id": "honorable-consejo-deliberante-lujan-de-cuyo",
+    "title": "Honorable Concejo Deliberante",
+    "category": "Honorable Concejo Deliberante",
+    "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
+    "date": "2026-05-06"
+  },
+  "kpis": [
+    {
+      "id": "kpi-datasets",
+      "label": "Datasets",
+      "value": 9,
+      "formatted": "9"
+    },
+    {
+      "id": "kpi-archivos",
+      "label": "Archivos descargables",
+      "value": 32,
+      "formatted": "32"
+    },
+    {
+      "id": "kpi-mb",
+      "label": "MB publicados",
+      "value": 21,
+      "formatted": "20.6 MB"
+    },
+    {
+      "id": "kpi-orgs",
+      "label": "Áreas que publican",
+      "value": 6,
+      "formatted": "6"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart-orgs",
+      "type": "bar",
+      "title": "Datasets por área que publica",
+      "sectionId": "areas-que-publican",
+      "data": [
+        {
+          "id": "Honorable Concejo Deliberante de Luján de Cuyo",
+          "datasets": 3
+        },
+        {
+          "id": "Secretaría de Economía e Ingresos Públicos",
+          "datasets": 2
+        },
+        {
+          "id": "Secretaria de Gobierno",
+          "datasets": 1
+        },
+        {
+          "id": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+          "datasets": 1
+        },
+        {
+          "id": "Jefe de Gabinete",
+          "datasets": 1
+        },
+        {
+          "id": "Intendencia Municipalidad de Luján de Cuyo",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "id",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "chart-formats",
+      "type": "pie",
+      "title": "Distribución de formatos",
+      "sectionId": "formatos-disponibles",
+      "data": [
+        {
+          "id": "XLSX",
+          "label": "XLSX",
+          "value": 19
+        },
+        {
+          "id": "PDF",
+          "label": "PDF",
+          "value": 11
+        },
+        {
+          "id": "DOCX",
+          "label": "DOCX",
+          "value": 1
+        },
+        {
+          "id": "XLS",
+          "label": "XLS",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rank-datasets-archivos",
+      "title": "Datasets con más archivos",
+      "sectionId": "",
+      "items": [
+        {
+          "name": "Funcionarios Públicos Municipal",
+          "value": 10
+        },
+        {
+          "name": "Resultado Electorales",
+          "value": 8
+        },
+        {
+          "name": "Información Pública",
+          "value": 5
+        },
+        {
+          "name": "Tarifaria 2023",
+          "value": 3
+        },
+        {
+          "name": "Declaraciones Juradas",
+          "value": 2
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

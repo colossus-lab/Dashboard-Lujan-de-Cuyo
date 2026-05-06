@@ -1,0 +1,22 @@
+{
+  "id": "61",
+  "title": "Tarifaria",
+  "source": "Secretaría de Economía e Ingresos Públicos",
+  "description": "Secretaría de Economía y Capital Humano",
+  "category": "Economía",
+  "categorySlug": "economia",
+  "updatedAt": "2025-12-21T15:04:55.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "tarifaria_14526_2023.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/61/tarifaria_14526_2023.pdf",
+      "bytes": 2183831
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

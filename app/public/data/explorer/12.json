@@ -1,0 +1,561 @@
+{
+  "id": "12",
+  "title": "Alojamiento",
+  "source": "Dirección de Turismo",
+  "description": "Listado de los alojamiento del departamento",
+  "category": "Turismo y Cultura",
+  "categorySlug": "cultura-y-turismo",
+  "updatedAt": "2025-12-14T22:58:55.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "alojamiento.csv",
+      "formato": "CSV",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/12/alojamiento.csv",
+      "bytes": 5986
+    }
+  ],
+  "columns": [
+    {
+      "name": "nombre",
+      "type": "string",
+      "label": "nombre"
+    },
+    {
+      "name": "domicilio",
+      "type": "string",
+      "label": "domicilio"
+    },
+    {
+      "name": "distrito",
+      "type": "string",
+      "label": "distrito"
+    },
+    {
+      "name": "latitud",
+      "type": "number",
+      "label": "latitud"
+    },
+    {
+      "name": "longitud",
+      "type": "number",
+      "label": "longitud"
+    }
+  ],
+  "rows": [
+    {
+      "nombre": "QUINTA LOS OLIVOS",
+      "domicilio": "S/N AL FINAL DE CALLEJON DON CARLOS",
+      "distrito": "VISTALBA",
+      "latitud": -33.04544252273,
+      "longitud": -68.92705243457
+    },
+    {
+      "nombre": "TERMAS CACHEUTA",
+      "domicilio": "KM 38 RUTA 82",
+      "distrito": "CACHEUTA",
+      "latitud": -33.01912400709,
+      "longitud": -69.1148982471
+    },
+    {
+      "nombre": "BERTA Y JORGE",
+      "domicilio": "KM 30 RUTA 82",
+      "distrito": "CACHEUTA",
+      "latitud": -33.04710138456,
+      "longitud": -69.06656544502
+    },
+    {
+      "nombre": "CABAÑAS DE LA COSTA",
+      "domicilio": "S/N LAS RETAMAS KM 24.5 RUTA 82",
+      "distrito": "LAS COMPUERTAS",
+      "latitud": -33.04080719618,
+      "longitud": -69.00432330957
+    },
+    {
+      "nombre": "CANTAROS DEL ACONCAGUA",
+      "domicilio": "KM 18.5 RUTA 82",
+      "distrito": "LAS COMPUERTAS",
+      "latitud": -33.02477838188,
+      "longitud": -68.96192137993
+    },
+    {
+      "nombre": "DEL PASAJE",
+      "domicilio": "PASAJE SAN JOSE LOTE 6",
+      "distrito": "LAS COMPUERTAS",
+      "latitud": -33.03740955192,
+      "longitud": -68.96835901061
+    },
+    {
+      "nombre": "HELVETIA",
+      "domicilio": "KM 30 RUTA 82",
+      "distrito": "CACHEUTA",
+      "latitud": -33.04508680202,
+      "longitud": -69.06915464801
+    },
+    {
+      "nombre": "LUZ DEL AMANECER",
+      "domicilio": "KM 23 RUTA 82",
+      "distrito": "LAS COMPUERTAS",
+      "latitud": -33.03792038309,
+      "longitud": -68.9992192791
+    },
+    {
+      "nombre": "SOLITUDINE",
+      "domicilio": "KM 23 RUTA 82",
+      "distrito": "LAS COMPUERTAS",
+      "latitud": -33.03963992717,
+      "longitud": -68.99874483741
+    },
+    {
+      "nombre": "LA RINCONADA",
+      "domicilio": "KM 39 RUTA 82",
+      "distrito": "CACHEUTA",
+      "latitud": -33.01392444638,
+      "longitud": -69.11750066683
+    },
+    {
+      "nombre": "TERRALTA",
+      "domicilio": "KM 24.5 RUTA 82",
+      "distrito": "LAS COMPUERTAS",
+      "latitud": -33.03787602921,
+      "longitud": -69.01170408794
+    },
+    {
+      "nombre": "LOS CACTUS",
+      "domicilio": "KM 38 RUTA 82",
+      "distrito": "CACHEUTA",
+      "latitud": -33.01334087535,
+      "longitud": -69.11806943106
+    },
+    {
+      "nombre": "RANCHOS DE ENCALADA",
+      "domicilio": "KM 26 RUTA 82",
+      "distrito": "LAS COMPUERTAS",
+      "latitud": -33.03948187659,
+      "longitud": -69.03352461966
+    },
+    {
+      "nombre": "SUIZAS",
+      "domicilio": "KM 29 RUTA 82 COLONIA SUIZA",
+      "distrito": "CACHEUTA",
+      "latitud": -33.04644084231,
+      "longitud": -69.06286457625
+    },
+    {
+      "nombre": "CABAÑAS ZURI",
+      "domicilio": "KM 29 RUTA 82",
+      "distrito": "CACHEUTA",
+      "latitud": -33.04397066616,
+      "longitud": -69.0681040165
+    },
+    {
+      "nombre": "CAVAS WINE LODGE",
+      "domicilio": "KM 2 COSTA FLORES",
+      "distrito": "AGRELO",
+      "latitud": -33.11927866234,
+      "longitud": -68.92678224738
+    },
+    {
+      "nombre": "ROSELL BOHER LODGE",
+      "domicilio": "SERVIDUMBRE DE PASO S/N CON SALIDA A RUTA 86",
+      "distrito": "AGRELO",
+      "latitud": -33.16708988185,
+      "longitud": -68.9948434765
+    },
+    {
+      "nombre": "MALBEC",
+      "domicilio": "RENE FAVALORO Y TABOADA",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "latitud": -33.03294221191,
+      "longitud": -68.87933959514
+    },
+    {
+      "nombre": "PERDRIEL",
+      "domicilio": "2537 SAN MARTIN (RUTA 15)",
+      "distrito": "PERDRIEL",
+      "latitud": -33.06491901421,
+      "longitud": -68.88417373525
+    },
+    {
+      "nombre": "GUAYANTU",
+      "domicilio": "700 BRANDSEN",
+      "distrito": "PERDRIEL",
+      "latitud": -33.06371705461,
+      "longitud": -68.89487167304
+    },
+    {
+      "nombre": "MIRADOR AZUL",
+      "domicilio": "S/N AV LOS CONDORES",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.95438847243,
+      "longitud": -69.2982231887
+    },
+    {
+      "nombre": "GRAN HOTEL POTRERILLOS",
+      "domicilio": "S/N RUTA 7",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.96031482636,
+      "longitud": -69.19248255142
+    },
+    {
+      "nombre": "EL SALTO",
+      "domicilio": "S/N AV LOS CONDORES",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.95907221789,
+      "longitud": -69.20449101129
+    },
+    {
+      "nombre": "LOS TRONCOS",
+      "domicilio": "KM 55 AV LOS CONDORES",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.9662337692,
+      "longitud": -69.24767964868
+    },
+    {
+      "nombre": "ALTO POTRERILLOS",
+      "domicilio": "S/N AV LOS CONDORES. CALLE LATERAL SIN NOMBRE",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.95616884911,
+      "longitud": -69.28771429157
+    },
+    {
+      "nombre": "EL CORTIJO DEL TORREON",
+      "domicilio": "AV LOS CONDORES Y CALLE N° 7",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.9563155118,
+      "longitud": -69.2724362471
+    },
+    {
+      "nombre": "VISTA MONTANA",
+      "domicilio": "S/N DR. LUIS FOURCADE",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.95370117252,
+      "longitud": -69.27732839728
+    },
+    {
+      "nombre": "TRONOCOS DEL SALTO",
+      "domicilio": "AV LOS CONDORES Y LOS JILGUEROS",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.95569546315,
+      "longitud": -69.28182232492
+    },
+    {
+      "nombre": "SUCOT",
+      "domicilio": "S/N AV LOS CONDORES",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.95639888913,
+      "longitud": -69.27883871559
+    },
+    {
+      "nombre": "ANDINAS",
+      "domicilio": "AV LOS CONDORES Y DEL PLATA",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.96275441776,
+      "longitud": -69.25474931491
+    },
+    {
+      "nombre": "LA LECHUZA",
+      "domicilio": "AV LOS CONDORES Y MAHATMA GHANDI",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.95994785626,
+      "longitud": -69.26444563282
+    },
+    {
+      "nombre": "LAS CARDITAS",
+      "domicilio": "AV LAS NIEVES Y LAS ROSAS",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.96275107014,
+      "longitud": -69.25786470975
+    },
+    {
+      "nombre": "LAS ESPUELAS",
+      "domicilio": "LAS ROSAS ENTRE LOS CARDOS Y LOS TOMILLOS",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.96160531043,
+      "longitud": -69.26098546065
+    },
+    {
+      "nombre": "RUCA KURA",
+      "domicilio": "AV MAZZONI Y LOS CARDOS",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.96276454841,
+      "longitud": -69.26098256082
+    },
+    {
+      "nombre": "SOLARIUM CORDILLERANO",
+      "domicilio": "MANZANA D LOTE 6 LOTEO MAZZONI",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.96249638744,
+      "longitud": -69.25890046903
+    },
+    {
+      "nombre": "TERRA MARIA",
+      "domicilio": "AV COSTANERA Y BERNARDO HOUSSAY",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.96355249004,
+      "longitud": -69.25791720798
+    },
+    {
+      "nombre": "TIERRA DE LUNA",
+      "domicilio": "AV MAZZONI Y LAS NIEVES",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.96304659126,
+      "longitud": -69.25852953772
+    },
+    {
+      "nombre": "EL CAPRICHO",
+      "domicilio": "S/N CALLEJON COMUNERO",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.96499811813,
+      "longitud": -69.24833800585
+    },
+    {
+      "nombre": "FLOR DEL PAGO",
+      "domicilio": "S/N AV LOS CONDORES",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.96722811699,
+      "longitud": -69.24138577652
+    },
+    {
+      "nombre": "ANQUI",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01572717611,
+      "longitud": -69.28065526279
+    },
+    {
+      "nombre": "DEL CONDOR",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01757403711,
+      "longitud": -69.28418537458
+    },
+    {
+      "nombre": "LA COMARCA",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01588932036,
+      "longitud": -69.27669042902
+    },
+    {
+      "nombre": "LA POSADA DEL ZORZAL",
+      "domicilio": "S/N LOS ZORZALES",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01262165628,
+      "longitud": -69.27468049188
+    },
+    {
+      "nombre": "LOS ARREBOLES",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01698414963,
+      "longitud": -69.28493729056
+    },
+    {
+      "nombre": "MICHU",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01726178252,
+      "longitud": -69.28547325264
+    },
+    {
+      "nombre": "RINCON DE POTRERILLOS",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01776434052,
+      "longitud": -69.28687092184
+    },
+    {
+      "nombre": "RUCATAHUEN",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01736534437,
+      "longitud": -69.28608807201
+    },
+    {
+      "nombre": "TERRAZAS DEL PLATA",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01851472243,
+      "longitud": -69.29005472464
+    },
+    {
+      "nombre": "VILLA CAMPESTRE",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01933726557,
+      "longitud": -69.29293618309
+    },
+    {
+      "nombre": "BALCONES DEL PORTEZUELO",
+      "domicilio": "CAMINO DE UNION VALLECITOS CON VALLE DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01652378638,
+      "longitud": -69.30310920741
+    },
+    {
+      "nombre": "EL PINAR DE LA VENTANA",
+      "domicilio": "CAMINO DE UNION VALLECITOS CON VALLE DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01742525808,
+      "longitud": -69.30441375548
+    },
+    {
+      "nombre": "KPRICCIO",
+      "domicilio": "S/N DRAGHI LUCERO",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01803258738,
+      "longitud": -69.31235635264
+    },
+    {
+      "nombre": "ARCO IRIS",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.02337381467,
+      "longitud": -69.29903278627
+    },
+    {
+      "nombre": "CUMELÉN",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.02074749894,
+      "longitud": -69.2942080542
+    },
+    {
+      "nombre": "COMPLEJO EL PLATA",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.0197213415,
+      "longitud": -69.2939744863
+    },
+    {
+      "nombre": "EL MIRADOR CASAS DE MONTAÑA",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.02288389431,
+      "longitud": -69.29792031334
+    },
+    {
+      "nombre": "NAUPA HUEN",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.02340721421,
+      "longitud": -69.29808515081
+    },
+    {
+      "nombre": "PUESTA DEL SOL",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.01509770562,
+      "longitud": -69.28101817228
+    },
+    {
+      "nombre": "POSTAL DE LOS ANDES",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.02319338471,
+      "longitud": -69.29721812752
+    },
+    {
+      "nombre": "COSTA SUR",
+      "domicilio": "KM 1094 RUTA 7",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.97003810736,
+      "longitud": -69.19337471012
+    },
+    {
+      "nombre": "PUEBLO DEL RIO",
+      "domicilio": "KM 1108 RUTA 7",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.90380981574,
+      "longitud": -69.26206559307
+    },
+    {
+      "nombre": "CABAÑAS DEL MESON",
+      "domicilio": "LOTE 9 MZN 1 ARROYO LAS MULAS",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.02496723786,
+      "longitud": -69.29595798685
+    },
+    {
+      "nombre": "CASA DE MONTAÑA VALLE ALTO",
+      "domicilio": "LOTE 24 MZN 16 S/N BELISARIO ROLDAN",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.0229154173,
+      "longitud": -69.2926330839
+    },
+    {
+      "nombre": "DEL SOL",
+      "domicilio": "LOTE 6 MZN 15 VALLE DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.02139092708,
+      "longitud": -69.29158792917
+    },
+    {
+      "nombre": "LOS COIRONES",
+      "domicilio": "LOTE 8 MZN 2 ARROYO LAS MULAS",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.02188079259,
+      "longitud": -69.29124405314
+    },
+    {
+      "nombre": "SILVER CORD",
+      "domicilio": "S/N CALLE RIO BLANCO",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.02280919016,
+      "longitud": -69.29299706086
+    },
+    {
+      "nombre": "NUESTRO NIDO",
+      "domicilio": "S/N CALLE N° 1",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.02758894982,
+      "longitud": -69.29893613283
+    },
+    {
+      "nombre": "RINCON DE LOS ANDES",
+      "domicilio": "S/N AV DEL SOL",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.02064380657,
+      "longitud": -69.29367055176
+    },
+    {
+      "nombre": "BRISAS DE LAGO",
+      "domicilio": "LOTE 13 MZN B CERRO COCODRILO",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.96027291313,
+      "longitud": -69.19828660525
+    },
+    {
+      "nombre": "SOLEDAD",
+      "domicilio": "LOTE 11 MZN B CERRO COCODRILO",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.96042128736,
+      "longitud": -69.19772406952
+    },
+    {
+      "nombre": "AVENTURADOS",
+      "domicilio": "S/N CAMINO A VALLECITOS",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.99982451499,
+      "longitud": -69.27408401108
+    },
+    {
+      "nombre": "REFUGIO UNC",
+      "domicilio": "S/N CARACOLES DE VALLECITOS",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.98045719303,
+      "longitud": -69.35513479136
+    },
+    {
+      "nombre": "REFUGIO MAUSY",
+      "domicilio": "S/N CARACOLES DE VALLECITOS",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.97898609649,
+      "longitud": -69.35828256355
+    }
+  ],
+  "totalRows": 73,
+  "previewSourceFile": "alojamiento.csv",
+  "municipios": []
+}

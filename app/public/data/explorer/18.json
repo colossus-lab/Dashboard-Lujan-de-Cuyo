@@ -1,0 +1,127 @@
+{
+  "id": "18",
+  "title": "Aventura",
+  "source": "Dirección de Turismo",
+  "description": "Listado de lugares donde puede realizarse actividades al aire libre",
+  "category": "Deporte, Educación y Salud",
+  "categorySlug": "deporte-educacion-y-salud",
+  "updatedAt": "2025-12-21T22:24:55.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "aventura.csv",
+      "formato": "CSV",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/18/aventura.csv",
+      "bytes": 952
+    }
+  ],
+  "columns": [
+    {
+      "name": "nombre",
+      "type": "string",
+      "label": "nombre"
+    },
+    {
+      "name": "domicilio",
+      "type": "string",
+      "label": "domicilio"
+    },
+    {
+      "name": "distrito",
+      "type": "string",
+      "label": "distrito"
+    },
+    {
+      "name": "latitud",
+      "type": "number",
+      "label": "latitud"
+    },
+    {
+      "name": "longitud",
+      "type": "number",
+      "label": "longitud"
+    }
+  ],
+  "rows": [
+    {
+      "nombre": "RIO AVENTURA",
+      "domicilio": "KM 55 RUTA 7",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.9281605262,
+      "longitud": -69.2246422421
+    },
+    {
+      "nombre": "ARGENTINA RAFTING",
+      "domicilio": "S/N RUTA PERILAGO",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.9375443505,
+      "longitud": -69.2079746857
+    },
+    {
+      "nombre": "POTRERILLOS EXPLORER",
+      "domicilio": "LOS GUANACOS M K CASA 4",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.9623881315,
+      "longitud": -69.2038415196
+    },
+    {
+      "nombre": "COLANGUIL EXPEDICONES",
+      "domicilio": "S/N LAS ACACIAS",
+      "distrito": "POTRERILLOS",
+      "latitud": -33.0087234985,
+      "longitud": -69.2637804371
+    },
+    {
+      "nombre": "EL RINCON DE LOS OSCUROS",
+      "domicilio": "LOS CONDORES Y LAS NIEVES",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.9614983485,
+      "longitud": -69.2574844651
+    },
+    {
+      "nombre": "MILKAYAK",
+      "domicilio": "S/N RUTA PERILAGO",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.9893654936,
+      "longitud": -69.1644102534
+    },
+    {
+      "nombre": "HUAYRA VELEROS",
+      "domicilio": "S/N RUTA PERILAGO",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.9891039812,
+      "longitud": -69.1646220815
+    },
+    {
+      "nombre": "MENDOZA AVENTURA",
+      "domicilio": "M J CASA 2 ARROYO RANCHILLOS VILLA POTRERILLOS",
+      "distrito": "POTRERILLOS",
+      "latitud": -32.960931345,
+      "longitud": -69.2032795965
+    },
+    {
+      "nombre": "BASE CACHEUTA PUENTING MENDOZA",
+      "domicilio": "KM 39 RUTA 82",
+      "distrito": "CACHEUTA",
+      "latitud": -33.0135110162,
+      "longitud": -69.1175885206
+    },
+    {
+      "nombre": "XNOCCIO AVENTURA",
+      "domicilio": "KM 25.7 RUTA 82",
+      "distrito": "CACHEUTA",
+      "latitud": -33.040257332,
+      "longitud": -69.0273524655
+    },
+    {
+      "nombre": "BETANCURT",
+      "domicilio": "KM 26 RUTA 82",
+      "distrito": "CACHEUTA",
+      "latitud": -33.0390983197,
+      "longitud": -69.0306490679
+    }
+  ],
+  "totalRows": 11,
+  "previewSourceFile": "aventura.csv",
+  "municipios": []
+}

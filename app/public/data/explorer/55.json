@@ -1,0 +1,433 @@
+{
+  "id": "55",
+  "title": "Funcionarios Públicos Municipal",
+  "source": "Secretaría de Economía e Ingresos Públicos",
+  "description": "Listas de los sueldos de las y los funcionaria/os pública/os hasta el rango de director/a\r\ngeneral\r\n",
+  "category": "Gobierno Municipal",
+  "categorySlug": "gobierto-y-sector-publico",
+  "updatedAt": "2025-12-19T17:17:14.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "fuera-escala-mayo.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/55/fuera-escala-mayo.xlsx",
+      "bytes": 19412
+    },
+    {
+      "nombre": "fuera-escala-mayo-24.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/55/fuera-escala-mayo-24.xlsx",
+      "bytes": 19852
+    },
+    {
+      "nombre": "ddjj_funcionarios_etica_publica_mdz_2024.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/55/ddjj_funcionarios_etica_publica_mdz_2024.xlsx",
+      "bytes": 12897
+    },
+    {
+      "nombre": "ddjj-funcionarios-fuente-etica-publica-mdza-2023.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/55/ddjj-funcionarios-fuente-etica-publica-mdza-2023.xlsx",
+      "bytes": 13221
+    },
+    {
+      "nombre": "Nómina Funcionarios Ejecutivo_2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/55/1752848493795-Nómina Funcionarios Ejecutivo_2025.xlsx",
+      "bytes": 55116
+    },
+    {
+      "nombre": "Nómina HCD_2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/55/1752848493798-Nómina HCD_2025.xlsx",
+      "bytes": 52044
+    },
+    {
+      "nombre": "Salarios Medios_2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/55/1752848493800-Salarios Medios_2025.xlsx",
+      "bytes": 9160
+    },
+    {
+      "nombre": "Nómina Funcionarios Ejecutivo_2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/55/1752848514779-Nómina Funcionarios Ejecutivo_2025.xlsx",
+      "bytes": 55116
+    },
+    {
+      "nombre": "Nómina HCD_2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/55/1752848514782-Nómina HCD_2025.xlsx",
+      "bytes": 52044
+    },
+    {
+      "nombre": "Salarios Medios_2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/55/1752848514784-Salarios Medios_2025.xlsx",
+      "bytes": 9160
+    }
+  ],
+  "columns": [
+    {
+      "name": "Nombre",
+      "type": "string",
+      "label": "Nombre"
+    },
+    {
+      "name": "Apellido",
+      "type": "string",
+      "label": "Apellido"
+    },
+    {
+      "name": "Repartición",
+      "type": "string",
+      "label": "Repartición"
+    },
+    {
+      "name": "Cargo",
+      "type": "string",
+      "label": "Cargo"
+    },
+    {
+      "name": "Link Acceso",
+      "type": "string",
+      "label": "Link Acceso"
+    }
+  ],
+  "rows": [
+    {
+      "Nombre": "LUIS MAXIMILIANO",
+      "Apellido": "VELAZQUEZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE HIGIENE URBANA SUR-OESTE",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "DARIO PEDRO",
+      "Apellido": "TELLO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SUBSECRETARIO",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "VICTORIA ARIADNA",
+      "Apellido": "CAPOZUCCO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE DESARROLLO SOCIAL Y FAMILIAR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MARIA GABRIELA",
+      "Apellido": "FRETES",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MATIAS",
+      "Apellido": "MERIC",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SECRETARIO ATENCIÓN AL VECINO, INNOVACION Y MODERNIZACION",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "ENRIQUE JAVIER",
+      "Apellido": "ISUANI",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SECRETARIO",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "GABRIEL LUCAS",
+      "Apellido": "GARNICA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "FEDERICO IVAN",
+      "Apellido": "MESSINA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "JESUS",
+      "Apellido": "FERRO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SUBSECRETARIO",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "ADRIAN ALBERTO",
+      "Apellido": "BERTOLO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SECRETARIO",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "LUIS PABLO",
+      "Apellido": "PAVEZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE COMPRAS",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "FEDERICO ARIEL",
+      "Apellido": "PILOT",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "JUEZ VIAL",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "Joaquin",
+      "Apellido": "Sagas",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "Director",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "SEBASTIAN",
+      "Apellido": "BRAGAGNOLO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "INTENDENTE",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "Hector Jose",
+      "Apellido": "Garzon Giner",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "Subsecretario de Seguridad Vial y Convivencia Ciudadana",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MARIANO",
+      "Apellido": "BARRERA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SECRETARIO",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "SUSANA MONICA",
+      "Apellido": "MAROTO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "JUAN MARTIN",
+      "Apellido": "DEL POPOLO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SUBSECRETARIO",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "JUAN MANUEL",
+      "Apellido": "MANITA RICCI",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE INDUSTRIA Y COMERCIO",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "GUILLERMO",
+      "Apellido": "FARA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MARCOS LUIS",
+      "Apellido": "BALZARELLI",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DEL CENTRO EMISOR DE LICENCIAS DE CONDUCIR (ex Director de Industria y Comercio)",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "CARLOS EDUARDO",
+      "Apellido": "PEREZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "STELLA MARIS",
+      "Apellido": "HUCZAK",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SECRETARIO DLLO HUMANO",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MARIA FERNANDA",
+      "Apellido": "PAEZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTORA DE ADMINISTRACION Y DESPACHO",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "LUIS ALBERTO",
+      "Apellido": "QUAGLIARELLA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "María",
+      "Apellido": "O Conor",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "Director",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "ALEXIS EMMANUEL",
+      "Apellido": "REYNOSO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE OBRAS POR ADMINISTRACIÓN",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MIGUEL ANGEL",
+      "Apellido": "RISSO PATRON",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "ROBERTO FEDERICO",
+      "Apellido": "MADRID SCAGLIA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR Coord. Gral. Atención Ciudadana Parq. Civico",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MARIA GABRIELA",
+      "Apellido": "LOPEZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "IVANA PAOLA",
+      "Apellido": "GONELLA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "PEDRO LUCAS MATIAS",
+      "Apellido": "DE ROSAS",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SUBSECRETARIO",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "ANTONIO VICTORIO",
+      "Apellido": "SPEZIA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SECRETARIO",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MIRTA",
+      "Apellido": "CAMMERUCCI",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTORA",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "PABLO JAVIER",
+      "Apellido": "SUAREZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE RECURSOS HUMANOS - ENCARGADO DE PADRON",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "ELIO ARIEL",
+      "Apellido": "BETTI",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "ANDRES ESTEBAN",
+      "Apellido": "ALLASINO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SECRETARIO",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "RAFAEL OSCAR",
+      "Apellido": "CATALANO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "José Antonio",
+      "Apellido": "Rubino",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "Director",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "GISELA VANINA",
+      "Apellido": "AMOROS",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "Julieta Victoria",
+      "Apellido": "Sosa Reyes",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "Director",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MARIA LAURA",
+      "Apellido": "NOSEDA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "GONZALO JAVIER",
+      "Apellido": "RUIZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SUBSECRETARIO",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "DANIELA",
+      "Apellido": "SALCEDO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTORA DE INSPECCION DE SERVICIOS PUBLICOS",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "RICARDO GUILLERMO",
+      "Apellido": "PAVEZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE ORGANIZACIÓN SOCIAL CIVIL",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MAXIMILIANO ALBERTO",
+      "Apellido": "AVALOS",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Link Acceso": "Datos Funcionario"
+    },
+    {
+      "Nombre": "Hernán Augusto",
+      "Apellido": "Sagristá",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "Director",
+      "Link Acceso": "Datos Funcionario"
+    }
+  ],
+  "totalRows": 47,
+  "previewSourceFile": "ddjj-funcionarios-fuente-etica-publica-mdza-2023.xlsx",
+  "municipios": []
+}

@@ -1,0 +1,315 @@
+{
+  "id": "75",
+  "title": "Centros de Salud",
+  "source": "Secretaría de Desarrollo Humano",
+  "description": "Mapa de localización de los Centros de Salud",
+  "category": "Deporte, Educación y Salud",
+  "categorySlug": "deporte-educacion-y-salud",
+  "updatedAt": "2025-12-22T14:44:14.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "centros-de-salud-de-lujan-de-cuyo.kml",
+      "formato": "KML",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/75/centros-de-salud-de-lujan-de-cuyo.kml",
+      "bytes": 427
+    },
+    {
+      "nombre": "centros-de-salud.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/75/centros-de-salud.xlsx",
+      "bytes": 4853
+    },
+    {
+      "nombre": "centros-de-salud_2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/75/1752591786735-centros-de-salud_2025.xlsx",
+      "bytes": 4853
+    }
+  ],
+  "columns": [
+    {
+      "name": "id",
+      "type": "number",
+      "label": "id"
+    },
+    {
+      "name": "id_centro_",
+      "type": "number",
+      "label": "id_centro_"
+    },
+    {
+      "name": "id_departa",
+      "type": "number",
+      "label": "id_departa"
+    },
+    {
+      "name": "departamen",
+      "type": "string",
+      "label": "departamen"
+    },
+    {
+      "name": "latitud__1",
+      "type": "number",
+      "label": "latitud__1"
+    },
+    {
+      "name": "longitud_1",
+      "type": "number",
+      "label": "longitud_1"
+    },
+    {
+      "name": "nombre_cen",
+      "type": "string",
+      "label": "nombre_cen"
+    },
+    {
+      "name": "domicilio_",
+      "type": "string",
+      "label": "domicilio_"
+    },
+    {
+      "name": "tipo",
+      "type": "string",
+      "label": "tipo"
+    },
+    {
+      "name": "distrito",
+      "type": "string",
+      "label": "distrito"
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "id_centro_": 1336,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -32.968,
+      "longitud_1": -68.847,
+      "nombre_cen": "N_CTR 3 - CARRODILLA",
+      "domicilio_": "KRAUS Y CUTRAL-CO",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "CARRODILLA"
+    },
+    {
+      "id": 2,
+      "id_centro_": 1337,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.0382114885,
+      "longitud_1": -68.8882156843,
+      "nombre_cen": "N_CTRO 31 - DAVID BUSANA",
+      "domicilio_": "SERPA Y REP. DEL LÍBANO",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "CIUDAD"
+    },
+    {
+      "id": 3,
+      "id_centro_": 1338,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.212,
+      "longitud_1": -68.891,
+      "nombre_cen": "N_CTRO 39 - UGARTECHE",
+      "domicilio_": "RUTA 15  KM 37",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "UGARTECHE"
+    },
+    {
+      "id": 4,
+      "id_centro_": 1339,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.149,
+      "longitud_1": -68.892,
+      "nombre_cen": "N_CTRO 35 - AGRELO",
+      "domicilio_": "SAN MARTÍN 8995",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "AGRELO"
+    },
+    {
+      "id": 5,
+      "id_centro_": 1340,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.136,
+      "longitud_1": -68.919,
+      "nombre_cen": "N_CTRO 33 - LA COLONIA",
+      "domicilio_": "COBOS S/N  AGRELO",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "AGRELO"
+    },
+    {
+      "id": 6,
+      "id_centro_": 1341,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -32.956,
+      "longitud_1": -69.196,
+      "nombre_cen": "N_CTRO 34 - POTRERILLOS",
+      "domicilio_": "RUTA 7 KM 69",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "POTRERILLOS"
+    },
+    {
+      "id": 7,
+      "id_centro_": 1342,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.3085314331,
+      "longitud_1": -68.7767945454,
+      "nombre_cen": "N_CTRO 36 - CARRIZAL DEL MEDIO",
+      "domicilio_": "RUTA 16  KM 10",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "EL CARRIZAL"
+    },
+    {
+      "id": 8,
+      "id_centro_": 1343,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.324,
+      "longitud_1": -68.756,
+      "nombre_cen": "N_CTRO 37 - CARRIZAL DE ABAJO",
+      "domicilio_": "RUTA 16  KM 20",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "EL CARRIZAL"
+    },
+    {
+      "id": 9,
+      "id_centro_": 1344,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.079,
+      "longitud_1": -68.884,
+      "nombre_cen": "N_CTRO: 202 - PEDRIEL",
+      "domicilio_": "20 DE JUNIO 4120",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "PERDRIEL"
+    },
+    {
+      "id": 10,
+      "id_centro_": 1345,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.035,
+      "longitud_1": -68.967,
+      "nombre_cen": "N_CTRO 32 - LAS COMPUERTAS",
+      "domicilio_": "SAENZ PEÑA 8801",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "LAS COMPUERTAS"
+    },
+    {
+      "id": 11,
+      "id_centro_": 1346,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -32.9851646094,
+      "longitud_1": -68.8806828679,
+      "nombre_cen": "N_CTRO 38 - CHACRAS DE CORIA",
+      "domicilio_": "ITALIA 5600",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "CHACRAS DE CORIA"
+    },
+    {
+      "id": 12,
+      "id_centro_": 1347,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -32.965,
+      "longitud_1": -68.832,
+      "nombre_cen": "N_CTRO: 218 - LOS ALERCES",
+      "domicilio_": "ISLA DE LOS ESTADOS 1875",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "CARRODILLA"
+    },
+    {
+      "id": 13,
+      "id_centro_": 1348,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -32.9621382519,
+      "longitud_1": -68.8430059485,
+      "nombre_cen": "N_CTRO: 217 - LOS OLIVOS",
+      "domicilio_": "MANUEL A. SAENZ 8253",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "CARRODILLA"
+    },
+    {
+      "id": 14,
+      "id_centro_": 1349,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.236,
+      "longitud_1": -68.915,
+      "nombre_cen": "N_CTRO: 523 - NOVERO",
+      "domicilio_": "ESC. NOVERO - EL ALTO",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "UGARTECHE"
+    },
+    {
+      "id": 15,
+      "id_centro_": 1350,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.006,
+      "longitud_1": -69.266,
+      "nombre_cen": "N_CTRO: 520 - LAS VEGAS",
+      "domicilio_": "RUTA INTERN. A CHILE - POTRERILLOS",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "POTRERILLOS"
+    },
+    {
+      "id": 18,
+      "id_centro_": 1353,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.072,
+      "longitud_1": -68.924,
+      "nombre_cen": "N_CTRO: 224 - COSTA FLORES",
+      "domicilio_": "Bº COSTA FLORES MZ A - C13",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "PERDRIEL"
+    },
+    {
+      "id": 19,
+      "id_centro_": 1354,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.099,
+      "longitud_1": -68.915,
+      "nombre_cen": "N_CTRO: 546 - COSTA ESPERANZA",
+      "domicilio_": "COBOS S/N  AGRELO",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "AGRELO"
+    },
+    {
+      "id": 16,
+      "id_centro_": 1351,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.01,
+      "longitud_1": -69.121,
+      "nombre_cen": "N_CTRO: 521 - CACHEUTA",
+      "domicilio_": "CAMPING EDEMSA - CACHEUTA",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "CACHEUTA"
+    },
+    {
+      "id": 17,
+      "id_centro_": 1352,
+      "id_departa": 9,
+      "departamen": "LUJAN",
+      "latitud__1": -33.076,
+      "longitud_1": -69.126,
+      "nombre_cen": "N_CTRO: 522 - LAS AVISPAS",
+      "domicilio_": "RUTA INTERN. A CHILE - POTRERILLOS",
+      "tipo": "CENTRO DE SALUD",
+      "distrito": "CACHEUTA"
+    }
+  ],
+  "totalRows": 19,
+  "previewSourceFile": "centros-de-salud.xlsx",
+  "municipios": []
+}

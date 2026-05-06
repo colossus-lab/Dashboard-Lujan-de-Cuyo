@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "data": [
+    "",
+    "CSV",
+    "DOC",
+    "DOCX",
+    "GEOJSON",
+    "HTML",
+    "JPEG",
+    "JSON",
+    "KML",
+    "KMZ",
+    "My Maps",
+    "pbix",
+    "PDF",
+    "WEB",
+    "XLS",
+    "XLSX",
+    "ZIP",
+    "zip/shp"
+  ]
+}

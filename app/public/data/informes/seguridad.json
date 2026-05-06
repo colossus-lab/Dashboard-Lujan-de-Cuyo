@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "id": "seguridad",
+    "title": "Seguridad",
+    "category": "Seguridad",
+    "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
+    "date": "2026-05-06"
+  },
+  "kpis": [
+    {
+      "id": "kpi-datasets",
+      "label": "Datasets",
+      "value": 2,
+      "formatted": "2"
+    },
+    {
+      "id": "kpi-archivos",
+      "label": "Archivos descargables",
+      "value": 2,
+      "formatted": "2"
+    },
+    {
+      "id": "kpi-mb",
+      "label": "MB publicados",
+      "value": 0,
+      "formatted": "0.0 MB"
+    },
+    {
+      "id": "kpi-orgs",
+      "label": "Áreas que publican",
+      "value": 2,
+      "formatted": "2"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart-orgs",
+      "type": "bar",
+      "title": "Datasets por área que publica",
+      "sectionId": "areas-que-publican",
+      "data": [
+        {
+          "id": "Secretario del Juzgado Vial Nro 1",
+          "datasets": 1
+        },
+        {
+          "id": "Secretaria de Gobierno",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "id",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "chart-formats",
+      "type": "pie",
+      "title": "Distribución de formatos",
+      "sectionId": "formatos-disponibles",
+      "data": [
+        {
+          "id": "KML",
+          "label": "KML",
+          "value": 1
+        },
+        {
+          "id": "XLSX",
+          "label": "XLSX",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rank-datasets-archivos",
+      "title": "Datasets con más archivos",
+      "sectionId": "",
+      "items": [
+        {
+          "name": "Comisarias Luján de Cuyo",
+          "value": 2
+        },
+        {
+          "name": "Seguridad Vial",
+          "value": 0
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

@@ -1,0 +1,375 @@
+{
+  "id": "81",
+  "title": "Planta Santa Elena 2025",
+  "source": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
+  "description": "Planta Santa Elena 2025",
+  "category": "Medio Ambiente y Desarrollo Sustentable",
+  "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+  "updatedAt": "2025-12-13T18:07:41.000Z",
+  "createdAt": "2025-07-02T14:59:48.000Z",
+  "files": [
+    {
+      "nombre": "planta-santa-elena.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/81/planta-santa-elena.xlsx",
+      "bytes": 50654
+    }
+  ],
+  "columns": [
+    {
+      "name": "__EMPTY",
+      "type": "string",
+      "label": "__EMPTY"
+    },
+    {
+      "name": "__EMPTY_1",
+      "type": "string",
+      "label": "__EMPTY_1"
+    },
+    {
+      "name": "__EMPTY_2",
+      "type": "string",
+      "label": "__EMPTY_2"
+    },
+    {
+      "name": "__EMPTY_3",
+      "type": "string",
+      "label": "__EMPTY_3"
+    },
+    {
+      "name": "__EMPTY_4",
+      "type": "string",
+      "label": "__EMPTY_4"
+    },
+    {
+      "name": "__EMPTY_5",
+      "type": "string",
+      "label": "__EMPTY_5"
+    },
+    {
+      "name": "__EMPTY_6",
+      "type": "string",
+      "label": "__EMPTY_6"
+    },
+    {
+      "name": "__EMPTY_7",
+      "type": "string",
+      "label": "__EMPTY_7"
+    },
+    {
+      "name": "__EMPTY_8",
+      "type": "string",
+      "label": "__EMPTY_8"
+    },
+    {
+      "name": "__EMPTY_9",
+      "type": "string",
+      "label": "__EMPTY_9"
+    }
+  ],
+  "rows": [
+    {
+      "__EMPTY": "PLANTA POTABILIZADORA",
+      "__EMPTY_1": "ANALISIS BACTERIOLOGICO",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "SANTA ELENA",
+      "__EMPTY_1": "TIPO",
+      "__EMPTY_2": "FECHA",
+      "__EMPTY_3": "CLORO L. RESIDUAL",
+      "__EMPTY_4": "COLIFORMES TOTALES",
+      "__EMPTY_5": "E.COLI",
+      "__EMPTY_6": "PSEUDOMONA",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "(mg/l)",
+      "__EMPTY_4": "(NMP/100 ml)",
+      "__EMPTY_5": "(NMP/100 ml)",
+      "__EMPTY_6": "AERUGINOSA",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "En 100 ml",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "",
+      "__EMPTY_1": "Cruda",
+      "__EMPTY_2": 45420,
+      "__EMPTY_3": "-",
+      "__EMPTY_4": 1100,
+      "__EMPTY_5": 240,
+      "__EMPTY_6": "Presencia",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "",
+      "__EMPTY_1": "Decantada",
+      "__EMPTY_2": 45420,
+      "__EMPTY_3": "-",
+      "__EMPTY_4": ">1100",
+      "__EMPTY_5": 44,
+      "__EMPTY_6": "Presencia",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "",
+      "__EMPTY_1": "Filtrada 1",
+      "__EMPTY_2": 45420,
+      "__EMPTY_3": "-",
+      "__EMPTY_4": 240,
+      "__EMPTY_5": 240,
+      "__EMPTY_6": "Presencia",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "",
+      "__EMPTY_1": "Filtrada 2",
+      "__EMPTY_2": 45420,
+      "__EMPTY_3": "-",
+      "__EMPTY_4": 1100,
+      "__EMPTY_5": 75,
+      "__EMPTY_6": "Presencia",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "",
+      "__EMPTY_1": "Consumo",
+      "__EMPTY_2": 45420,
+      "__EMPTY_3": "0.80",
+      "__EMPTY_4": "<2",
+      "__EMPTY_5": "<2",
+      "__EMPTY_6": "Ausencia",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "METODO",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "Método DPD ",
+      "__EMPTY_4": "NMP",
+      "__EMPTY_5": "NMP",
+      "__EMPTY_6": "NMP",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "EMPLEADO",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "Ref. 4500- Cl",
+      "__EMPTY_4": "Ref. 9221.B",
+      "__EMPTY_5": "Ref.9221-E",
+      "__EMPTY_6": "Ref. 9213.F",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "LIMITE ESTABLECIDO",
+      "__EMPTY_1": "EPAS Resol 35/96",
+      "__EMPTY_2": "",
+      "__EMPTY_3": ">0.5 - <1",
+      "__EMPTY_4": "<2",
+      "__EMPTY_5": "<2",
+      "__EMPTY_6": "AUSENCIA",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "",
+      "__EMPTY_1": "C.A.A. Cap. XII",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "Mínimo 0.2",
+      "__EMPTY_4": "<3",
+      "__EMPTY_5": "<3",
+      "__EMPTY_6": "AUSENCIA",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "Determinaciones basadas en normativas vigentes EPAS (Ente Provincial de Agua y Saneamiento) Resol. 35/96- APHA - Standard Methods.- C.A.A Art 982",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "PLANTA POTABILIZADORA",
+      "__EMPTY_1": "ANALISIS FISICO-QUIMICO",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "",
+      "__EMPTY_1": "DUREZA TOTAL",
+      "__EMPTY_2": "CATIÓN CALCIO",
+      "__EMPTY_3": "CATIÓN MAGNESIO",
+      "__EMPTY_4": "ALCALINIDAD",
+      "__EMPTY_5": "ANIÓN CLORURO",
+      "__EMPTY_6": "ANIÓN SULFATO",
+      "__EMPTY_7": "TURBIDEZ",
+      "__EMPTY_8": "Ph",
+      "__EMPTY_9": "CONDUCTIVIDAD"
+    },
+    {
+      "__EMPTY": "",
+      "__EMPTY_1": "(mg/l)",
+      "__EMPTY_2": "(mg/l)",
+      "__EMPTY_3": "(mg/l)",
+      "__EMPTY_4": "(mg/l)",
+      "__EMPTY_5": "(mg/l)",
+      "__EMPTY_6": "(mg/l)",
+      "__EMPTY_7": "(NTU)",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "STA ELENA",
+      "__EMPTY_1": 400,
+      "__EMPTY_2": 120,
+      "__EMPTY_3": "24.27",
+      "__EMPTY_4": "171.5",
+      "__EMPTY_5": 56,
+      "__EMPTY_6": "-",
+      "__EMPTY_7": "1.53",
+      "__EMPTY_8": "5.50",
+      "__EMPTY_9": 899
+    },
+    {
+      "__EMPTY": "MÉTODO",
+      "__EMPTY_1": "Volumetría372 (titulometría con EDTA)",
+      "__EMPTY_2": "152Volumetría (titulometría con EDTA)",
+      "__EMPTY_3": "Diferencia entre Dureza Total y  Catión Cálcico",
+      "__EMPTY_4": "Volumetría",
+      "__EMPTY_5": "Argentometría. Mtdo de Mohr",
+      "__EMPTY_6": "Método gravimétrico con combustión de residuos REF.M 5400 C",
+      "__EMPTY_7": "Nefelometría",
+      "__EMPTY_8": "Método electrométrico",
+      "__EMPTY_9": "Conductividad especifica"
+    },
+    {
+      "__EMPTY": "EMPLEADO",
+      "__EMPTY_1": "Ref.3500.D",
+      "__EMPTY_2": "Ref.(3111)-3500-Ca.D",
+      "__EMPTY_3": "Ref.3500-Mg.E",
+      "__EMPTY_4": "Ref.2320-A",
+      "__EMPTY_5": "Ref.4500-Cl-B",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "Ref.1230-B",
+      "__EMPTY_8": "Ref. 4500 H B",
+      "__EMPTY_9": "Ref. 2510 B"
+    },
+    {
+      "__EMPTY": "LÍMITE",
+      "__EMPTY_1": "500.00",
+      "__EMPTY_2": "NE (1)",
+      "__EMPTY_3": "NE (1)",
+      "__EMPTY_4": "400.00",
+      "__EMPTY_5": "400.00",
+      "__EMPTY_6": "400.00",
+      "__EMPTY_7": "2.00",
+      "__EMPTY_8": "6.5/8.5",
+      "__EMPTY_9": 2000
+    },
+    {
+      "__EMPTY": "Determinaciones basadas en normativas vigentes EPAS (Ente Provincial de Agua y Saneamiento) Resol. 35/96- APHA - Standard Methods.- C.A.A Art 982",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "ORIGEN:",
+      "__EMPTY_1": "AGUA DE ORIGEN SUPERFICIAL ",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "Las determinaciones se realizan de acuerdo a lo establecido en EPAS Resol 35/96, y CAA Cap. XII art 982.",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "__EMPTY": "Observaciones: muestra de agua cruda con presencia de turbidez.",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    }
+  ],
+  "totalRows": 25,
+  "previewSourceFile": "planta-santa-elena.xlsx",
+  "municipios": []
+}

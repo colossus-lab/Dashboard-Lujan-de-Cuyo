@@ -1,0 +1,245 @@
+{
+  "id": "27",
+  "title": "Farmacias",
+  "source": "Secretaría de Desarrollo Humano",
+  "description": "Información y ubicación geográfica de farmacias ubicadas en el departamento.",
+  "category": "Deporte, Educación y Salud",
+  "categorySlug": "deporte-educacion-y-salud",
+  "updatedAt": "2025-12-21T12:44:48.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "farmacias.csv",
+      "formato": "CSV",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/27/farmacias.csv",
+      "bytes": 2498
+    }
+  ],
+  "columns": [
+    {
+      "name": "NombreFant",
+      "type": "string",
+      "label": "NombreFant"
+    },
+    {
+      "name": "CalleComer",
+      "type": "string",
+      "label": "CalleComer"
+    },
+    {
+      "name": "AlturaCome",
+      "type": "number",
+      "label": "AlturaCome"
+    },
+    {
+      "name": "LocalidadC",
+      "type": "string",
+      "label": "LocalidadC"
+    },
+    {
+      "name": "CodigoPost",
+      "type": "number",
+      "label": "CodigoPost"
+    },
+    {
+      "name": "Descripci",
+      "type": "string",
+      "label": "Descripci"
+    },
+    {
+      "name": "latitud",
+      "type": "number",
+      "label": "latitud"
+    },
+    {
+      "name": "longitud",
+      "type": "number",
+      "label": "longitud"
+    }
+  ],
+  "rows": [
+    {
+      "NombreFant": "LOS CERROS",
+      "CalleComer": "ROQUE SAENZ PEÑA",
+      "AlturaCome": 1940,
+      "LocalidadC": "VISTALBA",
+      "CodigoPost": 5509,
+      "Descripci": "FARMACIA Y PERFUMERIA",
+      "latitud": -33.0328146414,
+      "longitud": -68.9025194943
+    },
+    {
+      "NombreFant": "FARMACIA SANTA ANA III",
+      "CalleComer": "SAN MARTIN",
+      "AlturaCome": 400,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "Descripci": "FARMACIA Y PERFUMERIA",
+      "latitud": -33.0375827939,
+      "longitud": -68.8798741003
+    },
+    {
+      "NombreFant": "FARMACIAS DEL AGUILA S.A.",
+      "CalleComer": "VIAMONTE",
+      "AlturaCome": 5356,
+      "LocalidadC": "CHACRAS DE CORIA",
+      "CodigoPost": 5505,
+      "Descripci": "FARMACIA Y PERFUMERIA",
+      "latitud": -32.9865003459,
+      "longitud": -68.8835829636
+    },
+    {
+      "NombreFant": "FARMACIA SANTA ANA I",
+      "CalleComer": "SAN MARTIN",
+      "AlturaCome": 951,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "Descripci": "FARMACIA Y PERFUMERIA",
+      "latitud": -33.0320352778,
+      "longitud": -68.8767862943
+    },
+    {
+      "NombreFant": "FARMACIA JUAN JOSE PASO",
+      "CalleComer": "JUAN JOSE PASO",
+      "AlturaCome": 527,
+      "LocalidadC": "CARRODILLA",
+      "CodigoPost": 5505,
+      "Descripci": "FARMACIA, PERFUMERIA Y REGALERIA",
+      "latitud": -32.9671747087,
+      "longitud": -68.8475811579
+    },
+    {
+      "NombreFant": "PIEDEMONTE",
+      "CalleComer": "Nº 3 / ECO CHACRAS",
+      "AlturaCome": 0,
+      "LocalidadC": "CHACRAS DE CORIA",
+      "CodigoPost": 5505,
+      "Descripci": "FARMACIA",
+      "latitud": -32.9991445842,
+      "longitud": -68.9101208871
+    },
+    {
+      "NombreFant": "DEL PINO VIAMONTE",
+      "CalleComer": "VIAMONTE Y PERALITOS",
+      "AlturaCome": 0,
+      "LocalidadC": "VISTALBA",
+      "CodigoPost": 5509,
+      "Descripci": "FARMACIA, PERFUMERIA, ACCESOR. REGALERIA",
+      "latitud": -33.0136661041,
+      "longitud": -68.8864083248
+    },
+    {
+      "NombreFant": "DE LA SANTA CRUZ",
+      "CalleComer": "ROQUE SAENZ PEÑA",
+      "AlturaCome": 273,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "Descripci": "FARMACIA",
+      "latitud": -33.0375241739,
+      "longitud": -68.8832955875
+    },
+    {
+      "NombreFant": "FARMACIAS CHACRAS SRL",
+      "CalleComer": "VIAMONTE",
+      "AlturaCome": 5296,
+      "LocalidadC": "CHACRAS DE CORIA",
+      "CodigoPost": 5505,
+      "Descripci": "FARMACIA Y PERFUMERIA",
+      "latitud": -32.9870989802,
+      "longitud": -68.8835868168
+    },
+    {
+      "NombreFant": "DEL PINO",
+      "CalleComer": "ITALIA",
+      "AlturaCome": 5722,
+      "LocalidadC": "CHACRAS DE CORIA",
+      "CodigoPost": 5505,
+      "Descripci": "FARMACIA",
+      "latitud": -32.9840250157,
+      "longitud": -68.8799170756
+    },
+    {
+      "NombreFant": "CARRODILLA",
+      "CalleComer": "GENERAL JOSE DE SAN MARTIN",
+      "AlturaCome": 8458,
+      "LocalidadC": "CARRODILLA",
+      "CodigoPost": 5505,
+      "Descripci": "REGALERIA Y VENTA DE ROPA",
+      "latitud": -32.9592740219,
+      "longitud": -68.8528724323
+    },
+    {
+      "NombreFant": "SANTA CRUZ II",
+      "CalleComer": "MARIANO MORENO",
+      "AlturaCome": 33,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "Descripci": "FARMACIA",
+      "latitud": -33.0363379032,
+      "longitud": -68.8795052109
+    },
+    {
+      "NombreFant": "13 DE DICIEMBRE",
+      "CalleComer": "2º Bº 13 DE DIC./GUEVARA",
+      "AlturaCome": 1202,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "Descripci": "FARMACIA",
+      "latitud": -33.027253652,
+      "longitud": -68.8850392956
+    },
+    {
+      "NombreFant": "FARMACIA CAVERO",
+      "CalleComer": "Bº BEGHIN",
+      "AlturaCome": 0,
+      "LocalidadC": "CARRODILLA",
+      "CodigoPost": 5505,
+      "Descripci": "FARMACIA Y PERFUMERIA",
+      "latitud": -32.9662583472,
+      "longitud": -68.8529107644
+    },
+    {
+      "NombreFant": "SANTA CRUZ II",
+      "CalleComer": "SAN MARTIN",
+      "AlturaCome": 656,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "Descripci": "FARMACIA Y PERFUMERIA",
+      "latitud": -33.0348817384,
+      "longitud": -68.8787920092
+    },
+    {
+      "NombreFant": "PASTEUR",
+      "CalleComer": "SAN MARTIN",
+      "AlturaCome": 1082,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "Descripci": "FARMACIA Y REGALERIA",
+      "latitud": -33.0306331825,
+      "longitud": -68.8770530048
+    },
+    {
+      "NombreFant": "ACCESO SUR SCS",
+      "CalleComer": "LAGO LACAR",
+      "AlturaCome": 861,
+      "LocalidadC": "CARRODILLA",
+      "CodigoPost": 5505,
+      "Descripci": "FARMACIA Y PERFUMERIA",
+      "latitud": -32.9718204495,
+      "longitud": -68.8449013044
+    },
+    {
+      "NombreFant": "FARMACIA Y PERFUMERIA",
+      "CalleComer": "SAN MARTIN",
+      "AlturaCome": 1788,
+      "LocalidadC": "MAYOR DRUMMOND",
+      "CodigoPost": 5507,
+      "Descripci": "FARMA, PERFU Y VENTA DE PROD.DIETETICOS",
+      "latitud": -33.0224843939,
+      "longitud": -68.8738096381
+    }
+  ],
+  "totalRows": 18,
+  "previewSourceFile": "farmacias.csv",
+  "municipios": []
+}

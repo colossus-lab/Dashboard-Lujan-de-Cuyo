@@ -1,0 +1,22 @@
+{
+  "id": "38",
+  "title": "Tarifaria 2021",
+  "source": "Secretaría de Economía e Ingresos Públicos",
+  "description": "Rige lo importes de las Tasas Municipales para el 2021",
+  "category": "Economía",
+  "categorySlug": "economia",
+  "updatedAt": "2025-12-21T18:48:05.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "ordenanza-n-13864-2020-tarifaria-2021.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/38/ordenanza-n-13864-2020-tarifaria-2021.pdf",
+      "bytes": 2614915
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

@@ -1,0 +1,5321 @@
+{
+  "id": "44",
+  "title": "Calidad del Aire",
+  "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+  "description": "Datos de medición de la calidad de aire de Luján de Cuyo proporcionado por Tótem de Parque Cívico",
+  "category": "Medio Ambiente y Desarrollo Sustentable",
+  "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+  "updatedAt": "2025-12-17T14:56:27.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "metricas-snsores-ambientals.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/44/metricas-snsores-ambientals.xlsx",
+      "bytes": 245000
+    },
+    {
+      "nombre": "medicion de aire_2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/44/1752767174302-medicion de aire_2025.xlsx",
+      "bytes": 42757
+    }
+  ],
+  "columns": [
+    {
+      "name": "# Sensor Almirante Brown",
+      "type": "string",
+      "label": "# Sensor Almirante Brown"
+    },
+    {
+      "name": " Distrito Chacras de Coria",
+      "type": "number",
+      "label": " Distrito Chacras de Coria"
+    },
+    {
+      "name": " Argentina (Citizen Science project sensor.community/34429)",
+      "type": "number",
+      "label": " Argentina (Citizen Science project sensor.community/34429)"
+    },
+    {
+      "name": "__EMPTY",
+      "type": "number",
+      "label": "__EMPTY"
+    },
+    {
+      "name": "__EMPTY_1",
+      "type": "number",
+      "label": "__EMPTY_1"
+    },
+    {
+      "name": "__EMPTY_2",
+      "type": "number",
+      "label": "__EMPTY_2"
+    },
+    {
+      "name": "__EMPTY_3",
+      "type": "number",
+      "label": "__EMPTY_3"
+    },
+    {
+      "name": "__EMPTY_4",
+      "type": "number",
+      "label": "__EMPTY_4"
+    }
+  ],
+  "rows": [
+    {
+      "# Sensor Almirante Brown": "# https://aqicn.org/station/@82138/",
+      " Distrito Chacras de Coria": "",
+      " Argentina (Citizen Science project sensor.community/34429)": "",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "# Sensor Almirante Brown": "# Daily pm25",
+      " Distrito Chacras de Coria": "",
+      " Argentina (Citizen Science project sensor.community/34429)": "",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "# Sensor Almirante Brown": "date",
+      " Distrito Chacras de Coria": "min",
+      " Argentina (Citizen Science project sensor.community/34429)": "max",
+      "__EMPTY": "median",
+      "__EMPTY_1": "q1",
+      "__EMPTY_2": "q3",
+      "__EMPTY_3": "stdev",
+      "__EMPTY_4": "count"
+    },
+    {
+      "# Sensor Almirante Brown": "2019-12-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.78,
+      " Argentina (Citizen Science project sensor.community/34429)": 3.98,
+      "__EMPTY": 1.24,
+      "__EMPTY_1": 1.08,
+      "__EMPTY_2": 1.47,
+      "__EMPTY_3": 0.448,
+      "__EMPTY_4": 129
+    },
+    {
+      "# Sensor Almirante Brown": "2019-12-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.68,
+      " Argentina (Citizen Science project sensor.community/34429)": 7,
+      "__EMPTY": 1.8,
+      "__EMPTY_1": 1.53,
+      "__EMPTY_2": 2.61,
+      "__EMPTY_3": 0.997,
+      "__EMPTY_4": 485
+    },
+    {
+      "# Sensor Almirante Brown": "2019-12-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.8,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.44,
+      "__EMPTY": 2.13,
+      "__EMPTY_1": 1.75,
+      "__EMPTY_2": 2.92,
+      "__EMPTY_3": 1.16,
+      "__EMPTY_4": 541
+    },
+    {
+      "# Sensor Almirante Brown": "2019-12-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.5,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.65,
+      "__EMPTY": 1.48,
+      "__EMPTY_1": 0.99,
+      "__EMPTY_2": 2.54,
+      "__EMPTY_3": 1.584,
+      "__EMPTY_4": 397
+    },
+    {
+      "# Sensor Almirante Brown": "2019-12-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.62,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.96,
+      "__EMPTY": 1.28,
+      "__EMPTY_1": 1.02,
+      "__EMPTY_2": 1.76,
+      "__EMPTY_3": 1.043,
+      "__EMPTY_4": 558
+    },
+    {
+      "# Sensor Almirante Brown": "2019-12-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.22,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.12,
+      "__EMPTY": 0.91,
+      "__EMPTY_1": 0.57,
+      "__EMPTY_2": 2.42,
+      "__EMPTY_3": 1.441,
+      "__EMPTY_4": 283
+    },
+    {
+      "# Sensor Almirante Brown": "2019-12-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.84,
+      " Argentina (Citizen Science project sensor.community/34429)": 3.92,
+      "__EMPTY": 1.7,
+      "__EMPTY_1": 1.48,
+      "__EMPTY_2": 1.88,
+      "__EMPTY_3": 0.513,
+      "__EMPTY_4": 104
+    },
+    {
+      "# Sensor Almirante Brown": "2019-12-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.73,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.25,
+      "__EMPTY": 1.75,
+      "__EMPTY_1": 1.35,
+      "__EMPTY_2": 2.7,
+      "__EMPTY_3": 1.05,
+      "__EMPTY_4": 546
+    },
+    {
+      "# Sensor Almirante Brown": "2019-12-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.45,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.14,
+      "__EMPTY": 1.6,
+      "__EMPTY_1": 0.92,
+      "__EMPTY_2": 2.62,
+      "__EMPTY_3": 1.315,
+      "__EMPTY_4": 573
+    },
+    {
+      "# Sensor Almirante Brown": "2019-12-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.65,
+      " Argentina (Citizen Science project sensor.community/34429)": 404,
+      "__EMPTY": 2.82,
+      "__EMPTY_1": 1.55,
+      "__EMPTY_2": 4.63,
+      "__EMPTY_3": 26.892,
+      "__EMPTY_4": 561
+    },
+    {
+      "# Sensor Almirante Brown": "2019-12-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.42,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.58,
+      "__EMPTY": 1.45,
+      "__EMPTY_1": 0.82,
+      "__EMPTY_2": 2.54,
+      "__EMPTY_3": 1.767,
+      "__EMPTY_4": 573
+    },
+    {
+      "# Sensor Almirante Brown": "2019-12-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.48,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.8,
+      "__EMPTY": 1.3,
+      "__EMPTY_1": 0.95,
+      "__EMPTY_2": 1.86,
+      "__EMPTY_3": 0.729,
+      "__EMPTY_4": 355
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.7,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.3,
+      "__EMPTY": 2.37,
+      "__EMPTY_1": 2.04,
+      "__EMPTY_2": 2.97,
+      "__EMPTY_3": 0.65,
+      "__EMPTY_4": 30
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.45,
+      " Argentina (Citizen Science project sensor.community/34429)": 26.07,
+      "__EMPTY": 1.57,
+      "__EMPTY_1": 1.05,
+      "__EMPTY_2": 5.55,
+      "__EMPTY_3": 4.065,
+      "__EMPTY_4": 192
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.38,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.57,
+      "__EMPTY": 1.33,
+      "__EMPTY_1": 0.98,
+      "__EMPTY_2": 2.86,
+      "__EMPTY_3": 2.664,
+      "__EMPTY_4": 340
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.43,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.95,
+      "__EMPTY": 3.11,
+      "__EMPTY_1": 2.04,
+      "__EMPTY_2": 4.7,
+      "__EMPTY_3": 1.724,
+      "__EMPTY_4": 354
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.8,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.44,
+      "__EMPTY": 2.48,
+      "__EMPTY_1": 1.54,
+      "__EMPTY_2": 3.7,
+      "__EMPTY_3": 1.88,
+      "__EMPTY_4": 352
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.05,
+      "__EMPTY": 4.01,
+      "__EMPTY_1": 2.88,
+      "__EMPTY_2": 4.88,
+      "__EMPTY_3": 1.41,
+      "__EMPTY_4": 392
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.55,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.46,
+      "__EMPTY": 1.98,
+      "__EMPTY_1": 1.33,
+      "__EMPTY_2": 2.95,
+      "__EMPTY_3": 1.645,
+      "__EMPTY_4": 378
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.45,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.35,
+      "__EMPTY": 1.66,
+      "__EMPTY_1": 1.15,
+      "__EMPTY_2": 2.57,
+      "__EMPTY_3": 0.95,
+      "__EMPTY_4": 379
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.55,
+      " Argentina (Citizen Science project sensor.community/34429)": 23.27,
+      "__EMPTY": 2.62,
+      "__EMPTY_1": 2.15,
+      "__EMPTY_2": 5.55,
+      "__EMPTY_3": 4.628,
+      "__EMPTY_4": 322
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.66,
+      " Argentina (Citizen Science project sensor.community/34429)": 14.93,
+      "__EMPTY": 3.43,
+      "__EMPTY_1": 2.44,
+      "__EMPTY_2": 5.12,
+      "__EMPTY_3": 3.773,
+      "__EMPTY_4": 370
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.15,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.16,
+      "__EMPTY": 3.48,
+      "__EMPTY_1": 2.65,
+      "__EMPTY_2": 4.68,
+      "__EMPTY_3": 1.403,
+      "__EMPTY_4": 340
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.47,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.88,
+      "__EMPTY": 1.01,
+      "__EMPTY_1": 0.78,
+      "__EMPTY_2": 1.62,
+      "__EMPTY_3": 0.964,
+      "__EMPTY_4": 310
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.65,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.22,
+      "__EMPTY": 2.04,
+      "__EMPTY_1": 1.43,
+      "__EMPTY_2": 3.93,
+      "__EMPTY_3": 2.371,
+      "__EMPTY_4": 446
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.56,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.07,
+      "__EMPTY": 1.48,
+      "__EMPTY_1": 1.13,
+      "__EMPTY_2": 2.02,
+      "__EMPTY_3": 1.847,
+      "__EMPTY_4": 488
+    },
+    {
+      "# Sensor Almirante Brown": "2020-02-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 47.48,
+      "__EMPTY": 1.24,
+      "__EMPTY_1": 0.91,
+      "__EMPTY_2": 1.65,
+      "__EMPTY_3": 2.716,
+      "__EMPTY_4": 297
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.45,
+      " Argentina (Citizen Science project sensor.community/34429)": 111.02,
+      "__EMPTY": 0.95,
+      "__EMPTY_1": 0.75,
+      "__EMPTY_2": 1.38,
+      "__EMPTY_3": 14.358,
+      "__EMPTY_4": 153
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.56,
+      " Argentina (Citizen Science project sensor.community/34429)": 61.3,
+      "__EMPTY": 2.71,
+      "__EMPTY_1": 2.25,
+      "__EMPTY_2": 3.84,
+      "__EMPTY_3": 4.129,
+      "__EMPTY_4": 442
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.07,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.76,
+      "__EMPTY": 6.66,
+      "__EMPTY_1": 5.42,
+      "__EMPTY_2": 7.63,
+      "__EMPTY_3": 1.695,
+      "__EMPTY_4": 435
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.77,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.33,
+      "__EMPTY": 5.68,
+      "__EMPTY_1": 4.8,
+      "__EMPTY_2": 7.3,
+      "__EMPTY_3": 2.234,
+      "__EMPTY_4": 482
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.86,
+      " Argentina (Citizen Science project sensor.community/34429)": 14.38,
+      "__EMPTY": 5,
+      "__EMPTY_1": 4.01,
+      "__EMPTY_2": 9.6,
+      "__EMPTY_3": 3.223,
+      "__EMPTY_4": 150
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.34,
+      " Argentina (Citizen Science project sensor.community/34429)": 18.26,
+      "__EMPTY": 1.94,
+      "__EMPTY_1": 0.89,
+      "__EMPTY_2": 4.16,
+      "__EMPTY_3": 3.937,
+      "__EMPTY_4": 577
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.1,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.14,
+      "__EMPTY": 1.75,
+      "__EMPTY_1": 1.05,
+      "__EMPTY_2": 2.96,
+      "__EMPTY_3": 1.337,
+      "__EMPTY_4": 560
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.6,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.37,
+      "__EMPTY": 2.76,
+      "__EMPTY_1": 1.58,
+      "__EMPTY_2": 4.95,
+      "__EMPTY_3": 2.736,
+      "__EMPTY_4": 555
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.25,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.19,
+      "__EMPTY": 3.36,
+      "__EMPTY_1": 2.14,
+      "__EMPTY_2": 5.12,
+      "__EMPTY_3": 1.888,
+      "__EMPTY_4": 248
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.88,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.07,
+      "__EMPTY": 1.55,
+      "__EMPTY_1": 1.22,
+      "__EMPTY_2": 4.25,
+      "__EMPTY_3": 2.707,
+      "__EMPTY_4": 82
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.65,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.05,
+      "__EMPTY": 4.22,
+      "__EMPTY_1": 2.76,
+      "__EMPTY_2": 5.8,
+      "__EMPTY_3": 2.084,
+      "__EMPTY_4": 502
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.75,
+      " Argentina (Citizen Science project sensor.community/34429)": 22.32,
+      "__EMPTY": 5.74,
+      "__EMPTY_1": 4.43,
+      "__EMPTY_2": 8.93,
+      "__EMPTY_3": 4.968,
+      "__EMPTY_4": 555
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.88,
+      " Argentina (Citizen Science project sensor.community/34429)": 26.94,
+      "__EMPTY": 6.55,
+      "__EMPTY_1": 5.32,
+      "__EMPTY_2": 10,
+      "__EMPTY_3": 5.601,
+      "__EMPTY_4": 539
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.38,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.65,
+      "__EMPTY": 3.46,
+      "__EMPTY_1": 3.15,
+      "__EMPTY_2": 4.08,
+      "__EMPTY_3": 1.879,
+      "__EMPTY_4": 499
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.85,
+      "__EMPTY": 1.54,
+      "__EMPTY_1": 1.12,
+      "__EMPTY_2": 2,
+      "__EMPTY_3": 1.016,
+      "__EMPTY_4": 383
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.8,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.94,
+      "__EMPTY": 3.45,
+      "__EMPTY_1": 2.92,
+      "__EMPTY_2": 5.14,
+      "__EMPTY_3": 2.969,
+      "__EMPTY_4": 418
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.82,
+      " Argentina (Citizen Science project sensor.community/34429)": 14.66,
+      "__EMPTY": 3.69,
+      "__EMPTY_1": 2.87,
+      "__EMPTY_2": 4.92,
+      "__EMPTY_3": 2.678,
+      "__EMPTY_4": 376
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.72,
+      " Argentina (Citizen Science project sensor.community/34429)": 33.5,
+      "__EMPTY": 5.58,
+      "__EMPTY_1": 4.04,
+      "__EMPTY_2": 7.02,
+      "__EMPTY_3": 4.016,
+      "__EMPTY_4": 472
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.8,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.63,
+      "__EMPTY": 2.46,
+      "__EMPTY_1": 2.2,
+      "__EMPTY_2": 3.48,
+      "__EMPTY_3": 1.085,
+      "__EMPTY_4": 74
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.98,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.05,
+      "__EMPTY": 3.8,
+      "__EMPTY_1": 2.7,
+      "__EMPTY_2": 7.49,
+      "__EMPTY_3": 2.587,
+      "__EMPTY_4": 553
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.86,
+      " Argentina (Citizen Science project sensor.community/34429)": 16.66,
+      "__EMPTY": 6.86,
+      "__EMPTY_1": 5.21,
+      "__EMPTY_2": 10.19,
+      "__EMPTY_3": 3.614,
+      "__EMPTY_4": 528
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.35,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.35,
+      "__EMPTY": 1.34,
+      "__EMPTY_1": 0.9,
+      "__EMPTY_2": 2.59,
+      "__EMPTY_3": 1.481,
+      "__EMPTY_4": 408
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.75,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.72,
+      "__EMPTY": 3.76,
+      "__EMPTY_1": 2.27,
+      "__EMPTY_2": 5.25,
+      "__EMPTY_3": 2.335,
+      "__EMPTY_4": 511
+    },
+    {
+      "# Sensor Almirante Brown": "2020-04-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.1,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.55,
+      "__EMPTY": 2.84,
+      "__EMPTY_1": 1.98,
+      "__EMPTY_2": 4.62,
+      "__EMPTY_3": 2.145,
+      "__EMPTY_4": 534
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.24,
+      " Argentina (Citizen Science project sensor.community/34429)": 19.27,
+      "__EMPTY": 1.85,
+      "__EMPTY_1": 0.84,
+      "__EMPTY_2": 4.63,
+      "__EMPTY_3": 3.346,
+      "__EMPTY_4": 437
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.12,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.12,
+      "__EMPTY": 2.6,
+      "__EMPTY_1": 2.12,
+      "__EMPTY_2": 4.28,
+      "__EMPTY_3": 2.091,
+      "__EMPTY_4": 537
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.42,
+      " Argentina (Citizen Science project sensor.community/34429)": 21.82,
+      "__EMPTY": 5.68,
+      "__EMPTY_1": 4.93,
+      "__EMPTY_2": 8.97,
+      "__EMPTY_3": 3.717,
+      "__EMPTY_4": 553
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.94,
+      " Argentina (Citizen Science project sensor.community/34429)": 14.86,
+      "__EMPTY": 5.62,
+      "__EMPTY_1": 3.75,
+      "__EMPTY_2": 7.76,
+      "__EMPTY_3": 3.061,
+      "__EMPTY_4": 531
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.15,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.18,
+      "__EMPTY": 1.09,
+      "__EMPTY_1": 0.65,
+      "__EMPTY_2": 4.4,
+      "__EMPTY_3": 3.08,
+      "__EMPTY_4": 492
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-06T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.76,
+      "__EMPTY": 3.03,
+      "__EMPTY_1": 1.74,
+      "__EMPTY_2": 5.47,
+      "__EMPTY_3": 3.336,
+      "__EMPTY_4": 572
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.33,
+      " Argentina (Citizen Science project sensor.community/34429)": 24,
+      "__EMPTY": 4.09,
+      "__EMPTY_1": 2.58,
+      "__EMPTY_2": 7.18,
+      "__EMPTY_3": 3.898,
+      "__EMPTY_4": 386
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.12,
+      " Argentina (Citizen Science project sensor.community/34429)": 20.05,
+      "__EMPTY": 3.76,
+      "__EMPTY_1": 2.49,
+      "__EMPTY_2": 7,
+      "__EMPTY_3": 4.174,
+      "__EMPTY_4": 344
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.27,
+      " Argentina (Citizen Science project sensor.community/34429)": 23.48,
+      "__EMPTY": 6.22,
+      "__EMPTY_1": 4.55,
+      "__EMPTY_2": 8.52,
+      "__EMPTY_3": 4.138,
+      "__EMPTY_4": 344
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.08,
+      " Argentina (Citizen Science project sensor.community/34429)": 25.1,
+      "__EMPTY": 6.05,
+      "__EMPTY_1": 4.23,
+      "__EMPTY_2": 13.15,
+      "__EMPTY_3": 6.51,
+      "__EMPTY_4": 243
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.45,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.57,
+      "__EMPTY": 1.45,
+      "__EMPTY_1": 0.97,
+      "__EMPTY_2": 2.21,
+      "__EMPTY_3": 0.983,
+      "__EMPTY_4": 349
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.34,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.24,
+      "__EMPTY": 1.98,
+      "__EMPTY_1": 1.1,
+      "__EMPTY_2": 3.29,
+      "__EMPTY_3": 1.444,
+      "__EMPTY_4": 316
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.7,
+      " Argentina (Citizen Science project sensor.community/34429)": 20.39,
+      "__EMPTY": 2.27,
+      "__EMPTY_1": 1.41,
+      "__EMPTY_2": 5.35,
+      "__EMPTY_3": 5.317,
+      "__EMPTY_4": 85
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.05,
+      " Argentina (Citizen Science project sensor.community/34429)": 27.5,
+      "__EMPTY": 4.4,
+      "__EMPTY_1": 2.8,
+      "__EMPTY_2": 7.29,
+      "__EMPTY_3": 3.908,
+      "__EMPTY_4": 525
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 15.04,
+      " Argentina (Citizen Science project sensor.community/34429)": 23.6,
+      "__EMPTY": 19.28,
+      "__EMPTY_1": 17.48,
+      "__EMPTY_2": 21.63,
+      "__EMPTY_3": 2.376,
+      "__EMPTY_4": 20
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.78,
+      " Argentina (Citizen Science project sensor.community/34429)": 16.6,
+      "__EMPTY": 5.42,
+      "__EMPTY_1": 3.82,
+      "__EMPTY_2": 7.4,
+      "__EMPTY_3": 3.465,
+      "__EMPTY_4": 178
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.26,
+      "__EMPTY": 5.84,
+      "__EMPTY_1": 4.61,
+      "__EMPTY_2": 8,
+      "__EMPTY_3": 2.484,
+      "__EMPTY_4": 319
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.4,
+      "__EMPTY": 3.57,
+      "__EMPTY_1": 2.09,
+      "__EMPTY_2": 4.38,
+      "__EMPTY_3": 1.241,
+      "__EMPTY_4": 72
+    },
+    {
+      "# Sensor Almirante Brown": "2020-05-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.64,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.66,
+      "__EMPTY": 1.61,
+      "__EMPTY_1": 1.25,
+      "__EMPTY_2": 2.31,
+      "__EMPTY_3": 1.333,
+      "__EMPTY_4": 222
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 3.9,
+      "__EMPTY": 1.27,
+      "__EMPTY_1": 0.9,
+      "__EMPTY_2": 1.7,
+      "__EMPTY_3": 0.656,
+      "__EMPTY_4": 228
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.23,
+      " Argentina (Citizen Science project sensor.community/34429)": 147.72,
+      "__EMPTY": 4.34,
+      "__EMPTY_1": 2.9,
+      "__EMPTY_2": 7.3,
+      "__EMPTY_3": 8.694,
+      "__EMPTY_4": 534
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.83,
+      " Argentina (Citizen Science project sensor.community/34429)": 65.3,
+      "__EMPTY": 8.6,
+      "__EMPTY_1": 6.25,
+      "__EMPTY_2": 13.45,
+      "__EMPTY_3": 8.17,
+      "__EMPTY_4": 437
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-06T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.9,
+      " Argentina (Citizen Science project sensor.community/34429)": 49.2,
+      "__EMPTY": 5.6,
+      "__EMPTY_1": 2.4,
+      "__EMPTY_2": 11.43,
+      "__EMPTY_3": 7.069,
+      "__EMPTY_4": 487
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 36.7,
+      "__EMPTY": 4.55,
+      "__EMPTY_1": 2.63,
+      "__EMPTY_2": 8.93,
+      "__EMPTY_3": 6.534,
+      "__EMPTY_4": 526
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.5,
+      " Argentina (Citizen Science project sensor.community/34429)": 27.47,
+      "__EMPTY": 5.77,
+      "__EMPTY_1": 4.7,
+      "__EMPTY_2": 7.4,
+      "__EMPTY_3": 3.132,
+      "__EMPTY_4": 537
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.12,
+      " Argentina (Citizen Science project sensor.community/34429)": 26.43,
+      "__EMPTY": 3.97,
+      "__EMPTY_1": 2.77,
+      "__EMPTY_2": 6.89,
+      "__EMPTY_3": 3.958,
+      "__EMPTY_4": 493
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3,
+      " Argentina (Citizen Science project sensor.community/34429)": 27.7,
+      "__EMPTY": 6.27,
+      "__EMPTY_1": 5,
+      "__EMPTY_2": 8.17,
+      "__EMPTY_3": 4.755,
+      "__EMPTY_4": 531
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.5,
+      " Argentina (Citizen Science project sensor.community/34429)": 55.83,
+      "__EMPTY": 11.47,
+      "__EMPTY_1": 7.63,
+      "__EMPTY_2": 17.69,
+      "__EMPTY_3": 8.201,
+      "__EMPTY_4": 560
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0,
+      " Argentina (Citizen Science project sensor.community/34429)": 37.9,
+      "__EMPTY": 3.1,
+      "__EMPTY_1": 1.7,
+      "__EMPTY_2": 7.07,
+      "__EMPTY_3": 5.449,
+      "__EMPTY_4": 570
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.6,
+      " Argentina (Citizen Science project sensor.community/34429)": 59.9,
+      "__EMPTY": 4,
+      "__EMPTY_1": 2.2,
+      "__EMPTY_2": 7.77,
+      "__EMPTY_3": 7.173,
+      "__EMPTY_4": 545
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.9,
+      " Argentina (Citizen Science project sensor.community/34429)": 25.3,
+      "__EMPTY": 6.29,
+      "__EMPTY_1": 3.13,
+      "__EMPTY_2": 9.83,
+      "__EMPTY_3": 4.89,
+      "__EMPTY_4": 334
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.06,
+      " Argentina (Citizen Science project sensor.community/34429)": 26.47,
+      "__EMPTY": 8.16,
+      "__EMPTY_1": 4.73,
+      "__EMPTY_2": 12.57,
+      "__EMPTY_3": 5.125,
+      "__EMPTY_4": 558
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 41.07,
+      "__EMPTY": 7.12,
+      "__EMPTY_1": 5.2,
+      "__EMPTY_2": 10.23,
+      "__EMPTY_3": 4.912,
+      "__EMPTY_4": 558
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.33,
+      " Argentina (Citizen Science project sensor.community/34429)": 38.72,
+      "__EMPTY": 8.34,
+      "__EMPTY_1": 5.23,
+      "__EMPTY_2": 11.8,
+      "__EMPTY_3": 5.298,
+      "__EMPTY_4": 538
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.9,
+      " Argentina (Citizen Science project sensor.community/34429)": 48.63,
+      "__EMPTY": 6.13,
+      "__EMPTY_1": 5.07,
+      "__EMPTY_2": 8.83,
+      "__EMPTY_3": 6.845,
+      "__EMPTY_4": 484
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.6,
+      " Argentina (Citizen Science project sensor.community/34429)": 19.3,
+      "__EMPTY": 4.33,
+      "__EMPTY_1": 1.87,
+      "__EMPTY_2": 5.97,
+      "__EMPTY_3": 2.834,
+      "__EMPTY_4": 482
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.73,
+      " Argentina (Citizen Science project sensor.community/34429)": 66.5,
+      "__EMPTY": 4.93,
+      "__EMPTY_1": 3.53,
+      "__EMPTY_2": 7.94,
+      "__EMPTY_3": 6.322,
+      "__EMPTY_4": 577
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.6,
+      " Argentina (Citizen Science project sensor.community/34429)": 42.97,
+      "__EMPTY": 3.7,
+      "__EMPTY_1": 2.29,
+      "__EMPTY_2": 9.6,
+      "__EMPTY_3": 5.063,
+      "__EMPTY_4": 579
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 35.72,
+      "__EMPTY": 3.87,
+      "__EMPTY_1": 2.67,
+      "__EMPTY_2": 7.63,
+      "__EMPTY_3": 5.533,
+      "__EMPTY_4": 535
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.03,
+      " Argentina (Citizen Science project sensor.community/34429)": 43.83,
+      "__EMPTY": 1.6,
+      "__EMPTY_1": 1,
+      "__EMPTY_2": 2.75,
+      "__EMPTY_3": 4.354,
+      "__EMPTY_4": 557
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.7,
+      " Argentina (Citizen Science project sensor.community/34429)": 37.53,
+      "__EMPTY": 3.43,
+      "__EMPTY_1": 2.5,
+      "__EMPTY_2": 5.62,
+      "__EMPTY_3": 4.577,
+      "__EMPTY_4": 581
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.12,
+      " Argentina (Citizen Science project sensor.community/34429)": 59.63,
+      "__EMPTY": 8.9,
+      "__EMPTY_1": 3.27,
+      "__EMPTY_2": 13.6,
+      "__EMPTY_3": 7.395,
+      "__EMPTY_4": 549
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 80.8,
+      "__EMPTY": 7.33,
+      "__EMPTY_1": 3.87,
+      "__EMPTY_2": 10.83,
+      "__EMPTY_3": 7.79,
+      "__EMPTY_4": 549
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.73,
+      " Argentina (Citizen Science project sensor.community/34429)": 58.33,
+      "__EMPTY": 8.1,
+      "__EMPTY_1": 5.77,
+      "__EMPTY_2": 11.4,
+      "__EMPTY_3": 8.092,
+      "__EMPTY_4": 515
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.6,
+      " Argentina (Citizen Science project sensor.community/34429)": 95.67,
+      "__EMPTY": 36.29,
+      "__EMPTY_1": 19.67,
+      "__EMPTY_2": 49.3,
+      "__EMPTY_3": 21.153,
+      "__EMPTY_4": 439
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.7,
+      " Argentina (Citizen Science project sensor.community/34429)": 64.83,
+      "__EMPTY": 14.63,
+      "__EMPTY_1": 5.63,
+      "__EMPTY_2": 30.27,
+      "__EMPTY_3": 16.399,
+      "__EMPTY_4": 478
+    },
+    {
+      "# Sensor Almirante Brown": "2020-06-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 5.47,
+      " Argentina (Citizen Science project sensor.community/34429)": 89.47,
+      "__EMPTY": 15.05,
+      "__EMPTY_1": 12.47,
+      "__EMPTY_2": 18.87,
+      "__EMPTY_3": 9.903,
+      "__EMPTY_4": 466
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 6.07,
+      " Argentina (Citizen Science project sensor.community/34429)": 97.17,
+      "__EMPTY": 14.9,
+      "__EMPTY_1": 11.13,
+      "__EMPTY_2": 20.17,
+      "__EMPTY_3": 11.076,
+      "__EMPTY_4": 455
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 61.8,
+      "__EMPTY": 14.27,
+      "__EMPTY_1": 9.07,
+      "__EMPTY_2": 20.73,
+      "__EMPTY_3": 8.887,
+      "__EMPTY_4": 442
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.9,
+      " Argentina (Citizen Science project sensor.community/34429)": 75.63,
+      "__EMPTY": 14.23,
+      "__EMPTY_1": 7.07,
+      "__EMPTY_2": 18.64,
+      "__EMPTY_3": 9.176,
+      "__EMPTY_4": 456
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.33,
+      " Argentina (Citizen Science project sensor.community/34429)": 23.4,
+      "__EMPTY": 4.57,
+      "__EMPTY_1": 2.83,
+      "__EMPTY_2": 7.72,
+      "__EMPTY_3": 3.921,
+      "__EMPTY_4": 493
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.63,
+      " Argentina (Citizen Science project sensor.community/34429)": 22.5,
+      "__EMPTY": 6,
+      "__EMPTY_1": 3.9,
+      "__EMPTY_2": 11.87,
+      "__EMPTY_3": 5.108,
+      "__EMPTY_4": 367
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.8,
+      " Argentina (Citizen Science project sensor.community/34429)": 37.27,
+      "__EMPTY": 6.27,
+      "__EMPTY_1": 4.69,
+      "__EMPTY_2": 8.69,
+      "__EMPTY_3": 4.62,
+      "__EMPTY_4": 373
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.07,
+      " Argentina (Citizen Science project sensor.community/34429)": 30.23,
+      "__EMPTY": 10.47,
+      "__EMPTY_1": 6.35,
+      "__EMPTY_2": 14.27,
+      "__EMPTY_3": 6.297,
+      "__EMPTY_4": 436
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.02,
+      " Argentina (Citizen Science project sensor.community/34429)": 60.07,
+      "__EMPTY": 7.23,
+      "__EMPTY_1": 5.19,
+      "__EMPTY_2": 11.95,
+      "__EMPTY_3": 6.16,
+      "__EMPTY_4": 465
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 5.27,
+      " Argentina (Citizen Science project sensor.community/34429)": 73.7,
+      "__EMPTY": 10.64,
+      "__EMPTY_1": 8.6,
+      "__EMPTY_2": 16.3,
+      "__EMPTY_3": 8.744,
+      "__EMPTY_4": 416
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.93,
+      " Argentina (Citizen Science project sensor.community/34429)": 39.03,
+      "__EMPTY": 5.12,
+      "__EMPTY_1": 3.03,
+      "__EMPTY_2": 7.23,
+      "__EMPTY_3": 5.3,
+      "__EMPTY_4": 330
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.63,
+      " Argentina (Citizen Science project sensor.community/34429)": 44.3,
+      "__EMPTY": 8.73,
+      "__EMPTY_1": 4.12,
+      "__EMPTY_2": 14.93,
+      "__EMPTY_3": 8.508,
+      "__EMPTY_4": 392
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.5,
+      " Argentina (Citizen Science project sensor.community/34429)": 48.57,
+      "__EMPTY": 9.4,
+      "__EMPTY_1": 4.67,
+      "__EMPTY_2": 14.73,
+      "__EMPTY_3": 9.248,
+      "__EMPTY_4": 378
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 5.57,
+      " Argentina (Citizen Science project sensor.community/34429)": 81.53,
+      "__EMPTY": 16,
+      "__EMPTY_1": 11.39,
+      "__EMPTY_2": 25.67,
+      "__EMPTY_3": 12.802,
+      "__EMPTY_4": 429
+    },
+    {
+      "# Sensor Almirante Brown": "2020-07-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 7.43,
+      " Argentina (Citizen Science project sensor.community/34429)": 44.13,
+      "__EMPTY": 12.27,
+      "__EMPTY_1": 9.85,
+      "__EMPTY_2": 17.02,
+      "__EMPTY_3": 7.362,
+      "__EMPTY_4": 213
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 3.3,
+      "__EMPTY": 2.57,
+      "__EMPTY_1": 1.97,
+      "__EMPTY_2": 2.73,
+      "__EMPTY_3": 0.574,
+      "__EMPTY_4": 15
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.9,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.63,
+      "__EMPTY": 2.82,
+      "__EMPTY_1": 2.17,
+      "__EMPTY_2": 4.63,
+      "__EMPTY_3": 2.604,
+      "__EMPTY_4": 222
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 37.13,
+      "__EMPTY": 4.8,
+      "__EMPTY_1": 3.25,
+      "__EMPTY_2": 7.87,
+      "__EMPTY_3": 6.836,
+      "__EMPTY_4": 32
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.33,
+      "__EMPTY": 1.83,
+      "__EMPTY_1": 1.3,
+      "__EMPTY_2": 2.63,
+      "__EMPTY_3": 1.643,
+      "__EMPTY_4": 542
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.67,
+      " Argentina (Citizen Science project sensor.community/34429)": 25.97,
+      "__EMPTY": 3.2,
+      "__EMPTY_1": 1.77,
+      "__EMPTY_2": 6.2,
+      "__EMPTY_3": 4.067,
+      "__EMPTY_4": 559
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 32.29,
+      "__EMPTY": 4.26,
+      "__EMPTY_1": 3.2,
+      "__EMPTY_2": 7.43,
+      "__EMPTY_3": 4.676,
+      "__EMPTY_4": 556
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.33,
+      " Argentina (Citizen Science project sensor.community/34429)": 31.27,
+      "__EMPTY": 5.17,
+      "__EMPTY_1": 4.2,
+      "__EMPTY_2": 7.4,
+      "__EMPTY_3": 4.848,
+      "__EMPTY_4": 567
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.77,
+      " Argentina (Citizen Science project sensor.community/34429)": 50.43,
+      "__EMPTY": 5.25,
+      "__EMPTY_1": 3.6,
+      "__EMPTY_2": 7.29,
+      "__EMPTY_3": 5.135,
+      "__EMPTY_4": 552
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.7,
+      " Argentina (Citizen Science project sensor.community/34429)": 25.17,
+      "__EMPTY": 5.27,
+      "__EMPTY_1": 3.07,
+      "__EMPTY_2": 9.02,
+      "__EMPTY_3": 4.003,
+      "__EMPTY_4": 565
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.19,
+      "__EMPTY": 1.23,
+      "__EMPTY_1": 0.97,
+      "__EMPTY_2": 1.63,
+      "__EMPTY_3": 0.879,
+      "__EMPTY_4": 566
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.9,
+      " Argentina (Citizen Science project sensor.community/34429)": 57.1,
+      "__EMPTY": 2.2,
+      "__EMPTY_1": 1.67,
+      "__EMPTY_2": 3.3,
+      "__EMPTY_3": 3.112,
+      "__EMPTY_4": 393
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.07,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.03,
+      "__EMPTY": 3.47,
+      "__EMPTY_1": 2.29,
+      "__EMPTY_2": 4.53,
+      "__EMPTY_3": 1.944,
+      "__EMPTY_4": 570
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.97,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.63,
+      "__EMPTY": 3.83,
+      "__EMPTY_1": 2.77,
+      "__EMPTY_2": 5.47,
+      "__EMPTY_3": 2.376,
+      "__EMPTY_4": 577
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.87,
+      " Argentina (Citizen Science project sensor.community/34429)": 40.2,
+      "__EMPTY": 4.33,
+      "__EMPTY_1": 2.52,
+      "__EMPTY_2": 8.3,
+      "__EMPTY_3": 6.924,
+      "__EMPTY_4": 562
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.08,
+      " Argentina (Citizen Science project sensor.community/34429)": 70.93,
+      "__EMPTY": 4.97,
+      "__EMPTY_1": 4.03,
+      "__EMPTY_2": 9.33,
+      "__EMPTY_3": 9.797,
+      "__EMPTY_4": 567
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 43.77,
+      "__EMPTY": 3.43,
+      "__EMPTY_1": 1.23,
+      "__EMPTY_2": 6.53,
+      "__EMPTY_3": 8.605,
+      "__EMPTY_4": 547
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 14.17,
+      "__EMPTY": 1.87,
+      "__EMPTY_1": 0.97,
+      "__EMPTY_2": 2.87,
+      "__EMPTY_3": 1.632,
+      "__EMPTY_4": 465
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.53,
+      " Argentina (Citizen Science project sensor.community/34429)": 52.5,
+      "__EMPTY": 2.37,
+      "__EMPTY_1": 1.37,
+      "__EMPTY_2": 3.27,
+      "__EMPTY_3": 3.371,
+      "__EMPTY_4": 566
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.47,
+      " Argentina (Citizen Science project sensor.community/34429)": 124.57,
+      "__EMPTY": 2.93,
+      "__EMPTY_1": 2.23,
+      "__EMPTY_2": 4.43,
+      "__EMPTY_3": 5.796,
+      "__EMPTY_4": 560
+    },
+    {
+      "# Sensor Almirante Brown": "2021-09-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.9,
+      " Argentina (Citizen Science project sensor.community/34429)": 24.2,
+      "__EMPTY": 2.8,
+      "__EMPTY_1": 2.1,
+      "__EMPTY_2": 4.09,
+      "__EMPTY_3": 3.18,
+      "__EMPTY_4": 551
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 29.1,
+      "__EMPTY": 2.23,
+      "__EMPTY_1": 1.4,
+      "__EMPTY_2": 4.33,
+      "__EMPTY_3": 3.883,
+      "__EMPTY_4": 544
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.63,
+      " Argentina (Citizen Science project sensor.community/34429)": 44.27,
+      "__EMPTY": 3.23,
+      "__EMPTY_1": 2,
+      "__EMPTY_2": 4.5,
+      "__EMPTY_3": 4.748,
+      "__EMPTY_4": 537
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 32.03,
+      "__EMPTY": 2.47,
+      "__EMPTY_1": 1.73,
+      "__EMPTY_2": 3.53,
+      "__EMPTY_3": 2.144,
+      "__EMPTY_4": 558
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.87,
+      " Argentina (Citizen Science project sensor.community/34429)": 38.86,
+      "__EMPTY": 2.79,
+      "__EMPTY_1": 2.1,
+      "__EMPTY_2": 4.67,
+      "__EMPTY_3": 4.171,
+      "__EMPTY_4": 570
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.47,
+      " Argentina (Citizen Science project sensor.community/34429)": 24.73,
+      "__EMPTY": 3.97,
+      "__EMPTY_1": 2.93,
+      "__EMPTY_2": 6.53,
+      "__EMPTY_3": 3.332,
+      "__EMPTY_4": 578
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-06T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.27,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.63,
+      "__EMPTY": 1.27,
+      "__EMPTY_1": 0.8,
+      "__EMPTY_2": 2.5,
+      "__EMPTY_3": 2.045,
+      "__EMPTY_4": 568
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1,
+      " Argentina (Citizen Science project sensor.community/34429)": 23.33,
+      "__EMPTY": 2.7,
+      "__EMPTY_1": 2.02,
+      "__EMPTY_2": 3.53,
+      "__EMPTY_3": 2.023,
+      "__EMPTY_4": 566
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.5,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.87,
+      "__EMPTY": 4.9,
+      "__EMPTY_1": 4,
+      "__EMPTY_2": 6.63,
+      "__EMPTY_3": 1.707,
+      "__EMPTY_4": 566
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.5,
+      " Argentina (Citizen Science project sensor.community/34429)": 91.9,
+      "__EMPTY": 5.22,
+      "__EMPTY_1": 4.33,
+      "__EMPTY_2": 6.83,
+      "__EMPTY_3": 4.93,
+      "__EMPTY_4": 560
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.67,
+      " Argentina (Citizen Science project sensor.community/34429)": 21.63,
+      "__EMPTY": 7.1,
+      "__EMPTY_1": 4.07,
+      "__EMPTY_2": 11.07,
+      "__EMPTY_3": 4.18,
+      "__EMPTY_4": 565
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.03,
+      " Argentina (Citizen Science project sensor.community/34429)": 40.57,
+      "__EMPTY": 4.87,
+      "__EMPTY_1": 2.87,
+      "__EMPTY_2": 7.87,
+      "__EMPTY_3": 4.606,
+      "__EMPTY_4": 571
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.1,
+      " Argentina (Citizen Science project sensor.community/34429)": 48.43,
+      "__EMPTY": 3.33,
+      "__EMPTY_1": 1.93,
+      "__EMPTY_2": 5.5,
+      "__EMPTY_3": 3.421,
+      "__EMPTY_4": 567
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.8,
+      " Argentina (Citizen Science project sensor.community/34429)": 31.3,
+      "__EMPTY": 1.93,
+      "__EMPTY_1": 1.47,
+      "__EMPTY_2": 2.6,
+      "__EMPTY_3": 2.568,
+      "__EMPTY_4": 558
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.63,
+      " Argentina (Citizen Science project sensor.community/34429)": 23.03,
+      "__EMPTY": 2.57,
+      "__EMPTY_1": 1.8,
+      "__EMPTY_2": 4.26,
+      "__EMPTY_3": 3.864,
+      "__EMPTY_4": 559
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 81.2,
+      "__EMPTY": 1.23,
+      "__EMPTY_1": 0.83,
+      "__EMPTY_2": 2.02,
+      "__EMPTY_3": 5.109,
+      "__EMPTY_4": 559
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.5,
+      " Argentina (Citizen Science project sensor.community/34429)": 72.59,
+      "__EMPTY": 1.8,
+      "__EMPTY_1": 1.3,
+      "__EMPTY_2": 3.9,
+      "__EMPTY_3": 5.463,
+      "__EMPTY_4": 571
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 77.23,
+      "__EMPTY": 2.17,
+      "__EMPTY_1": 0.93,
+      "__EMPTY_2": 10.1,
+      "__EMPTY_3": 12.498,
+      "__EMPTY_4": 570
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 28.1,
+      "__EMPTY": 1.07,
+      "__EMPTY_1": 0.73,
+      "__EMPTY_2": 2.17,
+      "__EMPTY_3": 2.6,
+      "__EMPTY_4": 547
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.7,
+      " Argentina (Citizen Science project sensor.community/34429)": 35.93,
+      "__EMPTY": 2.89,
+      "__EMPTY_1": 2,
+      "__EMPTY_2": 5.53,
+      "__EMPTY_3": 4.021,
+      "__EMPTY_4": 578
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 45.73,
+      "__EMPTY": 4.47,
+      "__EMPTY_1": 2.8,
+      "__EMPTY_2": 7.2,
+      "__EMPTY_3": 4.724,
+      "__EMPTY_4": 552
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.7,
+      " Argentina (Citizen Science project sensor.community/34429)": 31.1,
+      "__EMPTY": 4.07,
+      "__EMPTY_1": 2.29,
+      "__EMPTY_2": 6.43,
+      "__EMPTY_3": 3.51,
+      "__EMPTY_4": 566
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.5,
+      " Argentina (Citizen Science project sensor.community/34429)": 35.9,
+      "__EMPTY": 1.5,
+      "__EMPTY_1": 1.1,
+      "__EMPTY_2": 2.8,
+      "__EMPTY_3": 3.002,
+      "__EMPTY_4": 550
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.63,
+      " Argentina (Citizen Science project sensor.community/34429)": 42,
+      "__EMPTY": 1.83,
+      "__EMPTY_1": 1.27,
+      "__EMPTY_2": 3.2,
+      "__EMPTY_3": 2.18,
+      "__EMPTY_4": 550
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 43,
+      "__EMPTY": 3.01,
+      "__EMPTY_1": 1.37,
+      "__EMPTY_2": 7.04,
+      "__EMPTY_3": 7.83,
+      "__EMPTY_4": 564
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 26.97,
+      "__EMPTY": 2.43,
+      "__EMPTY_1": 1.4,
+      "__EMPTY_2": 4.67,
+      "__EMPTY_3": 4.058,
+      "__EMPTY_4": 571
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.03,
+      "__EMPTY": 1.5,
+      "__EMPTY_1": 0.8,
+      "__EMPTY_2": 3.4,
+      "__EMPTY_3": 2.832,
+      "__EMPTY_4": 546
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.53,
+      " Argentina (Citizen Science project sensor.community/34429)": 103.8,
+      "__EMPTY": 2.73,
+      "__EMPTY_1": 1.9,
+      "__EMPTY_2": 3.77,
+      "__EMPTY_3": 6.33,
+      "__EMPTY_4": 542
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.06,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.47,
+      "__EMPTY": 4.5,
+      "__EMPTY_1": 3.4,
+      "__EMPTY_2": 6.67,
+      "__EMPTY_3": 2.363,
+      "__EMPTY_4": 542
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.33,
+      " Argentina (Citizen Science project sensor.community/34429)": 21,
+      "__EMPTY": 4.47,
+      "__EMPTY_1": 3.57,
+      "__EMPTY_2": 7.33,
+      "__EMPTY_3": 4.072,
+      "__EMPTY_4": 559
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.9,
+      " Argentina (Citizen Science project sensor.community/34429)": 30.53,
+      "__EMPTY": 2.97,
+      "__EMPTY_1": 2.02,
+      "__EMPTY_2": 5.63,
+      "__EMPTY_3": 4.993,
+      "__EMPTY_4": 567
+    },
+    {
+      "# Sensor Almirante Brown": "2021-10-31T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.7,
+      " Argentina (Citizen Science project sensor.community/34429)": 96.7,
+      "__EMPTY": 2.97,
+      "__EMPTY_1": 2.04,
+      "__EMPTY_2": 4.97,
+      "__EMPTY_3": 6.978,
+      "__EMPTY_4": 540
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.53,
+      " Argentina (Citizen Science project sensor.community/34429)": 28.17,
+      "__EMPTY": 6.03,
+      "__EMPTY_1": 3.29,
+      "__EMPTY_2": 14.32,
+      "__EMPTY_3": 7.506,
+      "__EMPTY_4": 537
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1,
+      " Argentina (Citizen Science project sensor.community/34429)": 49.23,
+      "__EMPTY": 6.5,
+      "__EMPTY_1": 2.7,
+      "__EMPTY_2": 13.89,
+      "__EMPTY_3": 9.646,
+      "__EMPTY_4": 485
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.8,
+      " Argentina (Citizen Science project sensor.community/34429)": 77.63,
+      "__EMPTY": 3.7,
+      "__EMPTY_1": 2.43,
+      "__EMPTY_2": 6.2,
+      "__EMPTY_3": 7.715,
+      "__EMPTY_4": 513
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 4.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.13,
+      "__EMPTY": 4.87,
+      "__EMPTY_1": 4.37,
+      "__EMPTY_2": 5.72,
+      "__EMPTY_3": 0.661,
+      "__EMPTY_4": 13
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.37,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.23,
+      "__EMPTY": 0.83,
+      "__EMPTY_1": 0.67,
+      "__EMPTY_2": 1.1,
+      "__EMPTY_3": 2.277,
+      "__EMPTY_4": 123
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.1,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.63,
+      "__EMPTY": 0.97,
+      "__EMPTY_1": 0.53,
+      "__EMPTY_2": 2.22,
+      "__EMPTY_3": 2.224,
+      "__EMPTY_4": 468
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.67,
+      " Argentina (Citizen Science project sensor.community/34429)": 14.47,
+      "__EMPTY": 1.43,
+      "__EMPTY_1": 1.07,
+      "__EMPTY_2": 3.13,
+      "__EMPTY_3": 2.449,
+      "__EMPTY_4": 498
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.47,
+      "__EMPTY": 1.6,
+      "__EMPTY_1": 1.03,
+      "__EMPTY_2": 5.73,
+      "__EMPTY_3": 3.794,
+      "__EMPTY_4": 551
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.1,
+      " Argentina (Citizen Science project sensor.community/34429)": 18.77,
+      "__EMPTY": 0.9,
+      "__EMPTY_1": 0.5,
+      "__EMPTY_2": 2.37,
+      "__EMPTY_3": 3.139,
+      "__EMPTY_4": 539
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.93,
+      "__EMPTY": 1.3,
+      "__EMPTY_1": 0.9,
+      "__EMPTY_2": 2.1,
+      "__EMPTY_3": 1.216,
+      "__EMPTY_4": 537
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.6,
+      " Argentina (Citizen Science project sensor.community/34429)": 21.2,
+      "__EMPTY": 2.27,
+      "__EMPTY_1": 1.87,
+      "__EMPTY_2": 2.67,
+      "__EMPTY_3": 1.613,
+      "__EMPTY_4": 528
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.5,
+      " Argentina (Citizen Science project sensor.community/34429)": 228.6,
+      "__EMPTY": 1.87,
+      "__EMPTY_1": 1.2,
+      "__EMPTY_2": 2.65,
+      "__EMPTY_3": 16.724,
+      "__EMPTY_4": 553
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.7,
+      "__EMPTY": 1.53,
+      "__EMPTY_1": 0.8,
+      "__EMPTY_2": 3.73,
+      "__EMPTY_3": 2.156,
+      "__EMPTY_4": 556
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.27,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.8,
+      "__EMPTY": 1.23,
+      "__EMPTY_1": 0.8,
+      "__EMPTY_2": 3.57,
+      "__EMPTY_3": 2.436,
+      "__EMPTY_4": 533
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 28.07,
+      "__EMPTY": 1.23,
+      "__EMPTY_1": 0.83,
+      "__EMPTY_2": 1.9,
+      "__EMPTY_3": 2.813,
+      "__EMPTY_4": 522
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 30.33,
+      "__EMPTY": 1.5,
+      "__EMPTY_1": 0.6,
+      "__EMPTY_2": 2.17,
+      "__EMPTY_3": 3.975,
+      "__EMPTY_4": 541
+    },
+    {
+      "# Sensor Almirante Brown": "2021-11-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.1,
+      " Argentina (Citizen Science project sensor.community/34429)": 27.5,
+      "__EMPTY": 0.8,
+      "__EMPTY_1": 0.49,
+      "__EMPTY_2": 2.92,
+      "__EMPTY_3": 3.483,
+      "__EMPTY_4": 541
+    },
+    {
+      "# Sensor Almirante Brown": "2021-12-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.53,
+      "__EMPTY": 1.27,
+      "__EMPTY_1": 0.93,
+      "__EMPTY_2": 2.02,
+      "__EMPTY_3": 0.864,
+      "__EMPTY_4": 515
+    },
+    {
+      "# Sensor Almirante Brown": "2021-12-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.57,
+      "__EMPTY": 1.03,
+      "__EMPTY_1": 0.8,
+      "__EMPTY_2": 1.4,
+      "__EMPTY_3": 0.543,
+      "__EMPTY_4": 427
+    },
+    {
+      "# Sensor Almirante Brown": "2021-12-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 0.5,
+      "__EMPTY": 0.22,
+      "__EMPTY_1": 0.2,
+      "__EMPTY_2": 0.33,
+      "__EMPTY_3": 0.116,
+      "__EMPTY_4": 10
+    },
+    {
+      "# Sensor Almirante Brown": "2021-12-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.53,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.6,
+      "__EMPTY": 1.2,
+      "__EMPTY_1": 0.9,
+      "__EMPTY_2": 1.6,
+      "__EMPTY_3": 1.452,
+      "__EMPTY_4": 244
+    },
+    {
+      "# Sensor Almirante Brown": "2021-12-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.6,
+      " Argentina (Citizen Science project sensor.community/34429)": 24.6,
+      "__EMPTY": 1.17,
+      "__EMPTY_1": 1,
+      "__EMPTY_2": 1.3,
+      "__EMPTY_3": 1.811,
+      "__EMPTY_4": 275
+    },
+    {
+      "# Sensor Almirante Brown": "2022-01-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.8,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.6,
+      "__EMPTY": 2.2,
+      "__EMPTY_1": 1.9,
+      "__EMPTY_2": 2.6,
+      "__EMPTY_3": 0.552,
+      "__EMPTY_4": 194
+    },
+    {
+      "# Sensor Almirante Brown": "2022-01-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.03,
+      " Argentina (Citizen Science project sensor.community/34429)": 148.37,
+      "__EMPTY": 2.37,
+      "__EMPTY_1": 1.9,
+      "__EMPTY_2": 2.9,
+      "__EMPTY_3": 6.322,
+      "__EMPTY_4": 558
+    },
+    {
+      "# Sensor Almirante Brown": "2022-01-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.97,
+      " Argentina (Citizen Science project sensor.community/34429)": 26.07,
+      "__EMPTY": 2.6,
+      "__EMPTY_1": 2.23,
+      "__EMPTY_2": 3,
+      "__EMPTY_3": 1.423,
+      "__EMPTY_4": 543
+    },
+    {
+      "# Sensor Almirante Brown": "2022-01-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.07,
+      "__EMPTY": 3.33,
+      "__EMPTY_1": 2.7,
+      "__EMPTY_2": 4.4,
+      "__EMPTY_3": 1.022,
+      "__EMPTY_4": 563
+    },
+    {
+      "# Sensor Almirante Brown": "2022-01-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.83,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.97,
+      "__EMPTY": 3.1,
+      "__EMPTY_1": 1.5,
+      "__EMPTY_2": 4.8,
+      "__EMPTY_3": 1.717,
+      "__EMPTY_4": 554
+    },
+    {
+      "# Sensor Almirante Brown": "2022-01-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.23,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.89,
+      "__EMPTY": 1.39,
+      "__EMPTY_1": 0.9,
+      "__EMPTY_2": 1.9,
+      "__EMPTY_3": 1.071,
+      "__EMPTY_4": 564
+    },
+    {
+      "# Sensor Almirante Brown": "2022-01-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.43,
+      "__EMPTY": 1.23,
+      "__EMPTY_1": 0.73,
+      "__EMPTY_2": 1.87,
+      "__EMPTY_3": 0.873,
+      "__EMPTY_4": 565
+    },
+    {
+      "# Sensor Almirante Brown": "2022-01-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.37,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.8,
+      "__EMPTY": 2.1,
+      "__EMPTY_1": 1.3,
+      "__EMPTY_2": 3.1,
+      "__EMPTY_3": 1.415,
+      "__EMPTY_4": 311
+    },
+    {
+      "# Sensor Almirante Brown": "2022-08-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 25.57,
+      " Argentina (Citizen Science project sensor.community/34429)": 60,
+      "__EMPTY": 39.04,
+      "__EMPTY_1": 31.95,
+      "__EMPTY_2": 48.46,
+      "__EMPTY_3": 9.787,
+      "__EMPTY_4": 15
+    },
+    {
+      "# Sensor Almirante Brown": "2022-10-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 5.27,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.11,
+      "__EMPTY": 5.68,
+      "__EMPTY_1": 5.45,
+      "__EMPTY_2": 5.91,
+      "__EMPTY_3": 0.267,
+      "__EMPTY_4": 5
+    },
+    {
+      "# Sensor Almirante Brown": "2022-10-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.09,
+      " Argentina (Citizen Science project sensor.community/34429)": 100.81,
+      "__EMPTY": 1.87,
+      "__EMPTY_1": 0.41,
+      "__EMPTY_2": 5.21,
+      "__EMPTY_3": 6.279,
+      "__EMPTY_4": 515
+    },
+    {
+      "# Sensor Almirante Brown": "2022-10-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.04,
+      " Argentina (Citizen Science project sensor.community/34429)": 47.85,
+      "__EMPTY": 4.7,
+      "__EMPTY_1": 2.99,
+      "__EMPTY_2": 8.73,
+      "__EMPTY_3": 5.918,
+      "__EMPTY_4": 517
+    },
+    {
+      "# Sensor Almirante Brown": "2022-10-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.62,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.57,
+      "__EMPTY": 2.25,
+      "__EMPTY_1": 1.34,
+      "__EMPTY_2": 3.68,
+      "__EMPTY_3": 1.977,
+      "__EMPTY_4": 485
+    },
+    {
+      "# Sensor Almirante Brown": "2022-10-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.6,
+      " Argentina (Citizen Science project sensor.community/34429)": 32.29,
+      "__EMPTY": 1.54,
+      "__EMPTY_1": 1.17,
+      "__EMPTY_2": 2.04,
+      "__EMPTY_3": 3.661,
+      "__EMPTY_4": 498
+    },
+    {
+      "# Sensor Almirante Brown": "2022-10-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.31,
+      " Argentina (Citizen Science project sensor.community/34429)": 20.96,
+      "__EMPTY": 1.72,
+      "__EMPTY_1": 1.01,
+      "__EMPTY_2": 2.45,
+      "__EMPTY_3": 2.059,
+      "__EMPTY_4": 495
+    },
+    {
+      "# Sensor Almirante Brown": "2022-10-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.21,
+      " Argentina (Citizen Science project sensor.community/34429)": 20.62,
+      "__EMPTY": 0.97,
+      "__EMPTY_1": 0.68,
+      "__EMPTY_2": 1.88,
+      "__EMPTY_3": 2.664,
+      "__EMPTY_4": 501
+    },
+    {
+      "# Sensor Almirante Brown": "2022-10-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.97,
+      " Argentina (Citizen Science project sensor.community/34429)": 73.31,
+      "__EMPTY": 4.45,
+      "__EMPTY_1": 1.93,
+      "__EMPTY_2": 11.89,
+      "__EMPTY_3": 11.913,
+      "__EMPTY_4": 496
+    },
+    {
+      "# Sensor Almirante Brown": "2022-10-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.1,
+      " Argentina (Citizen Science project sensor.community/34429)": 45.21,
+      "__EMPTY": 2.25,
+      "__EMPTY_1": 1.81,
+      "__EMPTY_2": 4.13,
+      "__EMPTY_3": 5.74,
+      "__EMPTY_4": 498
+    },
+    {
+      "# Sensor Almirante Brown": "2022-10-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.75,
+      " Argentina (Citizen Science project sensor.community/34429)": 60.08,
+      "__EMPTY": 2.5,
+      "__EMPTY_1": 1.64,
+      "__EMPTY_2": 6.55,
+      "__EMPTY_3": 7.004,
+      "__EMPTY_4": 492
+    },
+    {
+      "# Sensor Almirante Brown": "2022-10-31T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.48,
+      " Argentina (Citizen Science project sensor.community/34429)": 565.66,
+      "__EMPTY": 1.66,
+      "__EMPTY_1": 1.25,
+      "__EMPTY_2": 2.54,
+      "__EMPTY_3": 25.234,
+      "__EMPTY_4": 501
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.76,
+      " Argentina (Citizen Science project sensor.community/34429)": 40.45,
+      "__EMPTY": 2.45,
+      "__EMPTY_1": 1.33,
+      "__EMPTY_2": 4.24,
+      "__EMPTY_3": 3.349,
+      "__EMPTY_4": 499
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.03,
+      " Argentina (Citizen Science project sensor.community/34429)": 40.89,
+      "__EMPTY": 3.43,
+      "__EMPTY_1": 1.94,
+      "__EMPTY_2": 4.87,
+      "__EMPTY_3": 3.402,
+      "__EMPTY_4": 487
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.25,
+      " Argentina (Citizen Science project sensor.community/34429)": 53.98,
+      "__EMPTY": 5.58,
+      "__EMPTY_1": 3.62,
+      "__EMPTY_2": 10.4,
+      "__EMPTY_3": 5.839,
+      "__EMPTY_4": 534
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.12,
+      " Argentina (Citizen Science project sensor.community/34429)": 88.16,
+      "__EMPTY": 8.11,
+      "__EMPTY_1": 3.71,
+      "__EMPTY_2": 11.84,
+      "__EMPTY_3": 6.734,
+      "__EMPTY_4": 501
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.08,
+      " Argentina (Citizen Science project sensor.community/34429)": 64.56,
+      "__EMPTY": 7.84,
+      "__EMPTY_1": 4.37,
+      "__EMPTY_2": 12.42,
+      "__EMPTY_3": 7.486,
+      "__EMPTY_4": 485
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-06T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.57,
+      " Argentina (Citizen Science project sensor.community/34429)": 61.17,
+      "__EMPTY": 7.2,
+      "__EMPTY_1": 4.87,
+      "__EMPTY_2": 13.35,
+      "__EMPTY_3": 8.093,
+      "__EMPTY_4": 486
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.14,
+      " Argentina (Citizen Science project sensor.community/34429)": 48.23,
+      "__EMPTY": 6.32,
+      "__EMPTY_1": 4.67,
+      "__EMPTY_2": 9.73,
+      "__EMPTY_3": 5.612,
+      "__EMPTY_4": 529
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.1,
+      " Argentina (Citizen Science project sensor.community/34429)": 44.95,
+      "__EMPTY": 5.22,
+      "__EMPTY_1": 4.2,
+      "__EMPTY_2": 7.59,
+      "__EMPTY_3": 4.176,
+      "__EMPTY_4": 496
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.03,
+      " Argentina (Citizen Science project sensor.community/34429)": 36.47,
+      "__EMPTY": 5.47,
+      "__EMPTY_1": 4.23,
+      "__EMPTY_2": 7.78,
+      "__EMPTY_3": 3.505,
+      "__EMPTY_4": 521
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.93,
+      " Argentina (Citizen Science project sensor.community/34429)": 23.52,
+      "__EMPTY": 2.37,
+      "__EMPTY_1": 1.62,
+      "__EMPTY_2": 5.14,
+      "__EMPTY_3": 2.817,
+      "__EMPTY_4": 520
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.9,
+      " Argentina (Citizen Science project sensor.community/34429)": 20.89,
+      "__EMPTY": 2,
+      "__EMPTY_1": 1.36,
+      "__EMPTY_2": 2.56,
+      "__EMPTY_3": 1.858,
+      "__EMPTY_4": 479
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.31,
+      " Argentina (Citizen Science project sensor.community/34429)": 45.59,
+      "__EMPTY": 1.69,
+      "__EMPTY_1": 1.22,
+      "__EMPTY_2": 2.59,
+      "__EMPTY_3": 4.212,
+      "__EMPTY_4": 511
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.96,
+      "__EMPTY": 1.13,
+      "__EMPTY_1": 0.66,
+      "__EMPTY_2": 2.74,
+      "__EMPTY_3": 1.676,
+      "__EMPTY_4": 529
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.55,
+      " Argentina (Citizen Science project sensor.community/34429)": 32.59,
+      "__EMPTY": 2.29,
+      "__EMPTY_1": 1.08,
+      "__EMPTY_2": 6.96,
+      "__EMPTY_3": 5.303,
+      "__EMPTY_4": 496
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.57,
+      " Argentina (Citizen Science project sensor.community/34429)": 53.75,
+      "__EMPTY": 1.7,
+      "__EMPTY_1": 1.27,
+      "__EMPTY_2": 2.98,
+      "__EMPTY_3": 4.539,
+      "__EMPTY_4": 513
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.59,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.75,
+      "__EMPTY": 1.61,
+      "__EMPTY_1": 1.12,
+      "__EMPTY_2": 2.99,
+      "__EMPTY_3": 3.112,
+      "__EMPTY_4": 511
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.86,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.35,
+      "__EMPTY": 1.56,
+      "__EMPTY_1": 1.34,
+      "__EMPTY_2": 1.99,
+      "__EMPTY_3": 0.703,
+      "__EMPTY_4": 519
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.66,
+      " Argentina (Citizen Science project sensor.community/34429)": 19.1,
+      "__EMPTY": 2.99,
+      "__EMPTY_1": 2.35,
+      "__EMPTY_2": 3.38,
+      "__EMPTY_3": 2.18,
+      "__EMPTY_4": 519
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.22,
+      " Argentina (Citizen Science project sensor.community/34429)": 19.12,
+      "__EMPTY": 2.06,
+      "__EMPTY_1": 1.8,
+      "__EMPTY_2": 3.13,
+      "__EMPTY_3": 2.26,
+      "__EMPTY_4": 486
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.43,
+      " Argentina (Citizen Science project sensor.community/34429)": 61.1,
+      "__EMPTY": 1.75,
+      "__EMPTY_1": 0.93,
+      "__EMPTY_2": 5.97,
+      "__EMPTY_3": 6.451,
+      "__EMPTY_4": 526
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.32,
+      " Argentina (Citizen Science project sensor.community/34429)": 32.6,
+      "__EMPTY": 1.24,
+      "__EMPTY_1": 0.64,
+      "__EMPTY_2": 1.72,
+      "__EMPTY_3": 2.175,
+      "__EMPTY_4": 502
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.01,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.43,
+      "__EMPTY": 2.36,
+      "__EMPTY_1": 1.63,
+      "__EMPTY_2": 3.84,
+      "__EMPTY_3": 2.15,
+      "__EMPTY_4": 505
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.87,
+      " Argentina (Citizen Science project sensor.community/34429)": 32.72,
+      "__EMPTY": 2.45,
+      "__EMPTY_1": 1.48,
+      "__EMPTY_2": 4.41,
+      "__EMPTY_3": 3.425,
+      "__EMPTY_4": 519
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.55,
+      " Argentina (Citizen Science project sensor.community/34429)": 29.67,
+      "__EMPTY": 1.86,
+      "__EMPTY_1": 1.25,
+      "__EMPTY_2": 3.16,
+      "__EMPTY_3": 4.024,
+      "__EMPTY_4": 527
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.75,
+      " Argentina (Citizen Science project sensor.community/34429)": 39.25,
+      "__EMPTY": 2.5,
+      "__EMPTY_1": 1.25,
+      "__EMPTY_2": 4.24,
+      "__EMPTY_3": 3.098,
+      "__EMPTY_4": 472
+    },
+    {
+      "# Sensor Almirante Brown": "2022-11-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.13,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.28,
+      "__EMPTY": 2.82,
+      "__EMPTY_1": 1.62,
+      "__EMPTY_2": 3.42,
+      "__EMPTY_3": 1.049,
+      "__EMPTY_4": 8
+    },
+    {
+      "# Sensor Almirante Brown": "2023-03-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.69,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.37,
+      "__EMPTY": 3.2,
+      "__EMPTY_1": 3.09,
+      "__EMPTY_2": 3.44,
+      "__EMPTY_3": 0.877,
+      "__EMPTY_4": 30
+    },
+    {
+      "# Sensor Almirante Brown": "2023-03-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.53,
+      " Argentina (Citizen Science project sensor.community/34429)": 16.6,
+      "__EMPTY": 2.98,
+      "__EMPTY_1": 2.48,
+      "__EMPTY_2": 4.09,
+      "__EMPTY_3": 2.225,
+      "__EMPTY_4": 491
+    },
+    {
+      "# Sensor Almirante Brown": "2023-03-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.23,
+      " Argentina (Citizen Science project sensor.community/34429)": 22.53,
+      "__EMPTY": 9.93,
+      "__EMPTY_1": 5.6,
+      "__EMPTY_2": 13.17,
+      "__EMPTY_3": 4.908,
+      "__EMPTY_4": 364
+    },
+    {
+      "# Sensor Almirante Brown": "2023-03-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.16,
+      "__EMPTY": 2.06,
+      "__EMPTY_1": 1.54,
+      "__EMPTY_2": 2.45,
+      "__EMPTY_3": 1.016,
+      "__EMPTY_4": 137
+    },
+    {
+      "# Sensor Almirante Brown": "2023-03-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.32,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.2,
+      "__EMPTY": 3.35,
+      "__EMPTY_1": 2.06,
+      "__EMPTY_2": 4.8,
+      "__EMPTY_3": 2.004,
+      "__EMPTY_4": 448
+    },
+    {
+      "# Sensor Almirante Brown": "2023-03-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.5,
+      " Argentina (Citizen Science project sensor.community/34429)": 26.2,
+      "__EMPTY": 3.6,
+      "__EMPTY_1": 3.22,
+      "__EMPTY_2": 4.24,
+      "__EMPTY_3": 2.407,
+      "__EMPTY_4": 205
+    },
+    {
+      "# Sensor Almirante Brown": "2023-07-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 8.58,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.13,
+      "__EMPTY": 9.41,
+      "__EMPTY_1": 9.19,
+      "__EMPTY_2": 9.98,
+      "__EMPTY_3": 0.823,
+      "__EMPTY_4": 57
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.78,
+      " Argentina (Citizen Science project sensor.community/34429)": 46548.5,
+      "__EMPTY": 11.67,
+      "__EMPTY_1": 5.94,
+      "__EMPTY_2": 51.96,
+      "__EMPTY_3": 11952.9,
+      "__EMPTY_4": 45
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-06T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.79,
+      " Argentina (Citizen Science project sensor.community/34429)": 6969.95,
+      "__EMPTY": 3.31,
+      "__EMPTY_1": 1.52,
+      "__EMPTY_2": 7.13,
+      "__EMPTY_3": 556.203,
+      "__EMPTY_4": 564
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.06,
+      " Argentina (Citizen Science project sensor.community/34429)": 1232.08,
+      "__EMPTY": 2.47,
+      "__EMPTY_1": 1.79,
+      "__EMPTY_2": 4.13,
+      "__EMPTY_3": 70.572,
+      "__EMPTY_4": 561
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 3636.93,
+      "__EMPTY": 13.07,
+      "__EMPTY_1": 2.4,
+      "__EMPTY_2": 530.21,
+      "__EMPTY_3": 987.556,
+      "__EMPTY_4": 566
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.1,
+      " Argentina (Citizen Science project sensor.community/34429)": 2306.54,
+      "__EMPTY": 7.56,
+      "__EMPTY_1": 2.54,
+      "__EMPTY_2": 529.21,
+      "__EMPTY_3": 584.345,
+      "__EMPTY_4": 169
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.76,
+      " Argentina (Citizen Science project sensor.community/34429)": 509.99,
+      "__EMPTY": 12.61,
+      "__EMPTY_1": 4.95,
+      "__EMPTY_2": 132.47,
+      "__EMPTY_3": 98.228,
+      "__EMPTY_4": 539
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1,
+      " Argentina (Citizen Science project sensor.community/34429)": 872.86,
+      "__EMPTY": 10.54,
+      "__EMPTY_1": 2.24,
+      "__EMPTY_2": 106.93,
+      "__EMPTY_3": 199.624,
+      "__EMPTY_4": 559
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.63,
+      " Argentina (Citizen Science project sensor.community/34429)": 1593.44,
+      "__EMPTY": 312.97,
+      "__EMPTY_1": 25.32,
+      "__EMPTY_2": 645.79,
+      "__EMPTY_3": 383.192,
+      "__EMPTY_4": 558
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 29.72,
+      " Argentina (Citizen Science project sensor.community/34429)": 1086.05,
+      "__EMPTY": 126.41,
+      "__EMPTY_1": 71.59,
+      "__EMPTY_2": 250.22,
+      "__EMPTY_3": 188.491,
+      "__EMPTY_4": 558
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.84,
+      " Argentina (Citizen Science project sensor.community/34429)": 1050.61,
+      "__EMPTY": 19.95,
+      "__EMPTY_1": 8.47,
+      "__EMPTY_2": 224.17,
+      "__EMPTY_3": 251.468,
+      "__EMPTY_4": 564
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.44,
+      " Argentina (Citizen Science project sensor.community/34429)": 2141.08,
+      "__EMPTY": 189.48,
+      "__EMPTY_1": 45.6,
+      "__EMPTY_2": 520.91,
+      "__EMPTY_3": 419.866,
+      "__EMPTY_4": 567
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 727.37,
+      " Argentina (Citizen Science project sensor.community/34429)": 5347.01,
+      "__EMPTY": 2858.85,
+      "__EMPTY_1": 2346.77,
+      "__EMPTY_2": 3373.44,
+      "__EMPTY_3": 1076,
+      "__EMPTY_4": 567
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1139.86,
+      " Argentina (Citizen Science project sensor.community/34429)": 4178.99,
+      "__EMPTY": 2422.8,
+      "__EMPTY_1": 2019.62,
+      "__EMPTY_2": 2595.16,
+      "__EMPTY_3": 621.915,
+      "__EMPTY_4": 465
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 10.29,
+      " Argentina (Citizen Science project sensor.community/34429)": 2789.44,
+      "__EMPTY": 787.53,
+      "__EMPTY_1": 352.62,
+      "__EMPTY_2": 1027.21,
+      "__EMPTY_3": 431.619,
+      "__EMPTY_4": 553
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.56,
+      " Argentina (Citizen Science project sensor.community/34429)": 2630.18,
+      "__EMPTY": 625.95,
+      "__EMPTY_1": 274.66,
+      "__EMPTY_2": 943.15,
+      "__EMPTY_3": 550.773,
+      "__EMPTY_4": 546
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 12.31,
+      " Argentina (Citizen Science project sensor.community/34429)": 2063.01,
+      "__EMPTY": 406.95,
+      "__EMPTY_1": 38.29,
+      "__EMPTY_2": 1417.73,
+      "__EMPTY_3": 647.857,
+      "__EMPTY_4": 564
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 6.37,
+      " Argentina (Citizen Science project sensor.community/34429)": 2442.57,
+      "__EMPTY": 466.07,
+      "__EMPTY_1": 107.39,
+      "__EMPTY_2": 935.43,
+      "__EMPTY_3": 559.401,
+      "__EMPTY_4": 572
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.91,
+      " Argentina (Citizen Science project sensor.community/34429)": 7976.68,
+      "__EMPTY": 2.31,
+      "__EMPTY_1": 1.6,
+      "__EMPTY_2": 9.69,
+      "__EMPTY_3": 678.001,
+      "__EMPTY_4": 303
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.95,
+      " Argentina (Citizen Science project sensor.community/34429)": 7204.5,
+      "__EMPTY": 203.66,
+      "__EMPTY_1": 2.19,
+      "__EMPTY_2": 860.21,
+      "__EMPTY_3": 1393.23,
+      "__EMPTY_4": 583
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.93,
+      " Argentina (Citizen Science project sensor.community/34429)": 5659.77,
+      "__EMPTY": 351.96,
+      "__EMPTY_1": 91.59,
+      "__EMPTY_2": 1369.44,
+      "__EMPTY_3": 1507.11,
+      "__EMPTY_4": 571
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.46,
+      " Argentina (Citizen Science project sensor.community/34429)": 8557.39,
+      "__EMPTY": 16.68,
+      "__EMPTY_1": 8.14,
+      "__EMPTY_2": 1831.27,
+      "__EMPTY_3": 1510.07,
+      "__EMPTY_4": 534
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 4.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 5406.33,
+      "__EMPTY": 466.74,
+      "__EMPTY_1": 278.08,
+      "__EMPTY_2": 1581.02,
+      "__EMPTY_3": 1284.6,
+      "__EMPTY_4": 506
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.93,
+      " Argentina (Citizen Science project sensor.community/34429)": 3570.15,
+      "__EMPTY": 135.9,
+      "__EMPTY_1": 8.96,
+      "__EMPTY_2": 307.18,
+      "__EMPTY_3": 309.006,
+      "__EMPTY_4": 303
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.02,
+      " Argentina (Citizen Science project sensor.community/34429)": 941.4,
+      "__EMPTY": 18.36,
+      "__EMPTY_1": 4.59,
+      "__EMPTY_2": 110.48,
+      "__EMPTY_3": 168.854,
+      "__EMPTY_4": 553
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 17.18,
+      " Argentina (Citizen Science project sensor.community/34429)": 3793.02,
+      "__EMPTY": 777.53,
+      "__EMPTY_1": 209.58,
+      "__EMPTY_2": 2986.38,
+      "__EMPTY_3": 1376.25,
+      "__EMPTY_4": 521
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 26.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 6820.86,
+      "__EMPTY": 1708.08,
+      "__EMPTY_1": 968.79,
+      "__EMPTY_2": 2425.98,
+      "__EMPTY_3": 1013.55,
+      "__EMPTY_4": 269
+    },
+    {
+      "# Sensor Almirante Brown": "2023-10-31T00:00:00.000Z",
+      " Distrito Chacras de Coria": 42.86,
+      " Argentina (Citizen Science project sensor.community/34429)": 6158.22,
+      "__EMPTY": 2506.79,
+      "__EMPTY_1": 1458.66,
+      "__EMPTY_2": 3302.12,
+      "__EMPTY_3": 1562.85,
+      "__EMPTY_4": 580
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 352.41,
+      " Argentina (Citizen Science project sensor.community/34429)": 7199.57,
+      "__EMPTY": 3437.47,
+      "__EMPTY_1": 1703.12,
+      "__EMPTY_2": 5035.27,
+      "__EMPTY_3": 1859.89,
+      "__EMPTY_4": 403
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 95.15,
+      " Argentina (Citizen Science project sensor.community/34429)": 8637.49,
+      "__EMPTY": 4904.85,
+      "__EMPTY_1": 2785.25,
+      "__EMPTY_2": 5621.76,
+      "__EMPTY_3": 2164.28,
+      "__EMPTY_4": 541
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 183.11,
+      " Argentina (Citizen Science project sensor.community/34429)": 7461.83,
+      "__EMPTY": 3243.35,
+      "__EMPTY_1": 1186.72,
+      "__EMPTY_2": 5944.32,
+      "__EMPTY_3": 2441.13,
+      "__EMPTY_4": 578
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 162.99,
+      " Argentina (Citizen Science project sensor.community/34429)": 6418.14,
+      "__EMPTY": 1819.55,
+      "__EMPTY_1": 924.73,
+      "__EMPTY_2": 5746.13,
+      "__EMPTY_3": 2363.85,
+      "__EMPTY_4": 577
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 107.93,
+      " Argentina (Citizen Science project sensor.community/34429)": 5654.89,
+      "__EMPTY": 2689.49,
+      "__EMPTY_1": 1083.54,
+      "__EMPTY_2": 3434.83,
+      "__EMPTY_3": 1628.23,
+      "__EMPTY_4": 575
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-06T00:00:00.000Z",
+      " Distrito Chacras de Coria": 21.51,
+      " Argentina (Citizen Science project sensor.community/34429)": 5499.57,
+      "__EMPTY": 2714.92,
+      "__EMPTY_1": 694.9,
+      "__EMPTY_2": 3786.53,
+      "__EMPTY_3": 1633.99,
+      "__EMPTY_4": 568
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 169.97,
+      " Argentina (Citizen Science project sensor.community/34429)": 3929.12,
+      "__EMPTY": 2182.54,
+      "__EMPTY_1": 1151,
+      "__EMPTY_2": 3227.98,
+      "__EMPTY_3": 1071.69,
+      "__EMPTY_4": 570
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 751.96,
+      " Argentina (Citizen Science project sensor.community/34429)": 6778.51,
+      "__EMPTY": 2892.61,
+      "__EMPTY_1": 1589.75,
+      "__EMPTY_2": 4516.39,
+      "__EMPTY_3": 1780.33,
+      "__EMPTY_4": 573
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 598.29,
+      " Argentina (Citizen Science project sensor.community/34429)": 6450.4,
+      "__EMPTY": 2606.17,
+      "__EMPTY_1": 918.55,
+      "__EMPTY_2": 5669.74,
+      "__EMPTY_3": 2274.58,
+      "__EMPTY_4": 540
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 264.04,
+      " Argentina (Citizen Science project sensor.community/34429)": 6228.91,
+      "__EMPTY": 3764.74,
+      "__EMPTY_1": 1070.82,
+      "__EMPTY_2": 5250.92,
+      "__EMPTY_3": 1923.96,
+      "__EMPTY_4": 554
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 675.56,
+      " Argentina (Citizen Science project sensor.community/34429)": 7924.34,
+      "__EMPTY": 3581.56,
+      "__EMPTY_1": 1849.57,
+      "__EMPTY_2": 6808.75,
+      "__EMPTY_3": 2556.14,
+      "__EMPTY_4": 577
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 992.07,
+      " Argentina (Citizen Science project sensor.community/34429)": 8020.06,
+      "__EMPTY": 4674.37,
+      "__EMPTY_1": 3223.68,
+      "__EMPTY_2": 6447.38,
+      "__EMPTY_3": 1810.81,
+      "__EMPTY_4": 346
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 211.78,
+      " Argentina (Citizen Science project sensor.community/34429)": 8993.06,
+      "__EMPTY": 4513.74,
+      "__EMPTY_1": 1778.29,
+      "__EMPTY_2": 6854.12,
+      "__EMPTY_3": 2693.05,
+      "__EMPTY_4": 575
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 612.91,
+      " Argentina (Citizen Science project sensor.community/34429)": 7063.54,
+      "__EMPTY": 3645.52,
+      "__EMPTY_1": 2078.73,
+      "__EMPTY_2": 6109.4,
+      "__EMPTY_3": 1997.87,
+      "__EMPTY_4": 568
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1075.81,
+      " Argentina (Citizen Science project sensor.community/34429)": 8757.58,
+      "__EMPTY": 4057.02,
+      "__EMPTY_1": 1876.45,
+      "__EMPTY_2": 6197.33,
+      "__EMPTY_3": 2254.27,
+      "__EMPTY_4": 570
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 600.62,
+      " Argentina (Citizen Science project sensor.community/34429)": 7704.01,
+      "__EMPTY": 4324.02,
+      "__EMPTY_1": 2083.12,
+      "__EMPTY_2": 5985.54,
+      "__EMPTY_3": 2084.27,
+      "__EMPTY_4": 581
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 291.58,
+      " Argentina (Citizen Science project sensor.community/34429)": 8772.96,
+      "__EMPTY": 4235.91,
+      "__EMPTY_1": 3061.13,
+      "__EMPTY_2": 6307.81,
+      "__EMPTY_3": 1985.42,
+      "__EMPTY_4": 569
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2896.53,
+      " Argentina (Citizen Science project sensor.community/34429)": 8513.62,
+      "__EMPTY": 4726.1,
+      "__EMPTY_1": 4354.81,
+      "__EMPTY_2": 5331.92,
+      "__EMPTY_3": 1067.33,
+      "__EMPTY_4": 568
+    },
+    {
+      "# Sensor Almirante Brown": "2023-11-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2932.33,
+      " Argentina (Citizen Science project sensor.community/34429)": 10399.5,
+      "__EMPTY": 6946.86,
+      "__EMPTY_1": 5100.24,
+      "__EMPTY_2": 7361.11,
+      "__EMPTY_3": 1418.87,
+      "__EMPTY_4": 311
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.33,
+      " Argentina (Citizen Science project sensor.community/34429)": 5233.91,
+      "__EMPTY": 4545.8,
+      "__EMPTY_1": 3.33,
+      "__EMPTY_2": 5233.91,
+      "__EMPTY_3": 2320.6,
+      "__EMPTY_4": 3
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.65,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.03,
+      "__EMPTY": 1.98,
+      "__EMPTY_1": 1.65,
+      "__EMPTY_2": 2.16,
+      "__EMPTY_3": 0.475,
+      "__EMPTY_4": 203
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.18,
+      "__EMPTY": 1.17,
+      "__EMPTY_1": 0.71,
+      "__EMPTY_2": 2.12,
+      "__EMPTY_3": 1.42,
+      "__EMPTY_4": 559
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.78,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.74,
+      "__EMPTY": 2.93,
+      "__EMPTY_1": 1.75,
+      "__EMPTY_2": 5.65,
+      "__EMPTY_3": 2.932,
+      "__EMPTY_4": 549
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.83,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.91,
+      "__EMPTY": 2.78,
+      "__EMPTY_1": 1.33,
+      "__EMPTY_2": 3.75,
+      "__EMPTY_3": 2.033,
+      "__EMPTY_4": 530
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.88,
+      " Argentina (Citizen Science project sensor.community/34429)": 21.1,
+      "__EMPTY": 2.5,
+      "__EMPTY_1": 2.02,
+      "__EMPTY_2": 4.93,
+      "__EMPTY_3": 3.113,
+      "__EMPTY_4": 571
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.43,
+      " Argentina (Citizen Science project sensor.community/34429)": 21.14,
+      "__EMPTY": 2.8,
+      "__EMPTY_1": 2.2,
+      "__EMPTY_2": 5.07,
+      "__EMPTY_3": 2.992,
+      "__EMPTY_4": 555
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.05,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.71,
+      "__EMPTY": 5.63,
+      "__EMPTY_1": 4.95,
+      "__EMPTY_2": 6.91,
+      "__EMPTY_3": 1.787,
+      "__EMPTY_4": 571
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.06,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.43,
+      "__EMPTY": 6.46,
+      "__EMPTY_1": 4.43,
+      "__EMPTY_2": 8.25,
+      "__EMPTY_3": 2.944,
+      "__EMPTY_4": 552
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 4.32,
+      " Argentina (Citizen Science project sensor.community/34429)": 25.15,
+      "__EMPTY": 6.55,
+      "__EMPTY_1": 5.6,
+      "__EMPTY_2": 9.69,
+      "__EMPTY_3": 3.011,
+      "__EMPTY_4": 561
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.59,
+      " Argentina (Citizen Science project sensor.community/34429)": 27.35,
+      "__EMPTY": 1.19,
+      "__EMPTY_1": 0.92,
+      "__EMPTY_2": 2.29,
+      "__EMPTY_3": 3.137,
+      "__EMPTY_4": 551
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.15,
+      " Argentina (Citizen Science project sensor.community/34429)": 23.46,
+      "__EMPTY": 3.42,
+      "__EMPTY_1": 1.78,
+      "__EMPTY_2": 8.47,
+      "__EMPTY_3": 5.439,
+      "__EMPTY_4": 552
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.96,
+      " Argentina (Citizen Science project sensor.community/34429)": 30.17,
+      "__EMPTY": 11.2,
+      "__EMPTY_1": 9.33,
+      "__EMPTY_2": 13.46,
+      "__EMPTY_3": 5.45,
+      "__EMPTY_4": 568
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.64,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.22,
+      "__EMPTY": 1.56,
+      "__EMPTY_1": 1.25,
+      "__EMPTY_2": 3.16,
+      "__EMPTY_3": 1.247,
+      "__EMPTY_4": 562
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.22,
+      " Argentina (Citizen Science project sensor.community/34429)": 26.2,
+      "__EMPTY": 2.06,
+      "__EMPTY_1": 1.76,
+      "__EMPTY_2": 3.18,
+      "__EMPTY_3": 3.115,
+      "__EMPTY_4": 543
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.85,
+      " Argentina (Citizen Science project sensor.community/34429)": 26.84,
+      "__EMPTY": 2.93,
+      "__EMPTY_1": 2.29,
+      "__EMPTY_2": 4.03,
+      "__EMPTY_3": 2.783,
+      "__EMPTY_4": 550
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.81,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.45,
+      "__EMPTY": 1.77,
+      "__EMPTY_1": 1.33,
+      "__EMPTY_2": 3.45,
+      "__EMPTY_3": 2.732,
+      "__EMPTY_4": 548
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.65,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.31,
+      "__EMPTY": 2.45,
+      "__EMPTY_1": 1.35,
+      "__EMPTY_2": 3.8,
+      "__EMPTY_3": 2.096,
+      "__EMPTY_4": 561
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.09,
+      "__EMPTY": 4.12,
+      "__EMPTY_1": 3.28,
+      "__EMPTY_2": 6.51,
+      "__EMPTY_3": 1.837,
+      "__EMPTY_4": 422
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.19,
+      " Argentina (Citizen Science project sensor.community/34429)": 14,
+      "__EMPTY": 3.64,
+      "__EMPTY_1": 3.05,
+      "__EMPTY_2": 5.35,
+      "__EMPTY_3": 1.908,
+      "__EMPTY_4": 398
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.24,
+      " Argentina (Citizen Science project sensor.community/34429)": 16.41,
+      "__EMPTY": 4.95,
+      "__EMPTY_1": 4.03,
+      "__EMPTY_2": 6.15,
+      "__EMPTY_3": 2.195,
+      "__EMPTY_4": 562
+    },
+    {
+      "# Sensor Almirante Brown": "2024-09-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.77,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.97,
+      "__EMPTY": 2.85,
+      "__EMPTY_1": 1.59,
+      "__EMPTY_2": 4.45,
+      "__EMPTY_3": 3.016,
+      "__EMPTY_4": 488
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.49,
+      " Argentina (Citizen Science project sensor.community/34429)": 22.49,
+      "__EMPTY": 1.53,
+      "__EMPTY_1": 0.82,
+      "__EMPTY_2": 3.34,
+      "__EMPTY_3": 2.302,
+      "__EMPTY_4": 562
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.45,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.28,
+      "__EMPTY": 1.64,
+      "__EMPTY_1": 1.11,
+      "__EMPTY_2": 2.96,
+      "__EMPTY_3": 1.802,
+      "__EMPTY_4": 555
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.78,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.61,
+      "__EMPTY": 3.48,
+      "__EMPTY_1": 1.89,
+      "__EMPTY_2": 4.84,
+      "__EMPTY_3": 2.574,
+      "__EMPTY_4": 551
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.76,
+      " Argentina (Citizen Science project sensor.community/34429)": 19.23,
+      "__EMPTY": 4.51,
+      "__EMPTY_1": 3.57,
+      "__EMPTY_2": 6.44,
+      "__EMPTY_3": 2.772,
+      "__EMPTY_4": 572
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.09,
+      " Argentina (Citizen Science project sensor.community/34429)": 24.83,
+      "__EMPTY": 7.35,
+      "__EMPTY_1": 4.5,
+      "__EMPTY_2": 10.15,
+      "__EMPTY_3": 4.485,
+      "__EMPTY_4": 566
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-06T00:00:00.000Z",
+      " Distrito Chacras de Coria": 4.08,
+      " Argentina (Citizen Science project sensor.community/34429)": 29.66,
+      "__EMPTY": 6.22,
+      "__EMPTY_1": 5.21,
+      "__EMPTY_2": 7.92,
+      "__EMPTY_3": 3.529,
+      "__EMPTY_4": 560
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.7,
+      " Argentina (Citizen Science project sensor.community/34429)": 22.94,
+      "__EMPTY": 6.16,
+      "__EMPTY_1": 3.95,
+      "__EMPTY_2": 9.25,
+      "__EMPTY_3": 3.123,
+      "__EMPTY_4": 565
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.28,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.73,
+      "__EMPTY": 1.29,
+      "__EMPTY_1": 0.92,
+      "__EMPTY_2": 1.68,
+      "__EMPTY_3": 1.07,
+      "__EMPTY_4": 555
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.12,
+      " Argentina (Citizen Science project sensor.community/34429)": 2.7,
+      "__EMPTY": 0.57,
+      "__EMPTY_1": 0.3,
+      "__EMPTY_2": 0.9,
+      "__EMPTY_3": 0.418,
+      "__EMPTY_4": 561
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.56,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.03,
+      "__EMPTY": 4.68,
+      "__EMPTY_1": 2.97,
+      "__EMPTY_2": 7.33,
+      "__EMPTY_3": 2.356,
+      "__EMPTY_4": 562
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.61,
+      " Argentina (Citizen Science project sensor.community/34429)": 16.84,
+      "__EMPTY": 3.97,
+      "__EMPTY_1": 2.08,
+      "__EMPTY_2": 6.96,
+      "__EMPTY_3": 3.323,
+      "__EMPTY_4": 564
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.44,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.04,
+      "__EMPTY": 1.38,
+      "__EMPTY_1": 0.78,
+      "__EMPTY_2": 3.3,
+      "__EMPTY_3": 3.172,
+      "__EMPTY_4": 577
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.78,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.3,
+      "__EMPTY": 2.21,
+      "__EMPTY_1": 1.42,
+      "__EMPTY_2": 4.55,
+      "__EMPTY_3": 2.252,
+      "__EMPTY_4": 565
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.78,
+      " Argentina (Citizen Science project sensor.community/34429)": 14.41,
+      "__EMPTY": 3.47,
+      "__EMPTY_1": 2.65,
+      "__EMPTY_2": 4.49,
+      "__EMPTY_3": 1.656,
+      "__EMPTY_4": 564
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.23,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.59,
+      "__EMPTY": 2.44,
+      "__EMPTY_1": 2.06,
+      "__EMPTY_2": 2.81,
+      "__EMPTY_3": 0.936,
+      "__EMPTY_4": 550
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.16,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.84,
+      "__EMPTY": 5.2,
+      "__EMPTY_1": 4.34,
+      "__EMPTY_2": 6.1,
+      "__EMPTY_3": 1.67,
+      "__EMPTY_4": 576
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.87,
+      " Argentina (Citizen Science project sensor.community/34429)": 16.64,
+      "__EMPTY": 3.38,
+      "__EMPTY_1": 1.99,
+      "__EMPTY_2": 8.86,
+      "__EMPTY_3": 4.187,
+      "__EMPTY_4": 547
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.41,
+      " Argentina (Citizen Science project sensor.community/34429)": 14.63,
+      "__EMPTY": 4.96,
+      "__EMPTY_1": 3.54,
+      "__EMPTY_2": 6.62,
+      "__EMPTY_3": 2.253,
+      "__EMPTY_4": 570
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 4.13,
+      " Argentina (Citizen Science project sensor.community/34429)": 14.89,
+      "__EMPTY": 6.38,
+      "__EMPTY_1": 5.21,
+      "__EMPTY_2": 7.9,
+      "__EMPTY_3": 1.953,
+      "__EMPTY_4": 556
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.6,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.73,
+      "__EMPTY": 6.04,
+      "__EMPTY_1": 4.72,
+      "__EMPTY_2": 7.5,
+      "__EMPTY_3": 2.207,
+      "__EMPTY_4": 568
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.34,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.09,
+      "__EMPTY": 1.03,
+      "__EMPTY_1": 0.71,
+      "__EMPTY_2": 1.76,
+      "__EMPTY_3": 0.982,
+      "__EMPTY_4": 569
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.24,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.16,
+      "__EMPTY": 1.47,
+      "__EMPTY_1": 0.84,
+      "__EMPTY_2": 1.97,
+      "__EMPTY_3": 1.786,
+      "__EMPTY_4": 560
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.06,
+      " Argentina (Citizen Science project sensor.community/34429)": 3,
+      "__EMPTY": 0.62,
+      "__EMPTY_1": 0.25,
+      "__EMPTY_2": 1.01,
+      "__EMPTY_3": 0.588,
+      "__EMPTY_4": 575
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.82,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.08,
+      "__EMPTY": 1.86,
+      "__EMPTY_1": 1.34,
+      "__EMPTY_2": 2.68,
+      "__EMPTY_3": 1.075,
+      "__EMPTY_4": 564
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.56,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.46,
+      "__EMPTY": 2.35,
+      "__EMPTY_1": 1.39,
+      "__EMPTY_2": 3.77,
+      "__EMPTY_3": 2.219,
+      "__EMPTY_4": 515
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.62,
+      " Argentina (Citizen Science project sensor.community/34429)": 16.22,
+      "__EMPTY": 1.42,
+      "__EMPTY_1": 0.92,
+      "__EMPTY_2": 3.79,
+      "__EMPTY_3": 3.363,
+      "__EMPTY_4": 558
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.99,
+      " Argentina (Citizen Science project sensor.community/34429)": 24.95,
+      "__EMPTY": 2.25,
+      "__EMPTY_1": 1.65,
+      "__EMPTY_2": 4.73,
+      "__EMPTY_3": 5.234,
+      "__EMPTY_4": 550
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.71,
+      " Argentina (Citizen Science project sensor.community/34429)": 26.06,
+      "__EMPTY": 3.19,
+      "__EMPTY_1": 2.69,
+      "__EMPTY_2": 4.54,
+      "__EMPTY_3": 2.294,
+      "__EMPTY_4": 545
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.71,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.8,
+      "__EMPTY": 3.03,
+      "__EMPTY_1": 2.61,
+      "__EMPTY_2": 4.38,
+      "__EMPTY_3": 1.894,
+      "__EMPTY_4": 567
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.91,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.52,
+      "__EMPTY": 4.63,
+      "__EMPTY_1": 3.87,
+      "__EMPTY_2": 5.66,
+      "__EMPTY_3": 1.92,
+      "__EMPTY_4": 554
+    },
+    {
+      "# Sensor Almirante Brown": "2024-10-31T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.9,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.72,
+      "__EMPTY": 4.38,
+      "__EMPTY_1": 2.86,
+      "__EMPTY_2": 7.03,
+      "__EMPTY_3": 2.928,
+      "__EMPTY_4": 559
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.62,
+      " Argentina (Citizen Science project sensor.community/34429)": 26.5,
+      "__EMPTY": 5.36,
+      "__EMPTY_1": 4.34,
+      "__EMPTY_2": 7.59,
+      "__EMPTY_3": 4.07,
+      "__EMPTY_4": 554
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.61,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.11,
+      "__EMPTY": 1.5,
+      "__EMPTY_1": 1.06,
+      "__EMPTY_2": 3.32,
+      "__EMPTY_3": 1.29,
+      "__EMPTY_4": 533
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.03,
+      " Argentina (Citizen Science project sensor.community/34429)": 20.85,
+      "__EMPTY": 2.45,
+      "__EMPTY_1": 1.65,
+      "__EMPTY_2": 3.77,
+      "__EMPTY_3": 4.005,
+      "__EMPTY_4": 531
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.68,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.26,
+      "__EMPTY": 1.35,
+      "__EMPTY_1": 1.07,
+      "__EMPTY_2": 1.82,
+      "__EMPTY_3": 0.744,
+      "__EMPTY_4": 487
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.75,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.62,
+      "__EMPTY": 1.33,
+      "__EMPTY_1": 1.12,
+      "__EMPTY_2": 1.57,
+      "__EMPTY_3": 0.486,
+      "__EMPTY_4": 410
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-06T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.73,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.17,
+      "__EMPTY": 1.52,
+      "__EMPTY_1": 1.05,
+      "__EMPTY_2": 2.74,
+      "__EMPTY_3": 1.556,
+      "__EMPTY_4": 399
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.49,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.35,
+      "__EMPTY": 1.29,
+      "__EMPTY_1": 1.04,
+      "__EMPTY_2": 1.59,
+      "__EMPTY_3": 0.937,
+      "__EMPTY_4": 494
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.07,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.45,
+      "__EMPTY": 1.99,
+      "__EMPTY_1": 1.64,
+      "__EMPTY_2": 2.41,
+      "__EMPTY_3": 1.096,
+      "__EMPTY_4": 443
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.42,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.15,
+      "__EMPTY": 3.79,
+      "__EMPTY_1": 3.09,
+      "__EMPTY_2": 4.55,
+      "__EMPTY_3": 1.621,
+      "__EMPTY_4": 392
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.61,
+      " Argentina (Citizen Science project sensor.community/34429)": 20.64,
+      "__EMPTY": 1.17,
+      "__EMPTY_1": 0.96,
+      "__EMPTY_2": 2.1,
+      "__EMPTY_3": 3.905,
+      "__EMPTY_4": 382
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.54,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.72,
+      "__EMPTY": 1.13,
+      "__EMPTY_1": 0.96,
+      "__EMPTY_2": 1.36,
+      "__EMPTY_3": 0.471,
+      "__EMPTY_4": 431
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.73,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.99,
+      "__EMPTY": 1.53,
+      "__EMPTY_1": 1.19,
+      "__EMPTY_2": 2.74,
+      "__EMPTY_3": 1.395,
+      "__EMPTY_4": 300
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.56,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.32,
+      "__EMPTY": 1.27,
+      "__EMPTY_1": 1,
+      "__EMPTY_2": 2.27,
+      "__EMPTY_3": 1.46,
+      "__EMPTY_4": 377
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.56,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.47,
+      "__EMPTY": 1.43,
+      "__EMPTY_1": 1.15,
+      "__EMPTY_2": 2.17,
+      "__EMPTY_3": 1.384,
+      "__EMPTY_4": 337
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.14,
+      "__EMPTY": 2.02,
+      "__EMPTY_1": 1.45,
+      "__EMPTY_2": 4.01,
+      "__EMPTY_3": 2.279,
+      "__EMPTY_4": 511
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.75,
+      " Argentina (Citizen Science project sensor.community/34429)": 18.64,
+      "__EMPTY": 1.44,
+      "__EMPTY_1": 1.18,
+      "__EMPTY_2": 2.5,
+      "__EMPTY_3": 3.297,
+      "__EMPTY_4": 548
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.53,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.39,
+      "__EMPTY": 1.39,
+      "__EMPTY_1": 0.89,
+      "__EMPTY_2": 2.4,
+      "__EMPTY_3": 1.423,
+      "__EMPTY_4": 536
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.45,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.22,
+      "__EMPTY": 1.19,
+      "__EMPTY_1": 0.75,
+      "__EMPTY_2": 2.61,
+      "__EMPTY_3": 2.934,
+      "__EMPTY_4": 510
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.95,
+      " Argentina (Citizen Science project sensor.community/34429)": 18.64,
+      "__EMPTY": 1.9,
+      "__EMPTY_1": 1.58,
+      "__EMPTY_2": 2.49,
+      "__EMPTY_3": 1.807,
+      "__EMPTY_4": 447
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.66,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.08,
+      "__EMPTY": 1.71,
+      "__EMPTY_1": 1.33,
+      "__EMPTY_2": 2.14,
+      "__EMPTY_3": 1.551,
+      "__EMPTY_4": 453
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.28,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.15,
+      "__EMPTY": 1.02,
+      "__EMPTY_1": 0.81,
+      "__EMPTY_2": 1.36,
+      "__EMPTY_3": 0.736,
+      "__EMPTY_4": 430
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.48,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.91,
+      "__EMPTY": 1.57,
+      "__EMPTY_1": 1.06,
+      "__EMPTY_2": 3.85,
+      "__EMPTY_3": 2.28,
+      "__EMPTY_4": 430
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.04,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.57,
+      "__EMPTY": 1.83,
+      "__EMPTY_1": 1.51,
+      "__EMPTY_2": 2.6,
+      "__EMPTY_3": 1.852,
+      "__EMPTY_4": 361
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.06,
+      " Argentina (Citizen Science project sensor.community/34429)": 14.62,
+      "__EMPTY": 2.04,
+      "__EMPTY_1": 1.51,
+      "__EMPTY_2": 7.54,
+      "__EMPTY_3": 3.527,
+      "__EMPTY_4": 434
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.62,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.77,
+      "__EMPTY": 1,
+      "__EMPTY_1": 0.9,
+      "__EMPTY_2": 1.22,
+      "__EMPTY_3": 0.815,
+      "__EMPTY_4": 442
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.8,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.09,
+      "__EMPTY": 1.56,
+      "__EMPTY_1": 1.11,
+      "__EMPTY_2": 2.23,
+      "__EMPTY_3": 1.478,
+      "__EMPTY_4": 580
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.48,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.11,
+      "__EMPTY": 1.02,
+      "__EMPTY_1": 0.77,
+      "__EMPTY_2": 1.56,
+      "__EMPTY_3": 0.945,
+      "__EMPTY_4": 580
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.61,
+      " Argentina (Citizen Science project sensor.community/34429)": 16.14,
+      "__EMPTY": 1.38,
+      "__EMPTY_1": 1.03,
+      "__EMPTY_2": 2.54,
+      "__EMPTY_3": 2.693,
+      "__EMPTY_4": 587
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.35,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.6,
+      "__EMPTY": 0.91,
+      "__EMPTY_1": 0.67,
+      "__EMPTY_2": 1.12,
+      "__EMPTY_3": 0.567,
+      "__EMPTY_4": 586
+    },
+    {
+      "# Sensor Almirante Brown": "2024-11-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.56,
+      " Argentina (Citizen Science project sensor.community/34429)": 23.68,
+      "__EMPTY": 1.76,
+      "__EMPTY_1": 1.12,
+      "__EMPTY_2": 4.38,
+      "__EMPTY_3": 4.472,
+      "__EMPTY_4": 588
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.57,
+      " Argentina (Citizen Science project sensor.community/34429)": 3.78,
+      "__EMPTY": 1.21,
+      "__EMPTY_1": 0.95,
+      "__EMPTY_2": 1.93,
+      "__EMPTY_3": 0.66,
+      "__EMPTY_4": 587
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.69,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.75,
+      "__EMPTY": 1.85,
+      "__EMPTY_1": 1.6,
+      "__EMPTY_2": 2.19,
+      "__EMPTY_3": 1.505,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.44,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.56,
+      "__EMPTY": 1.67,
+      "__EMPTY_1": 1.37,
+      "__EMPTY_2": 2.23,
+      "__EMPTY_3": 1.456,
+      "__EMPTY_4": 584
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.57,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.07,
+      "__EMPTY": 3.13,
+      "__EMPTY_1": 2.52,
+      "__EMPTY_2": 3.93,
+      "__EMPTY_3": 1.188,
+      "__EMPTY_4": 586
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.91,
+      " Argentina (Citizen Science project sensor.community/34429)": 18.84,
+      "__EMPTY": 2.09,
+      "__EMPTY_1": 1.6,
+      "__EMPTY_2": 5.38,
+      "__EMPTY_3": 3.605,
+      "__EMPTY_4": 470
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-06T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.54,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.56,
+      "__EMPTY": 1.1,
+      "__EMPTY_1": 0.83,
+      "__EMPTY_2": 1.8,
+      "__EMPTY_3": 2.386,
+      "__EMPTY_4": 583
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.32,
+      " Argentina (Citizen Science project sensor.community/34429)": 21.75,
+      "__EMPTY": 0.69,
+      "__EMPTY_1": 0.56,
+      "__EMPTY_2": 1.11,
+      "__EMPTY_3": 4.013,
+      "__EMPTY_4": 584
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.79,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.18,
+      "__EMPTY": 1.98,
+      "__EMPTY_1": 1.49,
+      "__EMPTY_2": 2.5,
+      "__EMPTY_3": 1.026,
+      "__EMPTY_4": 583
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.06,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.22,
+      "__EMPTY": 1.88,
+      "__EMPTY_1": 1.55,
+      "__EMPTY_2": 2.5,
+      "__EMPTY_3": 1.173,
+      "__EMPTY_4": 582
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.81,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.97,
+      "__EMPTY": 2.29,
+      "__EMPTY_1": 1.77,
+      "__EMPTY_2": 3.79,
+      "__EMPTY_3": 1.65,
+      "__EMPTY_4": 549
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.01,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.56,
+      "__EMPTY": 1.98,
+      "__EMPTY_1": 1.52,
+      "__EMPTY_2": 3.19,
+      "__EMPTY_3": 1.278,
+      "__EMPTY_4": 572
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.81,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.9,
+      "__EMPTY": 1.76,
+      "__EMPTY_1": 1.3,
+      "__EMPTY_2": 2.5,
+      "__EMPTY_3": 1.054,
+      "__EMPTY_4": 548
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.88,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.03,
+      "__EMPTY": 1.86,
+      "__EMPTY_1": 1.39,
+      "__EMPTY_2": 3.01,
+      "__EMPTY_3": 1.884,
+      "__EMPTY_4": 515
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.44,
+      " Argentina (Citizen Science project sensor.community/34429)": 28.83,
+      "__EMPTY": 1.17,
+      "__EMPTY_1": 0.89,
+      "__EMPTY_2": 2.14,
+      "__EMPTY_3": 3.615,
+      "__EMPTY_4": 504
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.45,
+      " Argentina (Citizen Science project sensor.community/34429)": 60.34,
+      "__EMPTY": 0.9,
+      "__EMPTY_1": 0.7,
+      "__EMPTY_2": 1.33,
+      "__EMPTY_3": 2.555,
+      "__EMPTY_4": 586
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.6,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.57,
+      "__EMPTY": 1.25,
+      "__EMPTY_1": 1.02,
+      "__EMPTY_2": 1.47,
+      "__EMPTY_3": 0.463,
+      "__EMPTY_4": 498
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.12,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.44,
+      "__EMPTY": 1.77,
+      "__EMPTY_1": 1.56,
+      "__EMPTY_2": 2.21,
+      "__EMPTY_3": 0.995,
+      "__EMPTY_4": 520
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.78,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.63,
+      "__EMPTY": 2.75,
+      "__EMPTY_1": 2.08,
+      "__EMPTY_2": 4.33,
+      "__EMPTY_3": 1.625,
+      "__EMPTY_4": 529
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.79,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.9,
+      "__EMPTY": 2.76,
+      "__EMPTY_1": 1.12,
+      "__EMPTY_2": 4.75,
+      "__EMPTY_3": 2.391,
+      "__EMPTY_4": 251
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.63,
+      " Argentina (Citizen Science project sensor.community/34429)": 18.26,
+      "__EMPTY": 1.24,
+      "__EMPTY_1": 0.91,
+      "__EMPTY_2": 3.18,
+      "__EMPTY_3": 4.1,
+      "__EMPTY_4": 439
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.32,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.11,
+      "__EMPTY": 0.75,
+      "__EMPTY_1": 0.62,
+      "__EMPTY_2": 1.11,
+      "__EMPTY_3": 0.749,
+      "__EMPTY_4": 523
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.78,
+      " Argentina (Citizen Science project sensor.community/34429)": 23.6,
+      "__EMPTY": 2.14,
+      "__EMPTY_1": 1.21,
+      "__EMPTY_2": 3.63,
+      "__EMPTY_3": 3.624,
+      "__EMPTY_4": 587
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.9,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.5,
+      "__EMPTY": 1.65,
+      "__EMPTY_1": 1.29,
+      "__EMPTY_2": 2.29,
+      "__EMPTY_3": 0.822,
+      "__EMPTY_4": 564
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.25,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.11,
+      "__EMPTY": 0.82,
+      "__EMPTY_1": 0.49,
+      "__EMPTY_2": 1.37,
+      "__EMPTY_3": 1.25,
+      "__EMPTY_4": 569
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.47,
+      " Argentina (Citizen Science project sensor.community/34429)": 41.68,
+      "__EMPTY": 1.35,
+      "__EMPTY_1": 0.83,
+      "__EMPTY_2": 6.26,
+      "__EMPTY_3": 10.067,
+      "__EMPTY_4": 586
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.55,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.53,
+      "__EMPTY": 1.26,
+      "__EMPTY_1": 0.96,
+      "__EMPTY_2": 2,
+      "__EMPTY_3": 1.169,
+      "__EMPTY_4": 586
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.87,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.24,
+      "__EMPTY": 1.95,
+      "__EMPTY_1": 1.52,
+      "__EMPTY_2": 3.01,
+      "__EMPTY_3": 2.299,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.57,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.81,
+      "__EMPTY": 1.25,
+      "__EMPTY_1": 1,
+      "__EMPTY_2": 1.58,
+      "__EMPTY_3": 1.122,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.57,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.93,
+      "__EMPTY": 2.2,
+      "__EMPTY_1": 1.31,
+      "__EMPTY_2": 2.81,
+      "__EMPTY_3": 2.017,
+      "__EMPTY_4": 482
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.77,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.32,
+      "__EMPTY": 2.75,
+      "__EMPTY_1": 2.5,
+      "__EMPTY_2": 3.05,
+      "__EMPTY_3": 0.639,
+      "__EMPTY_4": 259
+    },
+    {
+      "# Sensor Almirante Brown": "2024-12-31T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.71,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.99,
+      "__EMPTY": 2.57,
+      "__EMPTY_1": 2.37,
+      "__EMPTY_2": 2.9,
+      "__EMPTY_3": 0.423,
+      "__EMPTY_4": 407
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.7,
+      " Argentina (Citizen Science project sensor.community/34429)": 53.61,
+      "__EMPTY": 4.05,
+      "__EMPTY_1": 2.67,
+      "__EMPTY_2": 5.57,
+      "__EMPTY_3": 9.331,
+      "__EMPTY_4": 557
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.66,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.49,
+      "__EMPTY": 1.94,
+      "__EMPTY_1": 1.34,
+      "__EMPTY_2": 2.42,
+      "__EMPTY_3": 2.275,
+      "__EMPTY_4": 584
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.88,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.11,
+      "__EMPTY": 1.77,
+      "__EMPTY_1": 1.26,
+      "__EMPTY_2": 2.81,
+      "__EMPTY_3": 1.808,
+      "__EMPTY_4": 579
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.52,
+      " Argentina (Citizen Science project sensor.community/34429)": 18.3,
+      "__EMPTY": 1.54,
+      "__EMPTY_1": 1.12,
+      "__EMPTY_2": 3.34,
+      "__EMPTY_3": 3.374,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.78,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.77,
+      "__EMPTY": 1.53,
+      "__EMPTY_1": 1.32,
+      "__EMPTY_2": 2.42,
+      "__EMPTY_3": 0.712,
+      "__EMPTY_4": 583
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-06T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.06,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.25,
+      "__EMPTY": 2.97,
+      "__EMPTY_1": 2.64,
+      "__EMPTY_2": 3.65,
+      "__EMPTY_3": 1.046,
+      "__EMPTY_4": 586
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.13,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.36,
+      "__EMPTY": 2.57,
+      "__EMPTY_1": 2.02,
+      "__EMPTY_2": 4.04,
+      "__EMPTY_3": 1.564,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.95,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.57,
+      "__EMPTY": 2.64,
+      "__EMPTY_1": 1.73,
+      "__EMPTY_2": 3.18,
+      "__EMPTY_3": 1.213,
+      "__EMPTY_4": 521
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.79,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.19,
+      "__EMPTY": 1.64,
+      "__EMPTY_1": 1.36,
+      "__EMPTY_2": 2.13,
+      "__EMPTY_3": 1.781,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.17,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.07,
+      "__EMPTY": 2.74,
+      "__EMPTY_1": 2.31,
+      "__EMPTY_2": 3.78,
+      "__EMPTY_3": 1.508,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.68,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.51,
+      "__EMPTY": 2.39,
+      "__EMPTY_1": 1.81,
+      "__EMPTY_2": 2.85,
+      "__EMPTY_3": 0.763,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.13,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.92,
+      "__EMPTY": 2.15,
+      "__EMPTY_1": 1.87,
+      "__EMPTY_2": 3.07,
+      "__EMPTY_3": 1.545,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.91,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.7,
+      "__EMPTY": 2.5,
+      "__EMPTY_1": 1.58,
+      "__EMPTY_2": 3.74,
+      "__EMPTY_3": 2.858,
+      "__EMPTY_4": 532
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.22,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.31,
+      "__EMPTY": 2.29,
+      "__EMPTY_1": 1.9,
+      "__EMPTY_2": 2.71,
+      "__EMPTY_3": 0.747,
+      "__EMPTY_4": 403
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.7,
+      " Argentina (Citizen Science project sensor.community/34429)": 62.8,
+      "__EMPTY": 2.08,
+      "__EMPTY_1": 1.81,
+      "__EMPTY_2": 2.58,
+      "__EMPTY_3": 8.319,
+      "__EMPTY_4": 584
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.73,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.7,
+      "__EMPTY": 1.47,
+      "__EMPTY_1": 1.07,
+      "__EMPTY_2": 2.27,
+      "__EMPTY_3": 1.065,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.67,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.41,
+      "__EMPTY": 1.7,
+      "__EMPTY_1": 1.15,
+      "__EMPTY_2": 2.18,
+      "__EMPTY_3": 0.739,
+      "__EMPTY_4": 583
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.53,
+      " Argentina (Citizen Science project sensor.community/34429)": 3.54,
+      "__EMPTY": 1.1,
+      "__EMPTY_1": 0.91,
+      "__EMPTY_2": 1.33,
+      "__EMPTY_3": 0.458,
+      "__EMPTY_4": 583
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.41,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.12,
+      "__EMPTY": 0.94,
+      "__EMPTY_1": 0.69,
+      "__EMPTY_2": 1.46,
+      "__EMPTY_3": 0.737,
+      "__EMPTY_4": 584
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.45,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.1,
+      "__EMPTY": 1.02,
+      "__EMPTY_1": 0.74,
+      "__EMPTY_2": 1.67,
+      "__EMPTY_3": 1.285,
+      "__EMPTY_4": 579
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.56,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.25,
+      "__EMPTY": 0.95,
+      "__EMPTY_1": 0.81,
+      "__EMPTY_2": 1.4,
+      "__EMPTY_3": 1.148,
+      "__EMPTY_4": 583
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.56,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.32,
+      "__EMPTY": 1.88,
+      "__EMPTY_1": 1.28,
+      "__EMPTY_2": 2.65,
+      "__EMPTY_3": 1.933,
+      "__EMPTY_4": 579
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.06,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.59,
+      "__EMPTY": 3.6,
+      "__EMPTY_1": 3.04,
+      "__EMPTY_2": 5.13,
+      "__EMPTY_3": 1.272,
+      "__EMPTY_4": 582
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.77,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.73,
+      "__EMPTY": 1.77,
+      "__EMPTY_1": 1.39,
+      "__EMPTY_2": 2.82,
+      "__EMPTY_3": 1.494,
+      "__EMPTY_4": 580
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.36,
+      " Argentina (Citizen Science project sensor.community/34429)": 22.65,
+      "__EMPTY": 2.81,
+      "__EMPTY_1": 2.5,
+      "__EMPTY_2": 3.29,
+      "__EMPTY_3": 4.239,
+      "__EMPTY_4": 542
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.72,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.69,
+      "__EMPTY": 2.31,
+      "__EMPTY_1": 1.61,
+      "__EMPTY_2": 3.32,
+      "__EMPTY_3": 2.627,
+      "__EMPTY_4": 213
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.26,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.07,
+      "__EMPTY": 1.36,
+      "__EMPTY_1": 1.1,
+      "__EMPTY_2": 1.82,
+      "__EMPTY_3": 0.812,
+      "__EMPTY_4": 484
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.47,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.67,
+      "__EMPTY": 1.67,
+      "__EMPTY_1": 1.09,
+      "__EMPTY_2": 2.85,
+      "__EMPTY_3": 1.234,
+      "__EMPTY_4": 586
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.46,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.46,
+      "__EMPTY": 1.61,
+      "__EMPTY_1": 1.05,
+      "__EMPTY_2": 2.17,
+      "__EMPTY_3": 1.718,
+      "__EMPTY_4": 587
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.91,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.63,
+      "__EMPTY": 1.38,
+      "__EMPTY_1": 1.18,
+      "__EMPTY_2": 1.81,
+      "__EMPTY_3": 0.77,
+      "__EMPTY_4": 426
+    },
+    {
+      "# Sensor Almirante Brown": "2025-01-31T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.12,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.54,
+      "__EMPTY": 2.12,
+      "__EMPTY_1": 1.67,
+      "__EMPTY_2": 2.52,
+      "__EMPTY_3": 2.477,
+      "__EMPTY_4": 451
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.79,
+      " Argentina (Citizen Science project sensor.community/34429)": 22.28,
+      "__EMPTY": 4.55,
+      "__EMPTY_1": 2.5,
+      "__EMPTY_2": 5.85,
+      "__EMPTY_3": 2.192,
+      "__EMPTY_4": 360
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.18,
+      " Argentina (Citizen Science project sensor.community/34429)": 18.64,
+      "__EMPTY": 3.37,
+      "__EMPTY_1": 2.89,
+      "__EMPTY_2": 4.07,
+      "__EMPTY_3": 2.479,
+      "__EMPTY_4": 504
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.71,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.14,
+      "__EMPTY": 3.46,
+      "__EMPTY_1": 2.29,
+      "__EMPTY_2": 5.24,
+      "__EMPTY_3": 2.454,
+      "__EMPTY_4": 581
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.24,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.84,
+      "__EMPTY": 2.77,
+      "__EMPTY_1": 2.06,
+      "__EMPTY_2": 3.75,
+      "__EMPTY_3": 1.991,
+      "__EMPTY_4": 579
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.55,
+      " Argentina (Citizen Science project sensor.community/34429)": 10,
+      "__EMPTY": 2.57,
+      "__EMPTY_1": 2.13,
+      "__EMPTY_2": 3.65,
+      "__EMPTY_3": 1.742,
+      "__EMPTY_4": 580
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-06T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.6,
+      " Argentina (Citizen Science project sensor.community/34429)": 18.07,
+      "__EMPTY": 3.76,
+      "__EMPTY_1": 2.27,
+      "__EMPTY_2": 5.38,
+      "__EMPTY_3": 2.721,
+      "__EMPTY_4": 581
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.81,
+      " Argentina (Citizen Science project sensor.community/34429)": 18.03,
+      "__EMPTY": 3.92,
+      "__EMPTY_1": 3.48,
+      "__EMPTY_2": 4.7,
+      "__EMPTY_3": 2.363,
+      "__EMPTY_4": 528
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.6,
+      " Argentina (Citizen Science project sensor.community/34429)": 25.89,
+      "__EMPTY": 5.43,
+      "__EMPTY_1": 4.68,
+      "__EMPTY_2": 6.54,
+      "__EMPTY_3": 4.638,
+      "__EMPTY_4": 528
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.59,
+      " Argentina (Citizen Science project sensor.community/34429)": 23.31,
+      "__EMPTY": 7.99,
+      "__EMPTY_1": 5.51,
+      "__EMPTY_2": 13.05,
+      "__EMPTY_3": 5.21,
+      "__EMPTY_4": 509
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.58,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.25,
+      "__EMPTY": 5.98,
+      "__EMPTY_1": 2.8,
+      "__EMPTY_2": 8.46,
+      "__EMPTY_3": 3.579,
+      "__EMPTY_4": 571
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.9,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.07,
+      "__EMPTY": 3.81,
+      "__EMPTY_1": 2.82,
+      "__EMPTY_2": 4.5,
+      "__EMPTY_3": 1.797,
+      "__EMPTY_4": 292
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.3,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.69,
+      "__EMPTY": 2.37,
+      "__EMPTY_1": 1.96,
+      "__EMPTY_2": 3.54,
+      "__EMPTY_3": 1.953,
+      "__EMPTY_4": 512
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.34,
+      " Argentina (Citizen Science project sensor.community/34429)": 14.35,
+      "__EMPTY": 2.44,
+      "__EMPTY_1": 2.06,
+      "__EMPTY_2": 3.13,
+      "__EMPTY_3": 2.7,
+      "__EMPTY_4": 487
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.8,
+      " Argentina (Citizen Science project sensor.community/34429)": 21.2,
+      "__EMPTY": 3.47,
+      "__EMPTY_1": 2.69,
+      "__EMPTY_2": 4.7,
+      "__EMPTY_3": 2.342,
+      "__EMPTY_4": 301
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.95,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.85,
+      "__EMPTY": 1.47,
+      "__EMPTY_1": 1.2,
+      "__EMPTY_2": 1.89,
+      "__EMPTY_3": 0.844,
+      "__EMPTY_4": 449
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.29,
+      " Argentina (Citizen Science project sensor.community/34429)": 21.92,
+      "__EMPTY": 2.59,
+      "__EMPTY_1": 1.83,
+      "__EMPTY_2": 4.53,
+      "__EMPTY_3": 3.691,
+      "__EMPTY_4": 335
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.86,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.7,
+      "__EMPTY": 2.39,
+      "__EMPTY_1": 1.6,
+      "__EMPTY_2": 3.78,
+      "__EMPTY_3": 2.568,
+      "__EMPTY_4": 435
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.44,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.38,
+      "__EMPTY": 2.71,
+      "__EMPTY_1": 2.39,
+      "__EMPTY_2": 3.09,
+      "__EMPTY_3": 0.855,
+      "__EMPTY_4": 523
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.14,
+      "__EMPTY": 2.65,
+      "__EMPTY_1": 1.98,
+      "__EMPTY_2": 4.13,
+      "__EMPTY_3": 1.782,
+      "__EMPTY_4": 572
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.78,
+      " Argentina (Citizen Science project sensor.community/34429)": 19.26,
+      "__EMPTY": 2.46,
+      "__EMPTY_1": 1.44,
+      "__EMPTY_2": 3.53,
+      "__EMPTY_3": 2.727,
+      "__EMPTY_4": 570
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.65,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.02,
+      "__EMPTY": 2.63,
+      "__EMPTY_1": 1.07,
+      "__EMPTY_2": 4.2,
+      "__EMPTY_3": 2.577,
+      "__EMPTY_4": 552
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.59,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.93,
+      "__EMPTY": 1.24,
+      "__EMPTY_1": 0.94,
+      "__EMPTY_2": 2.06,
+      "__EMPTY_3": 2.223,
+      "__EMPTY_4": 579
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.91,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.3,
+      "__EMPTY": 1.84,
+      "__EMPTY_1": 1.52,
+      "__EMPTY_2": 2.42,
+      "__EMPTY_3": 0.919,
+      "__EMPTY_4": 577
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.92,
+      " Argentina (Citizen Science project sensor.community/34429)": 4,
+      "__EMPTY": 2.04,
+      "__EMPTY_1": 1.51,
+      "__EMPTY_2": 2.44,
+      "__EMPTY_3": 0.682,
+      "__EMPTY_4": 574
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.35,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.52,
+      "__EMPTY": 3.19,
+      "__EMPTY_1": 2.68,
+      "__EMPTY_2": 3.64,
+      "__EMPTY_3": 0.776,
+      "__EMPTY_4": 572
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.02,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.86,
+      "__EMPTY": 2.93,
+      "__EMPTY_1": 2.02,
+      "__EMPTY_2": 4.21,
+      "__EMPTY_3": 1.732,
+      "__EMPTY_4": 573
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.34,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.58,
+      "__EMPTY": 2.62,
+      "__EMPTY_1": 2.25,
+      "__EMPTY_2": 3.39,
+      "__EMPTY_3": 2.457,
+      "__EMPTY_4": 410
+    },
+    {
+      "# Sensor Almirante Brown": "2025-02-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.51,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.77,
+      "__EMPTY": 7.73,
+      "__EMPTY_1": 6.7,
+      "__EMPTY_2": 8.8,
+      "__EMPTY_3": 1.841,
+      "__EMPTY_4": 100
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.77,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.9,
+      "__EMPTY": 1.3,
+      "__EMPTY_1": 1.07,
+      "__EMPTY_2": 1.91,
+      "__EMPTY_3": 0.68,
+      "__EMPTY_4": 384
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1,
+      " Argentina (Citizen Science project sensor.community/34429)": 14.69,
+      "__EMPTY": 3.25,
+      "__EMPTY_1": 2.17,
+      "__EMPTY_2": 4.18,
+      "__EMPTY_3": 2.733,
+      "__EMPTY_4": 574
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.77,
+      " Argentina (Citizen Science project sensor.community/34429)": 16.93,
+      "__EMPTY": 1.47,
+      "__EMPTY_1": 1.18,
+      "__EMPTY_2": 2.62,
+      "__EMPTY_3": 3.329,
+      "__EMPTY_4": 570
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.24,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.04,
+      "__EMPTY": 2.27,
+      "__EMPTY_1": 2,
+      "__EMPTY_2": 2.73,
+      "__EMPTY_3": 0.698,
+      "__EMPTY_4": 570
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.79,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.23,
+      "__EMPTY": 3.69,
+      "__EMPTY_1": 1.94,
+      "__EMPTY_2": 4.8,
+      "__EMPTY_3": 1.737,
+      "__EMPTY_4": 570
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-06T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.01,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.36,
+      "__EMPTY": 2.22,
+      "__EMPTY_1": 1.41,
+      "__EMPTY_2": 3.19,
+      "__EMPTY_3": 1.136,
+      "__EMPTY_4": 148
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.23,
+      " Argentina (Citizen Science project sensor.community/34429)": 30.37,
+      "__EMPTY": 3.13,
+      "__EMPTY_1": 2.16,
+      "__EMPTY_2": 5.33,
+      "__EMPTY_3": 4.371,
+      "__EMPTY_4": 423
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.41,
+      " Argentina (Citizen Science project sensor.community/34429)": 2.82,
+      "__EMPTY": 1.21,
+      "__EMPTY_1": 0.9,
+      "__EMPTY_2": 1.59,
+      "__EMPTY_3": 0.459,
+      "__EMPTY_4": 565
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.15,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.32,
+      "__EMPTY": 1.49,
+      "__EMPTY_1": 0.69,
+      "__EMPTY_2": 4.53,
+      "__EMPTY_3": 2.071,
+      "__EMPTY_4": 561
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.89,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.99,
+      "__EMPTY": 1.69,
+      "__EMPTY_1": 1.36,
+      "__EMPTY_2": 2.38,
+      "__EMPTY_3": 1.112,
+      "__EMPTY_4": 568
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.74,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.11,
+      "__EMPTY": 2.87,
+      "__EMPTY_1": 1.92,
+      "__EMPTY_2": 3.82,
+      "__EMPTY_3": 1.273,
+      "__EMPTY_4": 577
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.61,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.34,
+      "__EMPTY": 1.84,
+      "__EMPTY_1": 1.09,
+      "__EMPTY_2": 2.35,
+      "__EMPTY_3": 0.706,
+      "__EMPTY_4": 581
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.08,
+      " Argentina (Citizen Science project sensor.community/34429)": 16.05,
+      "__EMPTY": 3.79,
+      "__EMPTY_1": 1.81,
+      "__EMPTY_2": 8.93,
+      "__EMPTY_3": 4.273,
+      "__EMPTY_4": 366
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.63,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.14,
+      "__EMPTY": 3.86,
+      "__EMPTY_1": 2.62,
+      "__EMPTY_2": 7.32,
+      "__EMPTY_3": 3.025,
+      "__EMPTY_4": 230
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 5.35,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.48,
+      "__EMPTY": 6.01,
+      "__EMPTY_1": 5.62,
+      "__EMPTY_2": 6.4,
+      "__EMPTY_3": 0.41,
+      "__EMPTY_4": 7
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.73,
+      " Argentina (Citizen Science project sensor.community/34429)": 5.05,
+      "__EMPTY": 3.61,
+      "__EMPTY_1": 3.25,
+      "__EMPTY_2": 4.09,
+      "__EMPTY_3": 0.543,
+      "__EMPTY_4": 67
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.28,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.61,
+      "__EMPTY": 2.44,
+      "__EMPTY_1": 2.04,
+      "__EMPTY_2": 3.36,
+      "__EMPTY_3": 1.576,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.49,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.44,
+      "__EMPTY": 5.54,
+      "__EMPTY_1": 4.67,
+      "__EMPTY_2": 6.51,
+      "__EMPTY_3": 1.289,
+      "__EMPTY_4": 571
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.04,
+      " Argentina (Citizen Science project sensor.community/34429)": 9.75,
+      "__EMPTY": 3.38,
+      "__EMPTY_1": 2.79,
+      "__EMPTY_2": 3.93,
+      "__EMPTY_3": 1.207,
+      "__EMPTY_4": 586
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.93,
+      "__EMPTY": 3.79,
+      "__EMPTY_1": 2.72,
+      "__EMPTY_2": 4.96,
+      "__EMPTY_3": 1.785,
+      "__EMPTY_4": 587
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.03,
+      " Argentina (Citizen Science project sensor.community/34429)": 7.41,
+      "__EMPTY": 0.64,
+      "__EMPTY_1": 0.37,
+      "__EMPTY_2": 3.04,
+      "__EMPTY_3": 1.815,
+      "__EMPTY_4": 587
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.06,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.09,
+      "__EMPTY": 0.41,
+      "__EMPTY_1": 0.3,
+      "__EMPTY_2": 0.74,
+      "__EMPTY_3": 0.813,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.47,
+      " Argentina (Citizen Science project sensor.community/34429)": 33.33,
+      "__EMPTY": 5.57,
+      "__EMPTY_1": 2.5,
+      "__EMPTY_2": 13.12,
+      "__EMPTY_3": 9.292,
+      "__EMPTY_4": 587
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.23,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.6,
+      "__EMPTY": 4.93,
+      "__EMPTY_1": 3.34,
+      "__EMPTY_2": 7.1,
+      "__EMPTY_3": 3.469,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 5.21,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.28,
+      "__EMPTY": 7.27,
+      "__EMPTY_1": 6.43,
+      "__EMPTY_2": 8.36,
+      "__EMPTY_3": 1.572,
+      "__EMPTY_4": 221
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.34,
+      " Argentina (Citizen Science project sensor.community/34429)": 6.38,
+      "__EMPTY": 3.22,
+      "__EMPTY_1": 2.52,
+      "__EMPTY_2": 3.84,
+      "__EMPTY_3": 0.978,
+      "__EMPTY_4": 450
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.93,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.76,
+      "__EMPTY": 4.34,
+      "__EMPTY_1": 3.36,
+      "__EMPTY_2": 6.46,
+      "__EMPTY_3": 2.195,
+      "__EMPTY_4": 567
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.89,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.54,
+      "__EMPTY": 5.46,
+      "__EMPTY_1": 1.76,
+      "__EMPTY_2": 7.65,
+      "__EMPTY_3": 3.54,
+      "__EMPTY_4": 346
+    },
+    {
+      "# Sensor Almirante Brown": "2025-03-31T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.4,
+      " Argentina (Citizen Science project sensor.community/34429)": 3.83,
+      "__EMPTY": 1,
+      "__EMPTY_1": 0.79,
+      "__EMPTY_2": 1.23,
+      "__EMPTY_3": 0.481,
+      "__EMPTY_4": 532
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.56,
+      " Argentina (Citizen Science project sensor.community/34429)": 29.39,
+      "__EMPTY": 2.24,
+      "__EMPTY_1": 1.41,
+      "__EMPTY_2": 5.09,
+      "__EMPTY_3": 3.253,
+      "__EMPTY_4": 215
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.32,
+      " Argentina (Citizen Science project sensor.community/34429)": 19.14,
+      "__EMPTY": 2.31,
+      "__EMPTY_1": 1.84,
+      "__EMPTY_2": 3.08,
+      "__EMPTY_3": 1.983,
+      "__EMPTY_4": 174
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.32,
+      " Argentina (Citizen Science project sensor.community/34429)": 20.22,
+      "__EMPTY": 1.83,
+      "__EMPTY_1": 0.6,
+      "__EMPTY_2": 4.08,
+      "__EMPTY_3": 2.985,
+      "__EMPTY_4": 576
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.12,
+      " Argentina (Citizen Science project sensor.community/34429)": 15.35,
+      "__EMPTY": 1.08,
+      "__EMPTY_1": 0.35,
+      "__EMPTY_2": 2.74,
+      "__EMPTY_3": 2.151,
+      "__EMPTY_4": 583
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.99,
+      " Argentina (Citizen Science project sensor.community/34429)": 21.16,
+      "__EMPTY": 3.01,
+      "__EMPTY_1": 2.34,
+      "__EMPTY_2": 6.21,
+      "__EMPTY_3": 5.194,
+      "__EMPTY_4": 541
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-06T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.72,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.45,
+      "__EMPTY": 6.41,
+      "__EMPTY_1": 4.78,
+      "__EMPTY_2": 8.86,
+      "__EMPTY_3": 3.284,
+      "__EMPTY_4": 346
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-07T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.98,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.26,
+      "__EMPTY": 4.99,
+      "__EMPTY_1": 4.71,
+      "__EMPTY_2": 6.92,
+      "__EMPTY_3": 1.789,
+      "__EMPTY_4": 328
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-08T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.52,
+      " Argentina (Citizen Science project sensor.community/34429)": 57.16,
+      "__EMPTY": 4.75,
+      "__EMPTY_1": 3.52,
+      "__EMPTY_2": 7.8,
+      "__EMPTY_3": 4.495,
+      "__EMPTY_4": 578
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-09T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.81,
+      " Argentina (Citizen Science project sensor.community/34429)": 16.57,
+      "__EMPTY": 3.13,
+      "__EMPTY_1": 2.04,
+      "__EMPTY_2": 5.5,
+      "__EMPTY_3": 3.238,
+      "__EMPTY_4": 554
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-10T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.43,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.96,
+      "__EMPTY": 4.13,
+      "__EMPTY_1": 2.76,
+      "__EMPTY_2": 5.84,
+      "__EMPTY_3": 2.4,
+      "__EMPTY_4": 556
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-11T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.09,
+      " Argentina (Citizen Science project sensor.community/34429)": 21.09,
+      "__EMPTY": 3.58,
+      "__EMPTY_1": 1.98,
+      "__EMPTY_2": 5.12,
+      "__EMPTY_3": 2.558,
+      "__EMPTY_4": 582
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-12T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.52,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.32,
+      "__EMPTY": 2.17,
+      "__EMPTY_1": 1.3,
+      "__EMPTY_2": 3,
+      "__EMPTY_3": 1.239,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-13T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.02,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.76,
+      "__EMPTY": 3.25,
+      "__EMPTY_1": 1.86,
+      "__EMPTY_2": 6.46,
+      "__EMPTY_3": 3.641,
+      "__EMPTY_4": 566
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-14T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.13,
+      " Argentina (Citizen Science project sensor.community/34429)": 18.64,
+      "__EMPTY": 3.77,
+      "__EMPTY_1": 3.25,
+      "__EMPTY_2": 5.38,
+      "__EMPTY_3": 3.117,
+      "__EMPTY_4": 584
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-15T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.84,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.11,
+      "__EMPTY": 2.59,
+      "__EMPTY_1": 1.6,
+      "__EMPTY_2": 4.63,
+      "__EMPTY_3": 2.711,
+      "__EMPTY_4": 567
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-16T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.16,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.25,
+      "__EMPTY": 5.25,
+      "__EMPTY_1": 4.33,
+      "__EMPTY_2": 6.79,
+      "__EMPTY_3": 1.932,
+      "__EMPTY_4": 581
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-17T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.08,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.76,
+      "__EMPTY": 3.45,
+      "__EMPTY_1": 2.83,
+      "__EMPTY_2": 5.26,
+      "__EMPTY_3": 2.047,
+      "__EMPTY_4": 587
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-18T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.52,
+      " Argentina (Citizen Science project sensor.community/34429)": 14.13,
+      "__EMPTY": 2.23,
+      "__EMPTY_1": 1.21,
+      "__EMPTY_2": 5.09,
+      "__EMPTY_3": 2.718,
+      "__EMPTY_4": 587
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-19T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.16,
+      " Argentina (Citizen Science project sensor.community/34429)": 8.86,
+      "__EMPTY": 0.63,
+      "__EMPTY_1": 0.47,
+      "__EMPTY_2": 1.07,
+      "__EMPTY_3": 1.247,
+      "__EMPTY_4": 502
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.22,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.54,
+      "__EMPTY": 4.58,
+      "__EMPTY_1": 2.73,
+      "__EMPTY_2": 5.44,
+      "__EMPTY_3": 2.035,
+      "__EMPTY_4": 587
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-21T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.11,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.35,
+      "__EMPTY": 4.11,
+      "__EMPTY_1": 3.39,
+      "__EMPTY_2": 5.77,
+      "__EMPTY_3": 1.912,
+      "__EMPTY_4": 586
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-22T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.43,
+      " Argentina (Citizen Science project sensor.community/34429)": 17.09,
+      "__EMPTY": 6.81,
+      "__EMPTY_1": 5.2,
+      "__EMPTY_2": 8.88,
+      "__EMPTY_3": 2.946,
+      "__EMPTY_4": 586
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-23T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.2,
+      " Argentina (Citizen Science project sensor.community/34429)": 13.45,
+      "__EMPTY": 6.02,
+      "__EMPTY_1": 3.46,
+      "__EMPTY_2": 7.45,
+      "__EMPTY_3": 2.388,
+      "__EMPTY_4": 587
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-24T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.93,
+      " Argentina (Citizen Science project sensor.community/34429)": 10.43,
+      "__EMPTY": 4.17,
+      "__EMPTY_1": 2.8,
+      "__EMPTY_2": 5.87,
+      "__EMPTY_3": 1.974,
+      "__EMPTY_4": 586
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-25T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.53,
+      " Argentina (Citizen Science project sensor.community/34429)": 33.15,
+      "__EMPTY": 7.45,
+      "__EMPTY_1": 5.77,
+      "__EMPTY_2": 9.24,
+      "__EMPTY_3": 2.647,
+      "__EMPTY_4": 583
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-26T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.21,
+      " Argentina (Citizen Science project sensor.community/34429)": 20.57,
+      "__EMPTY": 0.88,
+      "__EMPTY_1": 0.57,
+      "__EMPTY_2": 7.84,
+      "__EMPTY_3": 5.546,
+      "__EMPTY_4": 585
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-27T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.21,
+      " Argentina (Citizen Science project sensor.community/34429)": 16.69,
+      "__EMPTY": 3.64,
+      "__EMPTY_1": 2.78,
+      "__EMPTY_2": 9.07,
+      "__EMPTY_3": 4.024,
+      "__EMPTY_4": 581
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-28T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.77,
+      " Argentina (Citizen Science project sensor.community/34429)": 33.83,
+      "__EMPTY": 3.68,
+      "__EMPTY_1": 3.16,
+      "__EMPTY_2": 4.8,
+      "__EMPTY_3": 3.842,
+      "__EMPTY_4": 584
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-29T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.21,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.24,
+      "__EMPTY": 4.05,
+      "__EMPTY_1": 3.33,
+      "__EMPTY_2": 6.07,
+      "__EMPTY_3": 1.986,
+      "__EMPTY_4": 581
+    },
+    {
+      "# Sensor Almirante Brown": "2025-04-30T00:00:00.000Z",
+      " Distrito Chacras de Coria": 2.21,
+      " Argentina (Citizen Science project sensor.community/34429)": 25.26,
+      "__EMPTY": 4.96,
+      "__EMPTY_1": 4.24,
+      "__EMPTY_2": 7.44,
+      "__EMPTY_3": 2.571,
+      "__EMPTY_4": 581
+    },
+    {
+      "# Sensor Almirante Brown": "2025-05-01T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.92,
+      " Argentina (Citizen Science project sensor.community/34429)": 22.62,
+      "__EMPTY": 4.71,
+      "__EMPTY_1": 3.54,
+      "__EMPTY_2": 7.23,
+      "__EMPTY_3": 3.986,
+      "__EMPTY_4": 582
+    },
+    {
+      "# Sensor Almirante Brown": "2025-05-02T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.86,
+      " Argentina (Citizen Science project sensor.community/34429)": 11.91,
+      "__EMPTY": 2.27,
+      "__EMPTY_1": 1.42,
+      "__EMPTY_2": 4.87,
+      "__EMPTY_3": 2.472,
+      "__EMPTY_4": 533
+    },
+    {
+      "# Sensor Almirante Brown": "2025-05-03T00:00:00.000Z",
+      " Distrito Chacras de Coria": 3.26,
+      " Argentina (Citizen Science project sensor.community/34429)": 12.67,
+      "__EMPTY": 5.56,
+      "__EMPTY_1": 4.36,
+      "__EMPTY_2": 7.39,
+      "__EMPTY_3": 2.179,
+      "__EMPTY_4": 484
+    },
+    {
+      "# Sensor Almirante Brown": "2025-05-04T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.8,
+      " Argentina (Citizen Science project sensor.community/34429)": 16.76,
+      "__EMPTY": 3.26,
+      "__EMPTY_1": 1.46,
+      "__EMPTY_2": 7.48,
+      "__EMPTY_3": 3.578,
+      "__EMPTY_4": 582
+    },
+    {
+      "# Sensor Almirante Brown": "2025-05-05T00:00:00.000Z",
+      " Distrito Chacras de Coria": 0.52,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.74,
+      "__EMPTY": 1.1,
+      "__EMPTY_1": 0.9,
+      "__EMPTY_2": 1.37,
+      "__EMPTY_3": 0.642,
+      "__EMPTY_4": 293
+    },
+    {
+      "# Sensor Almirante Brown": "2025-05-20T00:00:00.000Z",
+      " Distrito Chacras de Coria": 1.69,
+      " Argentina (Citizen Science project sensor.community/34429)": 4.51,
+      "__EMPTY": 3.38,
+      "__EMPTY_1": 2.43,
+      "__EMPTY_2": 3.71,
+      "__EMPTY_3": 0.814,
+      "__EMPTY_4": 21
+    }
+  ],
+  "totalRows": 525,
+  "previewSourceFile": "medicion de aire_2025.xlsx",
+  "municipios": []
+}

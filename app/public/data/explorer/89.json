@@ -1,0 +1,262 @@
+{
+  "id": "89",
+  "title": "Centro Verde",
+  "source": "Secretaría de Higiene Urbana y Mantenimiento del Espacio Público",
+  "description": "Residuos recuperas o e ingresados en Centro Verde 2025",
+  "category": "Medio Ambiente y Desarrollo Sustentable",
+  "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+  "updatedAt": "2025-12-05T06:53:04.000Z",
+  "createdAt": "2025-07-14T11:11:34.000Z",
+  "files": [
+    {
+      "nombre": "1751399114535_VENTAS 2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/89/1751399114535_VENTAS 2025.xlsx",
+      "bytes": 12203
+    }
+  ],
+  "columns": [
+    {
+      "name": "AÑO 2025",
+      "type": "string",
+      "label": "AÑO 2025"
+    },
+    {
+      "name": "__EMPTY",
+      "type": "string",
+      "label": "__EMPTY"
+    },
+    {
+      "name": "__EMPTY_1",
+      "type": "string",
+      "label": "__EMPTY_1"
+    },
+    {
+      "name": "__EMPTY_2",
+      "type": "string",
+      "label": "__EMPTY_2"
+    },
+    {
+      "name": "__EMPTY_3",
+      "type": "number",
+      "label": "__EMPTY_3"
+    },
+    {
+      "name": "__EMPTY_4",
+      "type": "string",
+      "label": "__EMPTY_4"
+    },
+    {
+      "name": "__EMPTY_5",
+      "type": "string",
+      "label": "__EMPTY_5"
+    },
+    {
+      "name": "__EMPTY_6",
+      "type": "string",
+      "label": "__EMPTY_6"
+    },
+    {
+      "name": "__EMPTY_7",
+      "type": "string",
+      "label": "__EMPTY_7"
+    },
+    {
+      "name": "__EMPTY_8",
+      "type": "string",
+      "label": "__EMPTY_8"
+    },
+    {
+      "name": "__EMPTY_9",
+      "type": "number",
+      "label": "__EMPTY_9"
+    }
+  ],
+  "rows": [
+    {
+      "AÑO 2025": "",
+      "__EMPTY": "Plástico (Kg)",
+      "__EMPTY_1": "Carton (Kg)",
+      "__EMPTY_2": "Papel (Kg)",
+      "__EMPTY_3": "Vidrio (Kg)",
+      "__EMPTY_4": "Metal (Kg)",
+      "__EMPTY_5": "Telgopor x metro",
+      "__EMPTY_6": "Corchos (Kg)          Tapas (Kg)",
+      "__EMPTY_7": "Tetra (Kg)",
+      "__EMPTY_8": "Otros (Kg)",
+      "__EMPTY_9": "Total (Kg)"
+    },
+    {
+      "AÑO 2025": "Enero",
+      "__EMPTY": 1465,
+      "__EMPTY_1": 13553,
+      "__EMPTY_2": 2619.5,
+      "__EMPTY_3": 15000,
+      "__EMPTY_4": 650,
+      "__EMPTY_5": "36,6",
+      "__EMPTY_6": 356,
+      "__EMPTY_7": 209,
+      "__EMPTY_8": "2.178 (Chatarra)",
+      "__EMPTY_9": 20100
+    },
+    {
+      "AÑO 2025": "Febrero",
+      "__EMPTY": 1018,
+      "__EMPTY_1": 9690,
+      "__EMPTY_2": 2500,
+      "__EMPTY_3": 12000,
+      "__EMPTY_4": 681,
+      "__EMPTY_5": "42,5",
+      "__EMPTY_6": 240,
+      "__EMPTY_7": 280,
+      "__EMPTY_8": "1.180 (chatarra)",
+      "__EMPTY_9": 26451.5
+    },
+    {
+      "AÑO 2025": "Marzo",
+      "__EMPTY": 5110,
+      "__EMPTY_1": 9980,
+      "__EMPTY_2": "NO HUBO",
+      "__EMPTY_3": 8100,
+      "__EMPTY_4": 1801,
+      "__EMPTY_5": 20,
+      "__EMPTY_6": 31,
+      "__EMPTY_7": 200,
+      "__EMPTY_8": 5225,
+      "__EMPTY_9": 30467
+    },
+    {
+      "AÑO 2025": "Abril",
+      "__EMPTY": 2388,
+      "__EMPTY_1": 7100,
+      "__EMPTY_2": "NO HUBO",
+      "__EMPTY_3": 6220,
+      "__EMPTY_4": 275.8,
+      "__EMPTY_5": 9.6,
+      "__EMPTY_6": "no",
+      "__EMPTY_7": "no",
+      "__EMPTY_8": "3,195 Cable ",
+      "__EMPTY_9": 19188.4
+    },
+    {
+      "AÑO 2025": "Mayo",
+      "__EMPTY": "296 (color) 1502(Nylon)= 1,798    ",
+      "__EMPTY_1": "2,500 (Post consumo) ",
+      "__EMPTY_2": "",
+      "__EMPTY_3": 6600,
+      "__EMPTY_4": "3,2 (cobre)  24,6 (aluminio) 7,2(perfil) 0,7 (estañado) 76,9(latas) = 112.6          ",
+      "__EMPTY_5": "8x 1,5m3= 50 ",
+      "__EMPTY_6": "174 (corchos)             256 (tapas) ",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "17 (bateria)             1.390 (chatarra pesada)                    2.910 (chatarra liviana) 1214.5 (cable)",
+      "__EMPTY_9": 17082
+    },
+    {
+      "AÑO 2025": "Junio",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "AÑO 2025": "Julio",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "AÑO 2025": "Agosto",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "AÑO 2025": "Septiembre",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "AÑO 2025": "Octubre",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "AÑO 2025": "Noviembre",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "AÑO 2025": "Diciembre",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    },
+    {
+      "AÑO 2025": "Total",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "__EMPTY_7": "",
+      "__EMPTY_8": "",
+      "__EMPTY_9": ""
+    }
+  ],
+  "totalRows": 14,
+  "previewSourceFile": "1751399114535_VENTAS 2025.xlsx",
+  "municipios": []
+}

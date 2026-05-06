@@ -1,0 +1,22 @@
+{
+  "id": "65",
+  "title": "Presupuestaria 2022",
+  "source": "Secretaría de Economía e Ingresos Públicos",
+  "description": "Rige lo importes de las Tasas Municipales para el 2022",
+  "category": "Economía",
+  "categorySlug": "economia",
+  "updatedAt": "2025-12-16T00:28:27.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "ordenanza-n-14103-2021-presupuesto-2022.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/65/ordenanza-n-14103-2021-presupuesto-2022.pdf",
+      "bytes": 709459
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

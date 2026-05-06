@@ -1,0 +1,22 @@
+{
+  "id": "31",
+  "title": "Gestión Integral de Residuos Sólidos Urbanos",
+  "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+  "description": "Plan municipal GIRSU",
+  "category": "Urbanismo y Territorio",
+  "categorySlug": "urbanismo-y-territorio",
+  "updatedAt": "2025-12-22T10:18:09.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "ordenanza-n-13884-2020-girsu-actual-1.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/31/ordenanza-n-13884-2020-girsu-actual-1.pdf",
+      "bytes": 386677
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

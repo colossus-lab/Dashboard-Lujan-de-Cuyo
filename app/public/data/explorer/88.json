@@ -1,0 +1,183 @@
+{
+  "id": "88",
+  "title": "Disposición Final de Residuos",
+  "source": "Secretaría de Higiene Urbana y Mantenimiento del Espacio Público",
+  "description": "Relleno Sanitario Borbollón desde 2021 a 2025",
+  "category": "Medio Ambiente y Desarrollo Sustentable",
+  "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+  "updatedAt": "2025-12-20T19:05:56.000Z",
+  "createdAt": "2025-07-14T11:03:27.000Z",
+  "files": [
+    {
+      "nombre": "Cantidad_2021-2022-2023-2024-2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/88/Cantidad_2021-2022-2023-2024-2025.xlsx",
+      "bytes": 19443
+    }
+  ],
+  "columns": [
+    {
+      "name": "RELLENO SANITARIO CONTROLADO EL BORBOLLON",
+      "type": "string",
+      "label": "RELLENO SANITARIO CONTROLADO EL BORBOLLON"
+    },
+    {
+      "name": "__EMPTY",
+      "type": "number",
+      "label": "__EMPTY"
+    },
+    {
+      "name": "__EMPTY_1",
+      "type": "string",
+      "label": "__EMPTY_1"
+    },
+    {
+      "name": "__EMPTY_2",
+      "type": "string",
+      "label": "__EMPTY_2"
+    },
+    {
+      "name": "__EMPTY_3",
+      "type": "number",
+      "label": "__EMPTY_3"
+    },
+    {
+      "name": "__EMPTY_4",
+      "type": "string",
+      "label": "__EMPTY_4"
+    }
+  ],
+  "rows": [
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "DISPOSICION FINAL DE RESIDUOS",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "PERIODO COMPRENDIDO DESDE 02 DE ENERO AL 31 DICIEMBRE DE 2021",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "MES",
+      "__EMPTY": "TONELADAS",
+      "__EMPTY_1": "PER CAPITA",
+      "__EMPTY_2": "HABITANTES",
+      "__EMPTY_3": 119000,
+      "__EMPTY_4": "DATO CENSO 2010"
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "ENERO",
+      "__EMPTY": 250,
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "FEBRERO",
+      "__EMPTY": 355,
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "MARZO ",
+      "__EMPTY": 450,
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "ABRIL",
+      "__EMPTY": 425,
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "MAYO",
+      "__EMPTY": 320,
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "JUNIO",
+      "__EMPTY": 602,
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "JULIO",
+      "__EMPTY": 599,
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "AGOSTO",
+      "__EMPTY": 441,
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "SEPTIEMBRE",
+      "__EMPTY": 356,
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "OCTUBRE",
+      "__EMPTY": 122,
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "NOVIEMBRE",
+      "__EMPTY": 410,
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "DICIEMBRE",
+      "__EMPTY": 155,
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    },
+    {
+      "RELLENO SANITARIO CONTROLADO EL BORBOLLON": "TOTAL ",
+      "__EMPTY": 4485,
+      "__EMPTY_1": 0,
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": ""
+    }
+  ],
+  "totalRows": 16,
+  "previewSourceFile": "Cantidad_2021-2022-2023-2024-2025.xlsx",
+  "municipios": []
+}

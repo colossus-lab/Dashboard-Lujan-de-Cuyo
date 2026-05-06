@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "id": "movilidad",
+    "title": "Movilidad",
+    "category": "Movilidad",
+    "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
+    "date": "2026-05-06"
+  },
+  "kpis": [
+    {
+      "id": "kpi-datasets",
+      "label": "Datasets",
+      "value": 5,
+      "formatted": "5"
+    },
+    {
+      "id": "kpi-archivos",
+      "label": "Archivos descargables",
+      "value": 7,
+      "formatted": "7"
+    },
+    {
+      "id": "kpi-mb",
+      "label": "MB publicados",
+      "value": 6,
+      "formatted": "5.8 MB"
+    },
+    {
+      "id": "kpi-orgs",
+      "label": "Áreas que publican",
+      "value": 5,
+      "formatted": "5"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart-orgs",
+      "type": "bar",
+      "title": "Datasets por área que publica",
+      "sectionId": "areas-que-publican",
+      "data": [
+        {
+          "id": "Intendencia Municipalidad de Luján de Cuyo",
+          "datasets": 1
+        },
+        {
+          "id": "Apoderado Municipal",
+          "datasets": 1
+        },
+        {
+          "id": "Secretaria de Gobierno",
+          "datasets": 1
+        },
+        {
+          "id": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+          "datasets": 1
+        },
+        {
+          "id": "Secretaría de Obras y Espacio Público",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "id",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "chart-formats",
+      "type": "pie",
+      "title": "Distribución de formatos",
+      "sectionId": "formatos-disponibles",
+      "data": [
+        {
+          "id": "XLSX",
+          "label": "XLSX",
+          "value": 3
+        },
+        {
+          "id": "CSV",
+          "label": "CSV",
+          "value": 1
+        },
+        {
+          "id": "ZIP",
+          "label": "ZIP",
+          "value": 1
+        },
+        {
+          "id": "KML",
+          "label": "KML",
+          "value": 1
+        },
+        {
+          "id": "XLS",
+          "label": "XLS",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rank-datasets-archivos",
+      "title": "Datasets con más archivos",
+      "sectionId": "",
+      "items": [
+        {
+          "name": "Obras Públicas",
+          "value": 3
+        },
+        {
+          "name": "Barrios Populares",
+          "value": 2
+        },
+        {
+          "name": "Transporte Público",
+          "value": 2
+        },
+        {
+          "name": "Circuito de Ciclovías",
+          "value": 0
+        },
+        {
+          "name": "Seguridad Vial",
+          "value": 0
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

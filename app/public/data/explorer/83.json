@@ -1,0 +1,323 @@
+{
+  "id": "83",
+  "title": "Pauta publicitaria 2025",
+  "source": "Dirección de Comunicación Estratégica",
+  "description": "Pauta publicitaria 2025",
+  "category": "Gobierno Municipal",
+  "categorySlug": "gobierto-y-sector-publico",
+  "updatedAt": "2025-12-19T03:00:51.000Z",
+  "createdAt": "2025-07-03T11:41:25.000Z",
+  "files": [
+    {
+      "nombre": "pauta_publicitaria-2020-2021-2022-2023-2024.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/83/pauta_publicitaria-2020-2021-2022-2023-2024.xlsx",
+      "bytes": 20040
+    }
+  ],
+  "columns": [
+    {
+      "name": "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)",
+      "type": "string",
+      "label": "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)"
+    },
+    {
+      "name": "AÑO 2020",
+      "type": "number",
+      "label": "AÑO 2020"
+    },
+    {
+      "name": "AÑO 2021",
+      "type": "number",
+      "label": "AÑO 2021"
+    },
+    {
+      "name": "AÑO 2022",
+      "type": "number",
+      "label": "AÑO 2022"
+    },
+    {
+      "name": " AÑO 2023",
+      "type": "number",
+      "label": " AÑO 2023"
+    },
+    {
+      "name": " AÑO 2024",
+      "type": "number",
+      "label": " AÑO 2024"
+    },
+    {
+      "name": "__EMPTY",
+      "type": "string",
+      "label": "__EMPTY"
+    },
+    {
+      "name": "__EMPTY_1",
+      "type": "string",
+      "label": "__EMPTY_1"
+    },
+    {
+      "name": "__EMPTY_2",
+      "type": "string",
+      "label": "__EMPTY_2"
+    },
+    {
+      "name": "__EMPTY_3",
+      "type": "string",
+      "label": "__EMPTY_3"
+    },
+    {
+      "name": "__EMPTY_4",
+      "type": "string",
+      "label": "__EMPTY_4"
+    },
+    {
+      "name": "__EMPTY_5",
+      "type": "string",
+      "label": "__EMPTY_5"
+    }
+  ],
+  "rows": [
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "MESES",
+      "AÑO 2020": "MONTO",
+      "AÑO 2021": "MONTO3",
+      "AÑO 2022": "MONTO2",
+      " AÑO 2023": "MONTO22",
+      " AÑO 2024": "MONTO",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "ENERO",
+      "AÑO 2020": 3532500,
+      "AÑO 2021": 1833570.04,
+      "AÑO 2022": 4358342,
+      " AÑO 2023": 9152518.200000001,
+      " AÑO 2024": 13911827.663999999,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "FEBRERO",
+      "AÑO 2020": 509965,
+      "AÑO 2021": 1533660,
+      "AÑO 2022": 22574053.900000002,
+      " AÑO 2023": 47405513.190000005,
+      " AÑO 2024": 72056380.0488,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "MARZO",
+      "AÑO 2020": 17303450,
+      "AÑO 2021": 18574651.6,
+      "AÑO 2022": 50492825.120000005,
+      " AÑO 2023": 106034932.75200002,
+      " AÑO 2024": 161173097.78304002,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "ABRIL",
+      "AÑO 2020": 2942770.1,
+      "AÑO 2021": 7417324,
+      "AÑO 2022": 7011345,
+      " AÑO 2023": 14723824.5,
+      " AÑO 2024": 22380213.240000002,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "MAYO",
+      "AÑO 2020": -419530,
+      "AÑO 2021": 2554548,
+      "AÑO 2022": 1881350,
+      " AÑO 2023": 3950835,
+      " AÑO 2024": 6005269.2,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "JUNIO",
+      "AÑO 2020": 78233,
+      "AÑO 2021": 983000,
+      "AÑO 2022": 0,
+      " AÑO 2023": 0,
+      " AÑO 2024": 0,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "JULIO",
+      "AÑO 2020": 38040,
+      "AÑO 2021": 1480350,
+      "AÑO 2022": 1666950,
+      " AÑO 2023": 3500595,
+      " AÑO 2024": 5320904.4,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "AGOSTO",
+      "AÑO 2020": 368161.68,
+      "AÑO 2021": 7634879,
+      "AÑO 2022": 2528471,
+      " AÑO 2023": 5309789.100000001,
+      " AÑO 2024": 8070879.432000001,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "SETIEMBRE",
+      "AÑO 2020": 40470,
+      "AÑO 2021": 156000,
+      "AÑO 2022": 1280490.7999999998,
+      " AÑO 2023": 2689030.6799999997,
+      " AÑO 2024": 4087326.6336,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "OCTUBRE",
+      "AÑO 2020": 105463,
+      "AÑO 2021": 1024500,
+      "AÑO 2022": 15000,
+      " AÑO 2023": 31500,
+      " AÑO 2024": 47880,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "NOVIEMBRE",
+      "AÑO 2020": 93511.39000000001,
+      "AÑO 2021": 70000,
+      "AÑO 2022": 1350000,
+      " AÑO 2023": 2835000,
+      " AÑO 2024": 4309200,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "DICIEMBRE",
+      "AÑO 2020": -94620.13,
+      "AÑO 2021": 1974999.5499999996,
+      "AÑO 2022": -373640.19,
+      " AÑO 2023": -784644.3990000001,
+      " AÑO 2024": -1192659.4864800002,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "TOTAL",
+      "AÑO 2020": 24498414.040000003,
+      "AÑO 2021": 45237482.19,
+      "AÑO 2022": 92785187.63000001,
+      " AÑO 2023": 194848894.02300003,
+      " AÑO 2024": 296170318.91496,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "",
+      "AÑO 2020": 2020,
+      "AÑO 2021": 2021,
+      "AÑO 2022": 2022,
+      " AÑO 2023": 2023,
+      " AÑO 2024": 2024,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "Presupuestado",
+      "AÑO 2020": 24498414.04,
+      "AÑO 2021": 45237482.19,
+      "AÑO 2022": 92785187.63,
+      " AÑO 2023": 194848894.02300003,
+      " AÑO 2024": 296170318.91496,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    },
+    {
+      "PAUTA PUBLICITARIA  (contratada mediante imputación definitiva)": "Ejecutado",
+      "AÑO 2020": 24498414.040000003,
+      "AÑO 2021": 45237482.19,
+      "AÑO 2022": 92785187.63000001,
+      " AÑO 2023": 194848894.02300003,
+      " AÑO 2024": 296170318.91496,
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": ""
+    }
+  ],
+  "totalRows": 17,
+  "previewSourceFile": "pauta_publicitaria-2020-2021-2022-2023-2024.xlsx",
+  "municipios": []
+}

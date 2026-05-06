@@ -1,0 +1,26 @@
+{
+  "total_datasets": 83,
+  "total_recursos": 204,
+  "total_bytes": 94605181,
+  "total_mb": 90,
+  "total_categorias": 14,
+  "total_formatos": 17,
+  "total_organizaciones": 19,
+  "datasets_por_categoria": {
+    "gobierto-y-sector-publico": 33,
+    "medio-ambiente-y-desarrollo-sustentable": 23,
+    "economia": 19,
+    "urbanismo-y-territorio": 14,
+    "deporte-educacion-y-salud": 9,
+    "honorable-consejo-deliberante-lujan-de-cuyo": 9,
+    "cultura-y-turismo": 7,
+    "desarrollo-humano": 5,
+    "movilidad": 5,
+    "elecciones": 4,
+    "genero": 3,
+    "gestion_de_datos": 3,
+    "seguridad": 2,
+    "covid-19": 1
+  },
+  "generated_at": "2026-05-06T17:08:35.570Z"
+}

@@ -1,0 +1,327 @@
+{
+  "id": "10",
+  "title": "Uniones Vecinales",
+  "source": "Intendencia Municipalidad de Luján de Cuyo",
+  "description": "Listado de las Uniones vecinales de Luján de Cuyo.",
+  "category": "Urbanismo y Territorio",
+  "categorySlug": "urbanismo-y-territorio",
+  "updatedAt": "2025-12-22T02:10:46.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "uniones-vecinales.csv",
+      "formato": "CSV",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/10/uniones-vecinales.csv",
+      "bytes": 2546
+    }
+  ],
+  "columns": [
+    {
+      "name": "gid",
+      "type": "number",
+      "label": "gid"
+    },
+    {
+      "name": "id",
+      "type": "number",
+      "label": "id"
+    },
+    {
+      "name": "institucio",
+      "type": "string",
+      "label": "institucio"
+    },
+    {
+      "name": "nombre",
+      "type": "string",
+      "label": "nombre"
+    },
+    {
+      "name": "latitud",
+      "type": "number",
+      "label": "latitud"
+    },
+    {
+      "name": "longitud",
+      "type": "number",
+      "label": "longitud"
+    }
+  ],
+  "rows": [
+    {
+      "gid": 0,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "BARRIO RESIDENCIAL CORDON DEL PLATA",
+      "latitud": -33.0125910308,
+      "longitud": -68.889043928
+    },
+    {
+      "gid": 1,
+      "id": 1,
+      "institucio": "UNION VECINAL",
+      "nombre": "1 DE MAYO",
+      "latitud": -33.2037819302,
+      "longitud": -68.8913056011
+    },
+    {
+      "gid": 2,
+      "id": 2,
+      "institucio": "UNION VECINAL",
+      "nombre": "1 B 13 DE DICIEMBRE",
+      "latitud": -33.038781202,
+      "longitud": -68.8927692009
+    },
+    {
+      "gid": 3,
+      "id": 3,
+      "institucio": "UNION VECINAL",
+      "nombre": "13 DE AGOSTO",
+      "latitud": -33.2248589494,
+      "longitud": -68.8931134639
+    },
+    {
+      "gid": 4,
+      "id": 4,
+      "institucio": "UNION VECINAL",
+      "nombre": "17 DE AGOSTO",
+      "latitud": -33.215780462,
+      "longitud": -68.886927567
+    },
+    {
+      "gid": 5,
+      "id": 5,
+      "institucio": "UNION VECINAL",
+      "nombre": "2 DE NOVIEMBRE",
+      "latitud": -33.0848579838,
+      "longitud": -68.8824197873
+    },
+    {
+      "gid": 6,
+      "id": 6,
+      "institucio": "UNION VECINAL",
+      "nombre": "2 B 13 DE DICIEMBRE",
+      "latitud": -33.0291532491,
+      "longitud": -68.8861991768
+    },
+    {
+      "gid": 7,
+      "id": 7,
+      "institucio": "UNION VECINAL",
+      "nombre": "21 DE JULIO",
+      "latitud": -32.9762397365,
+      "longitud": -68.8507883825
+    },
+    {
+      "gid": 8,
+      "id": 8,
+      "institucio": "UNION VECINAL",
+      "nombre": "25 DE MAYO",
+      "latitud": -32.9924178246,
+      "longitud": -68.8706133529
+    },
+    {
+      "gid": 9,
+      "id": 8,
+      "institucio": "UNION VECINAL",
+      "nombre": "29 DE ABRIL",
+      "latitud": -33.0371395773,
+      "longitud": -68.8626728524
+    },
+    {
+      "gid": 10,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "3 DE DICIEMBRE",
+      "latitud": -32.9693079479,
+      "longitud": -68.8503019189
+    },
+    {
+      "gid": 11,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "5 DE JULIO",
+      "latitud": -33.052368003,
+      "longitud": -68.8852458321
+    },
+    {
+      "gid": 12,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "ACCIONAR PERDRIEL",
+      "latitud": -33.06499701,
+      "longitud": -68.8817678635
+    },
+    {
+      "gid": 13,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "ADORABLE PUENTE",
+      "latitud": -33.3331618063,
+      "longitud": -68.8373528309
+    },
+    {
+      "gid": 14,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "AGRELO",
+      "latitud": -33.1162535889,
+      "longitud": -68.8885739229
+    },
+    {
+      "gid": 15,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "ALTO AGRELO",
+      "latitud": -33.0936479422,
+      "longitud": -68.967765246
+    },
+    {
+      "gid": 16,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "ALTO LUJAN",
+      "latitud": -33.0289367985,
+      "longitud": -68.8650593367
+    },
+    {
+      "gid": 17,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "ALUMINE",
+      "latitud": -33.3309117133,
+      "longitud": -68.7609712848
+    },
+    {
+      "gid": 18,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "ARMANI",
+      "latitud": -32.9680942548,
+      "longitud": -68.8545864925
+    },
+    {
+      "gid": 19,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "AIRES DEL PEDEMONTE",
+      "latitud": -32.9912366195,
+      "longitud": -68.9402716757
+    },
+    {
+      "gid": 20,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "ASOCIACION CIVIL COSTA CANAL",
+      "latitud": -33.2132488376,
+      "longitud": -68.8895723067
+    },
+    {
+      "gid": 21,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "ASOCIACION CIVIL SANTA MARA",
+      "latitud": -32.9908497875,
+      "longitud": -68.9405566599
+    },
+    {
+      "gid": 22,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "ASOC CIVIL LA NUEVA UNION",
+      "latitud": -32.9722616018,
+      "longitud": -68.8479502178
+    },
+    {
+      "gid": 23,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "ASOC CIVIL NUEVA UNION Y FUERZA CARRODILLA ESTE",
+      "latitud": -32.9637093695,
+      "longitud": -68.8357315066
+    },
+    {
+      "gid": 24,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "AYRES DE FADER",
+      "latitud": -33.0165152392,
+      "longitud": -68.8710383736
+    },
+    {
+      "gid": 25,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "BARRIO URQUIZA",
+      "latitud": -33.0320025256,
+      "longitud": -68.8743123136
+    },
+    {
+      "gid": 26,
+      "id": 0,
+      "institucio": "UNION VECINAL",
+      "nombre": "BARRIO 17 DE MAYO",
+      "latitud": -33.0840192464,
+      "longitud": -68.8859472552
+    },
+    {
+      "gid": 27,
+      "id": 0,
+      "institucio": "BIBLIOTECA",
+      "nombre": "BIBLIOTECA POPULAR NORMA ACORDINARO",
+      "latitud": -33.1152346664,
+      "longitud": -68.8889709932
+    },
+    {
+      "gid": 28,
+      "id": 0,
+      "institucio": "BIBLIOTECA",
+      "nombre": "BIBLIOTECA POPULAR VIRGEN DE LA CARRODILLA",
+      "latitud": -32.9621682497,
+      "longitud": -68.8430121211
+    },
+    {
+      "gid": 29,
+      "id": 0,
+      "institucio": "BIBLIOTECA",
+      "nombre": "BIBLIOTECA POPULAR CHACRAS DE CORIA",
+      "latitud": -32.9881432442,
+      "longitud": -68.8842400753
+    },
+    {
+      "gid": 30,
+      "id": 0,
+      "institucio": "BIBLIOTECA",
+      "nombre": "BIBLIOTECA POPULAR ALFONSINA STORNI",
+      "latitud": -33.0787271641,
+      "longitud": -68.8844210444
+    },
+    {
+      "gid": 31,
+      "id": 0,
+      "institucio": "BIBLIOTECA",
+      "nombre": "BIBLIOTECA POPULAR BENITO JUAREZ",
+      "latitud": -33.0781765303,
+      "longitud": -68.913839341
+    },
+    {
+      "gid": 32,
+      "id": 0,
+      "institucio": "BIBLIOTECA",
+      "nombre": "BIBLIOTECA POPULAR ARMANDO TEJADA GOMEZ",
+      "latitud": -32.9621003818,
+      "longitud": -69.1997446219
+    },
+    {
+      "gid": 33,
+      "id": 0,
+      "institucio": "CLUB",
+      "nombre": "CLUB SPORTIVO FURLOTTI",
+      "latitud": -33.1423490798,
+      "longitud": -68.9195764245
+    }
+  ],
+  "totalRows": 34,
+  "previewSourceFile": "uniones-vecinales.csv",
+  "municipios": []
+}
