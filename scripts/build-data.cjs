@@ -29,9 +29,9 @@ const XLSX = require('xlsx');
 
 // ─── Config ───
 const FORCE = process.argv.includes('--force');
-const APP_DIR = path.resolve(__dirname, '..');
-const DATA_DIR = path.resolve(APP_DIR, '../data');
-const PUBLIC_DIR = path.join(APP_DIR, 'public');
+const ROOT = path.resolve(__dirname, '..');
+const DATA_DIR = path.resolve(ROOT, 'data');
+const PUBLIC_DIR = path.join(ROOT, 'public');
 const MAX_PREVIEW_ROWS = 5000;
 
 // Categorías → slugs (deben matchear con app/src/data/reportRegistry.ts)
