@@ -8,16 +8,16 @@ venv/
 # ─── Datos crudos descargados (90 MB) ───
 # Regenerables corriendo: python descargar_datos.py
 # Conservamos data/catalogo/ (catálogo + manifest, ~180 KB) para que
-# app/scripts/build-data.cjs pueda correr aún sin re-descargar.
+# scripts/build-data.cjs pueda correr aún sin re-descargar.
 data/datasets/
 data/descarga.log
 
-# ─── App: dependencias y build ───
-app/node_modules/
-app/dist/
-app/vite.log
-app/tsconfig.tsbuildinfo
-app/.vercel/
+# ─── Node / Vite ───
+node_modules/
+dist/
+vite.log
+tsconfig.tsbuildinfo
+.vercel/
 
 # ─── Editor / OS ───
 .vscode/
@@ -26,12 +26,17 @@ app/.vercel/
 Thumbs.db
 desktop.ini
 *.swp
+*.swo
 *~
 
 # ─── Env ───
 .env
 .env.local
 .env.*.local
+
+# ─── Logs ───
+*.log
+npm-debug.log*
 
 # ─── AI assistant configs ───
 .gemini/
