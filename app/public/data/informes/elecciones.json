@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "id": "elecciones",
+    "title": "Elecciones",
+    "category": "Elecciones",
+    "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
+    "date": "2026-05-06"
+  },
+  "kpis": [
+    {
+      "id": "kpi-datasets",
+      "label": "Datasets",
+      "value": 4,
+      "formatted": "4"
+    },
+    {
+      "id": "kpi-archivos",
+      "label": "Archivos descargables",
+      "value": 34,
+      "formatted": "34"
+    },
+    {
+      "id": "kpi-mb",
+      "label": "MB publicados",
+      "value": 16,
+      "formatted": "16.2 MB"
+    },
+    {
+      "id": "kpi-orgs",
+      "label": "Áreas que publican",
+      "value": 2,
+      "formatted": "2"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart-orgs",
+      "type": "bar",
+      "title": "Datasets por área que publica",
+      "sectionId": "areas-que-publican",
+      "data": [
+        {
+          "id": "Jefe de Gabinete",
+          "datasets": 3
+        },
+        {
+          "id": "Intendencia Municipalidad de Luján de Cuyo",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "id",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "chart-formats",
+      "type": "pie",
+      "title": "Distribución de formatos",
+      "sectionId": "formatos-disponibles",
+      "data": [
+        {
+          "id": "XLS",
+          "label": "XLS",
+          "value": 15
+        },
+        {
+          "id": "XLSX",
+          "label": "XLSX",
+          "value": 10
+        },
+        {
+          "id": "PDF",
+          "label": "PDF",
+          "value": 7
+        },
+        {
+          "id": "CSV",
+          "label": "CSV",
+          "value": 1
+        },
+        {
+          "id": "DOCX",
+          "label": "DOCX",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rank-datasets-archivos",
+      "title": "Datasets con más archivos",
+      "sectionId": "",
+      "items": [
+        {
+          "name": "Elecciones Departamental",
+          "value": 14
+        },
+        {
+          "name": "Resultado Electorales",
+          "value": 8
+        },
+        {
+          "name": "Ordenanzas Municipales",
+          "value": 6
+        },
+        {
+          "name": "Voto electoral",
+          "value": 6
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

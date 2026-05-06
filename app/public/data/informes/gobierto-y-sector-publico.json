@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "id": "gobierto-y-sector-publico",
+    "title": "Gobierno Municipal",
+    "category": "Gobierno Municipal",
+    "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
+    "date": "2026-05-06"
+  },
+  "kpis": [
+    {
+      "id": "kpi-datasets",
+      "label": "Datasets",
+      "value": 33,
+      "formatted": "33"
+    },
+    {
+      "id": "kpi-archivos",
+      "label": "Archivos descargables",
+      "value": 121,
+      "formatted": "121"
+    },
+    {
+      "id": "kpi-mb",
+      "label": "MB publicados",
+      "value": 51,
+      "formatted": "50.9 MB"
+    },
+    {
+      "id": "kpi-orgs",
+      "label": "Áreas que publican",
+      "value": 12,
+      "formatted": "12"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart-orgs",
+      "type": "bar",
+      "title": "Datasets por área que publica",
+      "sectionId": "areas-que-publican",
+      "data": [
+        {
+          "id": "Secretaría de Economía e Ingresos Públicos",
+          "datasets": 7
+        },
+        {
+          "id": "Secretaria de Gobierno",
+          "datasets": 4
+        },
+        {
+          "id": "Honorable Concejo Deliberante de Luján de Cuyo",
+          "datasets": 4
+        },
+        {
+          "id": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+          "datasets": 4
+        },
+        {
+          "id": "Jefe de Gabinete",
+          "datasets": 3
+        },
+        {
+          "id": "Secretaría de Hacienda",
+          "datasets": 3
+        },
+        {
+          "id": "Dirección de Comunicación Estratégica",
+          "datasets": 2
+        },
+        {
+          "id": "Intendencia Municipalidad de Luján de Cuyo",
+          "datasets": 2
+        },
+        {
+          "id": "Secretaría de Infraestructura y Desarrollo Sostenible",
+          "datasets": 1
+        },
+        {
+          "id": "Subsecretaría de Gestión del Talento Humano",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "id",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "chart-formats",
+      "type": "pie",
+      "title": "Distribución de formatos",
+      "sectionId": "formatos-disponibles",
+      "data": [
+        {
+          "id": "XLSX",
+          "label": "XLSX",
+          "value": 62
+        },
+        {
+          "id": "PDF",
+          "label": "PDF",
+          "value": 22
+        },
+        {
+          "id": "XLS",
+          "label": "XLS",
+          "value": 20
+        },
+        {
+          "id": "CSV",
+          "label": "CSV",
+          "value": 11
+        },
+        {
+          "id": "DOCX",
+          "label": "DOCX",
+          "value": 3
+        },
+        {
+          "id": "JPG",
+          "label": "JPG",
+          "value": 1
+        },
+        {
+          "id": "JSON",
+          "label": "JSON",
+          "value": 1
+        },
+        {
+          "id": "DOC",
+          "label": "DOC",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "chart-timeline",
+      "type": "line",
+      "title": "Datasets publicados por mes",
+      "sectionId": "timeline-de-publicacion",
+      "data": [
+        {
+          "mes": "2025-05",
+          "datasets": 32
+        },
+        {
+          "mes": "2025-07",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "mes"
+      }
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rank-datasets-archivos",
+      "title": "Datasets con más archivos",
+      "sectionId": "",
+      "items": [
+        {
+          "name": "Compras y Contrataciones",
+          "value": 23
+        },
+        {
+          "name": "Elecciones Departamental",
+          "value": 14
+        },
+        {
+          "name": "Funcionarios Públicos Municipal",
+          "value": 10
+        },
+        {
+          "name": "Resultado Electorales",
+          "value": 8
+        },
+        {
+          "name": "Presupuesto de Gobierno",
+          "value": 7
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

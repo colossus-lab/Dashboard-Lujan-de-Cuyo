@@ -1,0 +1,40 @@
+# ─── Dependencies ───
+node_modules/
+
+# ─── Build output ───
+dist/
+
+# ─── Generados por scripts/build-data.cjs ───
+# Se commitean al repo para que Vercel pueda buildear sin los datos crudos
+# (que viven en ../data/datasets, ignorada por el .gitignore raíz).
+# Para regenerarlos localmente: npm run build-data
+
+# ─── IDE & Editors ───
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── OS files ───
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Environment ───
+.env
+.env.local
+.env.*.local
+
+# ─── Logs ───
+*.log
+npm-debug.log*
+
+# ─── AI assistant configs ───
+.gemini/
+.claude/
+implementation_plan.md
+task.md
+
+# ─── Vercel ───
+.vercel/

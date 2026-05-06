@@ -1,0 +1,1255 @@
+[
+  {
+    "id": "90",
+    "title": "Inteligencia Artificial",
+    "source": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+    "category": "Gestión de Datos",
+    "categorySlug": "gestion_de_datos",
+    "rows": 5,
+    "columns": 3,
+    "files": 6,
+    "formats": [
+      "HTML",
+      "PDF",
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "89",
+    "title": "Centro Verde",
+    "source": "Secretaría de Higiene Urbana y Mantenimiento del Espacio Público",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 14,
+    "columns": 11,
+    "files": 1,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "88",
+    "title": "Disposición Final de Residuos",
+    "source": "Secretaría de Higiene Urbana y Mantenimiento del Espacio Público",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 16,
+    "columns": 6,
+    "files": 1,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "87",
+    "title": "Comercios por Rubro 2025",
+    "source": "Secretaría de Economía e Ingresos Públicos",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 11630,
+    "columns": 6,
+    "files": 1,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "84",
+    "title": "Gasto Público 2025",
+    "source": "Secretaría de Economía e Ingresos Públicos",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 33,
+    "columns": 13,
+    "files": 1,
+    "formats": [
+      "XLS"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "83",
+    "title": "Pauta publicitaria 2025",
+    "source": "Dirección de Comunicación Estratégica",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 17,
+    "columns": 12,
+    "files": 1,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "82",
+    "title": "Planilla de Licitación 2025",
+    "source": "Secretaría de Hacienda",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 419,
+    "columns": 26,
+    "files": 1,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "78",
+    "title": "Calidad del Agua 2025",
+    "source": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 24,
+    "columns": 10,
+    "files": 1,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "79",
+    "title": "Perforaciones 2025",
+    "source": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 71,
+    "columns": 10,
+    "files": 1,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "80",
+    "title": "Planta Cipolletti 2025",
+    "source": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 24,
+    "columns": 10,
+    "files": 1,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "81",
+    "title": "Planta Santa Elena 2025",
+    "source": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 25,
+    "columns": 10,
+    "files": 1,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "1",
+    "title": "Organigrama Municipal 2020",
+    "source": "Secretaria de Gobierno",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 0,
+    "columns": 0,
+    "files": 2,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "3",
+    "title": "Organigrama HDC",
+    "source": "Honorable Concejo Deliberante de Luján de Cuyo",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "4",
+    "title": "Ordenanzas Municipales",
+    "source": "Intendencia Municipalidad de Luján de Cuyo",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 381,
+    "columns": 10,
+    "files": 6,
+    "formats": [
+      "XLSX",
+      "CSV",
+      "PDF",
+      "DOCX",
+      "XLS"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "5",
+    "title": "Barrios Populares",
+    "source": "Intendencia Municipalidad de Luján de Cuyo",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 47,
+    "columns": 11,
+    "files": 2,
+    "formats": [
+      "CSV",
+      "ZIP"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "6",
+    "title": "Escuelas de Luján de Cuyo",
+    "source": "Secretaría de Desarrollo Humano",
+    "category": "Deporte, Educación y Salud",
+    "categorySlug": "deporte-educacion-y-salud",
+    "rows": 112,
+    "columns": 12,
+    "files": 2,
+    "formats": [
+      "CSV",
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "7",
+    "title": "Presupuestaria 2023",
+    "source": "Secretaría de Economía e Ingresos Públicos",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "DOCX"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "8",
+    "title": "Limites Administrativos de Luján de Cuyo",
+    "source": "Intendencia Municipalidad de Luján de Cuyo",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 15,
+    "columns": 7,
+    "files": 4,
+    "formats": [
+      "GEOJSON",
+      "CSV",
+      "ZIP"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "9",
+    "title": "Espacios Verdes",
+    "source": "Intendencia Municipalidad de Luján de Cuyo",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 272,
+    "columns": 8,
+    "files": 3,
+    "formats": [
+      "CSV",
+      "KML",
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "10",
+    "title": "Uniones Vecinales",
+    "source": "Intendencia Municipalidad de Luján de Cuyo",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 34,
+    "columns": 6,
+    "files": 1,
+    "formats": [
+      "CSV"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "12",
+    "title": "Alojamiento",
+    "source": "Dirección de Turismo",
+    "category": "Turismo y Cultura",
+    "categorySlug": "cultura-y-turismo",
+    "rows": 73,
+    "columns": 5,
+    "files": 1,
+    "formats": [
+      "CSV"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "13",
+    "title": "Bodegas",
+    "source": "Dirección de Turismo",
+    "category": "Turismo y Cultura",
+    "categorySlug": "cultura-y-turismo",
+    "rows": 0,
+    "columns": 0,
+    "files": 0,
+    "formats": [],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "14",
+    "title": "Senderos de Trekking",
+    "source": "Dirección de Turismo",
+    "category": "Turismo y Cultura",
+    "categorySlug": "cultura-y-turismo",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "KML"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "15",
+    "title": "Nómina Honorable Consejo Deliberante",
+    "source": "Honorable Concejo Deliberante de Luján de Cuyo",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "16",
+    "title": "Desarrollo Territorial",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 0,
+    "columns": 0,
+    "files": 0,
+    "formats": [],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "17",
+    "title": "Nómina de Concejales",
+    "source": "Honorable Concejo Deliberante de Luján de Cuyo",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "18",
+    "title": "Aventura",
+    "source": "Dirección de Turismo",
+    "category": "Deporte, Educación y Salud",
+    "categorySlug": "deporte-educacion-y-salud",
+    "rows": 11,
+    "columns": 5,
+    "files": 1,
+    "formats": [
+      "CSV"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "19",
+    "title": "Antecedentes Profesionales",
+    "source": "Honorable Concejo Deliberante de Luján de Cuyo",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "20",
+    "title": "Gastronomía",
+    "source": "Dirección de Turismo",
+    "category": "Turismo y Cultura",
+    "categorySlug": "cultura-y-turismo",
+    "rows": 137,
+    "columns": 6,
+    "files": 1,
+    "formats": [
+      "CSV"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "21",
+    "title": "Radios Fracciones Censales Luján de Cuyo",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 0,
+    "columns": 0,
+    "files": 2,
+    "formats": [
+      "KMZ"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "22",
+    "title": "Residuos",
+    "source": "Secretaría de Higiene Urbana y Mantenimiento del Espacio Público",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 62,
+    "columns": 20,
+    "files": 10,
+    "formats": [
+      "XLSX",
+      "PDF",
+      "KML"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "23",
+    "title": "Formulario de Acceso a Información Pública",
+    "source": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 0,
+    "columns": 0,
+    "files": 0,
+    "formats": [],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "24",
+    "title": "Comisarias Luján de Cuyo",
+    "source": "Secretario del Juzgado Vial Nro 1",
+    "category": "Seguridad",
+    "categorySlug": "seguridad",
+    "rows": 7,
+    "columns": 13,
+    "files": 2,
+    "formats": [
+      "KML",
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "25",
+    "title": "Bancos",
+    "source": "Secretaría de Economía e Ingresos Públicos",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 9,
+    "columns": 7,
+    "files": 1,
+    "formats": [
+      "CSV"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "26",
+    "title": "Estaciones de Servicios",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 11,
+    "columns": 10,
+    "files": 1,
+    "formats": [
+      "CSV"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "27",
+    "title": "Farmacias",
+    "source": "Secretaría de Desarrollo Humano",
+    "category": "Deporte, Educación y Salud",
+    "categorySlug": "deporte-educacion-y-salud",
+    "rows": 18,
+    "columns": 8,
+    "files": 1,
+    "formats": [
+      "CSV"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "28",
+    "title": "Subsecretaría de Innovación y Modernización Municipal. Antecedentes Profesionales",
+    "source": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "29",
+    "title": "Manual de Adaptación Local de los ODS – 2a Edición",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "30",
+    "title": "Plan Municipal de Ordenamiento Territorial. Código de Uso del Suelo",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 0,
+    "columns": 0,
+    "files": 0,
+    "formats": [],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "31",
+    "title": "Gestión Integral de Residuos Sólidos Urbanos",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "32",
+    "title": "Elecciones Departamental",
+    "source": "Jefe de Gabinete",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 474,
+    "columns": 12,
+    "files": 14,
+    "formats": [
+      "XLS",
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "33",
+    "title": "Circuito de Ciclovías",
+    "source": "Apoderado Municipal",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 0,
+    "columns": 0,
+    "files": 0,
+    "formats": [],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "34",
+    "title": "Plan Luján Sustentable",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 0,
+    "columns": 0,
+    "files": 0,
+    "formats": [],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "35",
+    "title": "Torres Solares",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 0,
+    "columns": 0,
+    "files": 0,
+    "formats": [],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "36",
+    "title": "Delegaciones Municipales",
+    "source": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 12,
+    "columns": 9,
+    "files": 2,
+    "formats": [
+      "CSV",
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "37",
+    "title": "Presupuestaria 2021",
+    "source": "Secretaría de Economía e Ingresos Públicos",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "38",
+    "title": "Tarifaria 2021",
+    "source": "Secretaría de Economía e Ingresos Públicos",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "40",
+    "title": "Centro Verde",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 0,
+    "columns": 0,
+    "files": 0,
+    "formats": [],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "41",
+    "title": "Bicisendas Inclusivas",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 0,
+    "columns": 0,
+    "files": 0,
+    "formats": [],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "42",
+    "title": "Pauta Publicitaria",
+    "source": "Dirección de Comunicación Estratégica",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 17,
+    "columns": 12,
+    "files": 3,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "43",
+    "title": "Acuerdo de cooperación",
+    "source": "Dirección de Género y Diversidad",
+    "category": "Género y Diversidad",
+    "categorySlug": "genero",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "44",
+    "title": "Calidad del Aire",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 525,
+    "columns": 8,
+    "files": 2,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "45",
+    "title": "Calles por la Vida",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "JPG"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "46",
+    "title": "Protocolo de Acción",
+    "source": "Dirección de Género y Diversidad",
+    "category": "Género y Diversidad",
+    "categorySlug": "genero",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "47",
+    "title": "Educación y Participación",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "JPG"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "48",
+    "title": "Calidad del Agua",
+    "source": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 17,
+    "columns": 15,
+    "files": 11,
+    "formats": [
+      "XLSX",
+      "PDF"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "49",
+    "title": "Voto electoral",
+    "source": "Jefe de Gabinete",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 316,
+    "columns": 25,
+    "files": 6,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "50",
+    "title": "Economía Circular",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 0,
+    "columns": 0,
+    "files": 0,
+    "formats": [],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "51",
+    "title": "Seguridad Vial",
+    "source": "Secretaria de Gobierno",
+    "category": "Movilidad",
+    "categorySlug": "movilidad",
+    "rows": 0,
+    "columns": 0,
+    "files": 0,
+    "formats": [],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "52",
+    "title": "Tarifaria 2023",
+    "source": "Secretaria de Gobierno",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 26,
+    "columns": 5,
+    "files": 3,
+    "formats": [
+      "XLSX",
+      "PDF",
+      "DOCX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "53",
+    "title": "Barrios del Departamento de Luján de Cuyo",
+    "source": "Dirección de Ordenamiento Territorial",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 5578,
+    "columns": 5,
+    "files": 2,
+    "formats": [
+      "XLSX",
+      "KML"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "54",
+    "title": "Transporte Público",
+    "source": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+    "category": "Urbanismo y Territorio",
+    "categorySlug": "urbanismo-y-territorio",
+    "rows": 124,
+    "columns": 8,
+    "files": 2,
+    "formats": [
+      "KML",
+      "XLS"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "55",
+    "title": "Funcionarios Públicos Municipal",
+    "source": "Secretaría de Economía e Ingresos Públicos",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 47,
+    "columns": 5,
+    "files": 10,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "56",
+    "title": "Gasto Público Municipal",
+    "source": "Secretaría de Hacienda",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 32,
+    "columns": 18,
+    "files": 5,
+    "formats": [
+      "PDF",
+      "XLSX",
+      "XLS"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "57",
+    "title": "Información Pública",
+    "source": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 25,
+    "columns": 11,
+    "files": 5,
+    "formats": [
+      "XLSX",
+      "XLS"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "58",
+    "title": "Presupuesto de Gobierno",
+    "source": "Secretaría de Hacienda",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 1084,
+    "columns": 17,
+    "files": 7,
+    "formats": [
+      "XLSX",
+      "XLS"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "59",
+    "title": "Resultado Electorales",
+    "source": "Jefe de Gabinete",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 15,
+    "columns": 4,
+    "files": 8,
+    "formats": [
+      "PDF",
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "60",
+    "title": "Declaraciones Juradas",
+    "source": "Intendencia Municipalidad de Luján de Cuyo",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 50,
+    "columns": 5,
+    "files": 2,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "61",
+    "title": "Tarifaria",
+    "source": "Secretaría de Economía e Ingresos Públicos",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "62",
+    "title": "Inventario de Datos",
+    "source": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+    "category": "Gestión de Datos",
+    "categorySlug": "gestion_de_datos",
+    "rows": 51,
+    "columns": 27,
+    "files": 1,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "63",
+    "title": "Puntos Verdes",
+    "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 0,
+    "columns": 0,
+    "files": 0,
+    "formats": [],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "64",
+    "title": "Unidades Comerciales",
+    "source": "Secretaría de Hacienda",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 7059,
+    "columns": 5,
+    "files": 6,
+    "formats": [
+      "XLS",
+      "XLSX",
+      "CSV"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "65",
+    "title": "Presupuestaria 2022",
+    "source": "Secretaría de Economía e Ingresos Públicos",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "66",
+    "title": "Polideportivos",
+    "source": "Secretaría de Desarrollo Humano",
+    "category": "Desarrollo Humano",
+    "categorySlug": "desarrollo-humano",
+    "rows": 0,
+    "columns": 0,
+    "files": 0,
+    "formats": [],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "67",
+    "title": "Informe Covid Municipal",
+    "source": "Subsecretaría de Gestión del Talento Humano",
+    "category": "Deporte, Educación y Salud",
+    "categorySlug": "deporte-educacion-y-salud",
+    "rows": 84,
+    "columns": 9,
+    "files": 1,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "68",
+    "title": "Presupuestaria",
+    "source": "Secretaría de Economía e Ingresos Públicos",
+    "category": "Economía",
+    "categorySlug": "economia",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "69",
+    "title": "Ordenanza Tarifaria 2022",
+    "source": "Secretaria de Gobierno",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "70",
+    "title": "Compras y Contrataciones",
+    "source": "Secretaría de Hacienda",
+    "category": "Gobierno Municipal",
+    "categorySlug": "gobierto-y-sector-publico",
+    "rows": 2856,
+    "columns": 27,
+    "files": 23,
+    "formats": [
+      "XLSX",
+      "CSV",
+      "JSON"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "71",
+    "title": "Energía",
+    "source": "Secretaría de Higiene Urbana y Mantenimiento del Espacio Público",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+    "rows": 1981,
+    "columns": 6,
+    "files": 2,
+    "formats": [
+      "XLSX",
+      "CSV"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "72",
+    "title": "Estadísticas de Género",
+    "source": "Dirección de Género y Diversidad",
+    "category": "Desarrollo Humano",
+    "categorySlug": "desarrollo-humano",
+    "rows": 57,
+    "columns": 72,
+    "files": 7,
+    "formats": [
+      "XLSX",
+      "DOC"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "73",
+    "title": "Estructura HCD",
+    "source": "Honorable Concejo Deliberante de Luján de Cuyo",
+    "category": "Honorable Concejo Deliberante",
+    "categorySlug": "honorable-consejo-deliberante-lujan-de-cuyo",
+    "rows": 0,
+    "columns": 0,
+    "files": 1,
+    "formats": [
+      "PDF"
+    ],
+    "hasPreview": false,
+    "municipios": 0
+  },
+  {
+    "id": "74",
+    "title": "Obras Públicas",
+    "source": "Secretaría de Obras y Espacio Público",
+    "category": "Movilidad",
+    "categorySlug": "movilidad",
+    "rows": 65,
+    "columns": 30,
+    "files": 3,
+    "formats": [
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  },
+  {
+    "id": "75",
+    "title": "Centros de Salud",
+    "source": "Secretaría de Desarrollo Humano",
+    "category": "Deporte, Educación y Salud",
+    "categorySlug": "deporte-educacion-y-salud",
+    "rows": 19,
+    "columns": 10,
+    "files": 3,
+    "formats": [
+      "KML",
+      "XLSX"
+    ],
+    "hasPreview": true,
+    "municipios": 0
+  }
+]

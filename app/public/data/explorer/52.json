@@ -1,0 +1,244 @@
+{
+  "id": "52",
+  "title": "Tarifaria 2023",
+  "source": "Secretaria de Gobierno",
+  "description": "Rige lo importes de las Tasas Municipales para el 2023",
+  "category": "Economía",
+  "categorySlug": "economia",
+  "updatedAt": "2025-12-21T19:33:51.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "ordenanza-n-14341-2022-tarifaria-2023-1.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/52/ordenanza-n-14341-2022-tarifaria-2023-1.xlsx",
+      "bytes": 132252
+    },
+    {
+      "nombre": "ordenanza-n-14341-2022-tarifaria-2023.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/52/ordenanza-n-14341-2022-tarifaria-2023.pdf",
+      "bytes": 2205999
+    },
+    {
+      "nombre": "ordenanza-n-14341-2022-tarifaria-2023.docx",
+      "formato": "DOCX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/52/ordenanza-n-14341-2022-tarifaria-2023.docx",
+      "bytes": 398973
+    }
+  ],
+  "columns": [
+    {
+      "name": "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS",
+      "type": "string",
+      "label": "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS"
+    },
+    {
+      "name": "__EMPTY",
+      "type": "string",
+      "label": "__EMPTY"
+    },
+    {
+      "name": "__EMPTY_1",
+      "type": "number",
+      "label": "__EMPTY_1"
+    },
+    {
+      "name": "__EMPTY_2",
+      "type": "string",
+      "label": "__EMPTY_2"
+    },
+    {
+      "name": "__EMPTY_3",
+      "type": "string",
+      "label": "__EMPTY_3"
+    }
+  ],
+  "rows": [
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "Los derechos de aprobación de planos eléctricos, memorias descriptivas e inspección, aprobación de   obras   eléctricas,   mecánicas   y/o   electromecánicas   nuevas,   existentes   o   reformadas, modificaciones  o  ampliaciones  de  vivienda,  locales  de  oficinas,  negocios,  industrias  y  redes  de alumbrado público nuevas, se determinarán de acuerdo al siguiente detalle:",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "a)",
+      "__EMPTY": "Por Instalaciones en Viviendas, Comercios e industrias, conexiones eléctricas mencionadas en el inciso d), e), f) y h)",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": 1,
+      "__EMPTY": "Derecho de presentación, Sellado",
+      "__EMPTY_1": 11,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": 2,
+      "__EMPTY": "Inspección de Obras",
+      "__EMPTY_1": 50,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "b)",
+      "__EMPTY": "Por Instalaciones en Comercios e Industrias:",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": 1,
+      "__EMPTY": "Por potencia hasta 10KW",
+      "__EMPTY_1": 100,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": 2,
+      "__EMPTY": "Por más de 100KW a 200KW",
+      "__EMPTY_1": 200,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": 3,
+      "__EMPTY": "Por más de 200KW por cada KW excedente",
+      "__EMPTY_1": 5,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "c)",
+      "__EMPTY": "Por inspección y habilitación de obras eléctricas en la vía pública:",
+      "__EMPTY_1": 100,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "d)",
+      "__EMPTY": "Conexiones eléctricas provisorias para iluminación o fuerza motriz de uso estable o temporarios para: bombeo de agua en riego agrícola o en: parques, jardines, canchas, espectáculos públicos y obras públicas, cines al aire libre, ferias, circos, parques de\ndiversiones :",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": 1,
+      "__EMPTY": "Por potencia hasta 5KW",
+      "__EMPTY_1": 7.5,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": 2,
+      "__EMPTY": "Por más de 5KW a 10KW",
+      "__EMPTY_1": 15,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "3.a",
+      "__EMPTY": "Por más de 10KW a 15KW",
+      "__EMPTY_1": 20,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "3.b",
+      "__EMPTY": "Por más de 15KW a 20KW",
+      "__EMPTY_1": 25,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "3.c",
+      "__EMPTY": "Por más de 20KW por cada KW excedente o fracción",
+      "__EMPTY_1": 5,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "e)",
+      "__EMPTY": "Rectificadores, convertidores y transformadores:",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": 1,
+      "__EMPTY": "Por potencia hasta 100KW",
+      "__EMPTY_1": 100,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": 2,
+      "__EMPTY": "Por más de 100KW a 200KW",
+      "__EMPTY_1": 200,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "3.a",
+      "__EMPTY": "Por más de 200KW por cada KW excedente o fracción",
+      "__EMPTY_1": 10,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "f)",
+      "__EMPTY": "Por redes de alumbrado público, en urbanizaciones de loteo, se pagará por",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": 1,
+      "__EMPTY": "Línea trifásico, bifásico o monofásico, por metro",
+      "__EMPTY_1": 1.5,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": 2,
+      "__EMPTY": "Por artefactos de alumbrado, cada uno",
+      "__EMPTY_1": 4.5,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "g)",
+      "__EMPTY": "Por cada soporte de tendido eléctrico en redes en urbanizaciones de loteos",
+      "__EMPTY_1": 5,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "h)",
+      "__EMPTY": "Por derecho de apertura de zanjas (en veredas y calzadas), en la vía pública, para el tendido de líneas subterráneas",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": 1,
+      "__EMPTY": "Por cada metro lineal",
+      "__EMPTY_1": 5,
+      "__EMPTY_2": "UT",
+      "__EMPTY_3": ""
+    },
+    {
+      "PLANILLA ANEXA AL CAPÍTULO III\nDERECHOS DE INSPECCIÓN Y HABILITACIÓN DE INSTALACIONES ELÉCTRICAS, MECANICAS Y ELECTROMECANICAS": "La reparación de veredas y calzadas estará a cargo del interesado que realiza la obra",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": ""
+    }
+  ],
+  "totalRows": 26,
+  "previewSourceFile": "ordenanza-n-14341-2022-tarifaria-2023-1.xlsx",
+  "municipios": []
+}

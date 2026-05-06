@@ -1,0 +1,95 @@
+{
+  "id": "90",
+  "title": "Inteligencia Artificial",
+  "source": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+  "description": "Gobernanza: Estrategia de implementación de IA en el municipio\r\nCapacidad e innovación",
+  "category": "Gestión de Datos",
+  "categorySlug": "gestion_de_datos",
+  "updatedAt": "2025-12-22T12:46:00.000Z",
+  "createdAt": "2025-07-18T12:39:13.000Z",
+  "files": [
+    {
+      "nombre": "[Lujan de Cuyo] Estrategia de Datos para Toda la Ciudad_VF08122024.docx (1).html",
+      "formato": "HTML",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/90/1752843707771-[Lujan de Cuyo] Estrategia de Datos para Toda la Ciudad_VF08122024.docx (1).html",
+      "bytes": 2980729
+    },
+    {
+      "nombre": "Decreto IA.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/90/1752843707783-Decreto IA.pdf",
+      "bytes": 1633016
+    },
+    {
+      "nombre": "Protocolo_Etico_IA_Lujan_Cuyo.html",
+      "formato": "HTML",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/90/1752843707788-Protocolo_Etico_IA_Lujan_Cuyo.html",
+      "bytes": 1147949
+    },
+    {
+      "nombre": "Gobernanza_IA.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/90/1752851613940-Gobernanza_IA.xlsx",
+      "bytes": 9516
+    },
+    {
+      "nombre": "Programas IA.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/90/1752851613943-Programas IA.xlsx",
+      "bytes": 9951
+    },
+    {
+      "nombre": "Innovacion_Desarrollo.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/90/1752852784116-Innovacion_Desarrollo.xlsx",
+      "bytes": 9594
+    }
+  ],
+  "columns": [
+    {
+      "name": "Infraestructura y Tecnología de la IA",
+      "type": "string",
+      "label": "Infraestructura y Tecnología de la IA"
+    },
+    {
+      "name": "Área a cargo",
+      "type": "string",
+      "label": "Área a cargo"
+    },
+    {
+      "name": "Productos",
+      "type": "string",
+      "label": "Productos"
+    }
+  ],
+  "rows": [
+    {
+      "Infraestructura y Tecnología de la IA": "Institucionalidad",
+      "Área a cargo": "Infraestructura y Tecnología de la IA",
+      "Productos": ""
+    },
+    {
+      "Infraestructura y Tecnología de la IA": "Reglamentación",
+      "Área a cargo": "Infraestructura y Tecnología de la IA",
+      "Productos": "Estrategia de Datos"
+    },
+    {
+      "Infraestructura y Tecnología de la IA": "",
+      "Área a cargo": "",
+      "Productos": "Decreto Nro 3041: Uso IA y ML"
+    },
+    {
+      "Infraestructura y Tecnología de la IA": "",
+      "Área a cargo": "",
+      "Productos": "Protocolo Ético para el Uso de Inteligencia Artificial en la Municipalidad de Luján de Cuyo"
+    },
+    {
+      "Infraestructura y Tecnología de la IA": "Protección de datos",
+      "Área a cargo": "Infraestructura y Tecnología de la IA",
+      "Productos": "Ley de Acceso a la Información Pública"
+    }
+  ],
+  "totalRows": 5,
+  "previewSourceFile": "Gobernanza_IA.xlsx",
+  "municipios": []
+}

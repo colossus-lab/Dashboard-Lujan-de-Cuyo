@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "id": "medio-ambiente-y-desarrollo-sustentable",
+    "title": "Medio Ambiente y Desarrollo Sustentable",
+    "category": "Medio Ambiente y Desarrollo Sustentable",
+    "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
+    "date": "2026-05-06"
+  },
+  "kpis": [
+    {
+      "id": "kpi-datasets",
+      "label": "Datasets",
+      "value": 23,
+      "formatted": "23"
+    },
+    {
+      "id": "kpi-archivos",
+      "label": "Archivos descargables",
+      "value": 38,
+      "formatted": "38"
+    },
+    {
+      "id": "kpi-mb",
+      "label": "MB publicados",
+      "value": 10,
+      "formatted": "10.3 MB"
+    },
+    {
+      "id": "kpi-orgs",
+      "label": "Áreas que publican",
+      "value": 5,
+      "formatted": "5"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart-orgs",
+      "type": "bar",
+      "title": "Datasets por área que publica",
+      "sectionId": "areas-que-publican",
+      "data": [
+        {
+          "id": "Secretaría de Infraestructura y Desarrollo Sostenible",
+          "datasets": 12
+        },
+        {
+          "id": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
+          "datasets": 5
+        },
+        {
+          "id": "Secretaría de Higiene Urbana y Mantenimiento del Espacio Público",
+          "datasets": 4
+        },
+        {
+          "id": "Intendencia Municipalidad de Luján de Cuyo",
+          "datasets": 1
+        },
+        {
+          "id": "Apoderado Municipal",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "id",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "chart-formats",
+      "type": "pie",
+      "title": "Distribución de formatos",
+      "sectionId": "formatos-disponibles",
+      "data": [
+        {
+          "id": "XLSX",
+          "label": "XLSX",
+          "value": 27
+        },
+        {
+          "id": "PDF",
+          "label": "PDF",
+          "value": 5
+        },
+        {
+          "id": "CSV",
+          "label": "CSV",
+          "value": 2
+        },
+        {
+          "id": "KML",
+          "label": "KML",
+          "value": 2
+        },
+        {
+          "id": "JPG",
+          "label": "JPG",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": "chart-timeline",
+      "type": "line",
+      "title": "Datasets publicados por mes",
+      "sectionId": "timeline-de-publicacion",
+      "data": [
+        {
+          "mes": "2025-05",
+          "datasets": 17
+        },
+        {
+          "mes": "2025-07",
+          "datasets": 6
+        }
+      ],
+      "config": {
+        "xAxis": "mes"
+      }
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rank-datasets-archivos",
+      "title": "Datasets con más archivos",
+      "sectionId": "",
+      "items": [
+        {
+          "name": "Calidad del Agua",
+          "value": 11
+        },
+        {
+          "name": "Residuos",
+          "value": 10
+        },
+        {
+          "name": "Espacios Verdes",
+          "value": 3
+        },
+        {
+          "name": "Calidad del Aire",
+          "value": 2
+        },
+        {
+          "name": "Energía",
+          "value": 2
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

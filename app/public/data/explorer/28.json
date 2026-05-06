@@ -1,0 +1,22 @@
+{
+  "id": "28",
+  "title": "Subsecretaría de Innovación y Modernización Municipal. Antecedentes Profesionales",
+  "source": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+  "description": "Listado de antecedentes profesionales de la Subsecretaría",
+  "category": "Gobierno Municipal",
+  "categorySlug": "gobierto-y-sector-publico",
+  "updatedAt": "2025-12-22T12:36:38.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "modernizacion.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/28/modernizacion.pdf",
+      "bytes": 842641
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

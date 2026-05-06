@@ -1,0 +1,40 @@
+{
+  "id": "4",
+  "title": "Ordenanzas Municipales",
+  "source": "Intendencia Municipalidad de Luján de Cuyo",
+  "description": "Enlace de acceso al repositorio que contiene las Ordenanzas Municipales.",
+  "category": "Gobierno Municipal",
+  "categorySlug": "gobierto-y-sector-publico",
+  "updatedAt": "2025-12-21T14:05:37.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "ORDENANZA N° 14831-2024 Tarifaria 2025 (1).pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/4/1752583891797-ORDENANZA N° 14831-2024 Tarifaria 2025 (1).pdf",
+      "bytes": 1842629
+    },
+    {
+      "nombre": "ORDENANZA N° 14830-2024 Presupuesto 2025.docx",
+      "formato": "DOCX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/4/1752679129089-ORDENANZA N° 14830-2024 Presupuesto 2025.docx",
+      "bytes": 937444
+    },
+    {
+      "nombre": "Ordenanzas_Categorizadas2024.csv.xls",
+      "formato": "XLS",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/4/1752855044427-Ordenanzas_Categorizadas2024.csv.xls",
+      "bytes": 16927
+    },
+    {
+      "nombre": "Ordenanzas_2025_con_categor_a.csv.xls",
+      "formato": "XLS",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/4/1752855175280-Ordenanzas_2025_con_categor_a.csv.xls",
+      "bytes": 16650
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

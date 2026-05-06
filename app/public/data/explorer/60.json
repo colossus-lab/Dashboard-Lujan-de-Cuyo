@@ -1,0 +1,406 @@
+{
+  "id": "60",
+  "title": "Declaraciones Juradas",
+  "source": "Intendencia Municipalidad de Luján de Cuyo",
+  "description": "Detalle del listado de declaraciones juradas en Ética Pública de la Provincia de Mendoza 2025",
+  "category": "Gobierno Municipal",
+  "categorySlug": "gobierto-y-sector-publico",
+  "updatedAt": "2025-12-21T21:01:25.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "DDJJ 2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/60/1752492660076-DDJJ 2025.xlsx",
+      "bytes": 14830
+    },
+    {
+      "nombre": "Declaraciones juradas_ HCD_2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/60/1752495202403-Declaraciones juradas_ HCD_2025.xlsx",
+      "bytes": 10914
+    }
+  ],
+  "columns": [
+    {
+      "name": "Nombre",
+      "type": "string",
+      "label": "Nombre"
+    },
+    {
+      "name": "Apellido",
+      "type": "string",
+      "label": "Apellido"
+    },
+    {
+      "name": "Repartición",
+      "type": "string",
+      "label": "Repartición"
+    },
+    {
+      "name": "Cargo",
+      "type": "string",
+      "label": "Cargo"
+    },
+    {
+      "name": "Columna1",
+      "type": "string",
+      "label": "Columna1"
+    }
+  ],
+  "rows": [
+    {
+      "Nombre": "DARIO PEDRO",
+      "Apellido": "TELLO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SUBSECRETARIO",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "SILVIA GRACIELA",
+      "Apellido": "QUIROGA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTORA DE ORDENAMIENTO TERRITORIAL",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "PATRICIA GRACIELA",
+      "Apellido": "TAHAN",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "Secretaria de Gobierno",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "VICTORIA ARIADNA",
+      "Apellido": "CAPOZUCCO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SECRETARIO DE DESARROLLO HUMANO",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MARIA GABRIELA",
+      "Apellido": "FRETES",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MATIAS",
+      "Apellido": "MERIC",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "JEFE DE GABINETE",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "PABLO LEANDRO",
+      "Apellido": "FIOQUETTA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE ADMINISTRACION Y DESPACHO",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "ENRIQUE JAVIER",
+      "Apellido": "ISUANI",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "JUEZ VIAL",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "JESUS",
+      "Apellido": "FERRO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SECRETARIO DE ECONOMIA Y RECURSOS HUMANOS",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "NICOLAS",
+      "Apellido": "BONANO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE PLANEAMIENTO DE AGUAS",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "ADRIAN ALBERTO",
+      "Apellido": "BERTOLO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SECRETARIO",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "LUIS PABLO",
+      "Apellido": "PAVEZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE COMPRAS",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "FERNANDO RAMON",
+      "Apellido": "NONINO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE GESTION DE DATOS Y GOBIERNO ABIERTO",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MARIA SOLEDAD",
+      "Apellido": "BONAVIA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE DESARROLLO FAMILIAR Y SOCIAL",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "FEDERICO ARIEL",
+      "Apellido": "PILOT",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "JUEZ VIAL",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "Joaquin",
+      "Apellido": "Sagas",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "Director Gestion de Ingresos",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MARIANO",
+      "Apellido": "BARRERA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SECRETARIO",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "JAVIER ARIEL",
+      "Apellido": "TELLO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE SERVICIOS DIGITALES Y CIUDAD INTELIGENTE",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "SUSANA MONICA",
+      "Apellido": "MAROTO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "JUAN MARTIN",
+      "Apellido": "DEL POPOLO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SECRETARIO DE AGUAS",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "JUAN MANUEL",
+      "Apellido": "MANITA RICCI",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE INDUSTRIA Y COMERCIO",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MARCOS LUIS",
+      "Apellido": "BALZARELLI",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DEL CENTRO EMISOR DE LICENCIAS DE CONDUCIR (ex Director de Industria y Comercio)",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MARIA YAEL",
+      "Apellido": "NASIF",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "ESCRIBANA MUNICIPAL",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "PAOLA ANA LIS",
+      "Apellido": "RODRIGUEZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTORA DE PARTICIPACION CIUDADANA Y CERCANIA",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "CARLOS EDUARDO",
+      "Apellido": "PEREZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "ERNESTO RICARDO",
+      "Apellido": "CORVALAN",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "SECRETARIO DE RELACIONES INSTITUCIONALES",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "GABRIEL FERNANDO",
+      "Apellido": "TERRERA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE REDES DE DISTRIBUCION",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "María",
+      "Apellido": "O Conor",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "Director",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "ALEXIS EMMANUEL",
+      "Apellido": "REYNOSO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE OBRAS POR ADMINISTRACIÓN",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "JUAN PABLO",
+      "Apellido": "DE LA FUENTE",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE AUDITORIA Y CONTROL DE GESTION",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MIGUEL ANGEL",
+      "Apellido": "RISSO PATRON",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "CRISTIAN DANILO",
+      "Apellido": "AMAYA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE CATASTRO",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "PATRICIA ROXANA",
+      "Apellido": "PERSOGLIO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTORA GENERAL DE ATENCION CIUDADANA",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "VERONICA",
+      "Apellido": "SCOPEL",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "COORDINADORA DE CULTURA",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MIRTA",
+      "Apellido": "CAMMERUCCI",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "PABLO JAVIER",
+      "Apellido": "SUAREZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE RECURSOS HUMANOS - ENCARGADO DE PADRON",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "RODOLFO",
+      "Apellido": "BENITEZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE TURISMO",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "ELIO ARIEL",
+      "Apellido": "BETTI",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "ANDRES ESTEBAN",
+      "Apellido": "ALLASINO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "INTENDENTE",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "José Antonio",
+      "Apellido": "Rubino",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "Director",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "GISELA VANINA",
+      "Apellido": "AMOROS",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "NICOLAS MARTIN",
+      "Apellido": "LOPEZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "COORDINADOR DE ELECTROMECANICA HIGIENE URBANA",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "GONZALO JAVIER",
+      "Apellido": "RUIZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "COORDINADOR DE AGENCIA DE PROMOCION CULTURAL",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "LILIANA ESTER",
+      "Apellido": "MORALES",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "TESORERA MUNICIPAL",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "DANIELA",
+      "Apellido": "SALCEDO",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTORA DE INSPECCION DE SERVICIOS PUBLICOS",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "SUSANA MONICA",
+      "Apellido": "PADILLA",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE DEPORTES Y EDUCACION",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "JESICA MARIA",
+      "Apellido": "HERAS",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTORA DE OBRAS PRIVADAS",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "RICARDO GUILLERMO",
+      "Apellido": "PAVEZ",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR DE ORGANIZACIÓN SOCIAL CIVIL",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "MAXIMILIANO ALBERTO",
+      "Apellido": "AVALOS",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "DIRECTOR",
+      "Columna1": "Datos Funcionario"
+    },
+    {
+      "Nombre": "Hernán Augusto",
+      "Apellido": "Sagristá",
+      "Repartición": "MUNICIPALIDAD DE LUJAN",
+      "Cargo": "Director",
+      "Columna1": "Datos Funcionario"
+    }
+  ],
+  "totalRows": 50,
+  "previewSourceFile": "DDJJ 2025.xlsx",
+  "municipios": []
+}

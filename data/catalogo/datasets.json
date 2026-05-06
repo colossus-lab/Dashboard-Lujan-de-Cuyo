@@ -1,0 +1,3385 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 90,
+      "title": "Inteligencia Artificial",
+      "slug": "inteligencia-artificial",
+      "description": "Gobernanza: Estrategia de implementación de IA en el municipio\r\nCapacidad e innovación",
+      "downloads": 47,
+      "views": 180,
+      "state": "active",
+      "updated_at": "2025-12-22T12:46:00.000Z",
+      "created_at": "2025-07-18T12:39:13.000Z",
+      "organization_name": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+      "resource_count": 8,
+      "tags": [],
+      "formats": [
+        "WEB",
+        "HTML",
+        "PDF",
+        "HTML",
+        "WEB",
+        "XLSX",
+        "XLSX",
+        "XLSX"
+      ],
+      "rn": "1",
+      "categories": [
+        {
+          "id": 14,
+          "name": "Gestión de Datos",
+          "slug": "gestion_de_datos",
+          "icon": null
+        }
+      ],
+      "category": "Gestión de Datos",
+      "categorySlug": "gestion_de_datos",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-22T12:46:00.000Z",
+      "resources": 8
+    },
+    {
+      "id": 89,
+      "title": "Centro Verde",
+      "slug": "centro-verde-2025",
+      "description": "Residuos recuperas o e ingresados en Centro Verde 2025",
+      "downloads": 9,
+      "views": 82,
+      "state": "active",
+      "updated_at": "2025-12-05T06:53:04.000Z",
+      "created_at": "2025-07-14T11:11:34.000Z",
+      "organization_name": "Secretaría de Higiene Urbana y Mantenimiento del Espacio Público",
+      "resource_count": 1,
+      "tags": [
+        "Residuos",
+        "Centro Verde",
+        "2025"
+      ],
+      "formats": [
+        "XLSX"
+      ],
+      "rn": "2",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-05T06:53:04.000Z",
+      "resources": 1
+    },
+    {
+      "id": 88,
+      "title": "Disposición Final de Residuos",
+      "slug": "disposición-final-de-residuos",
+      "description": "Relleno Sanitario Borbollón desde 2021 a 2025",
+      "downloads": 2,
+      "views": 67,
+      "state": "active",
+      "updated_at": "2025-12-20T19:05:56.000Z",
+      "created_at": "2025-07-14T11:03:27.000Z",
+      "organization_name": "Secretaría de Higiene Urbana y Mantenimiento del Espacio Público",
+      "resource_count": 1,
+      "tags": [
+        "Residuos",
+        "Centro Verde"
+      ],
+      "formats": [
+        "XLSX"
+      ],
+      "rn": "3",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-20T19:05:56.000Z",
+      "resources": 1
+    },
+    {
+      "id": 87,
+      "title": "Comercios por Rubro 2025",
+      "slug": "comercios-por-rubro-2025",
+      "description": "Detalle de los comercios según rubro en el departamento de Luján de Cuyo",
+      "downloads": 22,
+      "views": 87,
+      "state": "active",
+      "updated_at": "2025-12-15T09:27:25.000Z",
+      "created_at": "2025-07-14T10:37:19.000Z",
+      "organization_name": "Secretaría de Economía e Ingresos Públicos",
+      "resource_count": 1,
+      "tags": [
+        "Comercios",
+        "Rubros",
+        "2025"
+      ],
+      "formats": [
+        "XLSX"
+      ],
+      "rn": "4",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-15T09:27:25.000Z",
+      "resources": 1
+    },
+    {
+      "id": 84,
+      "title": "Gasto Público 2025",
+      "slug": "gasto-pblico-2025",
+      "description": "Gasto y ejecución municipal 2025",
+      "downloads": 12,
+      "views": 71,
+      "state": "active",
+      "updated_at": "2025-12-20T12:11:27.000Z",
+      "created_at": "2025-07-04T15:44:49.000Z",
+      "organization_name": "Secretaría de Economía e Ingresos Públicos",
+      "resource_count": 1,
+      "tags": [
+        "gastos",
+        "ejecución",
+        "2025"
+      ],
+      "formats": [
+        "XLS"
+      ],
+      "rn": "5",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-20T12:11:27.000Z",
+      "resources": 1
+    },
+    {
+      "id": 83,
+      "title": "Pauta publicitaria 2025",
+      "slug": "pauta-publicitaria-2025",
+      "description": "Pauta publicitaria 2025",
+      "downloads": 8,
+      "views": 58,
+      "state": "active",
+      "updated_at": "2025-12-19T03:00:51.000Z",
+      "created_at": "2025-07-03T11:41:25.000Z",
+      "organization_name": "Dirección de Comunicación Estratégica",
+      "resource_count": 1,
+      "tags": [],
+      "formats": [
+        "XLSX"
+      ],
+      "rn": "6",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-19T03:00:51.000Z",
+      "resources": 1
+    },
+    {
+      "id": 82,
+      "title": "Planilla de Licitación 2025",
+      "slug": "planilla-de-licitacin-2025",
+      "description": "Detalle de las licitaciones llevadas a cabo por el Municipio",
+      "downloads": 5,
+      "views": 45,
+      "state": "active",
+      "updated_at": "2025-12-22T10:11:14.000Z",
+      "created_at": "2025-07-02T16:36:52.000Z",
+      "organization_name": "Secretaría de Hacienda",
+      "resource_count": 1,
+      "tags": [
+        "Compras",
+        "Contrataciones",
+        "Licitaciones",
+        "2025"
+      ],
+      "formats": [
+        "XLSX"
+      ],
+      "rn": "7",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-22T10:11:14.000Z",
+      "resources": 1
+    },
+    {
+      "id": 78,
+      "title": "Calidad del Agua 2025",
+      "slug": "calidad-del-agua-2025",
+      "description": "Calidad del Agua 2025",
+      "downloads": 8,
+      "views": 58,
+      "state": "active",
+      "updated_at": "2025-12-22T14:49:40.000Z",
+      "created_at": "2025-07-02T14:59:48.000Z",
+      "organization_name": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
+      "resource_count": 1,
+      "tags": [
+        "ambiente",
+        "calidad del agua"
+      ],
+      "formats": [
+        "XLSX"
+      ],
+      "rn": "8",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-22T14:49:40.000Z",
+      "resources": 1
+    },
+    {
+      "id": 79,
+      "title": "Perforaciones 2025",
+      "slug": "perforaciones-2025",
+      "description": "Perforaciones. - 2025",
+      "downloads": 5,
+      "views": 27,
+      "state": "active",
+      "updated_at": "2025-12-09T03:58:49.000Z",
+      "created_at": "2025-07-02T14:59:48.000Z",
+      "organization_name": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
+      "resource_count": 1,
+      "tags": [
+        "ambiente",
+        "calidad del agua"
+      ],
+      "formats": [
+        "XLSX"
+      ],
+      "rn": "9",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-09T03:58:49.000Z",
+      "resources": 1
+    },
+    {
+      "id": 80,
+      "title": "Planta Cipolletti 2025",
+      "slug": "planta-cipolletti-2025",
+      "description": "Planta Cipolletti 2025",
+      "downloads": 5,
+      "views": 45,
+      "state": "active",
+      "updated_at": "2025-12-21T23:04:47.000Z",
+      "created_at": "2025-07-02T14:59:48.000Z",
+      "organization_name": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
+      "resource_count": 1,
+      "tags": [
+        "ambiente",
+        "calidad del agua"
+      ],
+      "formats": [
+        "XLSX"
+      ],
+      "rn": "10",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T23:04:47.000Z",
+      "resources": 1
+    },
+    {
+      "id": 81,
+      "title": "Planta Santa Elena 2025",
+      "slug": "planta-santa-elena-2025",
+      "description": "Planta Santa Elena 2025",
+      "downloads": 1,
+      "views": 29,
+      "state": "active",
+      "updated_at": "2025-12-13T18:07:41.000Z",
+      "created_at": "2025-07-02T14:59:48.000Z",
+      "organization_name": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
+      "resource_count": 1,
+      "tags": [
+        "ambiente",
+        "calidad del agua"
+      ],
+      "formats": [
+        "XLSX"
+      ],
+      "rn": "11",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-13T18:07:41.000Z",
+      "resources": 1
+    },
+    {
+      "id": 1,
+      "title": "Organigrama Municipal 2020",
+      "slug": "organigrama-municipal",
+      "description": "Estructura del organigrama del Municipio de Luján de Cuyo.",
+      "downloads": 15,
+      "views": 226,
+      "state": "active",
+      "updated_at": "2025-12-21T14:22:36.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaria de Gobierno",
+      "resource_count": 2,
+      "tags": [
+        "Organigrama"
+      ],
+      "formats": [
+        "PDF",
+        "PDF"
+      ],
+      "rn": "12",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T14:22:36.000Z",
+      "resources": 2
+    },
+    {
+      "id": 3,
+      "title": "Organigrama HDC",
+      "slug": "organigrama-hdc",
+      "description": "Estructura del HDC.\r\nExpte en proceso de aprobación Nro 006-P-21",
+      "downloads": 1,
+      "views": 170,
+      "state": "active",
+      "updated_at": "2025-12-21T12:41:26.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Honorable Concejo Deliberante de Luján de Cuyo",
+      "resource_count": 1,
+      "tags": [
+        "HDC"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "13",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T12:41:26.000Z",
+      "resources": 1
+    },
+    {
+      "id": 4,
+      "title": "Ordenanzas Municipales",
+      "slug": "ordenanzas-municipales",
+      "description": "Enlace de acceso al repositorio que contiene las Ordenanzas Municipales.",
+      "downloads": 35,
+      "views": 308,
+      "state": "active",
+      "updated_at": "2025-12-21T14:05:37.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Intendencia Municipalidad de Luján de Cuyo",
+      "resource_count": 7,
+      "tags": [
+        "Ordenanzas",
+        "Resoluciones",
+        "Modificatorias"
+      ],
+      "formats": [
+        "XLS",
+        "web",
+        "CSV",
+        "PDF",
+        "DOCX",
+        "XLS",
+        "XLS"
+      ],
+      "rn": "14",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 13,
+          "name": "Elecciones",
+          "slug": "elecciones",
+          "icon": null
+        },
+        {
+          "id": 14,
+          "name": "Gestión de Datos",
+          "slug": "gestion_de_datos",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T14:05:37.000Z",
+      "resources": 7
+    },
+    {
+      "id": 5,
+      "title": "Barrios Populares",
+      "slug": "barrios-populares",
+      "description": "El Registro Nacional de Barrios Populares reúne información sobre las villas y asentamientos de Argentina. Actualmente está compuesto por 4.416 barrios de todo el país, de cuales pertenecen al Departamento de Luján de Cuyo, 47 barrios.",
+      "downloads": 18,
+      "views": 215,
+      "state": "active",
+      "updated_at": "2025-12-19T14:54:45.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Intendencia Municipalidad de Luján de Cuyo",
+      "resource_count": 2,
+      "tags": [
+        "hogares",
+        "barrios populares"
+      ],
+      "formats": [
+        "CSV",
+        "zip/shp"
+      ],
+      "rn": "15",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        },
+        {
+          "id": 3,
+          "name": "Movilidad",
+          "slug": "movilidad",
+          "icon": null
+        },
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        },
+        {
+          "id": 5,
+          "name": "Desarrollo Humano",
+          "slug": "desarrollo-humano",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-19T14:54:45.000Z",
+      "resources": 2
+    },
+    {
+      "id": 6,
+      "title": "Escuelas de Luján de Cuyo",
+      "slug": "escuelas-de-lujn-de-cuyo",
+      "description": "Escuelas correspondientes al departamento de Luján de cuyo",
+      "downloads": 26,
+      "views": 219,
+      "state": "active",
+      "updated_at": "2025-12-19T18:54:40.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Desarrollo Humano",
+      "resource_count": 3,
+      "tags": [
+        "Población",
+        "escuelas."
+      ],
+      "formats": [
+        "CSV",
+        "KML",
+        "XLSX"
+      ],
+      "rn": "16",
+      "categories": [
+        {
+          "id": 6,
+          "name": "Deporte, Educación y Salud",
+          "slug": "deporte-educacion-y-salud",
+          "icon": null
+        }
+      ],
+      "category": "Deporte, Educación y Salud",
+      "categorySlug": "deporte-educacion-y-salud",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-19T18:54:40.000Z",
+      "resources": 3
+    },
+    {
+      "id": 7,
+      "title": "Presupuestaria 2023",
+      "slug": "presupuestaria-2023",
+      "description": "Rige lo importes de las Tasas Municipales para el 2023",
+      "downloads": 4,
+      "views": 77,
+      "state": "active",
+      "updated_at": "2025-12-21T12:25:56.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Economía e Ingresos Públicos",
+      "resource_count": 2,
+      "tags": [
+        "Presupuesto"
+      ],
+      "formats": [
+        "DOCX",
+        "PDF"
+      ],
+      "rn": "17",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T12:25:56.000Z",
+      "resources": 2
+    },
+    {
+      "id": 8,
+      "title": "Limites Administrativos de Luján de Cuyo",
+      "slug": "limites-administrativos-de-lujn-de-cuyo",
+      "description": "Listado de la división distrital del Departamento.",
+      "downloads": 32,
+      "views": 151,
+      "state": "active",
+      "updated_at": "2025-12-22T14:57:49.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Intendencia Municipalidad de Luján de Cuyo",
+      "resource_count": 5,
+      "tags": [
+        "Distritos",
+        "Población"
+      ],
+      "formats": [
+        "GEOJSON",
+        "CSV",
+        "GEOJSON",
+        "ZIP",
+        "WEB"
+      ],
+      "rn": "18",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        },
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-22T14:57:49.000Z",
+      "resources": 5
+    },
+    {
+      "id": 9,
+      "title": "Espacios Verdes",
+      "slug": "espacios-verdes",
+      "description": "Espacios verdes  que comprenden plazas y paseos",
+      "downloads": 7,
+      "views": 104,
+      "state": "active",
+      "updated_at": "2025-12-20T22:26:09.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Intendencia Municipalidad de Luján de Cuyo",
+      "resource_count": 5,
+      "tags": [
+        "Espacios Verdes"
+      ],
+      "formats": [
+        "CSV",
+        "CSV",
+        "KML",
+        "KML",
+        "XLSX"
+      ],
+      "rn": "19",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        },
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        },
+        {
+          "id": 6,
+          "name": "Deporte, Educación y Salud",
+          "slug": "deporte-educacion-y-salud",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-20T22:26:09.000Z",
+      "resources": 5
+    },
+    {
+      "id": 10,
+      "title": "Uniones Vecinales",
+      "slug": "uniones-vecinales",
+      "description": "Listado de las Uniones vecinales de Luján de Cuyo.",
+      "downloads": 17,
+      "views": 201,
+      "state": "active",
+      "updated_at": "2025-12-22T02:10:46.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Intendencia Municipalidad de Luján de Cuyo",
+      "resource_count": 1,
+      "tags": [
+        "Uniones Vecinales",
+        "Barrios."
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "rn": "20",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        },
+        {
+          "id": 5,
+          "name": "Desarrollo Humano",
+          "slug": "desarrollo-humano",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-22T02:10:46.000Z",
+      "resources": 1
+    },
+    {
+      "id": 12,
+      "title": "Alojamiento",
+      "slug": "alojamiento",
+      "description": "Listado de los alojamiento del departamento",
+      "downloads": 4,
+      "views": 61,
+      "state": "active",
+      "updated_at": "2025-12-14T22:58:55.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Dirección de Turismo",
+      "resource_count": 1,
+      "tags": [
+        "alojamientos"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "rn": "21",
+      "categories": [
+        {
+          "id": 10,
+          "name": "Turismo y Cultura",
+          "slug": "cultura-y-turismo",
+          "icon": null
+        }
+      ],
+      "category": "Turismo y Cultura",
+      "categorySlug": "cultura-y-turismo",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-14T22:58:55.000Z",
+      "resources": 1
+    },
+    {
+      "id": 13,
+      "title": "Bodegas",
+      "slug": "bodegas",
+      "description": "Localización de las bodegas del departamento",
+      "downloads": 6,
+      "views": 92,
+      "state": "active",
+      "updated_at": "2025-12-17T14:02:12.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Dirección de Turismo",
+      "resource_count": 1,
+      "tags": [
+        "bodegas"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "rn": "22",
+      "categories": [
+        {
+          "id": 10,
+          "name": "Turismo y Cultura",
+          "slug": "cultura-y-turismo",
+          "icon": null
+        }
+      ],
+      "category": "Turismo y Cultura",
+      "categorySlug": "cultura-y-turismo",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-17T14:02:12.000Z",
+      "resources": 1
+    },
+    {
+      "id": 14,
+      "title": "Senderos de Trekking",
+      "slug": "senderos-de-trekking",
+      "description": "Localización de senderos usado para trekking",
+      "downloads": 0,
+      "views": 66,
+      "state": "active",
+      "updated_at": "2025-12-19T03:54:13.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Dirección de Turismo",
+      "resource_count": 1,
+      "tags": [
+        "senderos",
+        "caminos",
+        "caminata"
+      ],
+      "formats": [
+        "KML"
+      ],
+      "rn": "23",
+      "categories": [
+        {
+          "id": 10,
+          "name": "Turismo y Cultura",
+          "slug": "cultura-y-turismo",
+          "icon": null
+        }
+      ],
+      "category": "Turismo y Cultura",
+      "categorySlug": "cultura-y-turismo",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-19T03:54:13.000Z",
+      "resources": 1
+    },
+    {
+      "id": 15,
+      "title": "Nómina Honorable Consejo Deliberante",
+      "slug": "cv-honorable-consejo-deliberante-de-lujan-de-cuyo",
+      "description": "Nómina",
+      "downloads": 1,
+      "views": 49,
+      "state": "active",
+      "updated_at": "2025-12-17T21:40:50.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Honorable Concejo Deliberante de Luján de Cuyo",
+      "resource_count": 1,
+      "tags": [],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "24",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-17T21:40:50.000Z",
+      "resources": 1
+    },
+    {
+      "id": 16,
+      "title": "Desarrollo Territorial",
+      "slug": "desarrollo-territorial",
+      "description": "Detalle del Código de Ocupación del suelo, del Plan Municipal de Ordenamiento Territorial y su Zonificación de suelo.",
+      "downloads": 31,
+      "views": 133,
+      "state": "active",
+      "updated_at": "2025-12-22T08:12:09.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 1,
+      "tags": [
+        "Zonificación",
+        "Usos del suelo"
+      ],
+      "formats": [
+        "web"
+      ],
+      "rn": "25",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-22T08:12:09.000Z",
+      "resources": 1
+    },
+    {
+      "id": 17,
+      "title": "Nómina de Concejales",
+      "slug": "nomina-de-consejales",
+      "description": "Nómina del personal que conforma el HCD",
+      "downloads": 0,
+      "views": 87,
+      "state": "active",
+      "updated_at": "2025-12-14T19:28:09.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Honorable Concejo Deliberante de Luján de Cuyo",
+      "resource_count": 1,
+      "tags": [
+        "HCD"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "26",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 8,
+          "name": "Honorable Concejo Deliberante Luján de Cuyo",
+          "slug": "honorable-consejo-deliberante-lujan-de-cuyo",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-14T19:28:09.000Z",
+      "resources": 1
+    },
+    {
+      "id": 18,
+      "title": "Aventura",
+      "slug": "aventura",
+      "description": "Listado de lugares donde puede realizarse actividades al aire libre",
+      "downloads": 0,
+      "views": 58,
+      "state": "active",
+      "updated_at": "2025-12-21T22:24:55.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Dirección de Turismo",
+      "resource_count": 1,
+      "tags": [
+        "Aventura",
+        "Turismo",
+        "Trekking"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "rn": "27",
+      "categories": [
+        {
+          "id": 6,
+          "name": "Deporte, Educación y Salud",
+          "slug": "deporte-educacion-y-salud",
+          "icon": null
+        },
+        {
+          "id": 10,
+          "name": "Turismo y Cultura",
+          "slug": "cultura-y-turismo",
+          "icon": null
+        }
+      ],
+      "category": "Deporte, Educación y Salud",
+      "categorySlug": "deporte-educacion-y-salud",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T22:24:55.000Z",
+      "resources": 1
+    },
+    {
+      "id": 19,
+      "title": "Antecedentes Profesionales",
+      "slug": "antecedentes-profesionales",
+      "description": "Antecedentes profesionales de los miembros del HCD",
+      "downloads": 1,
+      "views": 52,
+      "state": "active",
+      "updated_at": "2025-12-21T09:59:58.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Honorable Concejo Deliberante de Luján de Cuyo",
+      "resource_count": 1,
+      "tags": [
+        "HCD"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "28",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 8,
+          "name": "Honorable Concejo Deliberante Luján de Cuyo",
+          "slug": "honorable-consejo-deliberante-lujan-de-cuyo",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T09:59:58.000Z",
+      "resources": 1
+    },
+    {
+      "id": 20,
+      "title": "Gastronomía",
+      "slug": "gastronomia",
+      "description": "Ubicación de locales gastronómicos",
+      "downloads": 1,
+      "views": 164,
+      "state": "active",
+      "updated_at": "2025-12-21T16:59:58.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Dirección de Turismo",
+      "resource_count": 1,
+      "tags": [
+        "restaurant",
+        "Locales"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "rn": "29",
+      "categories": [
+        {
+          "id": 10,
+          "name": "Turismo y Cultura",
+          "slug": "cultura-y-turismo",
+          "icon": null
+        }
+      ],
+      "category": "Turismo y Cultura",
+      "categorySlug": "cultura-y-turismo",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T16:59:58.000Z",
+      "resources": 1
+    },
+    {
+      "id": 21,
+      "title": "Radios Fracciones Censales Luján de Cuyo",
+      "slug": "radios-censales-lujan-de-cuyo",
+      "description": "Es una unidad geográfica que agrupa, en promedio 300 viviendas en las ciudades. ",
+      "downloads": 6,
+      "views": 88,
+      "state": "active",
+      "updated_at": "2025-12-16T02:57:17.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 2,
+      "tags": [
+        "Radios Censales"
+      ],
+      "formats": [
+        "KMZ",
+        "KMZ"
+      ],
+      "rn": "30",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-16T02:57:17.000Z",
+      "resources": 2
+    },
+    {
+      "id": 22,
+      "title": "Residuos",
+      "slug": "residuos",
+      "description": "Residuos RSU ingresados, procesados y recuperados",
+      "downloads": 3,
+      "views": 56,
+      "state": "active",
+      "updated_at": "2025-12-03T07:44:41.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Higiene Urbana y Mantenimiento del Espacio Público",
+      "resource_count": 10,
+      "tags": [
+        "Residuos",
+        "Centro Verde"
+      ],
+      "formats": [
+        "XLS",
+        "XLS",
+        "PDF",
+        "XLS",
+        "XLS",
+        "XLS",
+        "KML",
+        "XLSX",
+        "XLSX",
+        "XLSX"
+      ],
+      "rn": "31",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-03T07:44:41.000Z",
+      "resources": 10
+    },
+    {
+      "id": 23,
+      "title": "Formulario de Acceso a Información Pública",
+      "slug": "formulario-de-acceso-a-informacin-pblica",
+      "description": "Formulario en linea para solicitar información pública.",
+      "downloads": 0,
+      "views": 69,
+      "state": "active",
+      "updated_at": "2025-12-20T01:48:44.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+      "resource_count": 1,
+      "tags": [
+        "Pública",
+        "Información",
+        "acceso"
+      ],
+      "formats": [
+        "WEB"
+      ],
+      "rn": "32",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-20T01:48:44.000Z",
+      "resources": 1
+    },
+    {
+      "id": 24,
+      "title": "Comisarias Luján de Cuyo",
+      "slug": "comisarias-lujn-de-cuyo",
+      "description": "Localización de las comisarías del departamento",
+      "downloads": 18,
+      "views": 85,
+      "state": "active",
+      "updated_at": "2025-12-22T00:37:11.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretario del Juzgado Vial Nro 1",
+      "resource_count": 3,
+      "tags": [
+        "Comisarias"
+      ],
+      "formats": [
+        "CSV",
+        "KML",
+        "XLSX"
+      ],
+      "rn": "33",
+      "categories": [
+        {
+          "id": 9,
+          "name": "Seguridad",
+          "slug": "seguridad",
+          "icon": null
+        }
+      ],
+      "category": "Seguridad",
+      "categorySlug": "seguridad",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-22T00:37:11.000Z",
+      "resources": 3
+    },
+    {
+      "id": 25,
+      "title": "Bancos",
+      "slug": "bancos",
+      "description": "Sucursales de los bancos localizados en el departamento",
+      "downloads": 0,
+      "views": 73,
+      "state": "active",
+      "updated_at": "2025-12-21T01:49:16.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Economía e Ingresos Públicos",
+      "resource_count": 1,
+      "tags": [
+        "Bancos"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "rn": "34",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T01:49:16.000Z",
+      "resources": 1
+    },
+    {
+      "id": 26,
+      "title": "Estaciones de Servicios",
+      "slug": "estaciones-de-servicios",
+      "description": "Estaciones de Servicios de Luján de Cuyo",
+      "downloads": 1,
+      "views": 176,
+      "state": "active",
+      "updated_at": "2025-12-21T12:24:49.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 1,
+      "tags": [
+        "combustible"
+      ],
+      "formats": [
+        "CSV"
+      ],
+      "rn": "35",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T12:24:49.000Z",
+      "resources": 1
+    },
+    {
+      "id": 27,
+      "title": "Farmacias",
+      "slug": "farmacias",
+      "description": "Información y ubicación geográfica de farmacias ubicadas en el departamento.",
+      "downloads": 0,
+      "views": 61,
+      "state": "active",
+      "updated_at": "2025-12-21T12:44:48.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Desarrollo Humano",
+      "resource_count": 1,
+      "tags": [],
+      "formats": [
+        "CSV"
+      ],
+      "rn": "36",
+      "categories": [
+        {
+          "id": 6,
+          "name": "Deporte, Educación y Salud",
+          "slug": "deporte-educacion-y-salud",
+          "icon": null
+        }
+      ],
+      "category": "Deporte, Educación y Salud",
+      "categorySlug": "deporte-educacion-y-salud",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T12:44:48.000Z",
+      "resources": 1
+    },
+    {
+      "id": 28,
+      "title": "Subsecretaría de Innovación y Modernización Municipal. Antecedentes Profesionales",
+      "slug": "subsecretaria-de-innovacion-y-modernizacion-municipal-antecedentes-profesionales",
+      "description": "Listado de antecedentes profesionales de la Subsecretaría",
+      "downloads": 1,
+      "views": 160,
+      "state": "active",
+      "updated_at": "2025-12-22T12:36:38.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+      "resource_count": 1,
+      "tags": [],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "37",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-22T12:36:38.000Z",
+      "resources": 1
+    },
+    {
+      "id": 29,
+      "title": "Manual de Adaptación Local de los ODS – 2a Edición",
+      "slug": "manual-de-adaptacion-local-de-los-ods-2a-edicion",
+      "description": "Este documento presenta la segunda edición del Manual de Adaptación Local de los ODS, que sintetiza el aprendizaje adquirido a lo largo de los últimos años de implementación de la Agenda 2030 en Argentina.",
+      "downloads": 0,
+      "views": 55,
+      "state": "active",
+      "updated_at": "2025-12-20T21:26:00.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 1,
+      "tags": [
+        "ODS",
+        "Manual",
+        "Desarrollo Sustentable"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "38",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-20T21:26:00.000Z",
+      "resources": 1
+    },
+    {
+      "id": 30,
+      "title": "Plan Municipal de Ordenamiento Territorial. Código de Uso del Suelo",
+      "slug": "plan-municipal-de-ordenamiento-territorial-codigo-de-uso-del-suelo",
+      "description": "El Plan Municipal de Ordenamiento Territorial (PMOT) del departamento Luján de Cuyo es una herramienta que permite optimizar la toma de decisiones sobre el territorio departamental.",
+      "downloads": 6,
+      "views": 87,
+      "state": "active",
+      "updated_at": "2025-12-21T00:36:14.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 1,
+      "tags": [],
+      "formats": [
+        ""
+      ],
+      "rn": "39",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        },
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T00:36:14.000Z",
+      "resources": 1
+    },
+    {
+      "id": 31,
+      "title": "Gestión Integral de Residuos Sólidos Urbanos",
+      "slug": "gestion-integral-de-residuos-solidos-urbanos",
+      "description": "Plan municipal GIRSU",
+      "downloads": 11,
+      "views": 204,
+      "state": "active",
+      "updated_at": "2025-12-22T10:18:09.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 1,
+      "tags": [
+        "Residuos"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "40",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        },
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-22T10:18:09.000Z",
+      "resources": 1
+    },
+    {
+      "id": 32,
+      "title": "Elecciones Departamental",
+      "slug": "elecciones-departamental",
+      "description": "Resultados electorales",
+      "downloads": 11,
+      "views": 107,
+      "state": "active",
+      "updated_at": "2025-12-21T12:55:04.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Jefe de Gabinete",
+      "resource_count": 14,
+      "tags": [
+        "Voto",
+        "Elecciones"
+      ],
+      "formats": [
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLSX"
+      ],
+      "rn": "41",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 13,
+          "name": "Elecciones",
+          "slug": "elecciones",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T12:55:04.000Z",
+      "resources": 14
+    },
+    {
+      "id": 33,
+      "title": "Circuito de Ciclovías",
+      "slug": "circuito-de-ciclovias",
+      "description": "Recorrido de las ciclovías ejecutadas del Municipio con cada uno de los PES (Puntos de Encuentro Saludables) que vinculan los recorridos.",
+      "downloads": 13,
+      "views": 248,
+      "state": "active",
+      "updated_at": "2025-12-21T05:17:51.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Apoderado Municipal",
+      "resource_count": 1,
+      "tags": [
+        "Ciclovías",
+        "PES",
+        "Circuitos"
+      ],
+      "formats": [
+        "My Maps"
+      ],
+      "rn": "42",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        },
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        },
+        {
+          "id": 3,
+          "name": "Movilidad",
+          "slug": "movilidad",
+          "icon": null
+        },
+        {
+          "id": 6,
+          "name": "Deporte, Educación y Salud",
+          "slug": "deporte-educacion-y-salud",
+          "icon": null
+        },
+        {
+          "id": 10,
+          "name": "Turismo y Cultura",
+          "slug": "cultura-y-turismo",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T05:17:51.000Z",
+      "resources": 1
+    },
+    {
+      "id": 34,
+      "title": "Plan Luján Sustentable",
+      "slug": "plan-lujan-sustentable",
+      "description": "Luján Sustentable es el plan que atraviesa a todas las areas de la municipalidad de lujan considerando los tres ejes fundamentales de la sustentabilidad: la ecologia, la economia y la sociedad. El plan procura una administración eficiente y racional de todos los recursos, de manera que sea posible mejorar el bienestar de los lujaninos sin comprometer la calidad de vida de las generaciones futuras. Luján Sustentable es la base de las políticas públicas de la Municipalidad de Luján de Cuyo.",
+      "downloads": 1,
+      "views": 70,
+      "state": "active",
+      "updated_at": "2025-12-20T16:00:56.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 1,
+      "tags": [
+        "Plan"
+      ],
+      "formats": [
+        "web"
+      ],
+      "rn": "43",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-20T16:00:56.000Z",
+      "resources": 1
+    },
+    {
+      "id": 35,
+      "title": "Torres Solares",
+      "slug": "torres-solares",
+      "description": "3 torres solares ubicadas en sectores estratégicos de Luján de Cuyo.",
+      "downloads": 1,
+      "views": 66,
+      "state": "active",
+      "updated_at": "2025-12-12T05:05:16.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 1,
+      "tags": [
+        "torres",
+        "energia",
+        "torres solares"
+      ],
+      "formats": [
+        "Web"
+      ],
+      "rn": "44",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-12T05:05:16.000Z",
+      "resources": 1
+    },
+    {
+      "id": 36,
+      "title": "Delegaciones Municipales",
+      "slug": "delegaciones-municipales",
+      "description": "Listado y localización de las delegaciones municipales de Luján de Cuyo",
+      "downloads": 17,
+      "views": 165,
+      "state": "active",
+      "updated_at": "2025-12-21T21:02:17.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+      "resource_count": 3,
+      "tags": [
+        "Distritos",
+        "Delegaciones"
+      ],
+      "formats": [
+        "CSV",
+        "KML",
+        "XLSX"
+      ],
+      "rn": "45",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T21:02:17.000Z",
+      "resources": 3
+    },
+    {
+      "id": 37,
+      "title": "Presupuestaria 2021",
+      "slug": "presupuestaria-2021",
+      "description": "Presupuesto de Gastos y Cálculo de Recursos para el ejercicio 2021.",
+      "downloads": 0,
+      "views": 45,
+      "state": "active",
+      "updated_at": "2025-12-21T11:44:55.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Economía e Ingresos Públicos",
+      "resource_count": 1,
+      "tags": [
+        "Presupuesto"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "46",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T11:44:55.000Z",
+      "resources": 1
+    },
+    {
+      "id": 38,
+      "title": "Tarifaria 2021",
+      "slug": "tarifaria-2021",
+      "description": "Rige lo importes de las Tasas Municipales para el 2021",
+      "downloads": 1,
+      "views": 162,
+      "state": "active",
+      "updated_at": "2025-12-21T18:48:05.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Economía e Ingresos Públicos",
+      "resource_count": 1,
+      "tags": [
+        "Tarifaria"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "47",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T18:48:05.000Z",
+      "resources": 1
+    },
+    {
+      "id": 40,
+      "title": "Centro Verde",
+      "slug": "centro-verde",
+      "description": "Al mismo llegarán todos los residuos recolectados de los Puntos Verdes que están ubicados estratégicamente en todo el municipio y de los grandes generadores, como empresas, industrias y barrios privados.",
+      "downloads": 2,
+      "views": 102,
+      "state": "active",
+      "updated_at": "2025-12-17T22:05:06.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 1,
+      "tags": [
+        "Centro Verde"
+      ],
+      "formats": [
+        "WEB"
+      ],
+      "rn": "48",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        },
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-17T22:05:06.000Z",
+      "resources": 1
+    },
+    {
+      "id": 41,
+      "title": "Bicisendas Inclusivas",
+      "slug": "bicisendas-inclusivas",
+      "description": "Programa Pedaleando Juntos",
+      "downloads": 2,
+      "views": 68,
+      "state": "active",
+      "updated_at": "2025-12-16T03:34:44.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 1,
+      "tags": [
+        "Bicisendas"
+      ],
+      "formats": [
+        "web"
+      ],
+      "rn": "49",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-16T03:34:44.000Z",
+      "resources": 1
+    },
+    {
+      "id": 42,
+      "title": "Pauta Publicitaria",
+      "slug": "pauta-publicitaria",
+      "description": "Listado de Proveedores",
+      "downloads": 0,
+      "views": 72,
+      "state": "active",
+      "updated_at": "2025-12-22T09:36:15.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Dirección de Comunicación Estratégica",
+      "resource_count": 3,
+      "tags": [
+        "pauta publicitaria",
+        "publicidad"
+      ],
+      "formats": [
+        "XLS",
+        "XLS",
+        "XLSX"
+      ],
+      "rn": "50",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-22T09:36:15.000Z",
+      "resources": 3
+    },
+    {
+      "id": 43,
+      "title": "Acuerdo de cooperación",
+      "slug": "acuerdo-de-cooperacion",
+      "description": "Acuerdo de cooperación entre el Municipio de Luján de Cuyo y la procuración general de la suprema corte de Justicia de Mendoza",
+      "downloads": 0,
+      "views": 48,
+      "state": "active",
+      "updated_at": "2025-12-18T06:19:15.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Dirección de Género y Diversidad",
+      "resource_count": 1,
+      "tags": [
+        "Acuerdo"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "51",
+      "categories": [
+        {
+          "id": 11,
+          "name": "Género y Diversidad",
+          "slug": "genero",
+          "icon": null
+        }
+      ],
+      "category": "Género y Diversidad",
+      "categorySlug": "genero",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-18T06:19:15.000Z",
+      "resources": 1
+    },
+    {
+      "id": 44,
+      "title": "Calidad del Aire",
+      "slug": "calidad-del-aire",
+      "description": "Datos de medición de la calidad de aire de Luján de Cuyo proporcionado por Tótem de Parque Cívico",
+      "downloads": 16,
+      "views": 111,
+      "state": "active",
+      "updated_at": "2025-12-17T14:56:27.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 2,
+      "tags": [
+        "Aire"
+      ],
+      "formats": [
+        "XLS",
+        "XLSX"
+      ],
+      "rn": "52",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-17T14:56:27.000Z",
+      "resources": 2
+    },
+    {
+      "id": 45,
+      "title": "Calles por la Vida",
+      "slug": "calles-por-la-vida",
+      "description": "Semana Mundial de las Naciones Unidas para la Seguridad Vial",
+      "downloads": 0,
+      "views": 52,
+      "state": "active",
+      "updated_at": "2025-12-21T13:17:08.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 1,
+      "tags": [],
+      "formats": [
+        "JPEG"
+      ],
+      "rn": "53",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T13:17:08.000Z",
+      "resources": 1
+    },
+    {
+      "id": 46,
+      "title": "Protocolo de Acción",
+      "slug": "protocolo-de-accion",
+      "description": "Procedimiento para la atención y acompañamiento de mujeres víctimas de violencia y en situación de vulnerabilidad.\r\n",
+      "downloads": 2,
+      "views": 64,
+      "state": "active",
+      "updated_at": "2025-12-21T22:22:36.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Dirección de Género y Diversidad",
+      "resource_count": 1,
+      "tags": [
+        "Género",
+        "Diversidad"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "54",
+      "categories": [
+        {
+          "id": 11,
+          "name": "Género y Diversidad",
+          "slug": "genero",
+          "icon": null
+        }
+      ],
+      "category": "Género y Diversidad",
+      "categorySlug": "genero",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T22:22:36.000Z",
+      "resources": 1
+    },
+    {
+      "id": 47,
+      "title": "Educación y Participación",
+      "slug": "educacion-y-participacion",
+      "description": "Acuerdo Quilmes (Revegetación y Economía Circular)",
+      "downloads": 3,
+      "views": 170,
+      "state": "active",
+      "updated_at": "2025-12-21T00:41:49.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 1,
+      "tags": [
+        "Vegetación"
+      ],
+      "formats": [
+        "JPEG"
+      ],
+      "rn": "55",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        },
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T00:41:49.000Z",
+      "resources": 1
+    },
+    {
+      "id": 48,
+      "title": "Calidad del Agua",
+      "slug": "calidad-del-agua",
+      "description": "Detalle Análisis de Agua de las Plantas depuradoras y tomas del Departamento",
+      "downloads": 7,
+      "views": 88,
+      "state": "active",
+      "updated_at": "2025-12-18T17:25:27.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
+      "resource_count": 11,
+      "tags": [
+        "Agua",
+        "2025"
+      ],
+      "formats": [
+        "XLS",
+        "XLS",
+        "PDF",
+        "PDF",
+        "XLS",
+        "XLSX",
+        "XLSX",
+        "XLSX",
+        "XLSX",
+        "XLSX",
+        "XLSX"
+      ],
+      "rn": "56",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        },
+        {
+          "id": 6,
+          "name": "Deporte, Educación y Salud",
+          "slug": "deporte-educacion-y-salud",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-18T17:25:27.000Z",
+      "resources": 11
+    },
+    {
+      "id": 49,
+      "title": "Voto electoral",
+      "slug": "voto-electoral",
+      "description": "Votación según consejales, diputados y senadores\r\n",
+      "downloads": 2,
+      "views": 112,
+      "state": "active",
+      "updated_at": "2025-12-17T03:56:26.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Jefe de Gabinete",
+      "resource_count": 6,
+      "tags": [
+        "Voto",
+        "Elecciones"
+      ],
+      "formats": [
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLSX"
+      ],
+      "rn": "57",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 13,
+          "name": "Elecciones",
+          "slug": "elecciones",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-17T03:56:26.000Z",
+      "resources": 6
+    },
+    {
+      "id": 50,
+      "title": "Economía Circular",
+      "slug": "economia-circular",
+      "description": "Convenio colaborativo, con la ciudad italiana de Prato, involucra a otros 3 organismos y consiste en promover acciones tendientes a generar economías circulares en el departamento de Luján de Cuyo.",
+      "downloads": 2,
+      "views": 63,
+      "state": "active",
+      "updated_at": "2025-12-21T12:21:28.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 1,
+      "tags": [
+        "convenios",
+        "economía circular"
+      ],
+      "formats": [
+        "web"
+      ],
+      "rn": "58",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        },
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        },
+        {
+          "id": 5,
+          "name": "Desarrollo Humano",
+          "slug": "desarrollo-humano",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T12:21:28.000Z",
+      "resources": 1
+    },
+    {
+      "id": 51,
+      "title": "Seguridad Vial",
+      "slug": "seguridad-vial",
+      "description": "Acciones viales",
+      "downloads": 5,
+      "views": 204,
+      "state": "active",
+      "updated_at": "2025-12-19T23:50:31.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaria de Gobierno",
+      "resource_count": 1,
+      "tags": [
+        "Actas"
+      ],
+      "formats": [
+        ""
+      ],
+      "rn": "59",
+      "categories": [
+        {
+          "id": 3,
+          "name": "Movilidad",
+          "slug": "movilidad",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 9,
+          "name": "Seguridad",
+          "slug": "seguridad",
+          "icon": null
+        }
+      ],
+      "category": "Movilidad",
+      "categorySlug": "movilidad",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-19T23:50:31.000Z",
+      "resources": 1
+    },
+    {
+      "id": 52,
+      "title": "Tarifaria 2023",
+      "slug": "tarifaria-2023",
+      "description": "Rige lo importes de las Tasas Municipales para el 2023",
+      "downloads": 8,
+      "views": 184,
+      "state": "active",
+      "updated_at": "2025-12-21T19:33:51.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaria de Gobierno",
+      "resource_count": 3,
+      "tags": [],
+      "formats": [
+        "XLS",
+        "PDF",
+        "DOCX"
+      ],
+      "rn": "60",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 8,
+          "name": "Honorable Concejo Deliberante Luján de Cuyo",
+          "slug": "honorable-consejo-deliberante-lujan-de-cuyo",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T19:33:51.000Z",
+      "resources": 3
+    },
+    {
+      "id": 53,
+      "title": "Barrios del Departamento de Luján de Cuyo",
+      "slug": "barrios-del-departamento-de-lujan-de-cuyo",
+      "description": "Detalle los barrios pertenecientes al departamento",
+      "downloads": 92,
+      "views": 449,
+      "state": "active",
+      "updated_at": "2025-12-22T09:14:48.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Dirección de Ordenamiento Territorial",
+      "resource_count": 2,
+      "tags": [
+        "Barrios."
+      ],
+      "formats": [
+        "XLS",
+        "KML"
+      ],
+      "rn": "61",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-22T09:14:48.000Z",
+      "resources": 2
+    },
+    {
+      "id": 54,
+      "title": "Transporte Público",
+      "slug": "transporte-pblico",
+      "description": "Horarios del transporte público y los recorridos de cada línea de transporte del Luján de Cuyo",
+      "downloads": 6,
+      "views": 115,
+      "state": "active",
+      "updated_at": "2025-12-18T06:35:43.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+      "resource_count": 3,
+      "tags": [
+        "transporte público"
+      ],
+      "formats": [
+        "KML",
+        "WEB",
+        "XLS"
+      ],
+      "rn": "62",
+      "categories": [
+        {
+          "id": 1,
+          "name": "Urbanismo y Territorio",
+          "slug": "urbanismo-y-territorio",
+          "icon": null
+        },
+        {
+          "id": 3,
+          "name": "Movilidad",
+          "slug": "movilidad",
+          "icon": null
+        },
+        {
+          "id": 3,
+          "name": "Movilidad",
+          "slug": "movilidad",
+          "icon": null
+        },
+        {
+          "id": 10,
+          "name": "Turismo y Cultura",
+          "slug": "cultura-y-turismo",
+          "icon": null
+        },
+        {
+          "id": 10,
+          "name": "Turismo y Cultura",
+          "slug": "cultura-y-turismo",
+          "icon": null
+        }
+      ],
+      "category": "Urbanismo y Territorio",
+      "categorySlug": "urbanismo-y-territorio",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-18T06:35:43.000Z",
+      "resources": 3
+    },
+    {
+      "id": 55,
+      "title": "Funcionarios Públicos Municipal",
+      "slug": "funcionarios-pblicos-municipal",
+      "description": "Listas de los sueldos de las y los funcionaria/os pública/os hasta el rango de director/a\r\ngeneral\r\n",
+      "downloads": 80,
+      "views": 183,
+      "state": "active",
+      "updated_at": "2025-12-19T17:17:14.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Economía e Ingresos Públicos",
+      "resource_count": 10,
+      "tags": [
+        "Funcionarios",
+        "sueldo",
+        "escala"
+      ],
+      "formats": [
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLSX",
+        "XLSX",
+        "XLSX",
+        "XLSX",
+        "XLSX",
+        "XLSX"
+      ],
+      "rn": "63",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 8,
+          "name": "Honorable Concejo Deliberante Luján de Cuyo",
+          "slug": "honorable-consejo-deliberante-lujan-de-cuyo",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-19T17:17:14.000Z",
+      "resources": 10
+    },
+    {
+      "id": 56,
+      "title": "Gasto Público Municipal",
+      "slug": "gasto-pblico-municipal",
+      "description": "Registro del gasto del Gobierno Municipal",
+      "downloads": 11,
+      "views": 88,
+      "state": "active",
+      "updated_at": "2025-12-20T12:24:45.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Hacienda",
+      "resource_count": 6,
+      "tags": [
+        "Gasto",
+        "Público"
+      ],
+      "formats": [
+        "PDF",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLSX"
+      ],
+      "rn": "64",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-20T12:24:45.000Z",
+      "resources": 6
+    },
+    {
+      "id": 57,
+      "title": "Información Pública",
+      "slug": "informacin-pblica",
+      "description": "Listado de pedido de información",
+      "downloads": 2,
+      "views": 62,
+      "state": "active",
+      "updated_at": "2025-12-20T03:55:37.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+      "resource_count": 5,
+      "tags": [
+        "Pública",
+        "Información"
+      ],
+      "formats": [
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLSX"
+      ],
+      "rn": "65",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 8,
+          "name": "Honorable Concejo Deliberante Luján de Cuyo",
+          "slug": "honorable-consejo-deliberante-lujan-de-cuyo",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-20T03:55:37.000Z",
+      "resources": 5
+    },
+    {
+      "id": 58,
+      "title": "Presupuesto de Gobierno",
+      "slug": "presupuesto-de-gobierno",
+      "description": "Presupuesto Sancionado, ejecutado o devengado. Gasto gubernamental",
+      "downloads": 15,
+      "views": 130,
+      "state": "active",
+      "updated_at": "2025-12-18T23:46:05.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Hacienda",
+      "resource_count": 8,
+      "tags": [
+        "Presupuesto"
+      ],
+      "formats": [
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "WEB",
+        "XLSX",
+        "XLSX"
+      ],
+      "rn": "66",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-18T23:46:05.000Z",
+      "resources": 8
+    },
+    {
+      "id": 59,
+      "title": "Resultado Electorales",
+      "slug": "resultado-electorales",
+      "description": "Resultado de la PASOS Provinciales 2023",
+      "downloads": 38,
+      "views": 296,
+      "state": "active",
+      "updated_at": "2025-12-21T02:06:04.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Jefe de Gabinete",
+      "resource_count": 8,
+      "tags": [
+        "resultadose electorales",
+        "elecciones.",
+        "voto."
+      ],
+      "formats": [
+        "PDF",
+        "PDF",
+        "PDF",
+        "PDF",
+        "PDF",
+        "PDF",
+        "XLS",
+        "XLS"
+      ],
+      "rn": "67",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 8,
+          "name": "Honorable Concejo Deliberante Luján de Cuyo",
+          "slug": "honorable-consejo-deliberante-lujan-de-cuyo",
+          "icon": null
+        },
+        {
+          "id": 13,
+          "name": "Elecciones",
+          "slug": "elecciones",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T02:06:04.000Z",
+      "resources": 8
+    },
+    {
+      "id": 60,
+      "title": "Declaraciones Juradas",
+      "slug": "declaraciones-juradas",
+      "description": "Detalle del listado de declaraciones juradas en Ética Pública de la Provincia de Mendoza 2025",
+      "downloads": 14,
+      "views": 196,
+      "state": "active",
+      "updated_at": "2025-12-21T21:01:25.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Intendencia Municipalidad de Luján de Cuyo",
+      "resource_count": 4,
+      "tags": [
+        "declaración",
+        "declaraciones juradas",
+        "declaración",
+        "2025"
+      ],
+      "formats": [
+        "XLS",
+        "XLSX",
+        "XLSX",
+        "WEB"
+      ],
+      "rn": "68",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 8,
+          "name": "Honorable Concejo Deliberante Luján de Cuyo",
+          "slug": "honorable-consejo-deliberante-lujan-de-cuyo",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T21:01:25.000Z",
+      "resources": 4
+    },
+    {
+      "id": 61,
+      "title": "Tarifaria",
+      "slug": "tarifaria",
+      "description": "Secretaría de Economía y Capital Humano",
+      "downloads": 12,
+      "views": 237,
+      "state": "active",
+      "updated_at": "2025-12-21T15:04:55.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Economía e Ingresos Públicos",
+      "resource_count": 2,
+      "tags": [
+        "Tarifaria"
+      ],
+      "formats": [
+        "PDF",
+        "PDF"
+      ],
+      "rn": "69",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T15:04:55.000Z",
+      "resources": 2
+    },
+    {
+      "id": 62,
+      "title": "Inventario de Datos",
+      "slug": "inventario_de_datos",
+      "description": "El Inventario de Datos ofrece una visión integral de todos los recursos de datos de la ciudad",
+      "downloads": 18,
+      "views": 99,
+      "state": "active",
+      "updated_at": "2025-12-17T22:05:05.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+      "resource_count": 1,
+      "tags": [
+        "datos"
+      ],
+      "formats": [
+        "XLS"
+      ],
+      "rn": "70",
+      "categories": [
+        {
+          "id": 14,
+          "name": "Gestión de Datos",
+          "slug": "gestion_de_datos",
+          "icon": null
+        }
+      ],
+      "category": "Gestión de Datos",
+      "categorySlug": "gestion_de_datos",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-17T22:05:05.000Z",
+      "resources": 1
+    },
+    {
+      "id": 63,
+      "title": "Puntos Verdes",
+      "slug": "puntos-verdes",
+      "description": "Un punto limpio es una instalación de propiedad municipal. Su principal función es ofrecer a los vecinos un lugar donde depositar los residuos reciclables que generen en sus hogares.\r\n\r\nLa municipalidad se encarga de transportar estos residuos hasta nuestro Punto Verde para su reciclaje.\r\nMapa de ubicación de Puntos Verdes",
+      "downloads": 9,
+      "views": 90,
+      "state": "active",
+      "updated_at": "2025-12-21T04:13:51.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Infraestructura y Desarrollo Sostenible",
+      "resource_count": 1,
+      "tags": [
+        "Puntos",
+        "Verdes"
+      ],
+      "formats": [
+        "my maps"
+      ],
+      "rn": "71",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T04:13:51.000Z",
+      "resources": 1
+    },
+    {
+      "id": 64,
+      "title": "Unidades Comerciales",
+      "slug": "unidades-comerciales",
+      "description": "Listado de comercios del municipio",
+      "downloads": 1,
+      "views": 167,
+      "state": "active",
+      "updated_at": "2025-12-20T07:16:51.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Hacienda",
+      "resource_count": 6,
+      "tags": [
+        "Comercios",
+        "Rubros"
+      ],
+      "formats": [
+        "XLS",
+        "XLS",
+        "XLS",
+        "CSV",
+        "CSV",
+        "XLSX"
+      ],
+      "rn": "72",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-20T07:16:51.000Z",
+      "resources": 6
+    },
+    {
+      "id": 65,
+      "title": "Presupuestaria 2022",
+      "slug": "presupuestaria-2022",
+      "description": "Rige lo importes de las Tasas Municipales para el 2022",
+      "downloads": 0,
+      "views": 58,
+      "state": "active",
+      "updated_at": "2025-12-16T00:28:27.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Economía e Ingresos Públicos",
+      "resource_count": 1,
+      "tags": [
+        "Presupuesto"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "73",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-16T00:28:27.000Z",
+      "resources": 1
+    },
+    {
+      "id": 66,
+      "title": "Polideportivos",
+      "slug": "polideportivos",
+      "description": "Localización de los polideportivos del Departamento",
+      "downloads": 3,
+      "views": 127,
+      "state": "active",
+      "updated_at": "2025-12-20T11:19:33.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Desarrollo Humano",
+      "resource_count": 1,
+      "tags": [
+        "Polideportivos",
+        "barrios populares",
+        "hogares"
+      ],
+      "formats": [
+        "WEB"
+      ],
+      "rn": "74",
+      "categories": [
+        {
+          "id": 5,
+          "name": "Desarrollo Humano",
+          "slug": "desarrollo-humano",
+          "icon": null
+        },
+        {
+          "id": 5,
+          "name": "Desarrollo Humano",
+          "slug": "desarrollo-humano",
+          "icon": null
+        },
+        {
+          "id": 6,
+          "name": "Deporte, Educación y Salud",
+          "slug": "deporte-educacion-y-salud",
+          "icon": null
+        }
+      ],
+      "category": "Desarrollo Humano",
+      "categorySlug": "desarrollo-humano",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-20T11:19:33.000Z",
+      "resources": 1
+    },
+    {
+      "id": 67,
+      "title": "Informe Covid Municipal",
+      "slug": "informe-covid-municipal",
+      "description": "Detalle de los casos relevados por el Municipio",
+      "downloads": 1,
+      "views": 64,
+      "state": "active",
+      "updated_at": "2025-12-21T20:46:47.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Subsecretaría de Gestión del Talento Humano",
+      "resource_count": 1,
+      "tags": [
+        "Covid"
+      ],
+      "formats": [
+        "XLS"
+      ],
+      "rn": "75",
+      "categories": [
+        {
+          "id": 6,
+          "name": "Deporte, Educación y Salud",
+          "slug": "deporte-educacion-y-salud",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 12,
+          "name": "COVID-19",
+          "slug": "covid-19",
+          "icon": null
+        }
+      ],
+      "category": "Deporte, Educación y Salud",
+      "categorySlug": "deporte-educacion-y-salud",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T20:46:47.000Z",
+      "resources": 1
+    },
+    {
+      "id": 68,
+      "title": "Presupuestaria",
+      "slug": "presupuestaria-2024",
+      "description": "Rige lo importes de las Tasas Municipales",
+      "downloads": 6,
+      "views": 45,
+      "state": "active",
+      "updated_at": "2025-12-15T21:58:15.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Economía e Ingresos Públicos",
+      "resource_count": 2,
+      "tags": [
+        "Presupuesto"
+      ],
+      "formats": [
+        "PDF",
+        "PDF"
+      ],
+      "rn": "76",
+      "categories": [
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 8,
+          "name": "Honorable Concejo Deliberante Luján de Cuyo",
+          "slug": "honorable-consejo-deliberante-lujan-de-cuyo",
+          "icon": null
+        }
+      ],
+      "category": "Economía",
+      "categorySlug": "economia",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-15T21:58:15.000Z",
+      "resources": 2
+    },
+    {
+      "id": 69,
+      "title": "Ordenanza Tarifaria 2022",
+      "slug": "ordenanza-tarifaria-2022",
+      "description": "Rige lo importes de las Tasas Municipales para el 2022",
+      "downloads": 1,
+      "views": 186,
+      "state": "active",
+      "updated_at": "2025-12-21T15:28:17.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaria de Gobierno",
+      "resource_count": 1,
+      "tags": [
+        "Tarifaria"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "77",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T15:28:17.000Z",
+      "resources": 1
+    },
+    {
+      "id": 70,
+      "title": "Compras y Contrataciones",
+      "slug": "compras-y-contrataciones",
+      "description": "Detalle de las compras, contrataciones y licitaciones que se desarrollan dentro de la institución",
+      "downloads": 57,
+      "views": 107,
+      "state": "active",
+      "updated_at": "2025-12-21T02:11:51.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Hacienda",
+      "resource_count": 29,
+      "tags": [
+        "Compras",
+        "Contrataciones",
+        "Licitaciones"
+      ],
+      "formats": [
+        "XLS",
+        "CSV",
+        "CSV",
+        "CSV",
+        "XLS",
+        "XLS",
+        "JSON",
+        "HTML",
+        "XLS",
+        "CSV",
+        "XLS",
+        "CSV",
+        "CSV",
+        "CSV",
+        "XLSX",
+        "XLS",
+        "CSV",
+        "CSV",
+        "XLS",
+        "XLS",
+        "CSV",
+        "CSV",
+        "CSV",
+        "CSV",
+        "XLS",
+        "XLSX",
+        "XLSX",
+        "XLSX",
+        "WEB"
+      ],
+      "rn": "78",
+      "categories": [
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Gobierno Municipal",
+      "categorySlug": "gobierto-y-sector-publico",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T02:11:51.000Z",
+      "resources": 29
+    },
+    {
+      "id": 71,
+      "title": "Energía",
+      "slug": "energa",
+      "description": "Implementación de Luminarias LED",
+      "downloads": 4,
+      "views": 56,
+      "state": "active",
+      "updated_at": "2025-12-06T19:37:41.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Higiene Urbana y Mantenimiento del Espacio Público",
+      "resource_count": 3,
+      "tags": [
+        "Luminarias",
+        "LED"
+      ],
+      "formats": [
+        "XLS",
+        "WEB",
+        "CSV"
+      ],
+      "rn": "79",
+      "categories": [
+        {
+          "id": 2,
+          "name": "Medio Ambiente y Desarrollo Sustentable",
+          "slug": "medio-ambiente-y-desarrollo-sustentable",
+          "icon": null
+        }
+      ],
+      "category": "Medio Ambiente y Desarrollo Sustentable",
+      "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-06T19:37:41.000Z",
+      "resources": 3
+    },
+    {
+      "id": 72,
+      "title": "Estadísticas de Género",
+      "slug": "estadsticas-de-gnero",
+      "description": "Datos relevados 2021, 2022, 20223 por fichas RUC Departamento de Luján de Cuyo",
+      "downloads": 1,
+      "views": 68,
+      "state": "active",
+      "updated_at": "2025-11-21T23:49:01.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Dirección de Género y Diversidad",
+      "resource_count": 8,
+      "tags": [
+        "RUC",
+        "Género",
+        "Barrios.",
+        "Uniones vecinales.",
+        "hogares"
+      ],
+      "formats": [
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "XLS",
+        "DOC",
+        "pbix",
+        "XLSX"
+      ],
+      "rn": "80",
+      "categories": [
+        {
+          "id": 5,
+          "name": "Desarrollo Humano",
+          "slug": "desarrollo-humano",
+          "icon": null
+        },
+        {
+          "id": 5,
+          "name": "Desarrollo Humano",
+          "slug": "desarrollo-humano",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        },
+        {
+          "id": 11,
+          "name": "Género y Diversidad",
+          "slug": "genero",
+          "icon": null
+        }
+      ],
+      "category": "Desarrollo Humano",
+      "categorySlug": "desarrollo-humano",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-11-21T23:49:01.000Z",
+      "resources": 8
+    },
+    {
+      "id": 73,
+      "title": "Estructura HCD",
+      "slug": "estructura-hcd",
+      "description": "Honorable Consejo de Deliberantes y su estructura",
+      "downloads": 1,
+      "views": 64,
+      "state": "active",
+      "updated_at": "2025-12-21T12:11:26.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Honorable Concejo Deliberante de Luján de Cuyo",
+      "resource_count": 1,
+      "tags": [
+        "HCD"
+      ],
+      "formats": [
+        "PDF"
+      ],
+      "rn": "81",
+      "categories": [
+        {
+          "id": 8,
+          "name": "Honorable Concejo Deliberante Luján de Cuyo",
+          "slug": "honorable-consejo-deliberante-lujan-de-cuyo",
+          "icon": null
+        }
+      ],
+      "category": "Honorable Concejo Deliberante Luján de Cuyo",
+      "categorySlug": "honorable-consejo-deliberante-lujan-de-cuyo",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-21T12:11:26.000Z",
+      "resources": 1
+    },
+    {
+      "id": 74,
+      "title": "Obras Públicas",
+      "slug": "obras-pblicas",
+      "description": "Información sobre las obras realizadas en el Departamento",
+      "downloads": 6,
+      "views": 85,
+      "state": "active",
+      "updated_at": "2025-12-22T12:22:33.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Obras y Espacio Público",
+      "resource_count": 4,
+      "tags": [
+        "Obras",
+        "publicas"
+      ],
+      "formats": [
+        "",
+        "XLS",
+        "XLS",
+        "XLSX"
+      ],
+      "rn": "82",
+      "categories": [
+        {
+          "id": 3,
+          "name": "Movilidad",
+          "slug": "movilidad",
+          "icon": null
+        },
+        {
+          "id": 4,
+          "name": "Economía",
+          "slug": "economia",
+          "icon": null
+        },
+        {
+          "id": 7,
+          "name": "Gobierno Municipal",
+          "slug": "gobierto-y-sector-publico",
+          "icon": null
+        }
+      ],
+      "category": "Movilidad",
+      "categorySlug": "movilidad",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-22T12:22:33.000Z",
+      "resources": 4
+    },
+    {
+      "id": 75,
+      "title": "Centros de Salud",
+      "slug": "centros-de-salud",
+      "description": "Mapa de localización de los Centros de Salud",
+      "downloads": 13,
+      "views": 191,
+      "state": "active",
+      "updated_at": "2025-12-22T14:44:14.000Z",
+      "created_at": "2025-05-15T13:44:18.000Z",
+      "organization_name": "Secretaría de Desarrollo Humano",
+      "resource_count": 4,
+      "tags": [
+        "Centros",
+        "Salud"
+      ],
+      "formats": [
+        "KML",
+        "XLS",
+        "WEB",
+        "XLSX"
+      ],
+      "rn": "83",
+      "categories": [
+        {
+          "id": 6,
+          "name": "Deporte, Educación y Salud",
+          "slug": "deporte-educacion-y-salud",
+          "icon": null
+        }
+      ],
+      "category": "Deporte, Educación y Salud",
+      "categorySlug": "deporte-educacion-y-salud",
+      "categoryIcon": null,
+      "status": "Publicado",
+      "updatedAt": "2025-12-22T14:44:14.000Z",
+      "resources": 4
+    }
+  ],
+  "total": 83
+}

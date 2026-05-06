@@ -1,0 +1,429 @@
+{
+  "id": "57",
+  "title": "Información Pública",
+  "source": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+  "description": "Listado de pedido de información",
+  "category": "Gobierno Municipal",
+  "categorySlug": "gobierto-y-sector-publico",
+  "updatedAt": "2025-12-20T03:55:37.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "garantes-hcd.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/57/garantes-hcd.xlsx",
+      "bytes": 6260
+    },
+    {
+      "nombre": "apdfreporteticket.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/57/apdfreporteticket.xlsx",
+      "bytes": 59137
+    },
+    {
+      "nombre": "exportwwticket-2856.xls",
+      "formato": "XLS",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/57/exportwwticket-2856.xls",
+      "bytes": 77312
+    },
+    {
+      "nombre": "pedidos-de-informacion-publica-2024-.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/57/pedidos-de-informacion-publica-2024-.xlsx",
+      "bytes": 24890
+    },
+    {
+      "nombre": "Pedidos de acceso a la Informació Pública_2025.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/57/1752590003365-Pedidos de acceso a la Informació Pública_2025.xlsx",
+      "bytes": 53064
+    }
+  ],
+  "columns": [
+    {
+      "name": "Reporte de Tickets",
+      "type": "number",
+      "label": "Reporte de Tickets"
+    },
+    {
+      "name": "__EMPTY",
+      "type": "string",
+      "label": "__EMPTY"
+    },
+    {
+      "name": "__EMPTY_1",
+      "type": "string",
+      "label": "__EMPTY_1"
+    },
+    {
+      "name": "__EMPTY_2",
+      "type": "string",
+      "label": "__EMPTY_2"
+    },
+    {
+      "name": "__EMPTY_3",
+      "type": "string",
+      "label": "__EMPTY_3"
+    },
+    {
+      "name": "Fecha: Hora: Página:",
+      "type": "string",
+      "label": "Fecha: Hora: Página:"
+    },
+    {
+      "name": "__EMPTY_4",
+      "type": "number",
+      "label": "__EMPTY_4"
+    },
+    {
+      "name": "__EMPTY_5",
+      "type": "string",
+      "label": "__EMPTY_5"
+    },
+    {
+      "name": "__EMPTY_6",
+      "type": "string",
+      "label": "__EMPTY_6"
+    },
+    {
+      "name": "09/06/22\n12:12:57\n1",
+      "type": "string",
+      "label": "09/06/22\n12:12:57\n1"
+    },
+    {
+      "name": "__EMPTY_7",
+      "type": "string",
+      "label": "__EMPTY_7"
+    }
+  ],
+  "rows": [
+    {
+      "Reporte de Tickets": "Nro.            Categoría                 Tema                             Tipo                                Fch. Sol.         Solicitante                                           Prio.  Estado          Responsable            Demora",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": "",
+      "__EMPTY_3": "",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": "",
+      "__EMPTY_5": "",
+      "__EMPTY_6": "",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 3286131,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "06/06/22 11:16",
+      "__EMPTY_3": "SCALCO PALOMA",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "23 h, 42 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 3285646,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "06/06/22 09:54",
+      "__EMPTY_3": "SCALCO PALOMA",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Abierto no asi",
+      "__EMPTY_6": "3 d, 2 h, 18 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 3255767,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "16/05/22 10:18",
+      "__EMPTY_3": "GARZON EDUARDO ALBERTO",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "4 d, 3 h, 25 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 3243542,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "09/05/22 10:43",
+      "__EMPTY_3": "CORDOBA FEDERICO DAMIAN",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "11 d, 3 h, 0 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 3211924,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "20/04/22 12:24",
+      "__EMPTY_3": "OLSINA MANUEL GUSTAVO",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "1 d, 0 h, 42 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 3199214,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "11/04/22 16:53",
+      "__EMPTY_3": "TOTTER FEDERICO",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "10 d, 19 h, 47",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 3135004,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "08/03/22 11:26",
+      "__EMPTY_3": "CUNDINS TOMAS VALENTIN",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado por A",
+      "__EMPTY_6": "29 d, 1 h, 11 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 3057916,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "05/01/22 11:26",
+      "__EMPTY_3": "FUNDACION NUESTRA MENDOZA",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "27 d, 1 h, 12 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 2547650,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "22/09/21 07:58",
+      "__EMPTY_3": "TOTTER FEDERICO",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "8 d, 3 h, 9 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 2534362,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "14/09/21 12:38",
+      "__EMPTY_3": "BARBERA JULIETA FERNANDA",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "20 d, 8 h, 5 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 1969401,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "22/06/21 11:35",
+      "__EMPTY_3": "MINETTO JUAN FRANCISCO",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "22 h, 58 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 1514513,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "03/05/21 14:21",
+      "__EMPTY_3": "FLAMARIQUE JOSE MANUEL",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "2 d, 21 h, 22 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 1473177,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "26/04/21 19:56",
+      "__EMPTY_3": "HERNANDEZ VICTOR GUILLERMO",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "2 d, 16 h, 6 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 1473068,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "26/04/21 19:33",
+      "__EMPTY_3": "HERNANDEZ VICTOR GUILLERMO",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "9 d, 16 h, 15 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 1398107,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "13/04/21 17:18",
+      "__EMPTY_3": "FLAMARIQUE JOSE MANUEL",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "19 d, 20 h, 19",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 1230549,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "25/03/21 14:40",
+      "__EMPTY_3": "VIDELA NAZARIO ANTONIO",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "5 d, 19 h, 26 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 1227569,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "24/03/21 16:53",
+      "__EMPTY_3": "FLAMARIQUE JOSE MANUEL",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "19 d, 18 h, 2 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 1027176,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "05/02/21 09:06",
+      "__EMPTY_3": "PEREZ CARAM MAURICIO ADOLFO",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado por A",
+      "__EMPTY_6": "39 d, 2 h, 10 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 1027161,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "05/02/21 09:02",
+      "__EMPTY_3": "PEREZ CARAM MAURICIO ADOLFO",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado por A",
+      "__EMPTY_6": "39 d, 2 h, 16 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 987320,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "05/01/21 16:16",
+      "__EMPTY_3": "SALVARREDI PAULA",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Sin R",
+      "__EMPTY_6": "17 h, 5 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 980612,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "29/12/20 11:46",
+      "__EMPTY_3": "NANCLARES AUGUSTO NICOLAS",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "7 d, 21 h, 44 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 876579,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "31/08/20 09:58",
+      "__EMPTY_3": "BUSTOS MARIANO MANUEL",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "32 d, 2 h, 2 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 876230,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "30/08/20 15:44",
+      "__EMPTY_3": "RAGUSA GISELLE ANELISA",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "18 d, 22 h, 6 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    },
+    {
+      "Reporte de Tickets": 858330,
+      "__EMPTY": "AIP - SOLICITUD",
+      "__EMPTY_1": "MUNICIPALIDAD DE LUJÁN DE SOLICITUD WEB",
+      "__EMPTY_2": "07/08/20 11:18",
+      "__EMPTY_3": "DI FRESCO MARIA FLORENCIA",
+      "Fecha: Hora: Página:": "",
+      "__EMPTY_4": 3,
+      "__EMPTY_5": "Cerrado Resue",
+      "__EMPTY_6": "42 d, 0 h, 53 m",
+      "09/06/22\n12:12:57\n1": "",
+      "__EMPTY_7": ""
+    }
+  ],
+  "totalRows": 25,
+  "previewSourceFile": "apdfreporteticket.xlsx",
+  "municipios": []
+}

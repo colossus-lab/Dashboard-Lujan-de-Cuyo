@@ -1,0 +1,28 @@
+{
+  "id": "21",
+  "title": "Radios Fracciones Censales Luján de Cuyo",
+  "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+  "description": "Es una unidad geográfica que agrupa, en promedio 300 viviendas en las ciudades. ",
+  "category": "Urbanismo y Territorio",
+  "categorySlug": "urbanismo-y-territorio",
+  "updatedAt": "2025-12-16T02:57:17.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "fracciones-lujan-de-cuyo.kmz",
+      "formato": "KMZ",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/21/fracciones-lujan-de-cuyo.kmz",
+      "bytes": 269234
+    },
+    {
+      "nombre": "radios-lujan-de-cuyo.kmz",
+      "formato": "KMZ",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/21/radios-lujan-de-cuyo.kmz",
+      "bytes": 402191
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

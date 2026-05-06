@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "id": "genero",
+    "title": "Género y Diversidad",
+    "category": "Género y Diversidad",
+    "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
+    "date": "2026-05-06"
+  },
+  "kpis": [
+    {
+      "id": "kpi-datasets",
+      "label": "Datasets",
+      "value": 3,
+      "formatted": "3"
+    },
+    {
+      "id": "kpi-archivos",
+      "label": "Archivos descargables",
+      "value": 9,
+      "formatted": "9"
+    },
+    {
+      "id": "kpi-mb",
+      "label": "MB publicados",
+      "value": 9,
+      "formatted": "9.0 MB"
+    },
+    {
+      "id": "kpi-orgs",
+      "label": "Áreas que publican",
+      "value": 1,
+      "formatted": "1"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart-orgs",
+      "type": "bar",
+      "title": "Datasets por área que publica",
+      "sectionId": "areas-que-publican",
+      "data": [
+        {
+          "id": "Dirección de Género y Diversidad",
+          "datasets": 3
+        }
+      ],
+      "config": {
+        "xAxis": "id",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "chart-formats",
+      "type": "pie",
+      "title": "Distribución de formatos",
+      "sectionId": "formatos-disponibles",
+      "data": [
+        {
+          "id": "XLSX",
+          "label": "XLSX",
+          "value": 6
+        },
+        {
+          "id": "PDF",
+          "label": "PDF",
+          "value": 2
+        },
+        {
+          "id": "DOC",
+          "label": "DOC",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rank-datasets-archivos",
+      "title": "Datasets con más archivos",
+      "sectionId": "",
+      "items": [
+        {
+          "name": "Estadísticas de Género",
+          "value": 7
+        },
+        {
+          "name": "Acuerdo de cooperación",
+          "value": 1
+        },
+        {
+          "name": "Protocolo de Acción",
+          "value": 1
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

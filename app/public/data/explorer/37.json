@@ -1,0 +1,22 @@
+{
+  "id": "37",
+  "title": "Presupuestaria 2021",
+  "source": "Secretaría de Economía e Ingresos Públicos",
+  "description": "Presupuesto de Gastos y Cálculo de Recursos para el ejercicio 2021.",
+  "category": "Economía",
+  "categorySlug": "economia",
+  "updatedAt": "2025-12-21T11:44:55.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "ordenanza-n-13863-20-presupuesto-2021.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/37/ordenanza-n-13863-20-presupuesto-2021.pdf",
+      "bytes": 1332493
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

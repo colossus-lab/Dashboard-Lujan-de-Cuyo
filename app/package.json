@@ -1,0 +1,61 @@
+{
+  "name": "dashboard-lujan-de-cuyo",
+  "version": "0.1.0",
+  "description": "Dashboard interactivo de datos abiertos del municipio de Luján de Cuyo (Mendoza, AR)",
+  "type": "module",
+  "license": "MIT",
+  "author": "Laboratorio Colossus",
+  "keywords": [
+    "dashboard",
+    "lujan-de-cuyo",
+    "mendoza",
+    "datos-abiertos",
+    "open-data",
+    "argentina",
+    "react",
+    "vite",
+    "nivo",
+    "data-visualization"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "build-data": "node scripts/build-data.cjs",
+    "prebuild": "node scripts/build-data.cjs"
+  },
+  "dependencies": {
+    "@nivo/bar": "^0.88.0",
+    "@nivo/core": "^0.88.0",
+    "@nivo/line": "^0.88.0",
+    "@nivo/pie": "^0.88.0",
+    "@nivo/tooltip": "^0.88.0",
+    "@vercel/analytics": "^2.0.1",
+    "cmdk": "^1.1.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.14.0",
+    "papaparse": "^5.5.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-helmet-async": "^3.0.0",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.1.0",
+    "recharts": "^2.15.4",
+    "remark-gfm": "^4.0.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz",
+    "zod": "^3.25.0",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.3.15",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vercel/og": "^0.11.1",
+    "@vitejs/plugin-react": "^4.3.0",
+    "typescript": "~5.7.0",
+    "vite": "^6.1.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-win32-arm64-msvc": "^4.60.3"
+  }
+}

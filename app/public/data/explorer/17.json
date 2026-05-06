@@ -1,0 +1,22 @@
+{
+  "id": "17",
+  "title": "Nómina de Concejales",
+  "source": "Honorable Concejo Deliberante de Luján de Cuyo",
+  "description": "Nómina del personal que conforma el HCD",
+  "category": "Gobierno Municipal",
+  "categorySlug": "gobierto-y-sector-publico",
+  "updatedAt": "2025-12-14T19:28:09.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "nota-informe-de-nomina.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/17/nota-informe-de-nomina.pdf",
+      "bytes": 275617
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

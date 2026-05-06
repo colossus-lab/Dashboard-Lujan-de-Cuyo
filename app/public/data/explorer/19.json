@@ -1,0 +1,22 @@
+{
+  "id": "19",
+  "title": "Antecedentes Profesionales",
+  "source": "Honorable Concejo Deliberante de Luján de Cuyo",
+  "description": "Antecedentes profesionales de los miembros del HCD",
+  "category": "Gobierno Municipal",
+  "categorySlug": "gobierto-y-sector-publico",
+  "updatedAt": "2025-12-21T09:59:58.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "cv-hcd.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/19/cv-hcd.pdf",
+      "bytes": 1079247
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

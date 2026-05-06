@@ -1,0 +1,22 @@
+{
+  "id": "29",
+  "title": "Manual de Adaptación Local de los ODS – 2a Edición",
+  "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+  "description": "Este documento presenta la segunda edición del Manual de Adaptación Local de los ODS, que sintetiza el aprendizaje adquirido a lo largo de los últimos años de implementación de la Agenda 2030 en Argentina.",
+  "category": "Medio Ambiente y Desarrollo Sustentable",
+  "categorySlug": "medio-ambiente-y-desarrollo-sustentable",
+  "updatedAt": "2025-12-20T21:26:00.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "manual_municipios_version_2019.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/29/manual_municipios_version_2019.pdf",
+      "bytes": 1999916
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

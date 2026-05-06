@@ -1,0 +1,22 @@
+{
+  "id": "43",
+  "title": "Acuerdo de cooperación",
+  "source": "Dirección de Género y Diversidad",
+  "description": "Acuerdo de cooperación entre el Municipio de Luján de Cuyo y la procuración general de la suprema corte de Justicia de Mendoza",
+  "category": "Género y Diversidad",
+  "categorySlug": "genero",
+  "updatedAt": "2025-12-18T06:19:15.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "acuerdo-coop_genero.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/43/acuerdo-coop_genero.pdf",
+      "bytes": 1669786
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

@@ -1,0 +1,22 @@
+{
+  "id": "73",
+  "title": "Estructura HCD",
+  "source": "Honorable Concejo Deliberante de Luján de Cuyo",
+  "description": "Honorable Consejo de Deliberantes y su estructura",
+  "category": "Honorable Concejo Deliberante",
+  "categorySlug": "honorable-consejo-deliberante-lujan-de-cuyo",
+  "updatedAt": "2025-12-21T12:11:26.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "organigrama-hcd.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/73/organigrama-hcd.pdf",
+      "bytes": 2997183
+    }
+  ],
+  "columns": [],
+  "rows": [],
+  "totalRows": 0,
+  "municipios": []
+}

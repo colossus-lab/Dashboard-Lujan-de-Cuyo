@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "id": "gestion_de_datos",
+    "title": "Gestión de Datos",
+    "category": "Gestión de Datos",
+    "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
+    "date": "2026-05-06"
+  },
+  "kpis": [
+    {
+      "id": "kpi-datasets",
+      "label": "Datasets",
+      "value": 3,
+      "formatted": "3"
+    },
+    {
+      "id": "kpi-archivos",
+      "label": "Archivos descargables",
+      "value": 13,
+      "formatted": "13"
+    },
+    {
+      "id": "kpi-mb",
+      "label": "MB publicados",
+      "value": 8,
+      "formatted": "8.3 MB"
+    },
+    {
+      "id": "kpi-orgs",
+      "label": "Áreas que publican",
+      "value": 2,
+      "formatted": "2"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart-orgs",
+      "type": "bar",
+      "title": "Datasets por área que publica",
+      "sectionId": "areas-que-publican",
+      "data": [
+        {
+          "id": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
+          "datasets": 2
+        },
+        {
+          "id": "Intendencia Municipalidad de Luján de Cuyo",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "id",
+        "layout": "horizontal"
+      }
+    },
+    {
+      "id": "chart-formats",
+      "type": "pie",
+      "title": "Distribución de formatos",
+      "sectionId": "formatos-disponibles",
+      "data": [
+        {
+          "id": "XLSX",
+          "label": "XLSX",
+          "value": 5
+        },
+        {
+          "id": "HTML",
+          "label": "HTML",
+          "value": 2
+        },
+        {
+          "id": "PDF",
+          "label": "PDF",
+          "value": 2
+        },
+        {
+          "id": "XLS",
+          "label": "XLS",
+          "value": 2
+        },
+        {
+          "id": "CSV",
+          "label": "CSV",
+          "value": 1
+        },
+        {
+          "id": "DOCX",
+          "label": "DOCX",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "id": "chart-timeline",
+      "type": "line",
+      "title": "Datasets publicados por mes",
+      "sectionId": "timeline-de-publicacion",
+      "data": [
+        {
+          "mes": "2025-05",
+          "datasets": 2
+        },
+        {
+          "mes": "2025-07",
+          "datasets": 1
+        }
+      ],
+      "config": {
+        "xAxis": "mes"
+      }
+    }
+  ],
+  "rankings": [
+    {
+      "id": "rank-datasets-archivos",
+      "title": "Datasets con más archivos",
+      "sectionId": "",
+      "items": [
+        {
+          "name": "Inteligencia Artificial",
+          "value": 6
+        },
+        {
+          "name": "Ordenanzas Municipales",
+          "value": 6
+        },
+        {
+          "name": "Inventario de Datos",
+          "value": 1
+        }
+      ],
+      "order": "desc"
+    }
+  ],
+  "mapData": []
+}

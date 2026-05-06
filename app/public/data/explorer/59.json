@@ -1,0 +1,177 @@
+{
+  "id": "59",
+  "title": "Resultado Electorales",
+  "source": "Jefe de Gabinete",
+  "description": "Resultado de la PASOS Provinciales 2023",
+  "category": "Gobierno Municipal",
+  "categorySlug": "gobierto-y-sector-publico",
+  "updatedAt": "2025-12-21T02:06:04.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "senador-provincial.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/59/senador-provincial.pdf",
+      "bytes": 2181672
+    },
+    {
+      "nombre": "gobernador_ldc.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/59/gobernador_ldc.pdf",
+      "bytes": 2763669
+    },
+    {
+      "nombre": "intendente.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/59/intendente.pdf",
+      "bytes": 2072550
+    },
+    {
+      "nombre": "diputado-provincial.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/59/diputado-provincial.pdf",
+      "bytes": 2188948
+    },
+    {
+      "nombre": "escrutinio-definitivo-24-09-07-lujan-de-cuyo.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/59/escrutinio-definitivo-24-09-07-lujan-de-cuyo.pdf",
+      "bytes": 2380839
+    },
+    {
+      "nombre": "consejal.pdf",
+      "formato": "PDF",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/59/consejal.pdf",
+      "bytes": 2075596
+    },
+    {
+      "nombre": "resultados_pasos_2023.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/59/resultados_pasos_2023.xlsx",
+      "bytes": 33361
+    },
+    {
+      "nombre": "escrutinio-definitivo-24-09-07-lujan-de-cuyo_1.xlsx",
+      "formato": "XLSX",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/59/escrutinio-definitivo-24-09-07-lujan-de-cuyo_1.xlsx",
+      "bytes": 15547
+    }
+  ],
+  "columns": [
+    {
+      "name": "GOBERNADOR",
+      "type": "string",
+      "label": "GOBERNADOR"
+    },
+    {
+      "name": "__EMPTY",
+      "type": "string",
+      "label": "__EMPTY"
+    },
+    {
+      "name": "__EMPTY_1",
+      "type": "string",
+      "label": "__EMPTY_1"
+    },
+    {
+      "name": "__EMPTY_2",
+      "type": "number",
+      "label": "__EMPTY_2"
+    }
+  ],
+  "rows": [
+    {
+      "GOBERNADOR": "07-Luján de Cuyo",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": ""
+    },
+    {
+      "GOBERNADOR": " Mesas habilitadas ",
+      "__EMPTY": "Mesas escrutadas",
+      "__EMPTY_1": "%",
+      "__EMPTY_2": ""
+    },
+    {
+      "GOBERNADOR": 334,
+      "__EMPTY": 334,
+      "__EMPTY_1": 100,
+      "__EMPTY_2": ""
+    },
+    {
+      "GOBERNADOR": "Ciudadanos Ciudadanos empadronados",
+      "__EMPTY": "Ciudadanos que han votado",
+      "__EMPTY_1": "%",
+      "__EMPTY_2": ""
+    },
+    {
+      "GOBERNADOR": 115277,
+      "__EMPTY": 82201,
+      "__EMPTY_1": "71,31",
+      "__EMPTY_2": ""
+    },
+    {
+      "GOBERNADOR": "Agrupación política ",
+      "__EMPTY": "Votos",
+      "__EMPTY_1": "% (en base a total de votos)",
+      "__EMPTY_2": "%(en base a total de afirmativos"
+    },
+    {
+      "GOBERNADOR": "Lista 504 - LA UNION MENDOCINA (DE MARCHI Omar, OROZCO Daniel)",
+      "__EMPTY": 32850,
+      "__EMPTY_1": "39,96 ",
+      "__EMPTY_2": 42.58
+    },
+    {
+      "GOBERNADOR": "Lista 501 - CAMBIA MENDOZA (CORNEJO Alfredo, CASADO Hebe) ",
+      "__EMPTY": 27670,
+      "__EMPTY_1": "33,66 ",
+      "__EMPTY_2": 35.87
+    },
+    {
+      "GOBERNADOR": "Lista 502 - ELEGÍ MENDOZA (PARISI Omar, ILARDO Lucas) ",
+      "__EMPTY": 7510,
+      "__EMPTY_1": " 9,14",
+      "__EMPTY_2": 9.73
+    },
+    {
+      "GOBERNADOR": "Lista 181 — PARTIDO VERDE (VADILLO Mario, FUGAZZOTTO Ema) ",
+      "__EMPTY": 6570,
+      "__EMPTY_1": "7,99 ",
+      "__EMPTY_2": 8.52
+    },
+    {
+      "GOBERNADOR": "Lista 503 — FRENTE DE IZQUIERDA Y DE TRABAJADORES - UNIDAD (JIMENEZ Lautaro, BARBEITO Noelia)",
+      "__EMPTY": 2550,
+      "__EMPTY_1": " 3,10 ",
+      "__EMPTY_2": 3.31
+    },
+    {
+      "GOBERNADOR": "Resumen de Votos",
+      "__EMPTY": "",
+      "__EMPTY_1": "",
+      "__EMPTY_2": ""
+    },
+    {
+      "GOBERNADOR": "POSITIVO",
+      "__EMPTY": 77150,
+      "__EMPTY_1": "93,86",
+      "__EMPTY_2": ""
+    },
+    {
+      "GOBERNADOR": "VOTOS NULOS",
+      "__EMPTY": 2719,
+      "__EMPTY_1": "3,31",
+      "__EMPTY_2": ""
+    },
+    {
+      "GOBERNADOR": "VOTOS EN BLANCO ",
+      "__EMPTY": 2332,
+      "__EMPTY_1": " 2,8",
+      "__EMPTY_2": ""
+    }
+  ],
+  "totalRows": 15,
+  "previewSourceFile": "escrutinio-definitivo-24-09-07-lujan-de-cuyo_1.xlsx",
+  "municipios": []
+}

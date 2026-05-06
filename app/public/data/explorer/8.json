@@ -1,0 +1,213 @@
+{
+  "id": "8",
+  "title": "Limites Administrativos de Luján de Cuyo",
+  "source": "Intendencia Municipalidad de Luján de Cuyo",
+  "description": "Listado de la división distrital del Departamento.",
+  "category": "Urbanismo y Territorio",
+  "categorySlug": "urbanismo-y-territorio",
+  "updatedAt": "2025-12-22T14:57:49.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "Barrios.geojson",
+      "formato": "GEOJSON",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/8/1752679912540-Barrios.geojson",
+      "bytes": 1889549
+    },
+    {
+      "nombre": "distritos.csv",
+      "formato": "CSV",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/8/1754508623427-distritos.csv",
+      "bytes": 1069
+    },
+    {
+      "nombre": "distritos_1.geojson",
+      "formato": "GEOJSON",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/8/1754508623431-distritos_1.geojson",
+      "bytes": 260639
+    },
+    {
+      "nombre": "distritos.zip",
+      "formato": "ZIP",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/8/1754508623433-distritos.zip",
+      "bytes": 52744
+    }
+  ],
+  "columns": [
+    {
+      "name": "ogc_fid",
+      "type": "number",
+      "label": "ogc_fid"
+    },
+    {
+      "name": "distrito",
+      "type": "string",
+      "label": "distrito"
+    },
+    {
+      "name": "nom_comple",
+      "type": "string",
+      "label": "nom_comple"
+    },
+    {
+      "name": "poblacion",
+      "type": "number",
+      "label": "poblacion"
+    },
+    {
+      "name": "superficie",
+      "type": "number",
+      "label": "superficie"
+    },
+    {
+      "name": "latitud",
+      "type": "number",
+      "label": "latitud"
+    },
+    {
+      "name": "longitud",
+      "type": "number",
+      "label": "longitud"
+    }
+  ],
+  "rows": [
+    {
+      "ogc_fid": 1,
+      "distrito": "CARRODILLA",
+      "nom_comple": "VIRGEN DE LA CARRODILLA",
+      "poblacion": 23886,
+      "superficie": 0,
+      "latitud": -32.9775661012,
+      "longitud": -68.8415232655
+    },
+    {
+      "ogc_fid": 2,
+      "distrito": "MAYOR DRUMOND",
+      "nom_comple": "FRANCISCO DRUMOND",
+      "poblacion": 8223,
+      "superficie": 0,
+      "latitud": -33.0101849896,
+      "longitud": -68.8547636397
+    },
+    {
+      "ogc_fid": 3,
+      "distrito": "CIUDAD",
+      "nom_comple": "",
+      "poblacion": 24594,
+      "superficie": 0,
+      "latitud": -33.0392633768,
+      "longitud": -68.88719565
+    },
+    {
+      "ogc_fid": 4,
+      "distrito": "VISTALBA",
+      "nom_comple": "VISTA AL ALBA",
+      "poblacion": 8771,
+      "superficie": 0,
+      "latitud": -33.0277847704,
+      "longitud": -68.9190030298
+    },
+    {
+      "ogc_fid": 5,
+      "distrito": "VERTIENTES DE PEDEMONTE",
+      "nom_comple": "",
+      "poblacion": 2428,
+      "superficie": 0,
+      "latitud": -32.9846256962,
+      "longitud": -68.9357016181
+    },
+    {
+      "ogc_fid": 7,
+      "distrito": "LAS COMPUERTAS",
+      "nom_comple": "",
+      "poblacion": 1353,
+      "superficie": 0,
+      "latitud": -33.0124708528,
+      "longitud": -69.0000095426
+    },
+    {
+      "ogc_fid": 8,
+      "distrito": "PERDRIEL",
+      "nom_comple": "GREGORIO PERDRIEL",
+      "poblacion": 13687,
+      "superficie": 0,
+      "latitud": -33.0765335273,
+      "longitud": -68.8790892496
+    },
+    {
+      "ogc_fid": 9,
+      "distrito": "EL CARRIZAL",
+      "nom_comple": "",
+      "poblacion": 4177,
+      "superficie": 0,
+      "latitud": -33.226576931,
+      "longitud": -68.7797990857
+    },
+    {
+      "ogc_fid": 13,
+      "distrito": "POTRERILLOS",
+      "nom_comple": "",
+      "poblacion": 2075,
+      "superficie": 0,
+      "latitud": -32.9875843283,
+      "longitud": -69.6614446801
+    },
+    {
+      "ogc_fid": 10,
+      "distrito": "AGRELO",
+      "nom_comple": "PEDRO JOSE AGRELO",
+      "poblacion": 7507,
+      "superficie": 0,
+      "latitud": -33.1463969351,
+      "longitud": -68.9291948835
+    },
+    {
+      "ogc_fid": 11,
+      "distrito": "UGARTECHE",
+      "nom_comple": "JOSE FRANCISCO UGARTECHE",
+      "poblacion": 6603,
+      "superficie": 0,
+      "latitud": -33.2400342844,
+      "longitud": -68.9486474553
+    },
+    {
+      "ogc_fid": 14,
+      "distrito": "LA PUNTILLA",
+      "nom_comple": "",
+      "poblacion": 2842,
+      "superficie": 0,
+      "latitud": -32.9633414776,
+      "longitud": -68.8671513105
+    },
+    {
+      "ogc_fid": 6,
+      "distrito": "INDUSTRIAL",
+      "nom_comple": "",
+      "poblacion": 41,
+      "superficie": 0,
+      "latitud": -33.0658393454,
+      "longitud": -69.0054933651
+    },
+    {
+      "ogc_fid": 12,
+      "distrito": "CACHEUTA",
+      "nom_comple": "",
+      "poblacion": 701,
+      "superficie": 0,
+      "latitud": -33.1182458676,
+      "longitud": -69.1117502759
+    },
+    {
+      "ogc_fid": 15,
+      "distrito": "CHACRAS DE CORIA",
+      "nom_comple": "",
+      "poblacion": 12428,
+      "superficie": 0,
+      "latitud": -32.9916990248,
+      "longitud": -68.879049541
+    }
+  ],
+  "totalRows": 15,
+  "previewSourceFile": "distritos.csv",
+  "municipios": []
+}

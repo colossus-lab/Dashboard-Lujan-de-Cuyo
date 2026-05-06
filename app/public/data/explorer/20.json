@@ -1,0 +1,1151 @@
+{
+  "id": "20",
+  "title": "Gastronomía",
+  "source": "Dirección de Turismo",
+  "description": "Ubicación de locales gastronómicos",
+  "category": "Turismo y Cultura",
+  "categorySlug": "cultura-y-turismo",
+  "updatedAt": "2025-12-21T16:59:58.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "gastronomia.csv",
+      "formato": "CSV",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/20/gastronomia.csv",
+      "bytes": 10219
+    }
+  ],
+  "columns": [
+    {
+      "name": "nombre",
+      "type": "string",
+      "label": "nombre"
+    },
+    {
+      "name": "direccion",
+      "type": "string",
+      "label": "direccion"
+    },
+    {
+      "name": "distrito",
+      "type": "string",
+      "label": "distrito"
+    },
+    {
+      "name": "TIPO",
+      "type": "string",
+      "label": "TIPO"
+    },
+    {
+      "name": "latitud",
+      "type": "number",
+      "label": "latitud"
+    },
+    {
+      "name": "longitud",
+      "type": "number",
+      "label": "longitud"
+    }
+  ],
+  "rows": [
+    {
+      "nombre": "GRAN HOTEL POTRERILLOS",
+      "direccion": "KM 50 RUTA 7",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA ESCONDIDA",
+      "direccion": "LOS GUANACOS M K CASA 4",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "HANSEL Y GRETEL CAFE Y CHOCOLATE",
+      "direccion": "S/N AV EL SOL PIEDRAS BLANCAS",
+      "distrito": "POTRERILLOS",
+      "TIPO": "CASA DE TE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "EL RINCON DE MIRIAM Y MARCELO",
+      "direccion": "S/N COSTANERA. LAS CARDITAS",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA PASSAIA",
+      "direccion": "S/N AV DEL SOL . PIEDRAS BLANCAS",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LOS NEGRITOS BODEGON DE MONTAÑA",
+      "direccion": "S/N LOS OLMOS. LAS VEGAS",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "RICON HUARPE - CASA DE TE",
+      "direccion": "AV. LOS CONDORES Y LOS JILGUEROS",
+      "distrito": "POTRERILLOS",
+      "TIPO": "PASTELERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "TOMILLO",
+      "direccion": "S/N AV. LOS CONDORES",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "EL CACHARRO",
+      "direccion": "1143 AV. LOS CONDORES",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA CASITA DE ALE",
+      "direccion": "S/N AV. DEL SOL",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "MOSQUETA",
+      "direccion": "AV. LOS CONDORES ESQUINA AV. EL SOL",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA TASCA DE LA TIA CARLA",
+      "direccion": "S/N ARROYO PICHEUTA",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA ROTI DE PROVEE",
+      "direccion": "S/N AV. LOS CONDORES",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA POSTA",
+      "direccion": "S/N AV. LOS CONDORES",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "HELVETIA",
+      "direccion": "KM 30 RUTA 82 COLONIA SUIZA",
+      "distrito": "CACHEUTA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LOS HORNOS",
+      "direccion": "KM22 RUTA 82",
+      "distrito": "LAS COMPUERTAS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "FURRER CERVECERIA Y CASA DE TE",
+      "direccion": "KM 25 RUTA 82 BARRIO PALUMBO",
+      "distrito": "LAS COMPUERTAS",
+      "TIPO": "CASA DE TE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "CANTINA DE MONTAÑA BENTACOURT",
+      "direccion": "KM 26 RUTA 82",
+      "distrito": "LAS COMPUERTAS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "HOTEL TERMAS DE CACHEUTA",
+      "direccion": "KM 30 RUTA 82",
+      "distrito": "LAS COMPUERTAS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "ROCK AND RIEL",
+      "direccion": "KM 38 RUTA 82 VILLA CACHEUTA",
+      "distrito": "CACHEUTA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LOS CACTUS",
+      "direccion": "KM 38 RUTA 82 VILLA CACHEUTA",
+      "distrito": "CACHEUTA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "CHACHA RESTO BAR",
+      "direccion": "KM 38 RUTA 82 VILLA CACHEUTA",
+      "distrito": "CACHEUTA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "ENTRE DOS ALFAJORES PREMIUM",
+      "direccion": "KM 25.5 RUTA 82",
+      "distrito": "LAS COMPUERTAS",
+      "TIPO": "PASTELERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "TERRAZAS DE LOS ANDES",
+      "direccion": "THAMES Y COCHABAMBA",
+      "distrito": "PERDRIEL",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA BARRICA",
+      "direccion": "KM 23 RUTA 40",
+      "distrito": "PERDRIEL",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA VID BODEGA NORTON",
+      "direccion": "KM 23.5 RUTA 15",
+      "distrito": "PERDRIEL",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA FONTANA PIZZERIA BAR",
+      "direccion": "RUTA 82 Y LAS LEÑAS",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "PIZZERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "NIETO SENETINER",
+      "direccion": "2011 GUARDIA VIEJA",
+      "distrito": "VISTALBA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "CAVAS WINE LODGE",
+      "direccion": "S/N COSTA FLORES",
+      "distrito": "AGRELO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "BISTRO CHANDON",
+      "direccion": "KM 49 RUTA 15",
+      "distrito": "AGRELO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "BODEGA SEPTIMA",
+      "direccion": "KM 1061 RUTA 7",
+      "distrito": "AGRELO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "BODEGA MELIPAL",
+      "direccion": "KM 1056 RUTA 7",
+      "distrito": "AGRELO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "BODEGA RUCA MALEN",
+      "direccion": "KM 1059 RUTA 7",
+      "distrito": "AGRELO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "BODEGA FINCA DECERO",
+      "direccion": "KM 3 BAJO LAS CUMBRES",
+      "distrito": "AGRELO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "BODEGA OTAVIANO",
+      "direccion": "K8 DE RUTA 7",
+      "distrito": "AGRELO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "BODEGA OJO DE AGUA",
+      "direccion": "S/N BAJO LAS CUMBRES",
+      "distrito": "AGRELO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "SPETTO CORRIDO",
+      "direccion": "UGARTE 978",
+      "distrito": "LA PUNTILLA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "EL AMASIJO",
+      "direccion": "UGARTE 802",
+      "distrito": "LA PUNTILLA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "EL HORMIGUERO",
+      "direccion": "PANAMERICANA 1457",
+      "distrito": "LA PUNTILLA",
+      "TIPO": "PARRILLA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LAS MARIAS PARRILA",
+      "direccion": "JUAN JOSE PASO 272 (LATERAL)",
+      "distrito": "LA PUNTILLA",
+      "TIPO": "PARRILLA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "EL CLUB DE LA MILANESA",
+      "direccion": "ORSINI 461 ESQUINA DARRAGUEIRA",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "RINCON SUIZO",
+      "direccion": "RUTA 82 KM 29",
+      "distrito": "CACHEUTA",
+      "TIPO": "CASA DE TE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "HELADOS DE CHACRAS",
+      "direccion": "DARRAGUEIRA 286",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "HELADERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "SR FROGS CHACRAS",
+      "direccion": "BESARES 1214",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA ESQUINA",
+      "direccion": "ITALIA 6070",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "CLOS DE CHACRAS",
+      "direccion": "MONTE LIBANO 1025",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "ALFREDO HELADOS",
+      "direccion": "ITALIA 5879",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "HELADERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA ALSINA CHACRAS",
+      "direccion": "ITALIA 5879",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "PASTELERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "THE CASERO",
+      "direccion": "ITALIA 5897",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "RESTAURANT ARABE",
+      "direccion": "LORIA 5801",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE ARABE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "CAVA MASIERO",
+      "direccion": "ITALIA 5845",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "DANTESCO",
+      "direccion": "ITALIA 5829",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "JENGIBRE SUSHI",
+      "direccion": "ITALIA 5597 (PASEO LA PORTADA)",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE DE SUSHI",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "OMAKI SUSHI",
+      "direccion": "ITALLIA 5597",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE DE SUSHI",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "ANASTASIO EL POLLO",
+      "direccion": "ITALIA 5572",
+      "distrito": "CHACRAS DE CIRIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "VIAMONTE RESTAURANTE",
+      "direccion": "VIAMONTE 5458",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "GRIDO HELADOS",
+      "direccion": "VIAMONTE 5426",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "HELADERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "ALMACEN ESPAÑOL",
+      "direccion": "DARRAGUEIRA 6811",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "KAPUAA BEER & FOOD",
+      "direccion": "DARRAGUEIRA 6843",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA VENECIANA",
+      "direccion": "RUTA PROVINCIAL 82 (CHACRAS PARK)",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "KATO CAFE",
+      "direccion": "RUTA PROVINCIAL 82 (CHACRAS PARK)",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "JEBBS PLAZA",
+      "direccion": "ITALIA 5413",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "SUCO ALMACEN NATURAL",
+      "direccion": "PANNOCCHIA 5407",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "MALEVOLA",
+      "direccion": "AGUINAGA Y VIAMONTE",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "TASCA CHACRAS",
+      "direccion": "MITRE 1440",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "HELADERIA MICHEL",
+      "direccion": "MITRE 1426",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "HELADERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "JEBBS",
+      "direccion": "MITRE 1460",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "BIANCO & NERO CHACRAS",
+      "direccion": "MITRE 1495",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "YOKO SUSHI & WINE CLUB",
+      "direccion": "MITRE 1574",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE DE SUSHI",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "ESPIGA MAGICA",
+      "direccion": "MITRE 1541",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "DON BARTOLO",
+      "direccion": "MITRE 1820",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "TATA & GRIPPO",
+      "direccion": "VIAMONTE 5205",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "PIZZERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "EL MALECON",
+      "direccion": "VIAMONTE 5163",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE CUBANO",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LO DEL PAJARO",
+      "direccion": "VIAMONTE 5252",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA MASSA CHACRAS DE CORIA",
+      "direccion": "VIAMONTE 5155",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "PIZZERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "TEA & COMPANY",
+      "direccion": "VIAMONTE Y LARREA",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "CASA DE TE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "TACO BAR",
+      "direccion": "VIAMONTE 5090",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "TAQUERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "EL MERCADITO",
+      "direccion": "VIAMONTE 4961",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "JUICE BOX",
+      "direccion": "VIAMONTE 4734",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "CAFETERIA Y JUGOS",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "CASA DE CONTRATISTA",
+      "direccion": "ALMIRATE BROWN 1761",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "JEBBS VIAMONTE",
+      "direccion": "VIAMONTE 3335",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "BIANCO & NERO LAS CANDELAS",
+      "direccion": "ALMIRANTE BROWN 1115",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "AL PASO BRASERIA",
+      "direccion": "ALMIRANTE BROWN 46",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "CAVA DE CANO",
+      "direccion": "SAN MARTIN 2488",
+      "distrito": "MAYOR DRUMMOND",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "EL RINCON DEL SANDWICH",
+      "direccion": "SAB NARTIN 1760",
+      "distrito": "MAYOR DRUMMOND",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "ESTACION 7",
+      "direccion": "SAN MARTIN 1106",
+      "distrito": "MAYOR DRUMMOND",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "SR PANCHO",
+      "direccion": "SAN MARTIN 820",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "PANCHERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "MR DOG",
+      "direccion": "SAN MARTIN 747",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "PANCHERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "FRESHPAN",
+      "direccion": "SAN MARTIN 678",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "SARMIENTO SANWICHS",
+      "direccion": "SARMIENTO 113",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "CAFE MALBEC",
+      "direccion": "BELGRANO 36",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "BAR 45 COFFE AND BEER",
+      "direccion": "SAN MARTIN 535",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "SABROPAN",
+      "direccion": "SAN MARTIN 585",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA PARRI",
+      "direccion": "SANTA MARIA DE ORO 747",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "HELADOS LOMORO",
+      "direccion": "PATRICIOS 999",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "HELADERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "GRIDO HELADOS LUJAN",
+      "direccion": "FEDERICO SERPA 881",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "HELADERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "BUENA VIDA CLUB SOCIAL",
+      "direccion": "SAN MARTIN 458",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "ESTACION PALERO LUJAN",
+      "direccion": "SANTA MARIA DE ORO 410, ESQUINA COLOMBRES",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "PIZZERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "SANTA ROSA CAFETERIA",
+      "direccion": "MARIANO MORENO 46",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "CAFETRIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "HAVANNA",
+      "direccion": "SAN MARTIN 401",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "KINGO LUJAN",
+      "direccion": "SAN MARTIN 399",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "RESTAURANTE DE COMIDA RAPIDA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "HELADERIA GRIDO",
+      "direccion": "SAN MARTIN 320",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "HELADERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "BONAFIDE",
+      "direccion": "ROQUE SAENZ PEÑA 22",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "HELADOS MICHEL",
+      "direccion": "SAN MARTIN 290",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "HELADERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "OPEN PLAZA CAFE BAR",
+      "direccion": "SAN MARTIN 230",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LO DEL DANTE",
+      "direccion": "SANTA MARIA DE ORO Y XX DE SEPTIMBRE",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LOS TRONCOS",
+      "direccion": "SAN MARTIN 198",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "RETAURANTE LA PRIMAVERA",
+      "direccion": "COLOMBRES 235",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "DARDANELLI HELADOS",
+      "direccion": "ROQUE SAENZ PEÑA 196",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "HELADERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "PARADOR BLUE STAR",
+      "direccion": "ROQUE SAENZ PEÑA 430",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LOMITOS 2X1",
+      "direccion": "ROQUE SAENZ PEÑA 799",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "LOMITERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "CAPISTRELLO RESTO BAR",
+      "direccion": "ROQUE SAENZ PEÑA 1220",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "GRIDO HELADOS",
+      "direccion": "ROQUE SAENZ PEÑA 1370",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "HELADERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA HIGUERA",
+      "direccion": "CHILE Y ROQUE SAENZ PEÑA",
+      "distrito": "CIUDAD DE LUJAN DE CUYO",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "GUARDIA VIEJA RESTO BAR",
+      "direccion": "GUARDIA VIEJA 1680",
+      "distrito": "VISTALBA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "JALAPEÑO MARISQUERIA",
+      "direccion": "GUARDIA VIEJA 1815 LOTEO EL CASCO",
+      "distrito": "VISTALBA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "BRINDILLAS RESTAURANTE",
+      "direccion": "GUARDIA VIEJA 2898",
+      "distrito": "VISTALBA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "REPUBLICA MALBEKIANA",
+      "direccion": "GUARDIA VIEJA 2569",
+      "distrito": "VISTALBA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "PIEDEMONTE VISTALBA RESTO SHOW BAR",
+      "direccion": "RUTA PROVICIAL 82 2115",
+      "distrito": "CHACRAS DE CORIA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "OJOS CAFE",
+      "direccion": "RUTA PROVINCIAL 82 Y CALLE HORTENCIA",
+      "distrito": "LAS COMPUERTAS",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LIVE COF MULTIESPACIO",
+      "direccion": "RUTA PROVINCIAL 82 Y CALLE OROZCO",
+      "distrito": "LAS COMPUERTAS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "NATAN",
+      "direccion": "RUTA PROVINCIAL 82 KM 24",
+      "distrito": "LAS COMPUERTAS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "PIMIENTA NEGRA",
+      "direccion": "RUTA 82 KM 30",
+      "distrito": "CACHEUTA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "EDELWEISS",
+      "direccion": "RUTA 82 KM 30",
+      "distrito": "CACHEUTA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "EL COIRON",
+      "direccion": "RUTA PROVINCIAL 82 KM 33",
+      "distrito": "CACHEUTA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "MI MONTAÑA",
+      "direccion": "RUTA 82 KM 38 FRENTE A LOS BOSQUES DE CACHUEUTA",
+      "distrito": "CACHEUTA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "RESTOBAR CACHEUTA",
+      "direccion": "RUTA 82 KM 39",
+      "distrito": "CACHEUTA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "PINCANTA",
+      "direccion": "RUTA 82 KM 39",
+      "distrito": "CACHEUTA",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "EL LAGO RESTOBAR",
+      "direccion": "CERRO COCODRILO Y CAMINO DEL PUMA",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "UN TAL PETER",
+      "direccion": "CAMINO DE PUMA Y LAS CHILCAS",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "CASA TE CONMIGO",
+      "direccion": "AVENIDA LOS CONDORES",
+      "distrito": "POTRERILLOS",
+      "TIPO": "CASA DE TE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA ROCA",
+      "direccion": "AVENIDA LOS CONDORES 623",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "ENTRE MONTAÑAS",
+      "direccion": "AVENIDA LOS CONDORES 907",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "PARADOR CHACRITAS",
+      "direccion": "AVENIDA LOS CONDORES 2445",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "AIRES DE FUEGO",
+      "direccion": "AVENIDA LOS CONDORES 9780",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "LA CHARAMUSCA SABORES ANDINOS",
+      "direccion": "CAMINO A VALLECITOS KM 8",
+      "distrito": "POTRERILLOS",
+      "TIPO": "RESTAURANTE",
+      "latitud": -3,
+      "longitud": -6
+    },
+    {
+      "nombre": "EL SULTAN CAFE",
+      "direccion": "CALLE MANANTIAL 50",
+      "distrito": "POTRERILLOS",
+      "TIPO": "CAFETERIA",
+      "latitud": -3,
+      "longitud": -6
+    }
+  ],
+  "totalRows": 137,
+  "previewSourceFile": "gastronomia.csv",
+  "municipios": []
+}

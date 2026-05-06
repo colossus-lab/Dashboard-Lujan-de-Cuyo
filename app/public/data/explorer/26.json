@@ -1,0 +1,207 @@
+{
+  "id": "26",
+  "title": "Estaciones de Servicios",
+  "source": "Secretaría de Infraestructura y Desarrollo Sostenible",
+  "description": "Estaciones de Servicios de Luján de Cuyo",
+  "category": "Urbanismo y Territorio",
+  "categorySlug": "urbanismo-y-territorio",
+  "updatedAt": "2025-12-21T12:24:49.000Z",
+  "createdAt": "2025-05-15T13:44:18.000Z",
+  "files": [
+    {
+      "nombre": "estaciones-de-servicios.csv",
+      "formato": "CSV",
+      "url": "https://datos.lujandecuyo.gob.ar/recursos/dataset/26/estaciones-de-servicios.csv",
+      "bytes": 1910
+    }
+  ],
+  "columns": [
+    {
+      "name": "NombreFant",
+      "type": "string",
+      "label": "NombreFant"
+    },
+    {
+      "name": "CalleComer",
+      "type": "string",
+      "label": "CalleComer"
+    },
+    {
+      "name": "AlturaCome",
+      "type": "number",
+      "label": "AlturaCome"
+    },
+    {
+      "name": "LocalidadC",
+      "type": "string",
+      "label": "LocalidadC"
+    },
+    {
+      "name": "CodigoPost",
+      "type": "number",
+      "label": "CodigoPost"
+    },
+    {
+      "name": "ApellidoTi",
+      "type": "string",
+      "label": "ApellidoTi"
+    },
+    {
+      "name": "NombresTit",
+      "type": "string",
+      "label": "NombresTit"
+    },
+    {
+      "name": "Descripci",
+      "type": "string",
+      "label": "Descripci"
+    },
+    {
+      "name": "latitud",
+      "type": "number",
+      "label": "latitud"
+    },
+    {
+      "name": "longitud",
+      "type": "number",
+      "label": "longitud"
+    }
+  ],
+  "rows": [
+    {
+      "NombreFant": "G.N.C. VISTALBA",
+      "CalleComer": "CHILE Y MARIANO MORENO",
+      "AlturaCome": 0,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "ApellidoTi": "TWO BROTHERS S.A.",
+      "NombresTit": "",
+      "Descripci": "ESTAC.DE SERV.DE G.N.C. Y MINIMAR Y SAND",
+      "latitud": -33.032280145,
+      "longitud": -68.8945220028
+    },
+    {
+      "NombreFant": "YPF",
+      "CalleComer": "SAN MARTIN",
+      "AlturaCome": 489,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "ApellidoTi": "COMERCIAL MANITTA HNOS S.R.L.",
+      "NombresTit": "",
+      "Descripci": "ESTAC.DE SERVICIO Y OT.(VER ANTECEDENTES",
+      "latitud": -33.036797497,
+      "longitud": -68.8789849326
+    },
+    {
+      "NombreFant": "COMERCIAL MANITTA",
+      "CalleComer": "AZCUENAGA",
+      "AlturaCome": 745,
+      "LocalidadC": "CIUDAD DE LUJAN DE CUYO",
+      "CodigoPost": 5507,
+      "ApellidoTi": "COMERCIAL MANITTA HNOS S.R.L.",
+      "NombresTit": "",
+      "Descripci": "ESTACION DE SERVICIO,GOMER, OTROS RUBRO",
+      "latitud": -33.0371634896,
+      "longitud": -68.8685148716
+    },
+    {
+      "NombreFant": "HEKAR S.R.L.",
+      "CalleComer": "ACCESO SUR",
+      "AlturaCome": 8051,
+      "LocalidadC": "CARRODILLA",
+      "CodigoPost": 5505,
+      "ApellidoTi": "HEKAR S.R.L.",
+      "NombresTit": "",
+      "Descripci": "ESTACION DE SERV.DE G.N.C.",
+      "latitud": -32.9646176685,
+      "longitud": -68.8394088254
+    },
+    {
+      "NombreFant": "RUMAOS S.A.",
+      "CalleComer": "ACCESO SUR KM. 23 1/2",
+      "AlturaCome": 0,
+      "LocalidadC": "PERDRIEL",
+      "CodigoPost": 5509,
+      "ApellidoTi": "RUMAOS S.A",
+      "NombresTit": "",
+      "Descripci": "ESTACION DE SERVICIOS DUAL Y MINIMARKET",
+      "latitud": -33.0950116923,
+      "longitud": -68.8770670711
+    },
+    {
+      "NombreFant": "RED MERCOSUR",
+      "CalleComer": "RUTA 40 KM",
+      "AlturaCome": 23100,
+      "LocalidadC": "PERDRIEL",
+      "CodigoPost": 5509,
+      "ApellidoTi": "RUMAOS S.A",
+      "NombresTit": "",
+      "Descripci": "ESTAC.SERVIC,LUBRIC,SERVICOMPRA,LOC CIBE",
+      "latitud": -33.0940077729,
+      "longitud": -68.8795172984
+    },
+    {
+      "NombreFant": "ERGON",
+      "CalleComer": "RUTA PROV. Nº 15",
+      "AlturaCome": 1593,
+      "LocalidadC": "PERDRIEL",
+      "CodigoPost": 5509,
+      "ApellidoTi": "T.D.S S.A.",
+      "NombresTit": "",
+      "Descripci": "ESTACION DE EXPENDIO DE GNC",
+      "latitud": -33.0550367488,
+      "longitud": -68.8826217818
+    },
+    {
+      "NombreFant": "NEUTRON",
+      "CalleComer": "Bº GASSULL/RUTA 15 KM",
+      "AlturaCome": 37,
+      "LocalidadC": "UGARTECHE",
+      "CodigoPost": 5509,
+      "ApellidoTi": "GUTIERREZ",
+      "NombresTit": "PEDRO OSCAR",
+      "Descripci": "ESTACION DE SERVICIOS, LAVADERO Y MINIMA",
+      "latitud": -33.210772693,
+      "longitud": -68.8888159186
+    },
+    {
+      "NombreFant": "YPF",
+      "CalleComer": "RUTA PROVINCIAL 82 S/N",
+      "AlturaCome": 0,
+      "LocalidadC": "VISTALBA",
+      "CodigoPost": 5509,
+      "ApellidoTi": "WINE GAS SOCIEDAD ANONIMA",
+      "NombresTit": "",
+      "Descripci": "ESTACION DE SERVICIO (LIQUI, GAS) Y MINI",
+      "latitud": -33.0001426388,
+      "longitud": -68.9068805546
+    },
+    {
+      "NombreFant": "DINAMICA S.A.",
+      "CalleComer": "SAN MARTIN",
+      "AlturaCome": 3586,
+      "LocalidadC": "MAYOR DRUMMOND",
+      "CodigoPost": 5507,
+      "ApellidoTi": "DINAMICA S.A.",
+      "NombresTit": "",
+      "Descripci": "ESTAC.DE SERVICIOS (COMBUSTIBLE Y G.N.C)",
+      "latitud": -33.0056829193,
+      "longitud": -68.8678120132
+    },
+    {
+      "NombreFant": "IGNIS",
+      "CalleComer": "VIAMONTE Y LARREA",
+      "AlturaCome": 5168,
+      "LocalidadC": "CHACRAS DE CORIA",
+      "CodigoPost": 5505,
+      "ApellidoTi": "STELLA",
+      "NombresTit": "RAMON VICTOR",
+      "Descripci": "ESTACION DE SERVICIOS, KIOSCO Y VTA. DE",
+      "latitud": -32.988288177,
+      "longitud": -68.8842947774
+    }
+  ],
+  "totalRows": 11,
+  "previewSourceFile": "estaciones-de-servicios.csv",
+  "municipios": []
+}
