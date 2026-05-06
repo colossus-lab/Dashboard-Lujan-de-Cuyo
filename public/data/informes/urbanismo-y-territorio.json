@@ -8,141 +8,158 @@
   },
   "kpis": [
     {
-      "id": "kpi-datasets",
-      "label": "Datasets",
-      "value": 14,
-      "formatted": "14"
+      "id": "hab",
+      "label": "Habitantes (Censo 2021)",
+      "value": 172109,
+      "formatted": "172.109"
     },
     {
-      "id": "kpi-archivos",
-      "label": "Archivos descargables",
-      "value": 18,
-      "formatted": "18"
+      "id": "distritos",
+      "label": "Distritos",
+      "value": 15,
+      "formatted": "15"
     },
     {
-      "id": "kpi-mb",
-      "label": "MB publicados",
-      "value": 13,
-      "formatted": "12.9 MB"
+      "id": "m2-verde",
+      "label": "Espacios verdes (m²/hab)",
+      "value": 7.8,
+      "formatted": "7,8 m²/hab",
+      "unit": "OMS recomienda ≥9"
     },
     {
-      "id": "kpi-orgs",
-      "label": "Áreas que publican",
-      "value": 5,
-      "formatted": "5"
+      "id": "barrios-pop",
+      "label": "Barrios populares (RENABAP)",
+      "value": 47,
+      "formatted": "47",
+      "unit": "2.569 familias"
     }
   ],
   "charts": [
     {
-      "id": "chart-orgs",
+      "id": "pob-distrito",
       "type": "bar",
-      "title": "Datasets por área que publica",
-      "sectionId": "areas-que-publican",
+      "title": "Población por distrito",
+      "sectionId": "la-distribucion-poblacional",
       "data": [
         {
-          "id": "Secretaría de Infraestructura y Desarrollo Sostenible",
-          "datasets": 7
+          "distrito": "Ciudad",
+          "pob": 24594
         },
         {
-          "id": "Intendencia Municipalidad de Luján de Cuyo",
-          "datasets": 4
+          "distrito": "Carrodilla",
+          "pob": 23886
         },
         {
-          "id": "Apoderado Municipal",
-          "datasets": 1
+          "distrito": "Perdriel",
+          "pob": 13687
         },
         {
-          "id": "Dirección de Ordenamiento Territorial",
-          "datasets": 1
+          "distrito": "Chacras de Coria",
+          "pob": 12428
         },
         {
-          "id": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
-          "datasets": 1
+          "distrito": "Vistalba",
+          "pob": 8771
+        },
+        {
+          "distrito": "Mayor Drumond",
+          "pob": 8223
+        },
+        {
+          "distrito": "Agrelo",
+          "pob": 7507
+        },
+        {
+          "distrito": "Ugarteche",
+          "pob": 6603
+        },
+        {
+          "distrito": "El Carrizal",
+          "pob": 4177
+        },
+        {
+          "distrito": "La Puntilla",
+          "pob": 2842
+        },
+        {
+          "distrito": "V. Pedemonte",
+          "pob": 2428
+        },
+        {
+          "distrito": "Potrerillos",
+          "pob": 2075
+        },
+        {
+          "distrito": "Las Compuertas",
+          "pob": 1353
+        },
+        {
+          "distrito": "Cacheuta",
+          "pob": 701
+        },
+        {
+          "distrito": "Industrial",
+          "pob": 41
         }
       ],
       "config": {
-        "xAxis": "id",
+        "xAxis": "distrito",
         "layout": "horizontal"
       }
     },
     {
-      "id": "chart-formats",
-      "type": "pie",
-      "title": "Distribución de formatos",
-      "sectionId": "formatos-disponibles",
+      "id": "m2-hab-distrito",
+      "type": "bar",
+      "title": "Espacio verde por habitante (m²/hab) — distritos seleccionados",
+      "sectionId": "espacios-verdes-una-distribucion-desigual",
       "data": [
         {
-          "id": "CSV",
-          "label": "CSV",
-          "value": 5
+          "distrito": "Ciudad",
+          "m2_hab": 31.5
         },
         {
-          "id": "KML",
-          "label": "KML",
-          "value": 3
+          "distrito": "Potrerillos",
+          "m2_hab": 31.4
         },
         {
-          "id": "ZIP",
-          "label": "ZIP",
-          "value": 2
+          "distrito": "La Puntilla",
+          "m2_hab": 17.4
         },
         {
-          "id": "GEOJSON",
-          "label": "GEOJSON",
-          "value": 2
+          "distrito": "V. Pedemonte",
+          "m2_hab": 10.7
         },
         {
-          "id": "XLSX",
-          "label": "XLSX",
-          "value": 2
+          "distrito": "El Carrizal",
+          "m2_hab": 9.5
         },
         {
-          "id": "KMZ",
-          "label": "KMZ",
-          "value": 2
+          "distrito": "Carrodilla",
+          "m2_hab": 9.3
         },
         {
-          "id": "PDF",
-          "label": "PDF",
-          "value": 1
+          "distrito": "Mayor Drumond",
+          "m2_hab": 7.2
         },
         {
-          "id": "XLS",
-          "label": "XLS",
-          "value": 1
-        }
-      ]
-    }
-  ],
-  "rankings": [
-    {
-      "id": "rank-datasets-archivos",
-      "title": "Datasets con más archivos",
-      "sectionId": "",
-      "items": [
-        {
-          "name": "Limites Administrativos de Luján de Cuyo",
-          "value": 4
+          "distrito": "Vistalba",
+          "m2_hab": 5.3
         },
         {
-          "name": "Espacios Verdes",
-          "value": 3
+          "distrito": "Perdriel",
+          "m2_hab": 1.9
         },
         {
-          "name": "Barrios Populares",
-          "value": 2
-        },
-        {
-          "name": "Radios Fracciones Censales Luján de Cuyo",
-          "value": 2
-        },
-        {
-          "name": "Barrios del Departamento de Luján de Cuyo",
-          "value": 2
+          "distrito": "Chacras de Coria",
+          "m2_hab": 1.4
         }
       ],
-      "order": "desc"
+      "config": {
+        "xAxis": "distrito",
+        "layout": "horizontal"
+      }
     }
   ],
+  "rankings": [],
   "mapData": []
 }

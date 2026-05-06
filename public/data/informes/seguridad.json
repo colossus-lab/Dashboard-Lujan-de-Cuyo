@@ -8,87 +8,71 @@
   },
   "kpis": [
     {
-      "id": "kpi-datasets",
-      "label": "Datasets",
-      "value": 2,
-      "formatted": "2"
-    },
-    {
-      "id": "kpi-archivos",
-      "label": "Archivos descargables",
-      "value": 2,
-      "formatted": "2"
-    },
-    {
-      "id": "kpi-mb",
-      "label": "MB publicados",
+      "id": "comisarias",
+      "label": "Comisarías",
       "value": 0,
-      "formatted": "0.0 MB"
+      "formatted": "Sin dato",
+      "unit": "red departamental"
     },
     {
-      "id": "kpi-orgs",
-      "label": "Áreas que publican",
-      "value": 2,
-      "formatted": "2"
+      "id": "bancos",
+      "label": "Bancos (puntos críticos)",
+      "value": 9,
+      "formatted": "9 sucursales"
+    },
+    {
+      "id": "estaciones",
+      "label": "Estaciones de servicio",
+      "value": 11,
+      "formatted": "11",
+      "unit": "sobre RN 7 / RP 15 / Acceso Sur"
+    },
+    {
+      "id": "barrios-pop",
+      "label": "Barrios populares",
+      "value": 47,
+      "formatted": "47",
+      "unit": "2.569 familias"
     }
   ],
   "charts": [
     {
-      "id": "chart-orgs",
+      "id": "infraestructura",
       "type": "bar",
-      "title": "Datasets por área que publica",
-      "sectionId": "areas-que-publican",
+      "title": "Puntos críticos georreferenciados",
+      "sectionId": "los-puntos-de-criticidad-economica",
       "data": [
         {
-          "id": "Secretario del Juzgado Vial Nro 1",
-          "datasets": 1
+          "tipo": "Escuelas",
+          "cantidad": 112
         },
         {
-          "id": "Secretaria de Gobierno",
-          "datasets": 1
+          "tipo": "Comercios identif.",
+          "cantidad": 3501
+        },
+        {
+          "tipo": "Centros de salud",
+          "cantidad": 19
+        },
+        {
+          "tipo": "Farmacias",
+          "cantidad": 18
+        },
+        {
+          "tipo": "Estaciones servicio",
+          "cantidad": 11
+        },
+        {
+          "tipo": "Bancos",
+          "cantidad": 9
         }
       ],
       "config": {
-        "xAxis": "id",
+        "xAxis": "tipo",
         "layout": "horizontal"
       }
-    },
-    {
-      "id": "chart-formats",
-      "type": "pie",
-      "title": "Distribución de formatos",
-      "sectionId": "formatos-disponibles",
-      "data": [
-        {
-          "id": "KML",
-          "label": "KML",
-          "value": 1
-        },
-        {
-          "id": "XLSX",
-          "label": "XLSX",
-          "value": 1
-        }
-      ]
     }
   ],
-  "rankings": [
-    {
-      "id": "rank-datasets-archivos",
-      "title": "Datasets con más archivos",
-      "sectionId": "",
-      "items": [
-        {
-          "name": "Comisarias Luján de Cuyo",
-          "value": 2
-        },
-        {
-          "name": "Seguridad Vial",
-          "value": 0
-        }
-      ],
-      "order": "desc"
-    }
-  ],
+  "rankings": [],
   "mapData": []
 }

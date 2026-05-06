@@ -8,126 +8,116 @@
   },
   "kpis": [
     {
-      "id": "kpi-datasets",
-      "label": "Datasets",
-      "value": 5,
-      "formatted": "5"
+      "id": "obras",
+      "label": "Obras 2025",
+      "value": 174,
+      "formatted": "174 actividades"
     },
     {
-      "id": "kpi-archivos",
-      "label": "Archivos descargables",
-      "value": 7,
-      "formatted": "7"
+      "id": "cumplido",
+      "label": "Obras cumplidas",
+      "value": 67,
+      "formatted": "39%"
     },
     {
-      "id": "kpi-mb",
-      "label": "MB publicados",
-      "value": 6,
-      "formatted": "5.8 MB"
+      "id": "inv-vial",
+      "label": "Inversión vial 2024 (top 5 contratos)",
+      "value": 1772700000,
+      "formatted": "$1,77 mil M"
     },
     {
-      "id": "kpi-orgs",
-      "label": "Áreas que publican",
-      "value": 5,
-      "formatted": "5"
+      "id": "plan-pavi",
+      "label": "Plan Pavimentación 2024",
+      "value": 635000000,
+      "formatted": "$635 M",
+      "unit": "VIALMANI"
     }
   ],
   "charts": [
     {
-      "id": "chart-orgs",
-      "type": "bar",
-      "title": "Datasets por área que publica",
-      "sectionId": "areas-que-publican",
+      "id": "obras-estado",
+      "type": "pie",
+      "title": "Estado del Plan de Obras 2025",
+      "sectionId": "el-plan-de-obras-2025-174-actividades",
       "data": [
         {
-          "id": "Intendencia Municipalidad de Luján de Cuyo",
-          "datasets": 1
+          "id": "Cumplido",
+          "label": "Cumplido",
+          "value": 67
         },
         {
-          "id": "Apoderado Municipal",
-          "datasets": 1
+          "id": "No iniciado",
+          "label": "No iniciado",
+          "value": 40
         },
         {
-          "id": "Secretaria de Gobierno",
-          "datasets": 1
+          "id": "En implementación",
+          "label": "En implementación",
+          "value": 34
         },
         {
-          "id": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
-          "datasets": 1
+          "id": "Atrasado",
+          "label": "Atrasado",
+          "value": 18
         },
         {
-          "id": "Secretaría de Obras y Espacio Público",
-          "datasets": 1
+          "id": "Cancelado",
+          "label": "Cancelado",
+          "value": 11
+        }
+      ]
+    },
+    {
+      "id": "obras-eje",
+      "type": "bar",
+      "title": "Actividades por eje estratégico",
+      "sectionId": "el-plan-de-obras-2025-174-actividades",
+      "data": [
+        {
+          "eje": "Transformación espacio público",
+          "actividades": 165
+        },
+        {
+          "eje": "Luján Sustentable",
+          "actividades": 9
         }
       ],
       "config": {
-        "xAxis": "id",
-        "layout": "horizontal"
+        "xAxis": "eje"
       }
     },
     {
-      "id": "chart-formats",
-      "type": "pie",
-      "title": "Distribución de formatos",
-      "sectionId": "formatos-disponibles",
+      "id": "inversion-vial",
+      "type": "bar",
+      "title": "Top 5 contratos viales 2024 (M $)",
+      "sectionId": "las-inversiones-viales-detras-de-las-obras",
       "data": [
         {
-          "id": "XLSX",
-          "label": "XLSX",
-          "value": 3
+          "contrato": "Pavimentación",
+          "monto": 635
         },
         {
-          "id": "CSV",
-          "label": "CSV",
-          "value": 1
+          "contrato": "Poda",
+          "monto": 450
         },
         {
-          "id": "ZIP",
-          "label": "ZIP",
-          "value": 1
+          "contrato": "Redes Agua",
+          "monto": 238
         },
         {
-          "id": "KML",
-          "label": "KML",
-          "value": 1
+          "contrato": "Vehículos util.",
+          "monto": 231
         },
         {
-          "id": "XLS",
-          "label": "XLS",
-          "value": 1
-        }
-      ]
-    }
-  ],
-  "rankings": [
-    {
-      "id": "rank-datasets-archivos",
-      "title": "Datasets con más archivos",
-      "sectionId": "",
-      "items": [
-        {
-          "name": "Obras Públicas",
-          "value": 3
-        },
-        {
-          "name": "Barrios Populares",
-          "value": 2
-        },
-        {
-          "name": "Transporte Público",
-          "value": 2
-        },
-        {
-          "name": "Circuito de Ciclovías",
-          "value": 0
-        },
-        {
-          "name": "Seguridad Vial",
-          "value": 0
+          "contrato": "Camiones regad.",
+          "monto": 219
         }
       ],
-      "order": "desc"
+      "config": {
+        "xAxis": "contrato"
+      }
     }
   ],
+  "rankings": [],
   "mapData": []
 }

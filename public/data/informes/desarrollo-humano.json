@@ -8,117 +8,104 @@
   },
   "kpis": [
     {
-      "id": "kpi-datasets",
-      "label": "Datasets",
-      "value": 5,
-      "formatted": "5"
+      "id": "barrios-pop",
+      "label": "Barrios populares (RENABAP)",
+      "value": 47,
+      "formatted": "47"
     },
     {
-      "id": "kpi-archivos",
-      "label": "Archivos descargables",
-      "value": 10,
-      "formatted": "10"
+      "id": "familias",
+      "label": "Familias en barrios populares",
+      "value": 2569,
+      "formatted": "2.569"
     },
     {
-      "id": "kpi-mb",
-      "label": "MB publicados",
-      "value": 4,
-      "formatted": "3.6 MB"
+      "id": "genero-casos",
+      "label": "Casos atendidos Género 2022",
+      "value": 480,
+      "formatted": "480 casos"
     },
     {
-      "id": "kpi-orgs",
-      "label": "Áreas que publican",
-      "value": 4,
-      "formatted": "4"
+      "id": "barrio-mayor",
+      "label": "Barrio popular más grande",
+      "value": 290,
+      "formatted": "290 fam.",
+      "unit": "Valle Encantado, Chacras"
     }
   ],
   "charts": [
     {
-      "id": "chart-orgs",
+      "id": "top-barrios",
       "type": "bar",
-      "title": "Datasets por área que publica",
-      "sectionId": "areas-que-publican",
+      "title": "Top barrios populares por familias residentes",
+      "sectionId": "la-pobreza-con-direccion-y-nombre",
       "data": [
         {
-          "id": "Intendencia Municipalidad de Luján de Cuyo",
-          "datasets": 2
+          "barrio": "Valle Encantado",
+          "familias": 290
         },
         {
-          "id": "Secretaría de Infraestructura y Desarrollo Sostenible",
-          "datasets": 1
+          "barrio": "Tierras Vivas",
+          "familias": 170
         },
         {
-          "id": "Secretaría de Desarrollo Humano",
-          "datasets": 1
+          "barrio": "Patrono Santiago",
+          "familias": 160
         },
         {
-          "id": "Dirección de Género y Diversidad",
-          "datasets": 1
+          "barrio": "Virgen de Lourdes",
+          "familias": 135
+        },
+        {
+          "barrio": "Costanera Sur",
+          "familias": 132
+        },
+        {
+          "barrio": "Juan XXIII",
+          "familias": 110
+        },
+        {
+          "barrio": "Villa Costa Canal",
+          "familias": 102
+        },
+        {
+          "barrio": "Estación Cuadro",
+          "familias": 100
         }
       ],
       "config": {
-        "xAxis": "id",
+        "xAxis": "barrio",
         "layout": "horizontal"
       }
     },
     {
-      "id": "chart-formats",
-      "type": "pie",
-      "title": "Distribución de formatos",
-      "sectionId": "formatos-disponibles",
+      "id": "genero-tipos",
+      "type": "bar",
+      "title": "Tipos de violencia reportada (Género 2022, % casos)",
+      "sectionId": "violencia-de-genero-la-contracara-mas-sensible",
       "data": [
         {
-          "id": "XLSX",
-          "label": "XLSX",
-          "value": 6
+          "tipo": "Psicológica",
+          "porcentaje": 83
         },
         {
-          "id": "CSV",
-          "label": "CSV",
-          "value": 2
+          "tipo": "Física",
+          "porcentaje": 64
         },
         {
-          "id": "ZIP",
-          "label": "ZIP",
-          "value": 1
+          "tipo": "Económica/Patrimonial",
+          "porcentaje": 59
         },
         {
-          "id": "DOC",
-          "label": "DOC",
-          "value": 1
-        }
-      ]
-    }
-  ],
-  "rankings": [
-    {
-      "id": "rank-datasets-archivos",
-      "title": "Datasets con más archivos",
-      "sectionId": "",
-      "items": [
-        {
-          "name": "Estadísticas de Género",
-          "value": 7
-        },
-        {
-          "name": "Barrios Populares",
-          "value": 2
-        },
-        {
-          "name": "Uniones Vecinales",
-          "value": 1
-        },
-        {
-          "name": "Economía Circular",
-          "value": 0
-        },
-        {
-          "name": "Polideportivos",
-          "value": 0
+          "tipo": "Sexual",
+          "porcentaje": 22
         }
       ],
-      "order": "desc"
+      "config": {
+        "xAxis": "tipo"
+      }
     }
   ],
+  "rankings": [],
   "mapData": []
 }

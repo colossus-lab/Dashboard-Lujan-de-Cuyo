@@ -1,50 +1,74 @@
 # Turismo y Cultura
 
-**8 datasets** dedicados al ecosistema turístico y cultural departamental, fuertemente concentrados en la zona de **Potrerillos / Las Compuertas / Cacheuta** (cordón cordillerano) y el corredor **Chacras de Coria** (gastro-vitivinicultura).
+Retrato de la oferta turística y cultural del departamento. Luján de Cuyo articula dos polos diferenciados: un cordón cordillerano (Potrerillos, Cacheuta, Las Compuertas) orientado al pernocte y la aventura, y un corredor residencial-gastronómico (Chacras de Coria, Vistalba) que opera mayoritariamente como destino de día.
 
-## La oferta gastronómica
+## Los 137 locales gastronómicos
 
-El relevamiento de la Dirección de Turismo registra **137 locales gastronómicos** (#20) clasificados así:
+El relevamiento de la Dirección de Turismo registra **137 locales gastronómicos** clasificados así:
 
-- **Restaurantes: 84** (61% del total)
-- **Cafeterías: 17**
-- **Heladerías: 10**
-- Casas de Té: 5
-- Pizzerías: 4
-- Pastelerías: 3
-- Restaurantes de Sushi: 3
-- Otros (parrilla, panchería, taquería, lomitería, restaurantes árabe/cubano/comida rápida): 11
+| Tipo | Locales | % |
+|---|---:|---:|
+| **Restaurante** | 84 | 61% |
+| Cafetería | 17 | 12% |
+| Heladería | 10 | 7% |
+| Casa de té | 5 | 4% |
+| Pizzería | 4 | 3% |
+| Pastelería | 3 | 2% |
+| Restaurante de sushi | 3 | 2% |
+| Otros (parrilla, panchería, taquería, lomitería, restaurantes árabe/cubano/comida rápida) | 11 | 8% |
 
-**Concentración geográfica** — top distritos: **Chacras de Coria 43**, Ciudad 28, **Potrerillos 23**, Cacheuta 11, Las Compuertas 8, Agrelo 8, Vistalba 5, La Puntilla 4. Chacras y Potrerillos concentran casi la mitad del mapa gastronómico — coherente con el perfil turístico-residencial de cada zona.
+**Concentración geográfica**:
 
-## Alojamiento
+| Distrito | Locales | % |
+|---|---:|---:|
+| **Chacras de Coria** | 43 | 31% |
+| Ciudad | 28 | 20% |
+| **Potrerillos** | 23 | 17% |
+| Cacheuta | 11 | 8% |
+| Las Compuertas | 8 | 6% |
+| Agrelo | 8 | 6% |
+| Vistalba | 5 | 4% |
+| La Puntilla | 4 | 3% |
 
-**73 alojamientos** registrados (#12). Distribución por distrito:
+**Chacras de Coria + Potrerillos concentran el 48% de la oferta gastronómica**. El primero opera como destino gastronómico de día (Mendoza-Capital se traslada a almorzar/cenar); el segundo combina gastronomía con actividades en montaña.
 
-- **Potrerillos: 53** (73% del total) — perfil cabañas/posadas/turismo aventura.
-- **Cacheuta: 7** y **Las Compuertas: 7** (cordón termal y montaña).
-- Agrelo, Perdriel, Vistalba, Ciudad: pequeños volúmenes (1-2 cada uno).
+## La oferta de pernocte: Potrerillos como capital
 
-Esta concentración refleja que el **eje turístico de pernocte está en montaña**, mientras que Chacras opera más como destino de día.
+**73 alojamientos** publicados en el padrón turístico municipal, con una concentración geográfica extrema:
 
-## Aventura y vitivinicultura
+| Distrito | Alojamientos | % |
+|---|---:|---:|
+| **Potrerillos** | **53** | **73%** |
+| Cacheuta | 7 | 10% |
+| Las Compuertas | 7 | 10% |
+| Otros (Agrelo, Perdriel, Vistalba, Ciudad) | 6 | 8% |
 
-- **Aventura** (#18): 11 emprendimientos, **todos en Potrerillos** — rafting (Argentina Rafting, Río Aventura), kayak (Milkayak), trekking (Potrerillos Explorer, Mendoza Aventura), navegación a vela (Huayra Veleros), expediciones de alta montaña (Colanguil Expediciones).
-- **Bodegas** (#13): listado publicado por la Dirección de Turismo (sin archivos descargables — sólo la metadata del dataset).
-- **Senderos de Trekking** (#14): KML con recorridos.
+El **eje cordillerano absorbe el 92% del pernocte** (Potrerillos + Cacheuta + Las Compuertas). Predominan cabañas, posadas y alojamientos pequeños. Chacras de Coria — pese a su polo gastronómico — apenas tiene oferta de alojamiento, confirmando su perfil de **destino de día**.
 
-## Movilidad turística
+## El polo de aventura: 11 emprendimientos en Potrerillos
 
-El **Transporte Público** (#54) y el **Circuito de Ciclovías** (#33) — ambos con KML — son insumos relevantes para la planificación de visitantes.
+El dataset *Aventura* registra **11 prestadores**, **todos en Potrerillos**:
 
-## Datasets disponibles
+- **Argentina Rafting** — rafting en RP Perilago.
+- **Río Aventura** — KM 55 RN 7.
+- **Potrerillos Explorer** — Los Guanacos.
+- **Colanguil Expediciones** — Las Acacias (alta montaña).
+- **El Rincón de los Oscuros** — Los Cóndores y Las Nieves.
+- **Milkayak** y **Huayra Veleros** — RP Perilago (kayak y vela).
+- **Mendoza Aventura** — Arroyo Ranchillos.
 
-Alojamiento (#12), Bodegas (#13), Senderos de Trekking (#14), Aventura (#18), Gastronomía (#20), Ciclovías (#33), Transporte Público (#54).
+El conjunto configura a **Potrerillos como capital del turismo activo de Mendoza**: rafting en el río Mendoza, kayak y vela en el embalse, trekking de alta montaña hacia el corredor del Aconcagua.
 
-## Limitaciones
+## Vitivinicultura: la marca silenciosa
 
-No hay series temporales de **ocupación hotelera**, **cantidad de visitantes**, **derrama turística** ni **eventos culturales realizados** — sólo el inventario estático de oferta. Para indicadores de demanda turística hay que recurrir a la Provincia (Subsecretaría de Turismo) o al INDEC. Bodegas no tiene archivos descargables, lo que es notorio dado el peso del enoturismo en la economía local.
+El dataset **Bodegas** está catalogado por la Dirección de Turismo pero **no incluye archivos descargables** — sólo metadata. Esto es notable dado el peso del enoturismo en el perfil económico de Luján de Cuyo (sede de bodegas históricas como Catena Zapata, Achaval Ferrer, Norton, Lagarde, Vistalba, Septima, Renacer, entre muchas otras). La ausencia de un padrón estructurado público es una brecha en el principal activo turístico del departamento.
 
-## Fuente
+## Senderos y circuitos
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Direcciones y coordenadas en proyección WGS84.
+- **Senderos de Trekking** publicados en KML — recorridos georreferenciados para visualización en Google Earth o app.
+- **Circuito de Ciclovías** integrado con **Puntos de Encuentro Saludables (PES)**, en formato My Maps.
+- **Transporte Público** (KML + horarios XLS) — insumo crítico para visitantes que se mueven sin auto.
+
+---
+
+*Fuente: Dirección de Turismo, Apoderado Municipal, Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio. Datos en <https://datos.lujandecuyo.gob.ar>.*

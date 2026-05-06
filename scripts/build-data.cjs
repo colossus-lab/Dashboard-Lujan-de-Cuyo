@@ -494,8 +494,15 @@ for (const cat of CATEGORY_REGISTRY) {
   const datasetsCat = datasetsList.filter(d => dsCategorySlugs(d).includes(cat.slug));
   datasetsPorCategoria[cat.slug] = datasetsCat.length;
 
-  const reportData = buildReportData(cat.title, cat.slug, datasetsCat, manifestRows);
-  writeJSON(path.join(PUBLIC_DIR, 'data', 'informes', `${cat.slug}.json`), reportData);
+  // Los JSON e MD de informe se generan con scripts/build-informes-data.py
+  // y scripts/write-reports.py (analíticos del fenómeno municipal). Aquí
+  // sólo escribimos un fallback si el archivo todavía no existe en el repo
+  // (clone fresco sin haber corrido los scripts Python).
+  const jsonPath = path.join(PUBLIC_DIR, 'data', 'informes', `${cat.slug}.json`);
+  if (FORCE || !fs.existsSync(jsonPath)) {
+    const reportData = buildReportData(cat.title, cat.slug, datasetsCat, manifestRows);
+    writeJSON(jsonPath, reportData);
+  }
 
   const mdPath = path.join(PUBLIC_DIR, 'reports', `${cat.slug}.md`);
   if (FORCE || !fs.existsSync(mdPath)) {

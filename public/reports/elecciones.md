@@ -1,46 +1,64 @@
 # Elecciones
 
-**4 datasets** que documentan los resultados electorales recientes en Luján de Cuyo, fundamentalmente de las **PASO Provinciales 2023** y categorías nacionales subsiguientes. Es la única categoría del portal con un nivel de granularidad **a mesa** — algo poco común en datos abiertos municipales.
+Análisis de los resultados electorales en Luján de Cuyo a partir del escrutinio de las **PASO Provinciales 2023** y elecciones nacionales subsiguientes. Es la única categoría del portal con granularidad **por mesa electoral**.
 
-## PASO Provinciales 2023
+## El mapa político: paridad y dos polos
 
-El dataset *Elecciones Departamental* (#32, 14 archivos) publica el escrutinio mesa por mesa. Análisis del XLSX consolidado *resultados_pasos_2023.xlsx* (categoría Concejal):
+En la categoría **Concejal** (escrutinio mesa por mesa, 316 mesas relevadas), la consolidada para 2023 muestra:
 
-- **474 filas** de resultados (combinación mesa × lista).
-- Distritos relevados: Chacras de Coria 178 mesas, Perdriel 103, Carrodilla 95, Ciudad 50, Mayor Drummond 48 (planilla parcial).
-- **Top agrupaciones por votos** (en mesas relevadas):
-  - **CAMBIA MENDOZA**: 4.670 votos
-  - **LA UNIÓN MENDOCINA**: 4.499 votos
-  - **ELEGÍ MENDOZA**: 1.006
-  - **FRENTE DE IZQUIERDA Y DE TRABAJADORES**: 404
-  - **PARTIDO VERDE**: 355
+| Agrupación | Votos | % |
+|---|---:|---:|
+| **CAMBIA MENDOZA** | 4.670 | **42,7%** |
+| **LA UNIÓN MENDOCINA** | 4.499 | **41,1%** |
+| ELEGÍ MENDOZA | 1.006 | 9,2% |
+| Frente de Izquierda y de Trabajadores - Unidad | 404 | 3,7% |
+| Partido Verde | 355 | 3,2% |
+| Otros (Compromiso Federal, Dignidad Popular, Partido Federal) | <1% c/u | — |
 
-## Voto desagregado por categoría
+**Paridad técnica** entre las dos coaliciones principales (1,6 puntos) que sumaron 84% del electorado. La fragmentación periférica fue contenida: tres fuerzas (Elegí, FIT, Verde) capturaron el 16% restante.
 
-El dataset *Voto Electoral* (#49) suma la categoría **Concejales** mesa por mesa con **316 mesas** (XLSX *consejales*) y replica el mismo formato para Diputados Nacionales/Provinciales y Senadores Nacionales en archivos separados. Desglose por mesa: votos por lista + votos en blanco + votos impugnados + votos del comando electoral.
+## La geografía del voto: dos Lujanes
 
-## Resultado Electorales 24/09 (definitivo)
+Los 5 distritos relevados con detalle revelan una **fractura territorial nítida**:
 
-El dataset *Resultado Electorales* (#59, 8 archivos) publica el **escrutinio definitivo** del 24 de septiembre con los resultados consolidados por categoría:
+| Distrito | Total votos | 1° lugar | % | 2° lugar | % |
+|---|---:|---|---:|---|---:|
+| Carrodilla | 2.164 | Cambia Mendoza | 41% | La Unión Mendocina | 38% |
+| **Chacras de Coria** | 4.452 | **Cambia Mendoza** | **56%** | La Unión | 34% |
+| Ciudad | 1.097 | **La Unión Mendocina** | 52% | Cambia | 29% |
+| Mayor Drumond | 1.116 | La Unión Mendocina | 47% | Cambia | 34% |
+| **Perdriel** | 2.105 | **La Unión Mendocina** | **52%** | Cambia | 28% |
 
-- **Gobernador** (PDF + XLSX)
-- **Senadores Provinciales** (PDF)
-- **Diputados Provinciales** (PDF)
-- **Concejales** (PDF)
-- **Escrutinio definitivo Luján de Cuyo** (PDF + XLSX)
+**Cambia Mendoza domina** en Chacras de Coria (56%) y Carrodilla (paridad 41-38). **La Unión Mendocina lidera** en Ciudad (52%), Mayor Drumond (47%) y Perdriel (52%). El alineamiento sigue clivajes tradicionales: los **distritos residenciales premium del corredor norte** se inclinan por la coalición histórica del PRO/UCR, mientras que **Ciudad** (centro institucional), **Mayor Drumond** (polo educativo y comercial) y **Perdriel** (semi-rural con núcleo de barrios populares) se inclinan por La Unión.
 
-## Marco normativo
+Chacras de Coria, con su 56% para Cambia Mendoza, fue el **bastión más concentrado** de la coalición ganadora a nivel departamental.
 
-Las **Ordenanzas Municipales** (#4) — repositorio CSV/XLS/PDF — incluyen las normas que regulan los procesos electorales locales y el funcionamiento del HCD electo.
+## Las categorías escrutadas
 
-## Datasets disponibles
+El dataset *Voto Electoral* (#49) detalla las mesas para **cinco categorías**:
 
-Ordenanzas Municipales (#4), Elecciones Departamental (#32), Voto Electoral (#49), Resultado Electorales (#59).
+- **Concejal** (316 mesas) — la única plenamente analizada arriba.
+- **Diputados Nacionales**.
+- **Diputados Provinciales**.
+- **Senadores Nacionales**.
+- **Resultados PASO 2023** consolidado.
 
-## Limitaciones
+Cada XLSX trae el mismo esquema: circuito × escuela × mesa × lista, con votos válidos, en blanco, impugnados y del comando electoral.
 
-Los archivos están en formatos **mixtos** (XLS, XLSX, PDF) y a veces nombrados con código de circuito sin metadata clara (`zona_circ_0057.xls`, etc.) — requieren trabajo manual para consolidar. **No hay datos** de elecciones anteriores (2017, 2019, 2021) ni de las **municipales 2023** propiamente — sólo provinciales/nacionales del mismo año. Tampoco se publican padrones, vacantes asignadas o datos de simultaneidad de votación.
+## El escrutinio definitivo
 
-## Fuente
+El dataset *Resultado Electorales* (#59) contiene el **escrutinio definitivo del 24 de septiembre** con resultados consolidados por categoría, en formato PDF + XLS:
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Datos del escrutinio provisional y definitivo, Junta Electoral de Mendoza.
+- Gobernador.
+- Senadores Provinciales.
+- Diputados Provinciales.
+- Concejales.
+- Escrutinio definitivo Luján de Cuyo (consolidado).
+
+## El marco normativo
+
+Las **Ordenanzas Municipales** (#4) — repositorio CSV/XLS/PDF — incluyen las normas que regulan los procesos electorales locales y el funcionamiento del HCD electo. La ordenanza 13884/2020 (GIRSU), 14525/2023, 14526/2023 (presupuestaria/tarifaria) son ejemplos de la producción legislativa del HCD electo en el período.
+
+---
+
+*Fuente: Jefe de Gabinete del Municipio, Junta Electoral de Mendoza (PASO 2023). Datos en <https://datos.lujandecuyo.gob.ar>.*

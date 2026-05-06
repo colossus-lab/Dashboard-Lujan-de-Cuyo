@@ -8,167 +8,165 @@
   },
   "kpis": [
     {
-      "id": "kpi-datasets",
-      "label": "Datasets",
-      "value": 19,
-      "formatted": "19"
+      "id": "presup",
+      "label": "Presupuesto 2025",
+      "value": 111800000000,
+      "formatted": "$111,8 mil M"
     },
     {
-      "id": "kpi-archivos",
-      "label": "Archivos descargables",
-      "value": 44,
-      "formatted": "44"
+      "id": "comercios",
+      "label": "Comercios registrados",
+      "value": 11630,
+      "formatted": "11.630"
     },
     {
-      "id": "kpi-mb",
-      "label": "MB publicados",
-      "value": 18,
-      "formatted": "18.1 MB"
+      "id": "compras",
+      "label": "Compras 2024",
+      "value": 5065000000,
+      "formatted": "$5,1 mil M"
     },
     {
-      "id": "kpi-orgs",
-      "label": "Áreas que publican",
-      "value": 7,
-      "formatted": "7"
+      "id": "barrios-pop",
+      "label": "Familias en barrios populares",
+      "value": 2569,
+      "formatted": "2.569",
+      "unit": "en 47 barrios"
     }
   ],
   "charts": [
     {
-      "id": "chart-orgs",
-      "type": "bar",
-      "title": "Datasets por área que publica",
-      "sectionId": "areas-que-publican",
-      "data": [
-        {
-          "id": "Secretaría de Economía e Ingresos Públicos",
-          "datasets": 9
-        },
-        {
-          "id": "Secretaría de Hacienda",
-          "datasets": 4
-        },
-        {
-          "id": "Intendencia Municipalidad de Luján de Cuyo",
-          "datasets": 2
-        },
-        {
-          "id": "Dirección de Comunicación Estratégica",
-          "datasets": 1
-        },
-        {
-          "id": "Secretaría de Infraestructura y Desarrollo Sostenible",
-          "datasets": 1
-        },
-        {
-          "id": "Secretaria de Gobierno",
-          "datasets": 1
-        },
-        {
-          "id": "Secretaría de Obras y Espacio Público",
-          "datasets": 1
-        }
-      ],
-      "config": {
-        "xAxis": "id",
-        "layout": "horizontal"
-      }
-    },
-    {
-      "id": "chart-formats",
+      "id": "presup-pie",
       "type": "pie",
-      "title": "Distribución de formatos",
-      "sectionId": "formatos-disponibles",
+      "title": "Estructura del presupuesto 2025 (mil M $)",
+      "sectionId": "las-finanzas-del-municipio",
       "data": [
         {
-          "id": "XLSX",
-          "label": "XLSX",
-          "value": 19
+          "id": "Corrientes",
+          "label": "Corrientes",
+          "value": 71.1
         },
         {
-          "id": "PDF",
-          "label": "PDF",
-          "value": 7
+          "id": "Capital",
+          "label": "Capital",
+          "value": 38.9
         },
         {
-          "id": "XLS",
-          "label": "XLS",
-          "value": 6
-        },
-        {
-          "id": "CSV",
-          "label": "CSV",
-          "value": 5
-        },
-        {
-          "id": "ZIP",
-          "label": "ZIP",
-          "value": 2
-        },
-        {
-          "id": "DOCX",
-          "label": "DOCX",
-          "value": 2
-        },
-        {
-          "id": "GEOJSON",
-          "label": "GEOJSON",
-          "value": 2
-        },
-        {
-          "id": "JPG",
-          "label": "JPG",
-          "value": 1
+          "id": "Otras",
+          "label": "Otras",
+          "value": 0.16
         }
       ]
     },
     {
-      "id": "chart-timeline",
-      "type": "line",
-      "title": "Datasets publicados por mes",
-      "sectionId": "timeline-de-publicacion",
+      "id": "top-rubros",
+      "type": "bar",
+      "title": "Top rubros del padrón comercial 2025",
+      "sectionId": "el-padron-comercial",
       "data": [
         {
-          "mes": "2025-05",
-          "datasets": 16
+          "rubro": "Almacén",
+          "comercios": 314
         },
         {
-          "mes": "2025-07",
-          "datasets": 3
+          "rubro": "Productos no clasif.",
+          "comercios": 181
+        },
+        {
+          "rubro": "Almacenes alimentos",
+          "comercios": 166
+        },
+        {
+          "rubro": "Servicios empresariales",
+          "comercios": 115
+        },
+        {
+          "rubro": "Golosinas/Confit.",
+          "comercios": 109
+        },
+        {
+          "rubro": "Frutas/Verduras",
+          "comercios": 106
+        },
+        {
+          "rubro": "Tabacos/Cigarrillos",
+          "comercios": 102
+        },
+        {
+          "rubro": "Prendas/Accesorios",
+          "comercios": 92
+        },
+        {
+          "rubro": "Servicios inmobiliarios",
+          "comercios": 91
         }
       ],
       "config": {
-        "xAxis": "mes"
+        "xAxis": "rubro",
+        "layout": "horizontal"
       }
+    },
+    {
+      "id": "obras-estado",
+      "type": "pie",
+      "title": "Plan de Obras 2025 — estado de avance",
+      "sectionId": "la-inversion-en-obras",
+      "data": [
+        {
+          "id": "Cumplido",
+          "label": "Cumplido",
+          "value": 67
+        },
+        {
+          "id": "No iniciado",
+          "label": "No iniciado",
+          "value": 40
+        },
+        {
+          "id": "En implementación",
+          "label": "En implementación",
+          "value": 34
+        },
+        {
+          "id": "Atrasado",
+          "label": "Atrasado",
+          "value": 18
+        },
+        {
+          "id": "Cancelado",
+          "label": "Cancelado",
+          "value": 11
+        }
+      ]
     }
   ],
   "rankings": [
     {
-      "id": "rank-datasets-archivos",
-      "title": "Datasets con más archivos",
+      "id": "barrios-pop-top",
+      "title": "Top 5 barrios populares por familias",
       "sectionId": "",
+      "order": "desc",
       "items": [
         {
-          "name": "Presupuesto de Gobierno",
-          "value": 7
+          "name": "Valle Encantado (Chacras de Coria)",
+          "value": 290
         },
         {
-          "name": "Unidades Comerciales",
-          "value": 6
+          "name": "Tierras Vivas (Agrelo)",
+          "value": 170
         },
         {
-          "name": "Gasto Público Municipal",
-          "value": 5
+          "name": "Patrono Santiago (Ciudad)",
+          "value": 160
         },
         {
-          "name": "Limites Administrativos de Luján de Cuyo",
-          "value": 4
+          "name": "Virgen de Lourdes (Perdriel)",
+          "value": 135
         },
         {
-          "name": "Pauta Publicitaria",
-          "value": 3
+          "name": "Costanera Sur (Ciudad)",
+          "value": 132
         }
-      ],
-      "order": "desc"
+      ]
     }
   ],
   "mapData": []

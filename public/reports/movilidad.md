@@ -1,49 +1,64 @@
 # Movilidad
 
-**5 datasets** que cubren la infraestructura de movilidad del departamento: transporte público urbano, ciclovías, obras viales, seguridad vial y la red de barrios populares (relevante para conectividad). El bloque tiene un fuerte componente de **datos espaciales (KML)** con baja densidad de información tabular.
+Retrato del sistema de movilidad del departamento: red de transporte público, infraestructura ciclista, plan de obras viales y conectividad de los barrios populares.
 
-## Transporte público
+## La red de transporte público
 
-El dataset *Transporte Público* (#54) publica:
+La **Red Luján** se publica con dos artefactos complementarios:
 
-- **Red Luján** en formato **KML** (recorridos de líneas urbanas para visualización en Google Earth o QGIS).
-- **Red de transporte urbano** en XLS con horarios.
-- Página web con información operativa actualizada.
+- **KML** con los recorridos georreferenciados de cada línea — visualizable en Google Earth, QGIS o cualquier app cartográfica que soporte el formato.
+- **XLS** con los horarios operativos.
 
-Esto permite reconstruir cobertura geográfica del transporte municipal, frecuencias y conectividad entre distritos.
+Esto permite reconstruir la cobertura espacial del sistema y los tiempos de servicio entre distritos. La información operativa (boletos vendidos, ocupación, frecuencia real, modalidad SUBE) **no se publica** — la planificación cuantitativa de la demanda queda fuera del alcance del portal municipal.
 
-## Ciclovías y movilidad activa
+## El circuito de ciclovías y los PES
 
-El **Circuito de Ciclovías** (#33) está publicado en formato **My Maps** (Google) con los recorridos de las ciclovías ejecutadas y los **Puntos de Encuentro Saludables (PES)** que las articulan. Es uno de los pocos datasets en este formato dentro del portal.
+El **Circuito de Ciclovías** se publica en formato **My Maps** (Google Maps) con los recorridos ejecutados y los **Puntos de Encuentro Saludables (PES)** que articulan el sistema. Es uno de los pocos datasets en este formato — orientado a difusión ciudadana antes que a análisis técnico. La política integradora "ciclovías + PES" busca articular **movilidad activa + recreación + espacio público + salud preventiva**.
 
-## Obras viales
+El dataset complementario **Bicisendas Inclusivas** (programa "Pedaleando Juntos") está publicado como página web sin datos descargables.
 
-El dataset *Obras Públicas* (#74) — transversal con Economía y Urbanismo — contiene **174 actividades** en 2025, mayoritariamente del eje "Transformación del espacio público" (165 actividades / 95%). Estado de avance:
+## El plan de obras 2025: 174 actividades
 
-- **Cumplido**: 67 (39%)
-- **No iniciado**: 40 (23%)
-- **En implementación**: 34 (20%)
-- **Atrasado**: 18 (10%)
-- **Cancelado**: 11 (6%)
+El dataset *Obras Públicas 2025* documenta **174 actividades** ejecutadas por la **Secretaría de Obras y Espacios Públicos**. Estado de avance al cierre del relevamiento:
 
-Las **compras 2024** detallaron contratos viales de gran porte: Plan Pavimentación 2024 ($635 M, VIALMANI), redes de agua potable ($238 M, CALZETTA), reparación de motoniveladora ($7 M), cubiertas para máquinas viales — dan dimensión del esfuerzo de mantenimiento de la red vial.
+| Estado | Actividades | % |
+|---|---:|---:|
+| **Cumplido** | 67 | **39%** |
+| No iniciado | 40 | 23% |
+| En implementación | 34 | 20% |
+| **Atrasado** | 18 | 10% |
+| Cancelado | 11 | 6% |
 
-## Seguridad vial
+Por **eje estratégico**:
+- **Transformación del espacio público**: 165 actividades (95%).
+- **Luján Sustentable**: 9 actividades (5%).
 
-El dataset *Seguridad Vial* (#51) está listado como "Acciones viales" y comparte información con la Secretaría de Gobierno; sin embargo, no tiene archivos descargables — sólo la metadata. Es una brecha clara, dado que es el indicador más sensible de movilidad.
+El programa **Movilidad Sustentable** concentra **9 actividades específicas** dentro del plan general — una sub-cartera dedicada al modo activo y al transporte público.
 
-## Conectividad social
+## Las inversiones viales detrás de las obras
 
-Los **47 barrios populares** (#5) entran en esta categoría como territorios cuya conectividad con el resto del departamento depende fuertemente del transporte público y la red vial.
+Las **compras y contrataciones 2024** revelan la magnitud financiera de la inversión vial:
 
-## Datasets disponibles
+| Contrato | Monto | Proveedor |
+|---|---:|---|
+| Plan Pavimentación 2024 | **$635 M** | VIALMANI |
+| Servicio de Poda (mantenimiento de calzada/banquinas) | $450 M | ECUR S.A. |
+| Redes de Agua Potable (incluye reposición vial) | $237,7 M | CALZETTA S.A. |
+| Vehículos utilitarios | $230,8 M | VALENTINO MOTOS |
+| Alquiler de camiones regadores | $218,6 M | ECUR S.A. |
+| Cubiertas para máquina vial | $6,7 M | NEUMÁTICOS NARVÁEZ |
+| Reparación de motoniveladora | $6,9 M | GRÚAS SAN BLAS |
 
-Barrios Populares (#5), Ciclovías (#33), Seguridad Vial (#51), Transporte Público (#54), Obras Públicas (#74).
+El gasto vial directo (pavimentación + mantenimiento + maquinaria) supera los **$1.500 millones en 2024** — alrededor del **30% de las compras totales** del año.
 
-## Limitaciones
+## Conectividad social: el dato faltante
 
-Es la categoría con **menor densidad de datos cuantitativos** entre las relevantes. Faltan: series temporales de **siniestros viales** (cantidad, fatalidad, lugar), **flujo vehicular** (aforo en arterias clave), **uso del transporte público** (boletos vendidos, frecuencias por línea, modalidad SUBE), e indicadores de **calidad** del servicio. Las ciclovías están relevadas pero no hay datos de aforos ciclistas o accidentes.
+Los **47 barrios populares** del RENABAP están georreferenciados — la base permite analizar su **conectividad por transporte público**, **distancia a centros de salud**, **distancia a escuelas** y **acceso a comercios**. Sin embargo, el portal no expone esos análisis cruzados — quedan disponibles para investigación externa con los datasets crudos.
 
-## Fuente
+## La brecha en seguridad vial
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Datos espaciales en KML/My Maps (proyección WGS84).
+El dataset *Seguridad Vial* (#51) figura en el catálogo como "Acciones viales" pero **no contiene archivos descargables**. La **fiscalización vial municipal** — multas emitidas, controles de alcoholemia, **siniestros viales** con su georreferenciación, fatalidad — es la información de movilidad **más demandada** y no se publica. Esta omisión es probablemente la mayor brecha del bloque, dado que el departamento tiene tres rutas troncales nacionales y provinciales (RN 7, RP 15, Acceso Sur) con tránsito intenso de carga y turistas.
+
+---
+
+*Fuente: Secretaría de Obras y Espacios Públicos, Secretaría de Hacienda (compras), Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio. Datos en <https://datos.lujandecuyo.gob.ar>.*

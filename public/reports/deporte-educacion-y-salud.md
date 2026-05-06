@@ -1,50 +1,101 @@
 # Deporte, Educación y Salud
 
-**9 datasets** que retratan la red de servicios sociales territoriales: escuelas, centros de salud, polideportivos, farmacias, espacios deportivos al aire libre y los análisis sanitarios del agua potable. Es el bloque que muestra "qué oferta de servicios públicos y comerciales tiene el vecino en cada distrito".
+Retrato de la oferta de servicios sociales territoriales: red escolar, sistema de salud de primer nivel, oferta deportiva y vigilancia sanitaria.
 
-## Áreas que publican
+## El sistema educativo: 17.318 alumnos en 112 establecimientos
 
-La **Secretaría de Desarrollo Humano** lidera con tres datasets clave (Escuelas, Farmacias, Centros de Salud, Polideportivos). Complementan la **Coordinación de Aguas** (Calidad del Agua, transversal con Medio Ambiente), la **Dirección de Turismo** (Aventura, transversal con Cultura/Turismo), la Subsecretaría de Gestión del Talento Humano (COVID) y el Apoderado Municipal (Ciclovías).
+El relevamiento 2025 documenta **112 establecimientos educativos** con una **matrícula total de 17.318 estudiantes**. Composición:
 
-## Educación: el mapa escolar
+**Por gestión**:
+- Pública: **85** (76%)
+- Privada: 25 (22%)
+- SEOS Maternal/Inicial/Primaria: 2 (2%)
 
-El relevamiento 2025 publica **112 establecimientos educativos** con dirección, distrito, matrícula, nivel, modalidad, ámbito y gestión. Hallazgos:
+**Por ámbito**:
+- Urbano: 58 (52%)
+- Rural: 50 (45%)
+- Urbano marginal: 4 (4%)
 
-- **Matrícula total: 17.318 estudiantes** (CSV #6).
-- Distribución por nivel:
-  - **Primaria**: 54 escuelas
-  - **Secundaria** (orientada + técnica + común): 21
-  - **Jardín maternal**: 10 (+ 1 SEOS, + 2 Jardín y CAE)
-  - **CEBJA / CENS** (jóvenes y adultos): 11
-  - **Capacitación laboral**: 5 + 1 centro
-  - **Educación superior** (terciario): 4
-  - **Educación especial**: 3
-- Por **ámbito**: 58 urbanas, 50 rurales, 4 urbano-marginal.
-- Por distrito (top): Ciudad 23, Chacras de Coria 16, Carrodilla 16, Mayor Drummond 12, Perdriel 10, Ugarteche 8, El Carrizal 7, Potrerillos 6.
-- Modalidades técnicas/orientadas variadas: Gestión Contable, Humanidades, Electricidad, Industria de Proceso, Comercio Exterior, Producción de Bienes y Servicios, Electromecánica, Enfermería, Agronomía y Apicultura.
+La **mitad rural** del sistema escolar es notable y alimenta a los distritos del cordón cordillerano y agrícola (Ugarteche, Agrelo, El Carrizal, Las Compuertas, Cacheuta, Potrerillos).
 
-## Salud: red de centros y servicios
+**Por nivel** (con matrícula declarada):
 
-- **19 centros de salud** publicados con coordenadas y dirección (#75). Distribución: Carrodilla 3, Agrelo 3, Ugarteche 2, Potrerillos 2, El Carrizal 2, Perdriel 2, Cacheuta 2, Ciudad 1, Las Compuertas 1, Chacras de Coria 1.
-- **18 farmacias** registradas con dirección y geolocalización (#27). Concentración en eje San Martín / Roque Sáenz Peña / Viamonte.
-- **Calidad del Agua** (transversal con Medio Ambiente, #48): planillas de laboratorio 2024-2025 para Plantas Cipolletti y Santa Elena, más perforaciones — relevante para vigilancia sanitaria.
-- **Informe COVID Municipal 2022** (#67): 84 semanas con casos positivos, recuperados, en tratamiento, fallecidos.
+| Nivel | Establecimientos | Alumnos | % |
+|---|---:|---:|---:|
+| **Primaria** | 44 | 12.308 | **71,1%** |
+| Secundaria común | 6 | 2.171 | 12,5% |
+| Secundaria orientada | 4 | 1.441 | 8,3% |
+| Secundario técnico | 3 | 737 | 4,3% |
+| CEBJA (jóvenes y adultos) | 6 | 250 | 1,4% |
+| Educación superior | 2 | 164 | 0,9% |
+| Especial primaria | 1 | 100 | 0,6% |
+| CENS | 2 | 100 | 0,6% |
+
+Las **modalidades técnico-profesionales** registradas reflejan la matriz productiva regional: Gestión Contable Impositiva y Previsional, Comercio Exterior, **Producción de Bienes y Servicios**, Electromecánica, Industria de Proceso, **Técnico Superior Agronómica y Apícola** (vinculada al perfil vitivinícola y olivícola), **Técnico Superior en Enfermería**, Comunicación y Arte, Humanidades y Ciencias Sociales.
+
+### El polo educativo: Mayor Drumond
+
+Cruzando matrícula escolar con población residente por distrito:
+
+| Distrito | Pob. | Escuelas | Matrícula | **Mat./Pob.** |
+|---|---:|---:|---:|---:|
+| **Mayor Drumond** | 8.223 | 12 | 2.910 | **35,4%** |
+| **Ciudad** | 24.594 | 23 | 5.478 | **22,3%** |
+| Ugarteche | 6.603 | 8 | 1.361 | 20,6% |
+| Perdriel | 13.687 | 10 | 1.635 | 11,9% |
+| Carrodilla | 23.886 | 16 | 2.710 | 11,3% |
+| Chacras de Coria | 12.428 | 16 | 1.183 | 9,5% |
+| La Puntilla | 2.842 | 1 | 277 | 9,7% |
+| Agrelo | 7.507 | 5 | 651 | 8,7% |
+| El Carrizal | 4.177 | 7 | 351 | 8,4% |
+| Vistalba | 8.771 | 3 | 357 | 4,1% |
+
+**Mayor Drumond emerge como polo educativo**: con sólo 8.223 habitantes, su matrícula equivale al **35% de su población local** — implica que recibe alumnado de distritos vecinos. **Ciudad** (22%) y **Ugarteche** (21%) tienen también atracción educativa neta. **Vistalba** (4%) muestra el menor anclaje educativo: sus habitantes en edad escolar concurren a Carrodilla, Chacras o Mayor Drumond.
+
+## La red de salud: cobertura desigual
+
+El **primer nivel de atención** se compone de **19 centros de salud**. La distribución por distrito vs población local revela inequidades estructurales:
+
+| Distrito | Pob. | Centros | **Hab/Centro** |
+|---|---:|---:|---:|
+| Cacheuta | 701 | 2 | **350** |
+| Potrerillos | 2.075 | 2 | 1.038 |
+| Las Compuertas | 1.353 | 1 | 1.353 |
+| El Carrizal | 4.177 | 2 | 2.088 |
+| Agrelo | 7.507 | 3 | 2.502 |
+| Ugarteche | 6.603 | 2 | 3.302 |
+| Perdriel | 13.687 | 2 | 6.844 |
+| Carrodilla | 23.886 | 3 | 7.962 |
+| **Chacras de Coria** | 12.428 | 1 | **12.428** |
+| **Ciudad** | 24.594 | 1 | **24.594** |
+
+Los distritos **rurales y cordilleranos** tienen excelente cobertura por hab/centro (350-2.500), reflejo de la lógica histórica del primer nivel de atención. Los **distritos urbanos densos** — Ciudad y Chacras de Coria — funcionan con un único centro de salud cada uno, generando ratios de **24.000 y 12.000 hab/centro** respectivamente. Esta concentración es probable que se compense con los hospitales provinciales (Carlos Pereyra, El Carmen, Schestakow) ubicados en cercanías, pero el dato municipal sugiere un déficit estructural en atención primaria urbana.
+
+Complementariamente, la red comercial farmacéutica registra **18 farmacias**, también concentradas en el corredor urbano San Martín — Roque Sáenz Peña — Viamonte.
+
+## Vigilancia sanitaria del agua
+
+La **Coordinación de Aguas y Servicios Sanitarios** publica análisis fisicoquímicos y bacteriológicos de las dos plantas potabilizadoras (**Cipolletti** y **Santa Elena**) más las perforaciones, en planillas anuales 2023-2025 — once archivos consolidados que constituyen una base sostenida de vigilancia ambiental con impacto sanitario directo.
 
 ## Deporte y recreación
 
-- **Polideportivos** (#66): mapa de localización (link a página web del municipio).
-- **Aventura** (#18): 11 lugares para actividades al aire libre, todos en **Potrerillos**.
-- **Espacios Verdes** (transversal con Urbanismo, #9): 272 espacios públicos con 56 plazas formales — soporte para deporte recreativo.
-- **Circuito de Ciclovías** (#33): conectividad activa con PES (Puntos de Encuentro Saludables).
+- **Polideportivos** distribuidos en el departamento (publicados como mapa web).
+- **272 espacios verdes** públicos (1,35 km²) que oficiando como soporte de deporte recreativo.
+- **Aventura**: **11 emprendimientos** registrados, **todos en Potrerillos** — rafting, kayak, trekking, vela, montañismo. Es el polo concentrado de deporte de aventura del departamento.
+- **Circuito de ciclovías** con Puntos de Encuentro Saludables (PES) — política integradora de movilidad activa y deporte recreativo.
 
-## Datasets disponibles
+## La huella del COVID
 
-Escuelas (#6), Espacios Verdes (#9), Aventura (#18), Farmacias (#27), Ciclovías (#33), Calidad del Agua (#48), Polideportivos (#66), Informe COVID Municipal (#67), Centros de Salud (#75).
+El *Informe Covid Municipal 2022* documenta **84 semanas** con seguimiento epidemiológico:
 
-## Limitaciones
+- **645 casos positivos** acumulados.
+- **20.424 recuperados** (ratio mucho mayor que positivos sugiere arrastre de períodos previos a la planilla).
+- **21 fallecidos**.
+- **Pico semanal**: 128 casos.
+- Promedio semanal: 7,7 positivos.
 
-No hay datos de **rendimiento educativo** (Aprender, repitencia, terminalidad) ni de cobertura/utilización de centros de salud (consultas, pacientes atendidos, derivaciones a hospitales provinciales). El dataset COVID llega hasta 2022.
+El relevamiento corresponde al ámbito municipal y refleja principalmente al personal de la administración (publicado por la Subsecretaría de Gestión del Talento Humano).
 
-## Fuente
+---
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Datos del año 2025 salvo indicación.
+*Fuente: Secretaría de Desarrollo Humano, Coordinación de Aguas y Servicios Sanitarios, Dirección de Turismo, Subsecretaría de Gestión del Talento Humano. Datos en <https://datos.lujandecuyo.gob.ar>.*

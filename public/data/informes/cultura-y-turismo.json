@@ -8,108 +8,145 @@
   },
   "kpis": [
     {
-      "id": "kpi-datasets",
-      "label": "Datasets",
-      "value": 7,
-      "formatted": "7"
+      "id": "gastro",
+      "label": "Locales gastronómicos",
+      "value": 137,
+      "formatted": "137"
     },
     {
-      "id": "kpi-archivos",
-      "label": "Archivos descargables",
-      "value": 6,
-      "formatted": "6"
+      "id": "alojamiento",
+      "label": "Alojamientos",
+      "value": 73,
+      "formatted": "73",
+      "unit": "73% en Potrerillos"
     },
     {
-      "id": "kpi-mb",
-      "label": "MB publicados",
-      "value": 4,
-      "formatted": "3.7 MB"
+      "id": "aventura",
+      "label": "Prestadores de aventura",
+      "value": 11,
+      "formatted": "11",
+      "unit": "todos en Potrerillos"
     },
     {
-      "id": "kpi-orgs",
-      "label": "Áreas que publican",
-      "value": 3,
-      "formatted": "3"
+      "id": "restaurantes",
+      "label": "Restaurantes",
+      "value": 84,
+      "formatted": "84",
+      "unit": "61% del total gastro"
     }
   ],
   "charts": [
     {
-      "id": "chart-orgs",
-      "type": "bar",
-      "title": "Datasets por área que publica",
-      "sectionId": "areas-que-publican",
+      "id": "gastro-tipo",
+      "type": "pie",
+      "title": "Locales gastronómicos por tipo",
+      "sectionId": "los-137-locales-gastronomicos",
       "data": [
         {
-          "id": "Dirección de Turismo",
-          "datasets": 5
+          "id": "Restaurante",
+          "label": "Restaurante",
+          "value": 84
         },
         {
-          "id": "Apoderado Municipal",
-          "datasets": 1
+          "id": "Cafetería",
+          "label": "Cafetería",
+          "value": 17
         },
         {
-          "id": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
-          "datasets": 1
+          "id": "Heladería",
+          "label": "Heladería",
+          "value": 10
+        },
+        {
+          "id": "Casa de té",
+          "label": "Casa de té",
+          "value": 5
+        },
+        {
+          "id": "Pizzería",
+          "label": "Pizzería",
+          "value": 4
+        },
+        {
+          "id": "Otros",
+          "label": "Otros",
+          "value": 17
+        }
+      ]
+    },
+    {
+      "id": "gastro-distrito",
+      "type": "bar",
+      "title": "Locales gastronómicos por distrito",
+      "sectionId": "los-137-locales-gastronomicos",
+      "data": [
+        {
+          "distrito": "Chacras de Coria",
+          "locales": 43
+        },
+        {
+          "distrito": "Ciudad",
+          "locales": 28
+        },
+        {
+          "distrito": "Potrerillos",
+          "locales": 23
+        },
+        {
+          "distrito": "Cacheuta",
+          "locales": 11
+        },
+        {
+          "distrito": "Las Compuertas",
+          "locales": 8
+        },
+        {
+          "distrito": "Agrelo",
+          "locales": 8
+        },
+        {
+          "distrito": "Vistalba",
+          "locales": 5
+        },
+        {
+          "distrito": "La Puntilla",
+          "locales": 4
         }
       ],
       "config": {
-        "xAxis": "id",
+        "xAxis": "distrito",
         "layout": "horizontal"
       }
     },
     {
-      "id": "chart-formats",
+      "id": "alojamiento-distrito",
       "type": "pie",
-      "title": "Distribución de formatos",
-      "sectionId": "formatos-disponibles",
+      "title": "Alojamientos por distrito",
+      "sectionId": "la-oferta-de-pernocte-potrerillos-como-capital",
       "data": [
         {
-          "id": "CSV",
-          "label": "CSV",
-          "value": 3
+          "id": "Potrerillos",
+          "label": "Potrerillos",
+          "value": 53
         },
         {
-          "id": "KML",
-          "label": "KML",
-          "value": 2
+          "id": "Cacheuta",
+          "label": "Cacheuta",
+          "value": 7
         },
         {
-          "id": "XLS",
-          "label": "XLS",
-          "value": 1
+          "id": "Las Compuertas",
+          "label": "Las Compuertas",
+          "value": 7
+        },
+        {
+          "id": "Otros",
+          "label": "Otros",
+          "value": 6
         }
       ]
     }
   ],
-  "rankings": [
-    {
-      "id": "rank-datasets-archivos",
-      "title": "Datasets con más archivos",
-      "sectionId": "",
-      "items": [
-        {
-          "name": "Transporte Público",
-          "value": 2
-        },
-        {
-          "name": "Alojamiento",
-          "value": 1
-        },
-        {
-          "name": "Senderos de Trekking",
-          "value": 1
-        },
-        {
-          "name": "Aventura",
-          "value": 1
-        },
-        {
-          "name": "Gastronomía",
-          "value": 1
-        }
-      ],
-      "order": "desc"
-    }
-  ],
+  "rankings": [],
   "mapData": []
 }

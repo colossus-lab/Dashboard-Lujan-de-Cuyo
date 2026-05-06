@@ -8,179 +8,153 @@
   },
   "kpis": [
     {
-      "id": "kpi-datasets",
-      "label": "Datasets",
-      "value": 33,
-      "formatted": "33"
+      "id": "presup",
+      "label": "Presupuesto 2025",
+      "value": 111800000000,
+      "formatted": "$111,8 mil M"
     },
     {
-      "id": "kpi-archivos",
-      "label": "Archivos descargables",
-      "value": 121,
-      "formatted": "121"
+      "id": "personal",
+      "label": "Gasto en personal",
+      "value": 20800000000,
+      "formatted": "$20,8 mil M",
+      "unit": "19% del total"
     },
     {
-      "id": "kpi-mb",
-      "label": "MB publicados",
-      "value": 51,
-      "formatted": "50.9 MB"
+      "id": "compras",
+      "label": "Compras y contrataciones 2024",
+      "value": 5065000000,
+      "formatted": "$5,1 mil M"
     },
     {
-      "id": "kpi-orgs",
-      "label": "Áreas que publican",
-      "value": 12,
-      "formatted": "12"
+      "id": "pauta",
+      "label": "Pauta publicitaria 2024",
+      "value": 296170317,
+      "formatted": "$296,2 M"
     }
   ],
   "charts": [
     {
-      "id": "chart-orgs",
-      "type": "bar",
-      "title": "Datasets por área que publica",
-      "sectionId": "areas-que-publican",
-      "data": [
-        {
-          "id": "Secretaría de Economía e Ingresos Públicos",
-          "datasets": 7
-        },
-        {
-          "id": "Secretaria de Gobierno",
-          "datasets": 4
-        },
-        {
-          "id": "Honorable Concejo Deliberante de Luján de Cuyo",
-          "datasets": 4
-        },
-        {
-          "id": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
-          "datasets": 4
-        },
-        {
-          "id": "Jefe de Gabinete",
-          "datasets": 3
-        },
-        {
-          "id": "Secretaría de Hacienda",
-          "datasets": 3
-        },
-        {
-          "id": "Dirección de Comunicación Estratégica",
-          "datasets": 2
-        },
-        {
-          "id": "Intendencia Municipalidad de Luján de Cuyo",
-          "datasets": 2
-        },
-        {
-          "id": "Secretaría de Infraestructura y Desarrollo Sostenible",
-          "datasets": 1
-        },
-        {
-          "id": "Subsecretaría de Gestión del Talento Humano",
-          "datasets": 1
-        }
-      ],
-      "config": {
-        "xAxis": "id",
-        "layout": "horizontal"
-      }
-    },
-    {
-      "id": "chart-formats",
+      "id": "estructura-gasto",
       "type": "pie",
-      "title": "Distribución de formatos",
-      "sectionId": "formatos-disponibles",
+      "title": "Estructura del gasto 2025",
+      "sectionId": "el-presupuesto-2025",
       "data": [
         {
-          "id": "XLSX",
-          "label": "XLSX",
-          "value": 62
+          "id": "Erogaciones corrientes",
+          "label": "Corrientes",
+          "value": 71100
         },
         {
-          "id": "PDF",
-          "label": "PDF",
-          "value": 22
+          "id": "Erogaciones de capital",
+          "label": "Capital",
+          "value": 38900
         },
         {
-          "id": "XLS",
-          "label": "XLS",
-          "value": 20
-        },
-        {
-          "id": "CSV",
-          "label": "CSV",
-          "value": 11
-        },
-        {
-          "id": "DOCX",
-          "label": "DOCX",
-          "value": 3
-        },
-        {
-          "id": "JPG",
-          "label": "JPG",
-          "value": 1
-        },
-        {
-          "id": "JSON",
-          "label": "JSON",
-          "value": 1
-        },
-        {
-          "id": "DOC",
-          "label": "DOC",
-          "value": 1
+          "id": "Otras erogaciones",
+          "label": "Otras",
+          "value": 160
         }
       ]
     },
     {
-      "id": "chart-timeline",
+      "id": "pauta-evolucion",
       "type": "line",
-      "title": "Datasets publicados por mes",
-      "sectionId": "timeline-de-publicacion",
+      "title": "Pauta publicitaria — evolución 2020-2024 (M $)",
+      "sectionId": "pauta-publicitaria-el-rubro-de-mayor-crecimiento",
       "data": [
         {
-          "mes": "2025-05",
-          "datasets": 32
+          "anio": "2020",
+          "pauta": 24.5
         },
         {
-          "mes": "2025-07",
-          "datasets": 1
+          "anio": "2021",
+          "pauta": 45.2
+        },
+        {
+          "anio": "2022",
+          "pauta": 92.8
+        },
+        {
+          "anio": "2023",
+          "pauta": 194.8
+        },
+        {
+          "anio": "2024",
+          "pauta": 296.2
         }
       ],
       "config": {
-        "xAxis": "mes"
+        "xAxis": "anio"
+      }
+    },
+    {
+      "id": "compras-modalidad",
+      "type": "bar",
+      "title": "Compras 2024 por modalidad (M $)",
+      "sectionId": "compras-y-contrataciones-2024",
+      "data": [
+        {
+          "modalidad": "Licitación pública",
+          "monto": 4400
+        },
+        {
+          "modalidad": "Compra directa",
+          "monto": 356
+        },
+        {
+          "modalidad": "Privada",
+          "monto": 330
+        }
+      ],
+      "config": {
+        "xAxis": "modalidad"
       }
     }
   ],
   "rankings": [
     {
-      "id": "rank-datasets-archivos",
-      "title": "Datasets con más archivos",
+      "id": "top-proveedores",
+      "title": "Top 7 contratos 2024",
       "sectionId": "",
+      "order": "desc",
       "items": [
         {
-          "name": "Compras y Contrataciones",
-          "value": 23
+          "name": "Plan Pavimentación 2024 — VIALMANI",
+          "value": 635000000,
+          "meta": "$635 M"
         },
         {
-          "name": "Elecciones Departamental",
-          "value": 14
+          "name": "Servicio de Poda — ECUR S.A.",
+          "value": 450000000,
+          "meta": "$450 M"
         },
         {
-          "name": "Funcionarios Públicos Municipal",
-          "value": 10
+          "name": "Redes de Agua Potable — CALZETTA S.A.",
+          "value": 237700000,
+          "meta": "$237,7 M"
         },
         {
-          "name": "Resultado Electorales",
-          "value": 8
+          "name": "Vehículos utilitarios — VALENTINO MOTOS",
+          "value": 230800000,
+          "meta": "$230,8 M"
         },
         {
-          "name": "Presupuesto de Gobierno",
-          "value": 7
+          "name": "Alquiler camiones regadores — ECUR S.A.",
+          "value": 218600000,
+          "meta": "$218,6 M"
+        },
+        {
+          "name": "Adquisición hidroelevador — FICAMEN S.A.",
+          "value": 106500000,
+          "meta": "$106,5 M"
+        },
+        {
+          "name": "Automóviles — CAPILLITAS S.A.",
+          "value": 101500000,
+          "meta": "$101,5 M"
         }
-      ],
-      "order": "desc"
+      ]
     }
   ],
   "mapData": []
