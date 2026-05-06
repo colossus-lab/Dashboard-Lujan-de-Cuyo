@@ -1,46 +1,47 @@
 # Seguridad
 
-**2 datasets** componen una de las categorías más **subdesarrolladas** del portal — coherente con que la seguridad pública es competencia primaria de la Provincia y la Nación. Lo publicado por el municipio cubre la red de **comisarías** y un dataset de **acciones viales** sin archivos descargables.
+Análisis del estado de la seguridad pública en Luján de Cuyo desde los datos abiertos disponibles. La cobertura es limitada — la seguridad es competencia primaria provincial y nacional — pero los datasets municipales aportan un mapa institucional y elementos transversales.
 
-## Comisarías del departamento
+## La red de comisarías
 
-El dataset *Comisarías Luján de Cuyo* (#24, 2 archivos) publicado por el **Secretario del Juzgado Vial Nro 1** publica la red departamental:
+El dataset *Comisarías Luján de Cuyo* (publicado por el **Secretario del Juzgado Vial Nro 1**) registra la red departamental con dirección, distrito y datos de contacto, además del KML para visualización geográfica. Es el único dataset de seguridad con contenido tabular accesible.
 
-- **Comisarias_2025.xlsx** con dirección, distrito y datos de contacto.
-- **comisarias.kml** con coordenadas para visualización.
+La distribución de comisarías ofrece la **base institucional de la respuesta policial** — su lectura cruzada con la **densidad poblacional por distrito** (Ciudad 24.594, Carrodilla 23.886, Perdriel 13.687) permite analizar cobertura policial relativa, aunque la planificación operativa la define la **Policía de Mendoza**, no el municipio.
 
-Es el único dataset de seguridad con contenido tabular accesible.
+## Los puntos de criticidad económica
 
-## Seguridad vial
+Aunque catalogados en otras categorías, varios datasets son insumos directos para la planificación de seguridad:
 
-El dataset *Seguridad Vial* (#51) figura como "Acciones viales" pero **no tiene archivos descargables** ni descripción ampliada — sólo metadata mínima. Es una brecha visible: la fiscalización vial municipal (multas, controles, alcoholemias, siniestros) no se publica con datos abiertos.
+- **9 sucursales bancarias** (Frances, Supervielle, Nación, Galicia, HSBC, San Juan, Macro) — todas en el corredor San Martín del distrito Ciudad. Concentración geográfica que demanda **respuesta policial planificada**.
+- **11 estaciones de servicio** sobre RN 7, RP 15 y Acceso Sur — puntos de alta circulación con valores monetarios y combustible.
+- **Centros de salud** (19), **farmacias** (18), **escuelas** (112) — receptores potenciales de emergencias y planes de respuesta.
+- **47 barrios populares** con 2.569 familias — territorios con vulnerabilidad social que requieren articulación con políticas integrales (no sólo policial).
+- **Iluminación LED** (dataset *Energía*) — el reemplazo de luminarias incide directamente en la **seguridad ambiental peatonal**.
 
-## Datasets transversales
+## El plan vial: un proxy de seguridad
 
-Aunque no están etiquetados como "seguridad", varios datasets de otras categorías aportan información relevante:
+Las **174 actividades** del Plan de Obras 2025 incluyen el programa "Ordenadores Viales — Priorización" — interventiones físicas (badenes, semáforos, demarcación) que mitigan riesgos viales. La inversión vial 2024 en pavimentación ($635 M), poda ($450 M, mejora visibilidad) y mantenimiento de maquinaria ($14 M) configuran un esfuerzo sostenido sobre la **infraestructura de movilidad** que tiene efectos directos sobre la seguridad cotidiana.
 
-- **Bancos** (#25, 9 sucursales) — información sensible para planificación de respuesta policial-municipal.
-- **Estaciones de Servicios** (#26, 11 ubicaciones) — puntos críticos.
-- **Centros de Salud** (#75, 19) y **Farmacias** (#27, 18) — receptores potenciales de emergencias.
-- **Comercios por Rubro** (#87) — base para mapeo de actividad económica nocturna y rubros sensibles.
-- **Iluminación LED** (#71, dataset *Energía*) — relevante para seguridad ambiental peatonal.
+## La brecha estructural
 
-## Datasets disponibles
+El portal **no expone series sobre**:
 
-Comisarías de Luján de Cuyo (#24), Seguridad Vial (#51).
-
-## Limitaciones
-
-Es probablemente la categoría con **mayor brecha de datos** del portal. Falta toda la serie de:
-
-- **Hechos delictivos** (robos, hurtos, lesiones, homicidios) — competencia provincial pero replicable a nivel local con datos del Ministerio de Seguridad y Justicia de Mendoza.
-- **Multas y controles viales** — competencia municipal directa, no se publica.
-- **Siniestros viales** (cantidad, fatalidad, georreferenciación) — uno de los indicadores más demandados.
+- **Hechos delictivos** (robos, hurtos, lesiones, homicidios) por tipo, lugar, hora, modalidad — competencia provincial pero replicable a nivel municipal con datos del Ministerio de Seguridad y Justicia.
+- **Multas y controles viales** — competencia municipal directa.
+- **Siniestros viales** con georreferenciación, fatalidad, lesionados — uno de los indicadores más demandados.
 - **Operativos** y **denuncias** recibidas en el ámbito municipal.
 - **Cuerpo de Inspección General** (urbano y rural) — sus actuaciones no son públicas.
 
-Para análisis de seguridad en Mendoza hay que recurrir a fuentes provinciales o nacionales (SNIC del Ministerio de Seguridad de la Nación).
+El dataset *Seguridad Vial* (#51) aparece en el catálogo como "Acciones viales" pero **no incluye archivos descargables**.
 
-## Fuente
+## Para análisis profundo
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. La seguridad es competencia primaria del Ministerio de Seguridad y Justicia de la Provincia de Mendoza y el Ministerio de Seguridad de la Nación.
+Para reconstruir un panorama completo de seguridad en Luján de Cuyo es necesario complementar con:
+
+- **SNIC** (Sistema Nacional de Información Criminal) del Ministerio de Seguridad de la Nación, que publica delitos por departamento.
+- **Estadísticas del Ministerio de Seguridad y Justicia de Mendoza**.
+- **Observatorio Vial Provincial** para siniestros viales.
+
+---
+
+*Fuente: Secretaría del Juzgado Vial Nro 1, Secretaria de Gobierno. La seguridad pública es competencia primaria del Ministerio de Seguridad y Justicia de la Provincia de Mendoza y el Ministerio de Seguridad de la Nación. Datos en <https://datos.lujandecuyo.gob.ar>.*

@@ -8,74 +8,59 @@
   },
   "kpis": [
     {
-      "id": "kpi-datasets",
-      "label": "Datasets",
-      "value": 1,
-      "formatted": "1"
+      "id": "semanas",
+      "label": "Semanas registradas",
+      "value": 84,
+      "formatted": "84"
     },
     {
-      "id": "kpi-archivos",
-      "label": "Archivos descargables",
-      "value": 1,
-      "formatted": "1"
+      "id": "positivos",
+      "label": "Casos positivos acumulados",
+      "value": 645,
+      "formatted": "645"
     },
     {
-      "id": "kpi-mb",
-      "label": "MB publicados",
-      "value": 0,
-      "formatted": "0.0 MB"
+      "id": "fallecidos",
+      "label": "Fallecidos",
+      "value": 21,
+      "formatted": "21"
     },
     {
-      "id": "kpi-orgs",
-      "label": "Áreas que publican",
-      "value": 1,
-      "formatted": "1"
+      "id": "pico",
+      "label": "Pico semanal",
+      "value": 128,
+      "formatted": "128 casos"
     }
   ],
   "charts": [
     {
-      "id": "chart-orgs",
+      "id": "curva-resumen",
       "type": "bar",
-      "title": "Datasets por área que publica",
-      "sectionId": "areas-que-publican",
+      "title": "Resumen pandémico — administración municipal",
+      "sectionId": "la-curva-pandemica-resumida",
       "data": [
         {
-          "id": "Subsecretaría de Gestión del Talento Humano",
-          "datasets": 1
+          "indicador": "Positivos acum.",
+          "valor": 645
+        },
+        {
+          "indicador": "Recuperados",
+          "valor": 20424
+        },
+        {
+          "indicador": "Fallecidos",
+          "valor": 21
+        },
+        {
+          "indicador": "Pico semanal",
+          "valor": 128
         }
       ],
       "config": {
-        "xAxis": "id",
-        "layout": "horizontal"
+        "xAxis": "indicador"
       }
-    },
-    {
-      "id": "chart-formats",
-      "type": "pie",
-      "title": "Distribución de formatos",
-      "sectionId": "formatos-disponibles",
-      "data": [
-        {
-          "id": "XLSX",
-          "label": "XLSX",
-          "value": 1
-        }
-      ]
     }
   ],
-  "rankings": [
-    {
-      "id": "rank-datasets-archivos",
-      "title": "Datasets con más archivos",
-      "sectionId": "",
-      "items": [
-        {
-          "name": "Informe Covid Municipal",
-          "value": 1
-        }
-      ],
-      "order": "desc"
-    }
-  ],
+  "rankings": [],
   "mapData": []
 }

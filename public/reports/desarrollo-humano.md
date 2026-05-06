@@ -1,50 +1,54 @@
 # Desarrollo Humano
 
-**5 datasets** que reúnen el "tejido social organizado" del departamento: barrios populares, uniones vecinales, polideportivos, programas de economía circular y las estadísticas de violencia de género (transversal con la categoría Género). Es la sección más cercana a la agenda de inclusión, vulnerabilidad y participación comunitaria.
+Análisis del tejido social organizado del departamento: pobreza territorializada, organización vecinal, intervenciones por vulnerabilidad y estadísticas de violencia de género en su contexto poblacional.
 
-## La población vulnerable territorializada
+## La pobreza con dirección y nombre: 47 barrios populares
 
-El **Registro Nacional de Barrios Populares (RENABAP)** identifica **47 barrios** en Luján de Cuyo (#5):
+El **RENABAP** (Registro Nacional de Barrios Populares) identifica **47 barrios** dentro del departamento de Luján de Cuyo, con un universo de **2.569 familias** registradas — representativo de la **población más vulnerable** del territorio.
 
-- **2.569 familias** registradas en estas geografías.
-- Top barrios por familias:
-  - Valle Encantado (Chacras de Coria) — 290 familias
-  - Tierras Vivas (Agrelo) — 170
-  - Patrono Santiago (Ciudad) — 160
-  - Virgen de Lourdes (Perdriel) — 135
-  - Costanera Sur (Ciudad) — 132
-  - Juan XXIII (Ciudad) — 110
-  - Villa Costa Canal (Ugarteche) — 102
-  - Estación Cuadro (Perdriel) — 100
+### Top 10 barrios por familias residentes
 
-La distribución muestra que **Ciudad y los distritos urbanos peri-centrales** concentran la mayor cantidad de familias en barrios populares, aunque también hay focos en zonas rurales (Agrelo, Ugarteche, Perdriel).
+| Barrio | Distrito | Familias |
+|---|---|---:|
+| Valle Encantado | Chacras de Coria | 290 |
+| Tierras Vivas | Agrelo | 170 |
+| Patrono Santiago | Ciudad | 160 |
+| Virgen de Lourdes | Perdriel | 135 |
+| Costanera Sur | Ciudad | 132 |
+| Juan XXIII | Ciudad | 110 |
+| Villa Costa Canal | Ugarteche | 102 |
+| Estación Cuadro | Perdriel | 100 |
+| El Encuentro | Perdriel | — |
+| San Gabriel | Vistalba | — |
 
-Estos datos provienen del relevamiento RENABAP nacional y permiten cruzar con políticas de regularización dominial y obras de servicios.
+### Distribución por distrito (cantidad de familias agregadas)
 
-## Organización vecinal
+Los datos territorializados muestran que **Ciudad** concentra el mayor número de familias en barrios populares en términos absolutos, seguido por **Perdriel** y **Agrelo**. La presencia de Valle Encantado en Chacras de Coria — distrito con perfil residencial premium — ilustra la **convivencia de extremos socioeconómicos** en una misma geografía.
 
-El listado de **Uniones Vecinales** (#10) es el directorio formal de organizaciones de base territorial — interlocutor habitual del municipio en obras locales, presupuesto participativo y eventos.
+Los datos RENABAP contienen identificador único nacional (`id_renabap`), provincia, departamento, localidad, cantidad de familias y coordenadas — habilitando cruce con políticas de regularización dominial, infraestructura sanitaria y acceso a servicios.
 
-## Estadísticas de género (transversal)
+## El tejido organizativo: Uniones Vecinales
 
-El dataset *Estadísticas de Género* (#72) — analizado en detalle en su categoría dedicada — registra los casos atendidos por la Dirección de Género y Diversidad mediante fichas RUC. En 2022, **Luján de Cuyo concentró 480 casos**, frente a 9 en Capital, 2 en Godoy Cruz, 1 en Guaymallén y 1 en Maipú. Las planillas 2025 (datos crudos) tienen 87 dimensiones por ficha (nivel educativo, vínculo, violencia previa, intentos de homicidio, consecuencias civiles/penales).
+El dataset *Uniones Vecinales* lista las organizaciones formales de base territorial reconocidas por el municipio. Son los interlocutores institucionales en presupuesto participativo, obras, eventos y articulación de demandas vecinales. Constituyen el **mapa de la sociedad civil organizada** del departamento.
 
-## Polideportivos y deporte social
+## Violencia de género: la contracara más sensible
 
-Los **Polideportivos** (#66) son nodos clave para el desarrollo humano — su localización está publicada como mapa web del municipio.
+El dataset *Estadísticas de Género* (analizado en detalle en **Género y Diversidad**) muestra que en 2022 la **Dirección de Género y Diversidad atendió 480 casos de víctimas residentes en Luján de Cuyo** — el dispositivo opera principalmente sobre la **población local**, con apenas 13 casos de víctimas de otros departamentos. Esto da una idea de **demanda estructural anual sobre el dispositivo municipal**.
 
-## Economía circular
+Cortes relevantes 2022 (sobre los 493 casos totalmente caracterizados):
 
-El convenio con **Prato (Italia)** (#50) impulsa programas de economía circular con foco en revegetación, recuperación de materiales y reciclaje — articulado con organizaciones sociales locales.
+- **Estado civil**: 32% solteras, 10% casadas, 4% divorciadas, 3% separadas — 49% restante sin dato registrado.
+- **Vínculo con el agresor**: **28% ex pareja conviviente**, 8% cónyuge, 6% ex cónyuge → más de **40% del riesgo proviene de pareja o ex pareja**.
+- **Condición de actividad**: 25% ocupadas, **19% desocupadas**, 3% inactivas — la inserción laboral es un factor diferencial.
+- **Nivel educativo**: 18% secundario incompleto, 10% secundario completo, 6% terciario completo, 6% primario completo — perfil mayormente con trayectorias escolares interrumpidas.
+- **Tipos de violencia documentados**: psicológica 41%, física 32%, económica/patrimonial 30%, sexual 11% (las cuatro frecuentemente combinadas).
 
-## Datasets disponibles
+## Programas estructurales
 
-Barrios Populares (#5), Uniones Vecinales (#10), Economía Circular (#50), Polideportivos (#66), Estadísticas de Género (#72).
+- **Convenio con Prato (Italia)** — Economía Circular: revegetación, recuperación de materiales y reciclaje articulado con organizaciones sociales.
+- **Polideportivos** (3+ instalaciones publicadas como mapa web) — nodos de oferta deportiva inclusiva.
+- Articulación con la **Procuración General de la Suprema Corte de Justicia de Mendoza** (acuerdo de cooperación en violencia de género).
 
-## Limitaciones
+---
 
-No hay datos de **programas sociales municipales** (becas, subsidios, alimentación, copa de leche, etc.), de **personas atendidas** por área, ni de **vacantes/cobertura** en jardines maternales y CDIs. Tampoco hay series de **pobreza/indigencia** local (el INDEC publica a nivel del Gran Mendoza, no del departamento). Esto es probablemente la mayor brecha del portal.
-
-## Fuente
-
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Datos RENABAP corresponden al relevamiento nacional.
+*Fuente: Intendencia Municipalidad de Luján de Cuyo, Dirección de Género y Diversidad, Secretaría de Desarrollo Humano, Secretaría de Infraestructura y Desarrollo Sostenible. RENABAP nacional. Datos en <https://datos.lujandecuyo.gob.ar>.*

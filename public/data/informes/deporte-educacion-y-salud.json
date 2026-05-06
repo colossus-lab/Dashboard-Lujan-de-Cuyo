@@ -8,125 +8,168 @@
   },
   "kpis": [
     {
-      "id": "kpi-datasets",
-      "label": "Datasets",
-      "value": 9,
-      "formatted": "9"
+      "id": "alumnos",
+      "label": "Matrícula escolar",
+      "value": 17318,
+      "formatted": "17.318 alumnos"
     },
     {
-      "id": "kpi-archivos",
-      "label": "Archivos descargables",
-      "value": 22,
-      "formatted": "22"
+      "id": "escuelas",
+      "label": "Establecimientos",
+      "value": 112,
+      "formatted": "112",
+      "unit": "76% pública"
     },
     {
-      "id": "kpi-mb",
-      "label": "MB publicados",
-      "value": 6,
-      "formatted": "6.2 MB"
+      "id": "centros-salud",
+      "label": "Centros de salud",
+      "value": 19,
+      "formatted": "19",
+      "unit": "primer nivel"
     },
     {
-      "id": "kpi-orgs",
-      "label": "Áreas que publican",
-      "value": 6,
-      "formatted": "6"
+      "id": "farmacias",
+      "label": "Farmacias",
+      "value": 18,
+      "formatted": "18"
     }
   ],
   "charts": [
     {
-      "id": "chart-orgs",
-      "type": "bar",
-      "title": "Datasets por área que publica",
-      "sectionId": "areas-que-publican",
+      "id": "matricula-nivel",
+      "type": "pie",
+      "title": "Matrícula por nivel educativo",
+      "sectionId": "el-sistema-educativo-17-318-alumnos-en-112-establecimientos",
       "data": [
         {
-          "id": "Secretaría de Desarrollo Humano",
-          "datasets": 4
+          "id": "Primaria",
+          "label": "Primaria",
+          "value": 12308
         },
         {
-          "id": "Intendencia Municipalidad de Luján de Cuyo",
-          "datasets": 1
+          "id": "Secundaria común",
+          "label": "Secundaria común",
+          "value": 2171
         },
         {
-          "id": "Dirección de Turismo",
-          "datasets": 1
+          "id": "Sec. orientada",
+          "label": "Sec. orientada",
+          "value": 1441
         },
         {
-          "id": "Apoderado Municipal",
-          "datasets": 1
+          "id": "Sec. técnica",
+          "label": "Sec. técnica",
+          "value": 737
         },
         {
-          "id": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
-          "datasets": 1
+          "id": "CEBJA",
+          "label": "CEBJA",
+          "value": 250
         },
         {
-          "id": "Subsecretaría de Gestión del Talento Humano",
-          "datasets": 1
+          "id": "Educación superior",
+          "label": "Sup./CENS/Especial",
+          "value": 364
+        }
+      ]
+    },
+    {
+      "id": "matricula-distrito",
+      "type": "bar",
+      "title": "Matrícula como % de la población local — top distritos",
+      "sectionId": "el-polo-educativo-mayor-drumond",
+      "data": [
+        {
+          "distrito": "Mayor Drumond",
+          "porcentaje": 35.4
+        },
+        {
+          "distrito": "Ciudad",
+          "porcentaje": 22.3
+        },
+        {
+          "distrito": "Ugarteche",
+          "porcentaje": 20.6
+        },
+        {
+          "distrito": "Perdriel",
+          "porcentaje": 11.9
+        },
+        {
+          "distrito": "Carrodilla",
+          "porcentaje": 11.3
+        },
+        {
+          "distrito": "Chacras de Coria",
+          "porcentaje": 9.5
+        },
+        {
+          "distrito": "Agrelo",
+          "porcentaje": 8.7
+        },
+        {
+          "distrito": "Vistalba",
+          "porcentaje": 4.1
         }
       ],
       "config": {
-        "xAxis": "id",
+        "xAxis": "distrito",
         "layout": "horizontal"
       }
     },
     {
-      "id": "chart-formats",
-      "type": "pie",
-      "title": "Distribución de formatos",
-      "sectionId": "formatos-disponibles",
+      "id": "hab-centro",
+      "type": "bar",
+      "title": "Habitantes por centro de salud (cobertura)",
+      "sectionId": "la-red-de-salud-cobertura-desigual",
       "data": [
         {
-          "id": "XLSX",
-          "label": "XLSX",
-          "value": 14
+          "distrito": "Ciudad",
+          "hab_centro": 24594
         },
         {
-          "id": "CSV",
-          "label": "CSV",
-          "value": 4
+          "distrito": "Chacras de Coria",
+          "hab_centro": 12428
         },
         {
-          "id": "KML",
-          "label": "KML",
-          "value": 2
+          "distrito": "Carrodilla",
+          "hab_centro": 7962
         },
         {
-          "id": "PDF",
-          "label": "PDF",
-          "value": 2
-        }
-      ]
-    }
-  ],
-  "rankings": [
-    {
-      "id": "rank-datasets-archivos",
-      "title": "Datasets con más archivos",
-      "sectionId": "",
-      "items": [
-        {
-          "name": "Calidad del Agua",
-          "value": 11
+          "distrito": "Perdriel",
+          "hab_centro": 6844
         },
         {
-          "name": "Espacios Verdes",
-          "value": 3
+          "distrito": "Ugarteche",
+          "hab_centro": 3302
         },
         {
-          "name": "Centros de Salud",
-          "value": 3
+          "distrito": "Agrelo",
+          "hab_centro": 2502
         },
         {
-          "name": "Escuelas de Luján de Cuyo",
-          "value": 2
+          "distrito": "El Carrizal",
+          "hab_centro": 2088
         },
         {
-          "name": "Aventura",
-          "value": 1
+          "distrito": "Las Compuertas",
+          "hab_centro": 1353
+        },
+        {
+          "distrito": "Potrerillos",
+          "hab_centro": 1038
+        },
+        {
+          "distrito": "Cacheuta",
+          "hab_centro": 350
         }
       ],
-      "order": "desc"
+      "config": {
+        "xAxis": "distrito",
+        "layout": "horizontal"
+      }
     }
   ],
+  "rankings": [],
   "mapData": []
 }

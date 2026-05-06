@@ -1,58 +1,103 @@
 # Género y Diversidad
 
-**3 datasets** específicos sobre la política pública de género y diversidad en Luján de Cuyo. Es una categoría compacta pero la planilla de estadísticas es uno de los datasets **más ricos en dimensiones analíticas** del portal.
+Análisis cuantitativo de la atención que la **Dirección de Género y Diversidad** brinda a víctimas de violencia. Es uno de los datasets más densos del portal: cada caso atendido se registra en una ficha **RUC** (Registro Único de Casos) con **87 dimensiones** que combinan trayectoria educativa, condición laboral, vínculo con el agresor, tipos de violencia ejercida, señales de riesgo y consecuencias judiciales.
 
-## Marco institucional y normativo
+## El volumen de atención
 
-Dos datasets institucionales encuadran la política:
+Las planillas anuales (2021, 2022, 1er semestre 2023, 2025) documentan la actividad sostenida de la Dirección. **En 2022, sobre 493 casos plenamente caracterizados**:
 
-- **Acuerdo de Cooperación** (#43): convenio entre el Municipio de Luján de Cuyo y la **Procuración General de la Suprema Corte de Justicia de Mendoza** — articulación con el Poder Judicial provincial para casos de violencia.
-- **Protocolo de Acción** (#46): procedimiento para atención y acompañamiento de mujeres víctimas de violencia y en situación de vulnerabilidad — documento operativo para los equipos territoriales.
+- **480 casos** correspondieron a víctimas residentes **en Luján de Cuyo** (97% del total).
+- 9 casos en Capital, 2 en Godoy Cruz, 1 en Guaymallén, 1 en Maipú.
 
-## Estadísticas operativas
+El dispositivo opera principalmente sobre la **población local**, configurando un **promedio de ~9-10 casos atendidos por semana** durante el año.
 
-El dataset estrella es *Estadísticas de Género* (#72): planillas de datos relevados por la **Dirección de Género y Diversidad** desde **2021 hasta 2025**, mediante **fichas RUC** (Registro Único de Casos). Archivos:
+## El perfil de las víctimas
 
-- Estadísticas 2025 (XLSX, 772 KB) — datos crudos con **87 dimensiones por ficha**.
-- 1er semestre 2023 (XLSX).
-- 2022 (XLSX, 556 KB).
-- 2021 (XLSX, 687 KB).
-- DOCX informativo y un PBIX (Power BI) para visualización.
+### Estado civil
 
-**Localización de los casos** atendidos en 2022:
+| Estado | Casos | % |
+|---|---:|---:|
+| Soltera | 318 | 64% |
+| Casada | 99 | 20% |
+| Divorciada | 41 | 8% |
+| Separada | 14 | 3% |
 
-| Departamento (víctima) | Casos |
-|---|---:|
-| **Luján de Cuyo** | **480** |
-| Capital | 9 |
-| Godoy Cruz | 2 |
-| Guaymallén | 1 |
-| Maipú | 1 |
+Casi **dos tercios solteras** — un dato que cuestiona la asunción cultural de que la violencia de género se concentra en parejas formalizadas.
 
-El **98% de los casos** atendidos por la Dirección refieren a víctimas residentes en Luján de Cuyo — el dispositivo opera principalmente sobre la población local, con incidencia muy menor desde otros departamentos.
+### Vínculo con el agresor
 
-## Las dimensiones del relevamiento
+| Vínculo | Casos | % |
+|---|---:|---:|
+| **Ex pareja conviviente** | 275 | **56%** |
+| Cónyuge | 75 | 15% |
+| Ex cónyuge | 58 | 12% |
+| Ex novio/pareja no conviviente | 33 | 7% |
 
-La ficha 2025 captura un panorama integral: nivel educativo, condición de actividad económica, AUH/AUE, cuota alimentaria, salario familiar, Progresar, pensión 7 hijos, vínculo con agresor, tipos de violencia (física, psicológica, económica, patrimonial, sexual), señales de riesgo (intentos de homicidio, lesiones, amenazas, portación de armas, intento suicida), trastornos asociados, impacto laboral/educativo, medidas judiciales (prohibición de acercamiento, exclusión del hogar, alimentos provisorios).
+**El 90% del riesgo proviene del entorno de pareja o ex pareja**, con la **ex pareja conviviente** como vínculo dominante (más de la mitad de los casos). Esto reorienta la lectura sobre el ciclo de violencia: el momento de mayor riesgo no es necesariamente durante la convivencia, sino **inmediatamente después de la ruptura**.
 
-Es uno de los pocos datasets del portal con esta **profundidad analítica** — útil para investigaciones sociales y políticas basadas en evidencia.
+### Nivel educativo
 
-## Cifras 2022
+| Nivel | Casos | % |
+|---|---:|---:|
+| Secundaria incompleta | 178 | 36% |
+| Secundaria completa | 99 | 20% |
+| Terciario/Universitario completo | 62 | 13% |
+| Primaria completa | 55 | 11% |
+| Primaria incompleta | 25 | 5% |
+| Sin educación | 23 | 5% |
 
-Del archivo `estadisticas2022-copia.xlsx` se desprenden hojas resumen con cuentas por dimensión:
+El perfil dominante es el de mujeres con **trayectoria educativa interrumpida**: 56% no completó el secundario. Sólo 13% tiene título terciario o universitario.
 
-- **Nivel educativo de las víctimas**: 23 sin educación, 25 primaria incompleta, 55 primaria completa, 178 secundaria incompleta, 99 secundaria completa, etc.
+### Condición laboral
 
-Esto perfila una población mayoritariamente con **trayectorias educativas interrumpidas** — input clave para articulación con políticas educativas.
+| Condición | Casos | % |
+|---|---:|---:|
+| **Ocupada** | 250 | 51% |
+| **Desocupada** | 187 | 38% |
+| Inactiva | 32 | 6% |
 
-## Datasets disponibles
+La **desocupación afecta al 38% de las víctimas** — un input estructural sobre la dependencia económica como factor de revictimización.
 
-Acuerdo de Cooperación (#43), Protocolo de Acción (#46), Estadísticas de Género (#72).
+### Discapacidad
 
-## Limitaciones
+478 casos (97%) sin discapacidad declarada. 6 casos con discapacidad motriz, 4 mental, 2 visceral.
 
-Las **dos primeras filas** de las planillas de estadísticas tienen formato visual (gráficos embebidos como imagen, encabezados desordenados) — el procesamiento automático requiere un script ad-hoc por hoja. No hay un **diccionario de variables** público que documente los códigos de las 87 columnas — para análisis externo se necesita consulta a la Dirección. Tampoco se publica una **serie agregada anual de casos totales** que facilite la comunicación pública.
+## Los tipos de violencia ejercida
 
-## Fuente
+Las víctimas reportan, frecuentemente combinada:
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Dirección de Género y Diversidad, Municipalidad de Luján de Cuyo.
+| Tipo | Reportada (Sí) | Sin dato | % Sí sobre total |
+|---|---:|---:|---:|
+| **Psicológica** | 409 | 82 | **83%** |
+| **Física** | 316 | 176 | 64% |
+| **Económica/patrimonial** | 293 | 198 | 59% |
+| **Sexual** | 107 | 386 | 22% |
+
+La **violencia psicológica está en 4 de cada 5 casos**; la física en 2 de cada 3. La **patrimonial** es comparable a la física (59%) — y suele ser la menos visible socialmente. La **sexual** es probablemente sub-reportada (mucho "sin dato").
+
+## Las señales de riesgo y los antecedentes
+
+| Indicador | "Sí" | % |
+|---|---:|---:|
+| Violencia anterior denunciada | 103 | 21% |
+| Consumo de alcohol del agresor | 177 | 36% |
+| Antecedentes penales (denuncia previa) | 174 | 35% |
+
+**Una de cada cinco víctimas atendidas ya había denunciado violencia previa** — indicador del ciclo de revictimización que el dispositivo busca interrumpir. **El 36% reporta consumo de alcohol como elemento contextual** del agresor.
+
+## El marco institucional
+
+Dos documentos enmarcan operativamente la política:
+
+- **Acuerdo de Cooperación** con la **Procuración General de la Suprema Corte de Justicia de Mendoza** (#43) — articulación con el Poder Judicial provincial.
+- **Protocolo de Acción** (#46) — procedimiento operativo para los equipos territoriales en atención y acompañamiento de víctimas.
+
+Las medidas judiciales documentadas incluyen prohibición de acercamiento, exclusión del hogar, alimentos provisorios, restitución de pertenencias y medidas de cuidado personal.
+
+## La pieza pública
+
+La planilla de **Estadísticas 2025** (XLSX, 772 KB) trae los datos crudos de las 87 dimensiones por ficha — **el dataset más rico del portal en términos de profundidad analítica**. Una versión PBIX (Power BI) provista por la Dirección permite exploración interactiva de los cortes.
+
+---
+
+*Fuente: Dirección de Género y Diversidad, Municipalidad de Luján de Cuyo. Procuración General de la Suprema Corte de Justicia de Mendoza (acuerdo de cooperación). Datos en <https://datos.lujandecuyo.gob.ar>.*

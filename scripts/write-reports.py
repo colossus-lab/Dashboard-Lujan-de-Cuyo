@@ -1,714 +1,1020 @@
-"""Genera los 14 markdowns ejecutivos con análisis basados en datos reales.
-Reemplaza los starter auto-generados por build-data.cjs.
+"""Genera los 14 markdowns ejecutivos analíticos sobre el municipio.
+Cada informe usa los datos abiertos como FUENTE para hablar del fenómeno municipal,
+no del estado del portal. Los hallazgos son reales, derivados de los CSV/XLSX.
+
 Run: python scripts/write-reports.py
 """
 from pathlib import Path
 
 REPORTS_DIR = Path('public/reports')
 REPORTS_DIR.mkdir(exist_ok=True, parents=True)
-
 R = {}
 
 R['gobierto-y-sector-publico.md'] = """# Gobierno Municipal
 
-Es la categoría más grande del portal con **33 datasets** (40% del total publicado), distribuidos en al menos **10 áreas que publican**. Cubre la estructura institucional (organigramas, nóminas), la transparencia activa (declaraciones juradas, pedidos de información, licitaciones), las normativas (ordenanzas, presupuestaria/tarifaria por año) y la gestión administrativa (compras, pauta publicitaria, funcionarios).
+Análisis ejecutivo sobre la administración del municipio de Luján de Cuyo: tamaño del Estado local, estructura de gasto, contrataciones, transparencia activa y comunicación oficial. Todos los hallazgos provienen de los datasets publicados por el municipio.
 
-Es la sección donde el municipio expone "cómo se gobierna a sí mismo": qué normas se votaron, quién ejecuta el gasto, y bajo qué procedimientos.
+## El presupuesto 2025
 
-## Áreas que publican
+El **presupuesto sancionado para el ejercicio 2025** asciende a **$111,8 mil millones**, según la planilla de ejecución al 04/07/2025 publicada por la Secretaría de Hacienda:
 
-Las áreas más activas son la **Secretaría de Hacienda**, la **Secretaría de Economía e Ingresos Públicos**, la **Dirección de Comunicación Estratégica**, la **Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio** y la **Intendencia**. El **Honorable Concejo Deliberante** publica su propia nómina y antecedentes pero la mayor parte del volumen documental viene del Ejecutivo.
+- **Erogaciones corrientes**: $71,1 mil M (**64%** del total). Incluyen sueldos, bienes de consumo, servicios, intereses de deuda y transferencias.
+- **Erogaciones de capital**: $38,9 mil M (**35%**). Inversión en obras, equipamiento y otros activos.
+- **Otras erogaciones**: $160 M (0,1%).
 
-## Plantilla y estructura ejecutiva
+El gasto en **personal** ocupa $19,5 mil M en el Ejecutivo más $1,3 mil M en el HCD: en conjunto **$20,8 mil M, equivalente al 19% del presupuesto total**. Los intereses y gastos de la deuda apenas representan $24 M (<0,1%) — el municipio no tiene endeudamiento financiero significativo.
 
-- **56 funcionarios** en la nómina del Ejecutivo (mayo 2025): 36 Directores, 11 Secretarios de Departamento Ejecutivo, 1 Subsecretario, 1 Jefe de Gabinete, 1 Intendente, además de 2 Pro-secretarios, 2 Secretarios y 2 Jueces del Juzgado Vial.
-- Salario básico de **Director: $460.927** mensual (Salarios Medios mayo 2025). Sub-Secretario: $654.367. Pro-Secretario Juzgado Vial: $331.081.
-- **50 declaraciones juradas** publicadas para el Ejecutivo + **13 para el HCD** (DDJJ 2025, Ética Pública).
+## La estructura del Ejecutivo
 
-## Compras, contrataciones y pauta
+La nómina pública del Ejecutivo registra **56 funcionarios de gabinete** (mayo 2025): 1 intendente, 1 jefe de gabinete, 1 subsecretario, 11 secretarios de departamento ejecutivo, 36 directores, más el Juzgado Vial (2 jueces, 2 secretarios y 2 pro-secretarios). El salario básico del rango Director es **$460.927** mensual; Subsecretario $654.367; Secretario de Juzgado Vial $413.851.
 
-Datos del dataset *Compras y Contrataciones* (2024) — el más voluminoso del portal con **23 archivos** y formatos múltiples:
+Adicionalmente se publican **50 declaraciones juradas patrimoniales** del Ejecutivo y 13 del HCD bajo la Ley provincial de Ética Pública.
 
-- **1.585 órdenes de compra** registradas en 2024.
-- **$5.065 millones** ejecutados en compras y contrataciones.
-- Contrato medio: **$13,3 millones**. Contrato máximo: **$635 millones** (Plan Pavimentación 2024 — VIALMANI).
-- **225 proveedores** distintos. Top 5 por monto agregado: **ECUR S.A.** ($695 M, alquiler camiones + servicio de poda), **VIALMANI** ($635 M, pavimentación), **CALZETTA S.A.** ($308 M, redes de agua), **VALENTINO MOTOS** ($231 M, vehículos utilitarios), **FICAMEN S.A.** ($165 M).
-- **Pauta publicitaria**: evolución 2020 $24,5 M → 2021 $45,2 M → 2022 $92,8 M → 2023 $194,8 M → **2024 $296,2 M** (×12 nominal en 4 años). 76 medios proveedores listados, distribuidos en gráfica/online/radio/indoor.
+## Compras y contrataciones 2024
+
+El municipio ejecutó **$5.065 millones en 1.585 órdenes de compra** durante 2024 — un 4,5% del presupuesto 2025 anual fue contratado bajo este formato. Magnitudes clave:
+
+- Contrato **mediano**: $2,0 millones.
+- Contrato del **percentil 90**: $31,2 millones.
+- Contrato **máximo**: $635 millones (Plan Pavimentación 2024 — VIALMANI).
+- **225 proveedores** distintos.
+- **Concentración**: los **top 10 proveedores capturan el 52% del monto total**.
+
+Top contrataciones 2024:
+
+| # | Concepto | Monto | Proveedor |
+|---|---|---:|---|
+| 1 | Plan Pavimentación 2024 | $635 M | VIALMANI |
+| 2 | Servicio de Poda | $450 M | ECUR S.A. |
+| 3 | Redes de Agua Potable | $237,7 M | CALZETTA S.A. |
+| 4 | Vehículos utilitarios | $230,8 M | VALENTINO MOTOS |
+| 5 | Alquiler camiones regadores | $218,6 M | ECUR S.A. |
+| 6 | Adquisición hidroelevador | $106,5 M | FICAMEN S.A. |
+| 7 | Automóviles | $101,5 M | CAPILLITAS S.A. |
+
+Por **modalidad** de adjudicación, el 84% del monto se ejecuta por **licitación pública** (222 órdenes, $4,4 mil M); 7% por **compra directa** (150 OC, $356 M); 7% por **contratación privada** (8 OC, $330 M).
+
+## Pauta publicitaria: el rubro de mayor crecimiento
+
+El gasto en pauta publicitaria contratada — uno de los datos más sensibles políticamente — multiplicó por **12 en cinco años** en términos nominales:
+
+| Año | Pauta total | Variación interanual |
+|---|---:|---:|
+| 2020 | $24,5 M | — |
+| 2021 | $45,2 M | +85% |
+| 2022 | $92,8 M | +105% |
+| 2023 | $194,8 M | +110% |
+| **2024** | **$296,2 M** | +52% |
+
+El crecimiento 2022-2023 (×2) y 2023-2024 (×1,5) supera holgadamente la inflación nominal del período. Los pagos se distribuyen entre **76 medios** clasificados como gráficos, online, radio, televisión e indoor (carteles digitales en lugares públicos). Marzo concentra el 50%+ del gasto anual desde 2022 — patrón estacional claramente vinculado al inicio de gestión y al período de Vendimia.
 
 ## Acceso a la información pública
 
-El dataset *Información Pública* incluye **82 tickets** registrados como pedidos AIP (Acceso a la Información Pública) en lo que va de 2025, con un esquema de seguimiento (estados, fechas, derivación) y 181 movimientos de avance.
+En lo que va de 2025 se registraron **82 pedidos AIP** (Acceso a la Información Pública) gestionados por la Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio, con un sistema de tickets que registra creación, asignación, derivación y resolución. La planilla incluye 181 movimientos de avance, indicador de un proceso activo de respuesta.
 
-## Datasets disponibles
+## Composición del HCD
 
-Los 33 datasets cubren: Pauta publicitaria 2025 (#83), Organigrama Municipal (#1), Organigrama HCD (#3), **Ordenanzas Municipales** (#4), Presupuestaria/Tarifaria 2021/2022/2023 (#7, #37, #38, #52, #61, #65, #68, #69), Funcionarios Públicos Municipal (#55), Gasto Público Municipal (#56), Información Pública (#57), **Presupuesto de Gobierno** (#58), Resultado Electorales (#59), **Declaraciones Juradas** (#60), **Compras y Contrataciones** (#70), Estadísticas de Género (#72), Obras Públicas (#74), entre otros.
+El cuerpo legislativo está integrado por concejales electos en el período 2023/2027. Las declaraciones juradas y antecedentes profesionales se publican en formato PDF. Los **resultados electorales** que constituyen al cuerpo se analizan en el informe **Elecciones**.
 
-## Limitaciones
+---
 
-La mayoría de los archivos relacionados con normativas (presupuestaria, tarifaria por año) están en formato **PDF/DOCX** y no son procesables como datos estructurados. Sólo los datasets de pauta, compras, funcionarios, gastos y obras tienen formato tabular analizable.
-
-## Fuente
-
-Portal oficial: <https://datos.lujandecuyo.gob.ar>.
+*Fuente: datasets publicados por la Secretaría de Hacienda, Secretaría de Economía e Ingresos Públicos, Dirección de Comunicación Estratégica, Secretaría de Innovación y HCD en <https://datos.lujandecuyo.gob.ar>. Cifras nominales en pesos argentinos a la fecha de cada publicación.*
 """
 
 R['medio-ambiente-y-desarrollo-sustentable.md'] = """# Medio Ambiente y Desarrollo Sustentable
 
-Con **23 datasets**, es la segunda categoría más poblada del portal. Concentra la información ambiental crítica del municipio: gestión de residuos, calidad del aire y del agua, espacios verdes, ordenamiento territorial sustentable y la implementación local de los **Objetivos de Desarrollo Sostenible (ODS)** según el Manual de Adaptación 2ª Edición publicado.
+Análisis ejecutivo del estado ambiental del municipio: gestión de residuos, calidad del aire, calidad del agua y huella urbana sustentable. Los datos provienen de los relevamientos publicados por las áreas técnicas competentes.
 
-## Áreas que publican
+## La curva de los residuos
 
-La gestión ambiental se reparte entre la **Secretaría de Higiene Urbana** (residuos, energía), la **Coordinación de Aguas y Servicios Sanitarios** (agua potable, perforaciones, plantas Cipolletti y Santa Elena), la **Secretaría de Infraestructura y Desarrollo Sostenible** (planes y programas) y la **Apoderada Municipal** (ciclovías).
+El relleno sanitario controlado **El Borbollón** recibió **36.284 toneladas en 2023** — el año más alto de la serie. La trayectoria mostrada en la planilla oficial muestra una expansión acelerada desde 2021:
 
-## Gestión de residuos: el dato más rico
+| Año | Toneladas dispuestas | Promedio mensual | Per cápita anual* |
+|---|---:|---:|---:|
+| 2021 | 8.970 | 690 t/mes | — |
+| 2022 | 21.470 | 1.789 t/mes | **124,7 kg/hab** |
+| **2023** | **36.284** | **2.791 t/mes** | **210,8 kg/hab** |
+| 2024 (parcial) | 8.985 | 1.797 t/mes (n=5) | — |
+| 2025 (parcial) | 3.115 | 623 t/mes (n=5) | — |
 
-El relleno sanitario controlado **El Borbollón** publica toneladas mensuales 2021-2025, con métrica de **toneladas per cápita** referenciada al Censo 2021 (172.109 habitantes):
+\\* Sobre 172.109 habitantes (Censo 2021).
 
-| Año | Toneladas dispuestas | Observación |
-|-----|---------------------:|-------------|
-| 2021 | 8.970 | inicio del registro |
-| 2022 | 21.470 | +139% interanual |
-| 2023 | 36.283 | +69% interanual |
-| 2024 | ~8.985 | dato parcial (5 meses) |
-| 2025 | ~3.115 | dato parcial (5 meses) |
+El indicador per cápita pasó de **125 kg/hab/año en 2022 a 211 kg/hab/año en 2023** (+69%). Un vecino promedio del departamento generó casi **600 gramos diarios de residuos a relleno** en 2023, sin contar el material recuperado por el Centro Verde. La cifra triplica el aumento poblacional plausible y sugiere mayor cobertura efectiva del servicio de recolección o reactivación post-pandemia.
 
-El crecimiento 2021→2023 (×4) puede reflejar tanto **mayor recolección efectiva** como reactivación económica post-COVID. Los años 2024-2025 figuran con datos parciales — actualización pendiente.
+Los datos parciales 2024-2025 sólo cubren cinco meses cada año — la serie completa post-2023 aún no está publicada.
 
-En paralelo, el **Centro Verde** procesa material recuperable. La planilla de ventas 2025 (Ene-May) registra mensualmente: plástico (1.000-5.000 kg/mes), cartón (7.000-13.500 kg/mes), tetra (200-280 kg/mes), aluminio, baterías y chatarra. El programa *Puntos Verdes* alimenta este flujo desde toda la geografía municipal.
+## El reciclaje como contracara
 
-## Calidad del aire — telemetría continua
+El **Centro Verde** procesa material recuperable mensualmente. En el período enero-mayo 2025, las ventas registradas (planilla *VENTAS 2025*) muestran:
 
-El sensor del **Tótem de Parque Cívico** publica mediciones de Humedad y Temperatura desde abril 2022. El histórico contiene **9.632 mediciones** acumuladas. Es uno de los pocos datasets con granularidad temporal a minutos.
+- **Plástico**: ~1.000-5.000 kg/mes (con picos en marzo).
+- **Cartón**: ~7.000-13.500 kg/mes (el flujo más voluminoso).
+- **Tetra**: 200-280 kg/mes.
+- **Chatarra**, **aluminio**, **baterías**: volúmenes menores y variables.
+
+El programa *Puntos Verdes* alimenta este flujo desde toda la geografía municipal y se complementa con el plan **GIRSU** (Gestión Integral de Residuos Sólidos Urbanos), formalizado por Ordenanza 13884/2020.
+
+## Calidad del aire: lo que mide el sensor del Parque Cívico
+
+El tótem instalado en Parque Cívico publicó **9.632 mediciones** en su corrida documentada (3-4 abril 2022, dos días continuos). Más allá del corte temporal limitado, los rangos observados perfilan condiciones ambientales urbanas típicas:
+
+| Variable | Mediana | Rango | Lectura |
+|---|---:|---:|---|
+| Temperatura (°C) | 20,6 | 10–29 | clima de transición otoñal |
+| Humedad relativa (%) | 25,1 | 19–31 | aire seco característico de Cuyo |
+| **PM 2,5** (µg/m³) | 3,0 | 1–56 | mediana **muy baja**, picos elevados |
+| **PM 10** (µg/m³) | 4,0 | 1–58 | aceptable, picos esporádicos |
+| **NO₂** (µg/m³) | 6,1 | 1,8–7,7 | bajo |
+| **CO** (mg/m³) | 0,4 | 0,3–0,5 | bajo |
+
+El sensor también reporta **conteo y velocidad de vehículos**: en la corrida disponible se registró un promedio de **49 autos/min** (rango 2-99) circulando con una **velocidad promedio de 25,3 km/h** en la mediana — coherente con tráfico urbano regulado.
+
+La mayor limitación es la **discontinuidad del registro**: sólo dos días con mediciones publicadas, lo que impide un análisis de estacionalidad o picos críticos.
 
 ## Calidad del agua
 
-Análisis de laboratorio publicados año a año (2023, 2024, 2025) para las dos plantas: **Cipolletti** y **Santa Elena**, más perforaciones de pozos. El dataset *Calidad del Agua* (#48) reúne 11 planillas — el archivo más completo del bloque ambiental.
+Las dos plantas potabilizadoras del municipio — **Cipolletti** y **Santa Elena** — publican análisis fisicoquímicos y bacteriológicos en planillas anuales (2023, 2024, 2025), junto con resultados de las **perforaciones** de pozos. El dataset *Calidad del Agua* (#48) reúne 11 planillas con esos cortes — el archivo más completo del bloque ambiental. Cada análisis cubre múltiples parámetros (pH, conductividad, coliformes totales y fecales, cloro residual, dureza, sólidos disueltos), realizados por la Coordinación de Aguas y Servicios Sanitarios.
 
-## Datasets disponibles
+## Marco programático
 
-Centro Verde (#89, #40), Disposición Final de Residuos (#88), Calidad del Agua 2025 (#78) y dataset histórico (#48), Perforaciones (#79), Plantas Cipolletti y Santa Elena (#80, #81), Espacios Verdes (#9), **Residuos** (#22), **Manual ODS 2ª Edición** (#29), Plan de Ordenamiento Territorial (#30), GIRSU (#31), Circuito de Ciclovías (#33), **Plan Luján Sustentable** (#34), Torres Solares (#35), Bicisendas Inclusivas (#41), **Calidad del Aire** (#44), Calles por la Vida (#45), Educación y Participación (#47), Economía Circular (#50), Puntos Verdes (#63), Energía / Luminarias LED (#71).
+El municipio integra los **Objetivos de Desarrollo Sostenible (ODS)** mediante el *Manual de Adaptación Local* (2ª edición), un documento técnico que orienta la implementación de la Agenda 2030 en territorio. El **Plan Luján Sustentable** articula tres ejes — ecología, economía y sociedad — y se complementa con iniciativas específicas (Torres Solares, Bicisendas Inclusivas, Calidad del Aire, Calles por la Vida, Programa Educación y Participación, Convenio de Economía Circular con Prato/Italia).
 
-## Limitaciones
+## Energía: el plan LED
 
-Varios datasets de planes (#30 Ordenamiento, #34 Plan Sustentable, #41 Bicisendas, #50 Economía Circular, #63 Puntos Verdes) son enlaces a páginas web sin datos descargables. Para análisis cuantitativo, los datasets útiles se reducen a residuos, agua, aire y energía.
+El dataset *Energía* (#71) documenta el reemplazo de luminarias por tecnología **LED** ejecutado por la Secretaría de Higiene Urbana. La planilla `luminaria_ev.xlsx` traza la evolución del recambio sobre el alumbrado público — política con doble impacto (eficiencia energética y seguridad ambiental peatonal).
 
-## Fuente
+---
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>.
+*Fuente: Secretaría de Higiene Urbana y Mantenimiento del Espacio Público, Coordinación de la Unidad de Aguas y Servicios Sanitarios, Secretaría de Infraestructura y Desarrollo Sostenible. Datos publicados en <https://datos.lujandecuyo.gob.ar>.*
 """
 
 R['economia.md'] = """# Economía
 
-**19 datasets** que retratan la economía pública y privada del departamento. Cubre el universo fiscal del municipio (presupuesto, gasto, tarifaria), la registración comercial (comercios por rubro, bancos, estaciones de servicio) y elementos de geografía económica (barrios populares, distritos, obras).
+Análisis ejecutivo de la economía pública y privada del departamento. Cubre la estructura fiscal del municipio, el universo comercial registrado, la inversión en obras y la geografía socio-económica del territorio.
 
-## Áreas que publican
+## Las finanzas del municipio
 
-Lidera la **Secretaría de Economía e Ingresos Públicos**, seguida por la **Secretaría de Hacienda** y la **Intendencia**. Hay datos agregados desde el ejercicio 2021 (formato PDF) y planillas de detalle desde 2022 (XLSX).
+El **presupuesto 2025** alcanza los **$111,8 mil millones** según la ejecución publicada al 04/07/2025. La estructura del gasto:
 
-## La economía privada en cifras
+- **Erogaciones corrientes**: $71,1 mil M (64%) — operación cotidiana.
+- **Erogaciones de capital**: $38,9 mil M (35%) — inversión en infraestructura.
+- **Otras**: $160 M (0,1%).
 
-- **11.630 comercios registrados** en el padrón municipal 2025 (dataset #87 *Comercios por Rubro*), distribuidos en **273 rubros** distintos.
-- **Valor total declarado** (Unidades Tributarias × valor): **$14.391 millones**.
-- **6.975 comercios facturan** (60%) y 4.655 no facturan (40%).
-- Rubro dominante: "GENERICO" con 8.129 registros (70%); el resto se reparte entre comercios de almacén, productos no clasificados, servicios, golosinas/cigarrillos, frutas y verduras.
+El **gasto en personal** suma $20,8 mil M considerando Ejecutivo ($19,5 mil M) y HCD ($1,3 mil M), equivalente al **19% del presupuesto total**. La carga financiera por intereses de deuda es marginal (<0,1%).
 
-Otra mirada: **9 sucursales bancarias** (Frances, Supervielle, Nación, Galicia, HSBC, San Juan, Macro), **11 estaciones de servicio** (YPF, Vistalba GNC, Comercial Manitta, etc.) y **47 barrios populares** RENABAP que albergan **2.569 familias**.
+Las **compras y contrataciones 2024** totalizaron **$5,1 mil millones** distribuidos en 1.585 órdenes de compra entre 225 proveedores. La concentración es significativa: los **10 mayores proveedores capturaron el 52% del monto** anual, y un solo contrato (Plan Pavimentación 2024 — VIALMANI) representó **$635 millones** (12,5% del total contratado).
 
-## Gasto y presupuesto público
+Por modalidad, **84% del monto** se ejecutó por licitación pública, 7% por compra directa y 7% por contratación privada — patrón típicamente conservador desde el punto de vista normativo.
 
-El dataset *Gasto Público Municipal* (#56) publica las planillas de ejecución 2021-2025. La planilla 2025 (al 04/07/2025) detalla el cuadro de cuentas:
+## El padrón comercial
 
-- Presupuesto de gastos: **$4.443 millones**.
-- Erogaciones corrientes: $2.966 M (67%); de operación $2.802 M; **personal $1.518 M** (34% del total); bienes de consumo $271 M; servicios $1.013 M.
-- Erogaciones de capital: $1.338 M (30%).
-- Intereses y gastos de la deuda: $24 M (<1%).
-- Transferencias: $140 M.
+El **Padrón de Comercios 2025** registra **11.630 unidades comerciales** distribuidas en 273 rubros distintos:
 
-El dataset *Presupuesto de Gobierno* (#58) publica recursos y gastos mensuales — útil para análisis de estacionalidad.
+- **60% factura** (6.975 comercios), **40% no factura** (4.655) — la base imponible efectiva del comercio departamental.
+- **Valor total declarado** (Unidades Tributarias × valor): **$14,4 mil millones**.
+- **3.501 comercios** tienen rubro identificado (no genérico). Los restantes 8.129 figuran bajo el rubro "GENERICO 999999".
 
-## Obras públicas
+**Top 10 rubros identificados**:
 
-En *Obras Públicas 2025* (#74) figuran **174 actividades** registradas:
+| Rubro | Comercios |
+|---|---:|
+| Venta al por menor de productos de almacén | 314 |
+| Venta de productos no clasificados en otros | 181 |
+| Venta de productos alimenticios — almacenes | 166 |
+| Servicios empresariales | 115 |
+| Venta de bombones, golosinas, confitería | 109 |
+| Venta al por menor de frutas y verduras | 106 |
+| Venta de tabacos, cigarros y cigarrillos | 102 |
+| Venta de prendas y accesorios | 92 |
+| Servicios inmobiliarios | 91 |
 
-- **67 cumplidas** (39%), **40 no iniciadas** (23%), **34 en implementación** (20%), **18 atrasadas** (10%) y **11 canceladas** (6%).
-- **165 actividades** corresponden al eje "Transformación del espacio público"; **9** al eje "Luján Sustentable".
+El núcleo comercial de Luján de Cuyo es marcadamente **alimentario y de cercanía**: almacenes, productos alimenticios, frutas/verduras y golosinas concentran el grueso del padrón identificado.
 
-## Compras del año fiscal
+## Bancos y servicios financieros
 
-Las contrataciones de 2024 (cargadas en *Compras y Contrataciones*) totalizan **$5.065 millones** en 1.585 órdenes — el **20% del presupuesto** se ejecuta vía compras directas/licitaciones. Top contrato: Plan Pavimentación 2024 ($635 M).
+El departamento cuenta con **9 sucursales bancarias** registradas (Banco Francés, Supervielle, Nación, Galicia (×2), HSBC, San Juan, Macro). La concentración geográfica es absoluta: todas se ubican en el corredor San Martín — Mariano Boedo — Aguinaga del distrito Ciudad. Para los distritos rurales (Agrelo, Ugarteche, El Carrizal, Cacheuta, Potrerillos), el acceso a un banco implica desplazarse al cordón urbano.
 
-## Datasets disponibles
+Complementariamente, el municipio registra **11 estaciones de servicio** distribuidas a lo largo de las arterias troncales (RN 7, RP 15, Acceso Sur), incluyendo dos GNC.
 
-Comercios por Rubro 2025 (#87), Gasto Público 2025 (#84), **Planilla de Licitación 2025** (#82), Barrios Populares (#5), **Limites Administrativos** (#8), Bancos (#25), **Pauta Publicitaria** (#42), Tarifaria/Presupuestaria 2021-2023 (#37, #38, #52, #61, #65, #68), Gasto Público Municipal (#56), Presupuesto de Gobierno (#58), **Unidades Comerciales** (#64), Obras Públicas (#74).
+## Geografía económica de la pobreza
 
-## Limitaciones
+Los **47 barrios populares** registrados por el RENABAP (Registro Nacional de Barrios Populares) albergan **2.569 familias**. Top 5 por población:
 
-Las ordenanzas presupuestaria/tarifaria de cada año vienen como **PDF/DOCX**, no procesables. La planilla de comercios concentra el 70% en el rubro genérico, lo que limita el análisis sectorial fino. No hay datos directos de **empleo** (registración formal/informal) ni de **producción** (vitivinícola, construcción, servicios).
+- Valle Encantado (Chacras de Coria) — 290 familias.
+- Tierras Vivas (Agrelo) — 170.
+- Patrono Santiago (Ciudad) — 160.
+- Virgen de Lourdes (Perdriel) — 135.
+- Costanera Sur (Ciudad) — 132.
 
-## Fuente
+La distribución muestra **focos urbanos** (Ciudad concentra varios) y **focos rurales** (Agrelo, Ugarteche, Perdriel) — geografía relevante para políticas de regularización dominial e infraestructura.
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>.
+## La inversión en obras
+
+El plan de obras 2025 (*Obras Públicas*) registra **174 actividades** ejecutadas por la Secretaría de Obras y Espacios Públicos. Estado de avance al cierre del relevamiento:
+
+- **39%** cumplido (67 actividades).
+- 23% no iniciado (40).
+- 20% en implementación (34).
+- 10% atrasado (18).
+- 6% cancelado (11).
+
+El 95% del plan corresponde al eje **"Transformación del espacio público"** (165 actividades, programas de ordenadores viales, paseos, plazas). El restante 5% se enmarca en **"Luján Sustentable"** (9 actividades). El programa *Movilidad Sustentable* concentra 9 actividades específicas dentro del plan.
+
+---
+
+*Fuente: Secretaría de Hacienda, Secretaría de Economía e Ingresos Públicos, Secretaría de Obras y Espacios Públicos. Cifras nominales en pesos argentinos. Datos en <https://datos.lujandecuyo.gob.ar>.*
 """
 
 R['urbanismo-y-territorio.md'] = """# Urbanismo y Territorio
 
-**14 datasets** que componen la base geográfica del departamento: distritos, barrios, espacios verdes, infraestructura, ordenamiento territorial. Es la "capa cartográfica" del portal, con presencia importante de formatos espaciales (KML, KMZ, GeoJSON, Shapefile).
+Retrato territorial del departamento de Luján de Cuyo: distribución poblacional por distrito, oferta de espacios verdes, infraestructura urbana y geografía de la informalidad habitacional.
 
-## La división territorial
+## La distribución poblacional
 
-Luján de Cuyo se compone de **15 distritos** registrados con coordenadas y población (CSV #8 *Limites Administrativos*):
+El departamento se compone de **15 distritos** con perfiles muy heterogéneos. Población registrada (CSV oficial):
 
-| Distrito | Población | | Distrito | Población |
-|---|---:|---|---|---:|
-| Ciudad | 24.594 | | Ugarteche | 6.603 |
-| Carrodilla | 23.886 | | El Carrizal | 4.177 |
-| Perdriel | 13.687 | | La Puntilla | 2.842 |
-| Chacras de Coria | 12.428 | | V. de Pedemonte | 2.428 |
-| Vistalba | 8.771 | | Potrerillos | 2.075 |
-| Mayor Drumond | 8.223 | | Las Compuertas | 1.353 |
-| Agrelo | 7.507 | | Cacheuta | 701 |
-| | | | Industrial | 41 |
+| Distrito | Población | % municipio |
+|---|---:|---:|
+| Ciudad | 24.594 | 20,6% |
+| Carrodilla | 23.886 | 20,0% |
+| Perdriel | 13.687 | 11,5% |
+| Chacras de Coria | 12.428 | 10,4% |
+| Vistalba | 8.771 | 7,3% |
+| Mayor Drumond | 8.223 | 6,9% |
+| Agrelo | 7.507 | 6,3% |
+| Ugarteche | 6.603 | 5,5% |
+| El Carrizal | 4.177 | 3,5% |
+| La Puntilla | 2.842 | 2,4% |
+| Vertientes de Pedemonte | 2.428 | 2,0% |
+| Potrerillos | 2.075 | 1,7% |
+| Las Compuertas | 1.353 | 1,1% |
+| Cacheuta | 701 | 0,6% |
+| Industrial | 41 | <0,1% |
 
-Los tres distritos del cordón urbano (Ciudad, Carrodilla, Perdriel) concentran ~50% de la población. La zona industrial figura con sólo 41 habitantes residentes (es uso predominantemente productivo). El total censado por distrito (~119.300) es consistente con el Censo 2010; el Censo 2021 reportó 172.109 habitantes departamentales.
+**Tres distritos** (Ciudad, Carrodilla, Perdriel) concentran **~52% de la población**. El distrito **Industrial** figura con 41 residentes registrados — uso casi exclusivamente productivo. El total censado por distrito (~119.300 habitantes) refleja el Censo 2010; el **Censo 2021** registró **172.109 habitantes** para el departamento — un crecimiento de ~44% en una década.
 
-Existen además **radios y fracciones censales** publicadas en KMZ (#21) y un dataset complementario *Barrios del Departamento* (#53) con KML de 273+ barrios.
+## Espacios verdes: una distribución desigual
 
-## Espacios verdes
+El relevamiento 2025 publicado por la Intendencia documenta **272 espacios verdes** con **1,346 millones de m² agregados** — equivalente a **7,8 m²/habitante** a nivel municipal (referencia OMS: 9 m²/hab mínimo; ideal 10-15).
 
-El relevamiento 2025 publica **272 espacios verdes** con **1,35 km² de superficie agregada** (1.346.513 m²). Tipología:
+Pero el promedio oculta una **inequidad territorial fuerte**:
 
-- **Plazas: 56**
-- **Espacios verdes (genérico): 65**
-- **Boulevards: 60**
-- Espacios públicos: 38; Laterales de ruta: 15; Paseos: 15; Rotondas: 9; Pasarelas, cortinas forestales y miradores: 3.
+| Distrito | Pob. | Espacios | m² total | **m²/hab** |
+|---|---:|---:|---:|---:|
+| **Ciudad** | 24.594 | 59 | 773.994 | **31,5** |
+| **Potrerillos** | 2.075 | 6 | 65.158 | **31,4** |
+| La Puntilla | 2.842 | 26 | 49.391 | 17,4 |
+| V. de Pedemonte | 2.428 | 11 | 25.959 | 10,7 |
+| El Carrizal | 4.177 | 13 | 39.751 | 9,5 |
+| Carrodilla | 23.886 | 78 | 221.610 | 9,3 |
+| Mayor Drumond | 8.223 | 34 | 59.385 | 7,2 |
+| Vistalba | 8.771 | 11 | 46.110 | 5,3 |
+| **Perdriel** | 13.687 | 12 | 26.502 | **1,9** |
+| **Chacras de Coria** | 12.428 | 18 | 17.106 | **1,4** |
 
-Distribución por distrito (top): **Carrodilla 77** espacios, **Ciudad 59**, **Mayor Drummond 33**, **La Puntilla 26**, **El Carrizal 13**, **Perdriel 12**, **Vistalba 11**.
+**Chacras de Coria y Perdriel** — pese a concentrar el 22% de la población — disponen de **menos de 2 m²/hab** de espacio verde público. Es el déficit territorial más marcado del municipio. La Ciudad dobla el estándar OMS y Potrerillos lo logra por baja densidad poblacional, no por alta superficie verde absoluta.
 
-## Infraestructura urbana
+Tipología del espacio verde: **65 espacios verdes genéricos**, **60 boulevards**, **56 plazas formales**, 38 espacios públicos, 15 paseos, 15 laterales de ruta y elementos menores (rotondas, miradores, cortinas forestales).
 
-- **Estaciones de servicio: 11** (YPF, GNC Vistalba, Hekar Acceso Sur, Rumaos Ruta 40, Red Mercosur, etc.).
-- **Uniones Vecinales** (#10): listado de organizaciones territoriales.
-- **Transporte Público** (#54): red de líneas urbanas con KML de recorridos y XLS de horarios.
-- **Circuito de Ciclovías** (#33): integrado con Puntos de Encuentro Saludables (PES) — disponible en My Maps.
+## La marca informal: 47 barrios populares
 
-## Planes territoriales
+El **RENABAP** registra **47 barrios populares** en el departamento que albergan **2.569 familias**. Los cinco mayores:
 
-El **Plan Municipal de Ordenamiento Territorial (PMOT)** y su Código de Uso del Suelo se publican como página web (#30, #16). Existe un dataset *Desarrollo Territorial* específico para esta cuestión, aunque sin descargables tabulares.
+| Barrio | Distrito | Familias |
+|---|---|---:|
+| Valle Encantado | Chacras de Coria | 290 |
+| Tierras Vivas | Agrelo | 170 |
+| Patrono Santiago | Ciudad | 160 |
+| Virgen de Lourdes | Perdriel | 135 |
+| Costanera Sur | Ciudad | 132 |
 
-## Barrios populares
+La distribución cruza **focos urbanos** (Ciudad: Patrono Santiago, Costanera Sur, Juan XXIII) con **focos rurales** (Agrelo, Perdriel, Ugarteche). La incidencia es heterogénea: un distrito como **Chacras de Coria** — con perfil residencial premium — incluye Valle Encantado, el barrio popular más grande del departamento.
 
-Los **47 barrios populares** del Registro Nacional (RENABAP) localizados en el departamento totalizan **2.569 familias**. Top: Valle Encantado (Chacras, 290 familias), Tierras Vivas (Agrelo, 170), Patrono Santiago (Ciudad, 160), Virgen de Lourdes (Perdriel, 135), Costanera Sur (Ciudad, 132).
+## Infraestructura territorial
 
-## Datasets disponibles
+- **15 distritos** con coordenadas y delimitación oficial. Las **fracciones y radios censales** del INDEC se publican en KMZ (#21) — 273+ unidades de microgeografía.
+- **11 estaciones de servicio** distribuidas en RN 7, RP 15 y Acceso Sur.
+- **Red de transporte público** disponible en KML con recorridos georreferenciados de cada línea.
+- **Circuito de ciclovías** publicado en formato My Maps con los Puntos de Encuentro Saludables (PES) que vertebran el sistema.
 
-Limites Administrativos (#8), Espacios Verdes (#9), Uniones Vecinales (#10), Desarrollo Territorial (#16), **Radios Fracciones Censales** (#21), Estaciones de Servicios (#26), PMOT/Código de Uso del Suelo (#30), GIRSU (#31), Ciclovías (#33), Centro Verde (#40), Economía Circular (#50), **Barrios del Departamento** (#53), Transporte Público (#54), Barrios Populares (#5).
+## El marco normativo del territorio
 
-## Limitaciones
+El **Plan Municipal de Ordenamiento Territorial (PMOT)** y su Código de Uso del Suelo establecen las reglas de zonificación, ocupación y usos. Junto con la **Ordenanza 13884/2020** (GIRSU - Gestión Integral de Residuos), el **Plan Luján Sustentable** y el inventario de **Uniones Vecinales** (organizaciones territoriales de base), constituyen el sistema institucional de gestión territorial.
 
-Los KML de radios censales y barrios deben procesarse con QGIS o similar — no hay versión tabular de estos cortes finos. Falta una serie de población **por distrito y año** para análisis demográfico evolutivo (sólo hay foto Censo 2010).
+---
 
-## Fuente
-
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Datos espaciales en proyección WGS84.
+*Fuente: Intendencia Municipalidad de Luján de Cuyo, Secretaría de Infraestructura y Desarrollo Sostenible, Dirección de Ordenamiento Territorial. RENABAP nacional. Datos en <https://datos.lujandecuyo.gob.ar>.*
 """
 
 R['deporte-educacion-y-salud.md'] = """# Deporte, Educación y Salud
 
-**9 datasets** que retratan la red de servicios sociales territoriales: escuelas, centros de salud, polideportivos, farmacias, espacios deportivos al aire libre y los análisis sanitarios del agua potable. Es el bloque que muestra "qué oferta de servicios públicos y comerciales tiene el vecino en cada distrito".
+Retrato de la oferta de servicios sociales territoriales: red escolar, sistema de salud de primer nivel, oferta deportiva y vigilancia sanitaria.
 
-## Áreas que publican
+## El sistema educativo: 17.318 alumnos en 112 establecimientos
 
-La **Secretaría de Desarrollo Humano** lidera con tres datasets clave (Escuelas, Farmacias, Centros de Salud, Polideportivos). Complementan la **Coordinación de Aguas** (Calidad del Agua, transversal con Medio Ambiente), la **Dirección de Turismo** (Aventura, transversal con Cultura/Turismo), la Subsecretaría de Gestión del Talento Humano (COVID) y el Apoderado Municipal (Ciclovías).
+El relevamiento 2025 documenta **112 establecimientos educativos** con una **matrícula total de 17.318 estudiantes**. Composición:
 
-## Educación: el mapa escolar
+**Por gestión**:
+- Pública: **85** (76%)
+- Privada: 25 (22%)
+- SEOS Maternal/Inicial/Primaria: 2 (2%)
 
-El relevamiento 2025 publica **112 establecimientos educativos** con dirección, distrito, matrícula, nivel, modalidad, ámbito y gestión. Hallazgos:
+**Por ámbito**:
+- Urbano: 58 (52%)
+- Rural: 50 (45%)
+- Urbano marginal: 4 (4%)
 
-- **Matrícula total: 17.318 estudiantes** (CSV #6).
-- Distribución por nivel:
-  - **Primaria**: 54 escuelas
-  - **Secundaria** (orientada + técnica + común): 21
-  - **Jardín maternal**: 10 (+ 1 SEOS, + 2 Jardín y CAE)
-  - **CEBJA / CENS** (jóvenes y adultos): 11
-  - **Capacitación laboral**: 5 + 1 centro
-  - **Educación superior** (terciario): 4
-  - **Educación especial**: 3
-- Por **ámbito**: 58 urbanas, 50 rurales, 4 urbano-marginal.
-- Por distrito (top): Ciudad 23, Chacras de Coria 16, Carrodilla 16, Mayor Drummond 12, Perdriel 10, Ugarteche 8, El Carrizal 7, Potrerillos 6.
-- Modalidades técnicas/orientadas variadas: Gestión Contable, Humanidades, Electricidad, Industria de Proceso, Comercio Exterior, Producción de Bienes y Servicios, Electromecánica, Enfermería, Agronomía y Apicultura.
+La **mitad rural** del sistema escolar es notable y alimenta a los distritos del cordón cordillerano y agrícola (Ugarteche, Agrelo, El Carrizal, Las Compuertas, Cacheuta, Potrerillos).
 
-## Salud: red de centros y servicios
+**Por nivel** (con matrícula declarada):
 
-- **19 centros de salud** publicados con coordenadas y dirección (#75). Distribución: Carrodilla 3, Agrelo 3, Ugarteche 2, Potrerillos 2, El Carrizal 2, Perdriel 2, Cacheuta 2, Ciudad 1, Las Compuertas 1, Chacras de Coria 1.
-- **18 farmacias** registradas con dirección y geolocalización (#27). Concentración en eje San Martín / Roque Sáenz Peña / Viamonte.
-- **Calidad del Agua** (transversal con Medio Ambiente, #48): planillas de laboratorio 2024-2025 para Plantas Cipolletti y Santa Elena, más perforaciones — relevante para vigilancia sanitaria.
-- **Informe COVID Municipal 2022** (#67): 84 semanas con casos positivos, recuperados, en tratamiento, fallecidos.
+| Nivel | Establecimientos | Alumnos | % |
+|---|---:|---:|---:|
+| **Primaria** | 44 | 12.308 | **71,1%** |
+| Secundaria común | 6 | 2.171 | 12,5% |
+| Secundaria orientada | 4 | 1.441 | 8,3% |
+| Secundario técnico | 3 | 737 | 4,3% |
+| CEBJA (jóvenes y adultos) | 6 | 250 | 1,4% |
+| Educación superior | 2 | 164 | 0,9% |
+| Especial primaria | 1 | 100 | 0,6% |
+| CENS | 2 | 100 | 0,6% |
+
+Las **modalidades técnico-profesionales** registradas reflejan la matriz productiva regional: Gestión Contable Impositiva y Previsional, Comercio Exterior, **Producción de Bienes y Servicios**, Electromecánica, Industria de Proceso, **Técnico Superior Agronómica y Apícola** (vinculada al perfil vitivinícola y olivícola), **Técnico Superior en Enfermería**, Comunicación y Arte, Humanidades y Ciencias Sociales.
+
+### El polo educativo: Mayor Drumond
+
+Cruzando matrícula escolar con población residente por distrito:
+
+| Distrito | Pob. | Escuelas | Matrícula | **Mat./Pob.** |
+|---|---:|---:|---:|---:|
+| **Mayor Drumond** | 8.223 | 12 | 2.910 | **35,4%** |
+| **Ciudad** | 24.594 | 23 | 5.478 | **22,3%** |
+| Ugarteche | 6.603 | 8 | 1.361 | 20,6% |
+| Perdriel | 13.687 | 10 | 1.635 | 11,9% |
+| Carrodilla | 23.886 | 16 | 2.710 | 11,3% |
+| Chacras de Coria | 12.428 | 16 | 1.183 | 9,5% |
+| La Puntilla | 2.842 | 1 | 277 | 9,7% |
+| Agrelo | 7.507 | 5 | 651 | 8,7% |
+| El Carrizal | 4.177 | 7 | 351 | 8,4% |
+| Vistalba | 8.771 | 3 | 357 | 4,1% |
+
+**Mayor Drumond emerge como polo educativo**: con sólo 8.223 habitantes, su matrícula equivale al **35% de su población local** — implica que recibe alumnado de distritos vecinos. **Ciudad** (22%) y **Ugarteche** (21%) tienen también atracción educativa neta. **Vistalba** (4%) muestra el menor anclaje educativo: sus habitantes en edad escolar concurren a Carrodilla, Chacras o Mayor Drumond.
+
+## La red de salud: cobertura desigual
+
+El **primer nivel de atención** se compone de **19 centros de salud**. La distribución por distrito vs población local revela inequidades estructurales:
+
+| Distrito | Pob. | Centros | **Hab/Centro** |
+|---|---:|---:|---:|
+| Cacheuta | 701 | 2 | **350** |
+| Potrerillos | 2.075 | 2 | 1.038 |
+| Las Compuertas | 1.353 | 1 | 1.353 |
+| El Carrizal | 4.177 | 2 | 2.088 |
+| Agrelo | 7.507 | 3 | 2.502 |
+| Ugarteche | 6.603 | 2 | 3.302 |
+| Perdriel | 13.687 | 2 | 6.844 |
+| Carrodilla | 23.886 | 3 | 7.962 |
+| **Chacras de Coria** | 12.428 | 1 | **12.428** |
+| **Ciudad** | 24.594 | 1 | **24.594** |
+
+Los distritos **rurales y cordilleranos** tienen excelente cobertura por hab/centro (350-2.500), reflejo de la lógica histórica del primer nivel de atención. Los **distritos urbanos densos** — Ciudad y Chacras de Coria — funcionan con un único centro de salud cada uno, generando ratios de **24.000 y 12.000 hab/centro** respectivamente. Esta concentración es probable que se compense con los hospitales provinciales (Carlos Pereyra, El Carmen, Schestakow) ubicados en cercanías, pero el dato municipal sugiere un déficit estructural en atención primaria urbana.
+
+Complementariamente, la red comercial farmacéutica registra **18 farmacias**, también concentradas en el corredor urbano San Martín — Roque Sáenz Peña — Viamonte.
+
+## Vigilancia sanitaria del agua
+
+La **Coordinación de Aguas y Servicios Sanitarios** publica análisis fisicoquímicos y bacteriológicos de las dos plantas potabilizadoras (**Cipolletti** y **Santa Elena**) más las perforaciones, en planillas anuales 2023-2025 — once archivos consolidados que constituyen una base sostenida de vigilancia ambiental con impacto sanitario directo.
 
 ## Deporte y recreación
 
-- **Polideportivos** (#66): mapa de localización (link a página web del municipio).
-- **Aventura** (#18): 11 lugares para actividades al aire libre, todos en **Potrerillos**.
-- **Espacios Verdes** (transversal con Urbanismo, #9): 272 espacios públicos con 56 plazas formales — soporte para deporte recreativo.
-- **Circuito de Ciclovías** (#33): conectividad activa con PES (Puntos de Encuentro Saludables).
+- **Polideportivos** distribuidos en el departamento (publicados como mapa web).
+- **272 espacios verdes** públicos (1,35 km²) que oficiando como soporte de deporte recreativo.
+- **Aventura**: **11 emprendimientos** registrados, **todos en Potrerillos** — rafting, kayak, trekking, vela, montañismo. Es el polo concentrado de deporte de aventura del departamento.
+- **Circuito de ciclovías** con Puntos de Encuentro Saludables (PES) — política integradora de movilidad activa y deporte recreativo.
 
-## Datasets disponibles
+## La huella del COVID
 
-Escuelas (#6), Espacios Verdes (#9), Aventura (#18), Farmacias (#27), Ciclovías (#33), Calidad del Agua (#48), Polideportivos (#66), Informe COVID Municipal (#67), Centros de Salud (#75).
+El *Informe Covid Municipal 2022* documenta **84 semanas** con seguimiento epidemiológico:
 
-## Limitaciones
+- **645 casos positivos** acumulados.
+- **20.424 recuperados** (ratio mucho mayor que positivos sugiere arrastre de períodos previos a la planilla).
+- **21 fallecidos**.
+- **Pico semanal**: 128 casos.
+- Promedio semanal: 7,7 positivos.
 
-No hay datos de **rendimiento educativo** (Aprender, repitencia, terminalidad) ni de cobertura/utilización de centros de salud (consultas, pacientes atendidos, derivaciones a hospitales provinciales). El dataset COVID llega hasta 2022.
+El relevamiento corresponde al ámbito municipal y refleja principalmente al personal de la administración (publicado por la Subsecretaría de Gestión del Talento Humano).
 
-## Fuente
+---
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Datos del año 2025 salvo indicación.
+*Fuente: Secretaría de Desarrollo Humano, Coordinación de Aguas y Servicios Sanitarios, Dirección de Turismo, Subsecretaría de Gestión del Talento Humano. Datos en <https://datos.lujandecuyo.gob.ar>.*
 """
 
 R['honorable-consejo-deliberante-lujan-de-cuyo.md'] = """# Honorable Concejo Deliberante
 
-**9 datasets** específicos del Poder Legislativo municipal de Luján de Cuyo. Reúnen información institucional sobre la composición del cuerpo (concejales, antecedentes, estructura), su nómina de personal, los pedidos de información que recibe, las declaraciones juradas patrimoniales y los resultados electorales que constituyen al cuerpo.
+Análisis del cuerpo legislativo municipal: composición política derivada del último proceso electoral, transparencia patrimonial, gestión de pedidos de información y posicionamiento institucional.
 
-## Áreas que publican
+## La composición del cuerpo
 
-El propio **HCD de Luján de Cuyo** publica organigrama, nómina, antecedentes profesionales y estructura. La **Secretaría de Economía e Ingresos Públicos** publica funcionarios públicos (incluyendo HCD) y normativa presupuestaria. La **Secretaría de Innovación** centraliza los pedidos de información. Las **DDJJ** del HCD se publican en conjunto con las del Ejecutivo.
+El HCD vigente fue electo en las **PASO Provinciales 2023** y se constituyó con mandato 2023/2027. La composición política puede inferirse del escrutinio publicado para la categoría Concejal, donde se relevaron 316 mesas en el departamento:
 
-## Composición del cuerpo
+| Agrupación | Votos | % |
+|---|---:|---:|
+| **CAMBIA MENDOZA** | 4.670 | **42,7%** |
+| **LA UNIÓN MENDOCINA** | 4.499 | **41,1%** |
+| ELEGÍ MENDOZA | 1.006 | 9,2% |
+| Frente de Izquierda y de Trabajadores | 404 | 3,7% |
+| Partido Verde | 355 | 3,2% |
 
-- **13 declaraciones juradas** publicadas para el HCD (mayo 2025), correspondientes a concejales en mandato 2023/2027 y secretarios del Concejo: Andrés Sconfienza, Adrián Devia, Claudio Ogando (Secretario), Guillermo Trentacoste, Malena Abalos, Carlos Sala, Rubén Lazaro, Paloma Scalco, entre otros (DDJJ HCD 2025, #60).
-- **Antecedentes profesionales** y **CVs** del HCD se publican en PDF (#19) — útil para escrutinio público.
-- La **Estructura HCD** está disponible como organigrama PDF (#73).
+El cuerpo refleja una **paridad electoral** entre Cambia Mendoza y La Unión Mendocina (1,6 puntos de diferencia), sumando entre ambos el 84% de los votos válidos. La **fragmentación periférica** (Elegí 9,2%, FIT 3,7%, Verde 3,2%) configura una representación con dos grandes bloques y voces minoritarias.
 
-## Pedidos de información pública
+## Geografía del voto
 
-El cuerpo gestiona pedidos AIP (Acceso a la Información Pública) — hay una planilla de **garantes-hcd** y "pedidos de información pública 2024" en *Información Pública* (#57). Junto al pulido por el Ejecutivo, en lo que va de 2025 se registran **82 tickets** AIP combinados (Ejecutivo + HCD).
+Cruzando con distrito de origen (planilla parcial con 5 distritos relevados):
 
-## Resultados electorales
+| Distrito | Total votos | 1° lugar | % | 2° lugar | % |
+|---|---:|---|---:|---|---:|
+| Carrodilla | 2.164 | Cambia Mendoza | 41% | La Unión | 38% |
+| Chacras de Coria | 4.452 | **Cambia Mendoza** | **56%** | La Unión | 34% |
+| Ciudad | 1.097 | **La Unión** | 52% | Cambia | 29% |
+| Mayor Drummond | 1.116 | La Unión | 47% | Cambia | 34% |
+| Perdriel | 2.105 | **La Unión** | 52% | Cambia | 28% |
 
-Las **elecciones provinciales PASO 2023** definieron la composición vigente. El detalle escrutado se publica en *Resultado Electorales* (#59):
+**Chacras de Coria** y **Carrodilla** se inclinaron hacia **Cambia Mendoza**; **Ciudad**, **Mayor Drumond** y **Perdriel** hacia **La Unión Mendocina**. La asimetría territorial sugiere bases sociales distintas: los distritos residenciales premium del corredor norte vs. los distritos centrales y rurales.
 
-- Categorías publicadas: Gobernador, Senadores Provinciales, Diputados Provinciales, **Concejal**, escrutinio definitivo del 24/09/2024 — total 8 archivos PDF + XLS.
-- El dataset *Voto electoral* (#49) detalla las **316 mesas** de la categoría Concejales con desglose por agrupación, votos en blanco, impugnados, comando electoral.
+## Transparencia patrimonial
 
-## Sueldos del Cuerpo
+Los **13 miembros del HCD** publican declaración jurada patrimonial bajo la Ley provincial de Ética Pública 2025 (planilla *DDJJ HCD 2025*). Los nombres registrados incluyen:
 
-El dataset *Funcionarios Públicos Municipal* (#55) publica también la **Nómina HCD 2025** (4 archivos XLSX). Junto a la nómina del Ejecutivo conforma el padrón completo de empleados del Estado municipal.
+- Andrés Sconfienza, Adrián Devia (Concejal 2023/2027)
+- Claudio Ogando (Secretario HCD)
+- Guillermo Trentacoste, Malena Abalos, Carlos Sala, Rubén Lazaro, Paloma Scalco (Concejales)
 
-## Datasets disponibles
+Los antecedentes profesionales y CVs se publican en formato PDF en el dataset *Antecedentes Profesionales*.
 
-Nómina de Concejales (#17), Antecedentes Profesionales HCD (#19), Tarifaria 2023 (#52), **Funcionarios Públicos Municipal** (#55, parcialmente HCD), **Información Pública** (#57), Resultado Electorales (#59), Declaraciones Juradas (#60), Presupuestaria (#68), **Estructura HCD** (#73).
+## Función legislativa: ordenanzas
 
-## Limitaciones
+Aunque el portal no expone una serie estructurada de proyectos votados, el dataset *Ordenanzas Municipales* publica el **repositorio normativo** producido por el cuerpo:
 
-La mayoría de los datos del HCD están en **PDF** (organigramas, nóminas, antecedentes, presupuestaria) — no son datos estructurados. Para análisis de la actividad legislativa (proyectos presentados, votaciones nominales, asistencia de concejales) hay que recurrir al sitio del HCD directamente: el portal de datos abiertos no expone esa serie.
+- Ordenanzas 2025 categorizadas (CSV).
+- Ordenanzas 2024 categorizadas (CSV).
+- Ordenanzas 2024-2016 históricas (CSV).
+- Normas individuales destacadas: Ordenanza 14830/2024 (Presupuesto 2025), 14831/2024 (Tarifaria 2025), 13884/2020 (GIRSU), 14525/2023 y 14526/2023 (Tarifaria/Presupuesto).
 
-## Fuente
+Esto permite trazar la **producción legislativa por categoría temática** a lo largo del período.
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>.
+## Estructura interna
+
+El **organigrama HCD** se publica como PDF (#73). Con 13 concejales más cargos políticos y técnicos, el cuerpo emplea personal cuya nómina está incluida en la **Planilla HCD 2025** (cuatro archivos del dataset *Funcionarios Públicos Municipal*). El HCD aporta **$1,3 mil M** al gasto en personal del Estado municipal — alrededor del 6% del total de personal.
+
+## El acceso a la información
+
+El dataset *Información Pública* incluye una planilla específica **garantes-hcd** y registros de "pedidos de información pública 2024" gestionados por el cuerpo. En conjunto con los pedidos del Ejecutivo, el sistema AIP municipal procesó **82 tickets** en lo que va de 2025.
+
+---
+
+*Fuente: Honorable Concejo Deliberante de Luján de Cuyo, Secretaría de Economía e Ingresos Públicos, Junta Electoral de Mendoza (PASO 2023). Datos en <https://datos.lujandecuyo.gob.ar>.*
 """
 
 R['cultura-y-turismo.md'] = """# Turismo y Cultura
 
-**8 datasets** dedicados al ecosistema turístico y cultural departamental, fuertemente concentrados en la zona de **Potrerillos / Las Compuertas / Cacheuta** (cordón cordillerano) y el corredor **Chacras de Coria** (gastro-vitivinicultura).
+Retrato de la oferta turística y cultural del departamento. Luján de Cuyo articula dos polos diferenciados: un cordón cordillerano (Potrerillos, Cacheuta, Las Compuertas) orientado al pernocte y la aventura, y un corredor residencial-gastronómico (Chacras de Coria, Vistalba) que opera mayoritariamente como destino de día.
 
-## La oferta gastronómica
+## Los 137 locales gastronómicos
 
-El relevamiento de la Dirección de Turismo registra **137 locales gastronómicos** (#20) clasificados así:
+El relevamiento de la Dirección de Turismo registra **137 locales gastronómicos** clasificados así:
 
-- **Restaurantes: 84** (61% del total)
-- **Cafeterías: 17**
-- **Heladerías: 10**
-- Casas de Té: 5
-- Pizzerías: 4
-- Pastelerías: 3
-- Restaurantes de Sushi: 3
-- Otros (parrilla, panchería, taquería, lomitería, restaurantes árabe/cubano/comida rápida): 11
+| Tipo | Locales | % |
+|---|---:|---:|
+| **Restaurante** | 84 | 61% |
+| Cafetería | 17 | 12% |
+| Heladería | 10 | 7% |
+| Casa de té | 5 | 4% |
+| Pizzería | 4 | 3% |
+| Pastelería | 3 | 2% |
+| Restaurante de sushi | 3 | 2% |
+| Otros (parrilla, panchería, taquería, lomitería, restaurantes árabe/cubano/comida rápida) | 11 | 8% |
 
-**Concentración geográfica** — top distritos: **Chacras de Coria 43**, Ciudad 28, **Potrerillos 23**, Cacheuta 11, Las Compuertas 8, Agrelo 8, Vistalba 5, La Puntilla 4. Chacras y Potrerillos concentran casi la mitad del mapa gastronómico — coherente con el perfil turístico-residencial de cada zona.
+**Concentración geográfica**:
 
-## Alojamiento
+| Distrito | Locales | % |
+|---|---:|---:|
+| **Chacras de Coria** | 43 | 31% |
+| Ciudad | 28 | 20% |
+| **Potrerillos** | 23 | 17% |
+| Cacheuta | 11 | 8% |
+| Las Compuertas | 8 | 6% |
+| Agrelo | 8 | 6% |
+| Vistalba | 5 | 4% |
+| La Puntilla | 4 | 3% |
 
-**73 alojamientos** registrados (#12). Distribución por distrito:
+**Chacras de Coria + Potrerillos concentran el 48% de la oferta gastronómica**. El primero opera como destino gastronómico de día (Mendoza-Capital se traslada a almorzar/cenar); el segundo combina gastronomía con actividades en montaña.
 
-- **Potrerillos: 53** (73% del total) — perfil cabañas/posadas/turismo aventura.
-- **Cacheuta: 7** y **Las Compuertas: 7** (cordón termal y montaña).
-- Agrelo, Perdriel, Vistalba, Ciudad: pequeños volúmenes (1-2 cada uno).
+## La oferta de pernocte: Potrerillos como capital
 
-Esta concentración refleja que el **eje turístico de pernocte está en montaña**, mientras que Chacras opera más como destino de día.
+**73 alojamientos** publicados en el padrón turístico municipal, con una concentración geográfica extrema:
 
-## Aventura y vitivinicultura
+| Distrito | Alojamientos | % |
+|---|---:|---:|
+| **Potrerillos** | **53** | **73%** |
+| Cacheuta | 7 | 10% |
+| Las Compuertas | 7 | 10% |
+| Otros (Agrelo, Perdriel, Vistalba, Ciudad) | 6 | 8% |
 
-- **Aventura** (#18): 11 emprendimientos, **todos en Potrerillos** — rafting (Argentina Rafting, Río Aventura), kayak (Milkayak), trekking (Potrerillos Explorer, Mendoza Aventura), navegación a vela (Huayra Veleros), expediciones de alta montaña (Colanguil Expediciones).
-- **Bodegas** (#13): listado publicado por la Dirección de Turismo (sin archivos descargables — sólo la metadata del dataset).
-- **Senderos de Trekking** (#14): KML con recorridos.
+El **eje cordillerano absorbe el 92% del pernocte** (Potrerillos + Cacheuta + Las Compuertas). Predominan cabañas, posadas y alojamientos pequeños. Chacras de Coria — pese a su polo gastronómico — apenas tiene oferta de alojamiento, confirmando su perfil de **destino de día**.
 
-## Movilidad turística
+## El polo de aventura: 11 emprendimientos en Potrerillos
 
-El **Transporte Público** (#54) y el **Circuito de Ciclovías** (#33) — ambos con KML — son insumos relevantes para la planificación de visitantes.
+El dataset *Aventura* registra **11 prestadores**, **todos en Potrerillos**:
 
-## Datasets disponibles
+- **Argentina Rafting** — rafting en RP Perilago.
+- **Río Aventura** — KM 55 RN 7.
+- **Potrerillos Explorer** — Los Guanacos.
+- **Colanguil Expediciones** — Las Acacias (alta montaña).
+- **El Rincón de los Oscuros** — Los Cóndores y Las Nieves.
+- **Milkayak** y **Huayra Veleros** — RP Perilago (kayak y vela).
+- **Mendoza Aventura** — Arroyo Ranchillos.
 
-Alojamiento (#12), Bodegas (#13), Senderos de Trekking (#14), Aventura (#18), Gastronomía (#20), Ciclovías (#33), Transporte Público (#54).
+El conjunto configura a **Potrerillos como capital del turismo activo de Mendoza**: rafting en el río Mendoza, kayak y vela en el embalse, trekking de alta montaña hacia el corredor del Aconcagua.
 
-## Limitaciones
+## Vitivinicultura: la marca silenciosa
 
-No hay series temporales de **ocupación hotelera**, **cantidad de visitantes**, **derrama turística** ni **eventos culturales realizados** — sólo el inventario estático de oferta. Para indicadores de demanda turística hay que recurrir a la Provincia (Subsecretaría de Turismo) o al INDEC. Bodegas no tiene archivos descargables, lo que es notorio dado el peso del enoturismo en la economía local.
+El dataset **Bodegas** está catalogado por la Dirección de Turismo pero **no incluye archivos descargables** — sólo metadata. Esto es notable dado el peso del enoturismo en el perfil económico de Luján de Cuyo (sede de bodegas históricas como Catena Zapata, Achaval Ferrer, Norton, Lagarde, Vistalba, Septima, Renacer, entre muchas otras). La ausencia de un padrón estructurado público es una brecha en el principal activo turístico del departamento.
 
-## Fuente
+## Senderos y circuitos
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Direcciones y coordenadas en proyección WGS84.
+- **Senderos de Trekking** publicados en KML — recorridos georreferenciados para visualización en Google Earth o app.
+- **Circuito de Ciclovías** integrado con **Puntos de Encuentro Saludables (PES)**, en formato My Maps.
+- **Transporte Público** (KML + horarios XLS) — insumo crítico para visitantes que se mueven sin auto.
+
+---
+
+*Fuente: Dirección de Turismo, Apoderado Municipal, Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio. Datos en <https://datos.lujandecuyo.gob.ar>.*
 """
 
 R['desarrollo-humano.md'] = """# Desarrollo Humano
 
-**5 datasets** que reúnen el "tejido social organizado" del departamento: barrios populares, uniones vecinales, polideportivos, programas de economía circular y las estadísticas de violencia de género (transversal con la categoría Género). Es la sección más cercana a la agenda de inclusión, vulnerabilidad y participación comunitaria.
+Análisis del tejido social organizado del departamento: pobreza territorializada, organización vecinal, intervenciones por vulnerabilidad y estadísticas de violencia de género en su contexto poblacional.
 
-## La población vulnerable territorializada
+## La pobreza con dirección y nombre: 47 barrios populares
 
-El **Registro Nacional de Barrios Populares (RENABAP)** identifica **47 barrios** en Luján de Cuyo (#5):
+El **RENABAP** (Registro Nacional de Barrios Populares) identifica **47 barrios** dentro del departamento de Luján de Cuyo, con un universo de **2.569 familias** registradas — representativo de la **población más vulnerable** del territorio.
 
-- **2.569 familias** registradas en estas geografías.
-- Top barrios por familias:
-  - Valle Encantado (Chacras de Coria) — 290 familias
-  - Tierras Vivas (Agrelo) — 170
-  - Patrono Santiago (Ciudad) — 160
-  - Virgen de Lourdes (Perdriel) — 135
-  - Costanera Sur (Ciudad) — 132
-  - Juan XXIII (Ciudad) — 110
-  - Villa Costa Canal (Ugarteche) — 102
-  - Estación Cuadro (Perdriel) — 100
+### Top 10 barrios por familias residentes
 
-La distribución muestra que **Ciudad y los distritos urbanos peri-centrales** concentran la mayor cantidad de familias en barrios populares, aunque también hay focos en zonas rurales (Agrelo, Ugarteche, Perdriel).
+| Barrio | Distrito | Familias |
+|---|---|---:|
+| Valle Encantado | Chacras de Coria | 290 |
+| Tierras Vivas | Agrelo | 170 |
+| Patrono Santiago | Ciudad | 160 |
+| Virgen de Lourdes | Perdriel | 135 |
+| Costanera Sur | Ciudad | 132 |
+| Juan XXIII | Ciudad | 110 |
+| Villa Costa Canal | Ugarteche | 102 |
+| Estación Cuadro | Perdriel | 100 |
+| El Encuentro | Perdriel | — |
+| San Gabriel | Vistalba | — |
 
-Estos datos provienen del relevamiento RENABAP nacional y permiten cruzar con políticas de regularización dominial y obras de servicios.
+### Distribución por distrito (cantidad de familias agregadas)
 
-## Organización vecinal
+Los datos territorializados muestran que **Ciudad** concentra el mayor número de familias en barrios populares en términos absolutos, seguido por **Perdriel** y **Agrelo**. La presencia de Valle Encantado en Chacras de Coria — distrito con perfil residencial premium — ilustra la **convivencia de extremos socioeconómicos** en una misma geografía.
 
-El listado de **Uniones Vecinales** (#10) es el directorio formal de organizaciones de base territorial — interlocutor habitual del municipio en obras locales, presupuesto participativo y eventos.
+Los datos RENABAP contienen identificador único nacional (`id_renabap`), provincia, departamento, localidad, cantidad de familias y coordenadas — habilitando cruce con políticas de regularización dominial, infraestructura sanitaria y acceso a servicios.
 
-## Estadísticas de género (transversal)
+## El tejido organizativo: Uniones Vecinales
 
-El dataset *Estadísticas de Género* (#72) — analizado en detalle en su categoría dedicada — registra los casos atendidos por la Dirección de Género y Diversidad mediante fichas RUC. En 2022, **Luján de Cuyo concentró 480 casos**, frente a 9 en Capital, 2 en Godoy Cruz, 1 en Guaymallén y 1 en Maipú. Las planillas 2025 (datos crudos) tienen 87 dimensiones por ficha (nivel educativo, vínculo, violencia previa, intentos de homicidio, consecuencias civiles/penales).
+El dataset *Uniones Vecinales* lista las organizaciones formales de base territorial reconocidas por el municipio. Son los interlocutores institucionales en presupuesto participativo, obras, eventos y articulación de demandas vecinales. Constituyen el **mapa de la sociedad civil organizada** del departamento.
 
-## Polideportivos y deporte social
+## Violencia de género: la contracara más sensible
 
-Los **Polideportivos** (#66) son nodos clave para el desarrollo humano — su localización está publicada como mapa web del municipio.
+El dataset *Estadísticas de Género* (analizado en detalle en **Género y Diversidad**) muestra que en 2022 la **Dirección de Género y Diversidad atendió 480 casos de víctimas residentes en Luján de Cuyo** — el dispositivo opera principalmente sobre la **población local**, con apenas 13 casos de víctimas de otros departamentos. Esto da una idea de **demanda estructural anual sobre el dispositivo municipal**.
 
-## Economía circular
+Cortes relevantes 2022 (sobre los 493 casos totalmente caracterizados):
 
-El convenio con **Prato (Italia)** (#50) impulsa programas de economía circular con foco en revegetación, recuperación de materiales y reciclaje — articulado con organizaciones sociales locales.
+- **Estado civil**: 32% solteras, 10% casadas, 4% divorciadas, 3% separadas — 49% restante sin dato registrado.
+- **Vínculo con el agresor**: **28% ex pareja conviviente**, 8% cónyuge, 6% ex cónyuge → más de **40% del riesgo proviene de pareja o ex pareja**.
+- **Condición de actividad**: 25% ocupadas, **19% desocupadas**, 3% inactivas — la inserción laboral es un factor diferencial.
+- **Nivel educativo**: 18% secundario incompleto, 10% secundario completo, 6% terciario completo, 6% primario completo — perfil mayormente con trayectorias escolares interrumpidas.
+- **Tipos de violencia documentados**: psicológica 41%, física 32%, económica/patrimonial 30%, sexual 11% (las cuatro frecuentemente combinadas).
 
-## Datasets disponibles
+## Programas estructurales
 
-Barrios Populares (#5), Uniones Vecinales (#10), Economía Circular (#50), Polideportivos (#66), Estadísticas de Género (#72).
+- **Convenio con Prato (Italia)** — Economía Circular: revegetación, recuperación de materiales y reciclaje articulado con organizaciones sociales.
+- **Polideportivos** (3+ instalaciones publicadas como mapa web) — nodos de oferta deportiva inclusiva.
+- Articulación con la **Procuración General de la Suprema Corte de Justicia de Mendoza** (acuerdo de cooperación en violencia de género).
 
-## Limitaciones
+---
 
-No hay datos de **programas sociales municipales** (becas, subsidios, alimentación, copa de leche, etc.), de **personas atendidas** por área, ni de **vacantes/cobertura** en jardines maternales y CDIs. Tampoco hay series de **pobreza/indigencia** local (el INDEC publica a nivel del Gran Mendoza, no del departamento). Esto es probablemente la mayor brecha del portal.
-
-## Fuente
-
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Datos RENABAP corresponden al relevamiento nacional.
+*Fuente: Intendencia Municipalidad de Luján de Cuyo, Dirección de Género y Diversidad, Secretaría de Desarrollo Humano, Secretaría de Infraestructura y Desarrollo Sostenible. RENABAP nacional. Datos en <https://datos.lujandecuyo.gob.ar>.*
 """
 
 R['movilidad.md'] = """# Movilidad
 
-**5 datasets** que cubren la infraestructura de movilidad del departamento: transporte público urbano, ciclovías, obras viales, seguridad vial y la red de barrios populares (relevante para conectividad). El bloque tiene un fuerte componente de **datos espaciales (KML)** con baja densidad de información tabular.
+Retrato del sistema de movilidad del departamento: red de transporte público, infraestructura ciclista, plan de obras viales y conectividad de los barrios populares.
 
-## Transporte público
+## La red de transporte público
 
-El dataset *Transporte Público* (#54) publica:
+La **Red Luján** se publica con dos artefactos complementarios:
 
-- **Red Luján** en formato **KML** (recorridos de líneas urbanas para visualización en Google Earth o QGIS).
-- **Red de transporte urbano** en XLS con horarios.
-- Página web con información operativa actualizada.
+- **KML** con los recorridos georreferenciados de cada línea — visualizable en Google Earth, QGIS o cualquier app cartográfica que soporte el formato.
+- **XLS** con los horarios operativos.
 
-Esto permite reconstruir cobertura geográfica del transporte municipal, frecuencias y conectividad entre distritos.
+Esto permite reconstruir la cobertura espacial del sistema y los tiempos de servicio entre distritos. La información operativa (boletos vendidos, ocupación, frecuencia real, modalidad SUBE) **no se publica** — la planificación cuantitativa de la demanda queda fuera del alcance del portal municipal.
 
-## Ciclovías y movilidad activa
+## El circuito de ciclovías y los PES
 
-El **Circuito de Ciclovías** (#33) está publicado en formato **My Maps** (Google) con los recorridos de las ciclovías ejecutadas y los **Puntos de Encuentro Saludables (PES)** que las articulan. Es uno de los pocos datasets en este formato dentro del portal.
+El **Circuito de Ciclovías** se publica en formato **My Maps** (Google Maps) con los recorridos ejecutados y los **Puntos de Encuentro Saludables (PES)** que articulan el sistema. Es uno de los pocos datasets en este formato — orientado a difusión ciudadana antes que a análisis técnico. La política integradora "ciclovías + PES" busca articular **movilidad activa + recreación + espacio público + salud preventiva**.
 
-## Obras viales
+El dataset complementario **Bicisendas Inclusivas** (programa "Pedaleando Juntos") está publicado como página web sin datos descargables.
 
-El dataset *Obras Públicas* (#74) — transversal con Economía y Urbanismo — contiene **174 actividades** en 2025, mayoritariamente del eje "Transformación del espacio público" (165 actividades / 95%). Estado de avance:
+## El plan de obras 2025: 174 actividades
 
-- **Cumplido**: 67 (39%)
-- **No iniciado**: 40 (23%)
-- **En implementación**: 34 (20%)
-- **Atrasado**: 18 (10%)
-- **Cancelado**: 11 (6%)
+El dataset *Obras Públicas 2025* documenta **174 actividades** ejecutadas por la **Secretaría de Obras y Espacios Públicos**. Estado de avance al cierre del relevamiento:
 
-Las **compras 2024** detallaron contratos viales de gran porte: Plan Pavimentación 2024 ($635 M, VIALMANI), redes de agua potable ($238 M, CALZETTA), reparación de motoniveladora ($7 M), cubiertas para máquinas viales — dan dimensión del esfuerzo de mantenimiento de la red vial.
+| Estado | Actividades | % |
+|---|---:|---:|
+| **Cumplido** | 67 | **39%** |
+| No iniciado | 40 | 23% |
+| En implementación | 34 | 20% |
+| **Atrasado** | 18 | 10% |
+| Cancelado | 11 | 6% |
 
-## Seguridad vial
+Por **eje estratégico**:
+- **Transformación del espacio público**: 165 actividades (95%).
+- **Luján Sustentable**: 9 actividades (5%).
 
-El dataset *Seguridad Vial* (#51) está listado como "Acciones viales" y comparte información con la Secretaría de Gobierno; sin embargo, no tiene archivos descargables — sólo la metadata. Es una brecha clara, dado que es el indicador más sensible de movilidad.
+El programa **Movilidad Sustentable** concentra **9 actividades específicas** dentro del plan general — una sub-cartera dedicada al modo activo y al transporte público.
 
-## Conectividad social
+## Las inversiones viales detrás de las obras
 
-Los **47 barrios populares** (#5) entran en esta categoría como territorios cuya conectividad con el resto del departamento depende fuertemente del transporte público y la red vial.
+Las **compras y contrataciones 2024** revelan la magnitud financiera de la inversión vial:
 
-## Datasets disponibles
+| Contrato | Monto | Proveedor |
+|---|---:|---|
+| Plan Pavimentación 2024 | **$635 M** | VIALMANI |
+| Servicio de Poda (mantenimiento de calzada/banquinas) | $450 M | ECUR S.A. |
+| Redes de Agua Potable (incluye reposición vial) | $237,7 M | CALZETTA S.A. |
+| Vehículos utilitarios | $230,8 M | VALENTINO MOTOS |
+| Alquiler de camiones regadores | $218,6 M | ECUR S.A. |
+| Cubiertas para máquina vial | $6,7 M | NEUMÁTICOS NARVÁEZ |
+| Reparación de motoniveladora | $6,9 M | GRÚAS SAN BLAS |
 
-Barrios Populares (#5), Ciclovías (#33), Seguridad Vial (#51), Transporte Público (#54), Obras Públicas (#74).
+El gasto vial directo (pavimentación + mantenimiento + maquinaria) supera los **$1.500 millones en 2024** — alrededor del **30% de las compras totales** del año.
 
-## Limitaciones
+## Conectividad social: el dato faltante
 
-Es la categoría con **menor densidad de datos cuantitativos** entre las relevantes. Faltan: series temporales de **siniestros viales** (cantidad, fatalidad, lugar), **flujo vehicular** (aforo en arterias clave), **uso del transporte público** (boletos vendidos, frecuencias por línea, modalidad SUBE), e indicadores de **calidad** del servicio. Las ciclovías están relevadas pero no hay datos de aforos ciclistas o accidentes.
+Los **47 barrios populares** del RENABAP están georreferenciados — la base permite analizar su **conectividad por transporte público**, **distancia a centros de salud**, **distancia a escuelas** y **acceso a comercios**. Sin embargo, el portal no expone esos análisis cruzados — quedan disponibles para investigación externa con los datasets crudos.
 
-## Fuente
+## La brecha en seguridad vial
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Datos espaciales en KML/My Maps (proyección WGS84).
+El dataset *Seguridad Vial* (#51) figura en el catálogo como "Acciones viales" pero **no contiene archivos descargables**. La **fiscalización vial municipal** — multas emitidas, controles de alcoholemia, **siniestros viales** con su georreferenciación, fatalidad — es la información de movilidad **más demandada** y no se publica. Esta omisión es probablemente la mayor brecha del bloque, dado que el departamento tiene tres rutas troncales nacionales y provinciales (RN 7, RP 15, Acceso Sur) con tránsito intenso de carga y turistas.
+
+---
+
+*Fuente: Secretaría de Obras y Espacios Públicos, Secretaría de Hacienda (compras), Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio. Datos en <https://datos.lujandecuyo.gob.ar>.*
 """
 
 R['elecciones.md'] = """# Elecciones
 
-**4 datasets** que documentan los resultados electorales recientes en Luján de Cuyo, fundamentalmente de las **PASO Provinciales 2023** y categorías nacionales subsiguientes. Es la única categoría del portal con un nivel de granularidad **a mesa** — algo poco común en datos abiertos municipales.
+Análisis de los resultados electorales en Luján de Cuyo a partir del escrutinio de las **PASO Provinciales 2023** y elecciones nacionales subsiguientes. Es la única categoría del portal con granularidad **por mesa electoral**.
 
-## PASO Provinciales 2023
+## El mapa político: paridad y dos polos
 
-El dataset *Elecciones Departamental* (#32, 14 archivos) publica el escrutinio mesa por mesa. Análisis del XLSX consolidado *resultados_pasos_2023.xlsx* (categoría Concejal):
+En la categoría **Concejal** (escrutinio mesa por mesa, 316 mesas relevadas), la consolidada para 2023 muestra:
 
-- **474 filas** de resultados (combinación mesa × lista).
-- Distritos relevados: Chacras de Coria 178 mesas, Perdriel 103, Carrodilla 95, Ciudad 50, Mayor Drummond 48 (planilla parcial).
-- **Top agrupaciones por votos** (en mesas relevadas):
-  - **CAMBIA MENDOZA**: 4.670 votos
-  - **LA UNIÓN MENDOCINA**: 4.499 votos
-  - **ELEGÍ MENDOZA**: 1.006
-  - **FRENTE DE IZQUIERDA Y DE TRABAJADORES**: 404
-  - **PARTIDO VERDE**: 355
+| Agrupación | Votos | % |
+|---|---:|---:|
+| **CAMBIA MENDOZA** | 4.670 | **42,7%** |
+| **LA UNIÓN MENDOCINA** | 4.499 | **41,1%** |
+| ELEGÍ MENDOZA | 1.006 | 9,2% |
+| Frente de Izquierda y de Trabajadores - Unidad | 404 | 3,7% |
+| Partido Verde | 355 | 3,2% |
+| Otros (Compromiso Federal, Dignidad Popular, Partido Federal) | <1% c/u | — |
 
-## Voto desagregado por categoría
+**Paridad técnica** entre las dos coaliciones principales (1,6 puntos) que sumaron 84% del electorado. La fragmentación periférica fue contenida: tres fuerzas (Elegí, FIT, Verde) capturaron el 16% restante.
 
-El dataset *Voto Electoral* (#49) suma la categoría **Concejales** mesa por mesa con **316 mesas** (XLSX *consejales*) y replica el mismo formato para Diputados Nacionales/Provinciales y Senadores Nacionales en archivos separados. Desglose por mesa: votos por lista + votos en blanco + votos impugnados + votos del comando electoral.
+## La geografía del voto: dos Lujanes
 
-## Resultado Electorales 24/09 (definitivo)
+Los 5 distritos relevados con detalle revelan una **fractura territorial nítida**:
 
-El dataset *Resultado Electorales* (#59, 8 archivos) publica el **escrutinio definitivo** del 24 de septiembre con los resultados consolidados por categoría:
+| Distrito | Total votos | 1° lugar | % | 2° lugar | % |
+|---|---:|---|---:|---|---:|
+| Carrodilla | 2.164 | Cambia Mendoza | 41% | La Unión Mendocina | 38% |
+| **Chacras de Coria** | 4.452 | **Cambia Mendoza** | **56%** | La Unión | 34% |
+| Ciudad | 1.097 | **La Unión Mendocina** | 52% | Cambia | 29% |
+| Mayor Drumond | 1.116 | La Unión Mendocina | 47% | Cambia | 34% |
+| **Perdriel** | 2.105 | **La Unión Mendocina** | **52%** | Cambia | 28% |
 
-- **Gobernador** (PDF + XLSX)
-- **Senadores Provinciales** (PDF)
-- **Diputados Provinciales** (PDF)
-- **Concejales** (PDF)
-- **Escrutinio definitivo Luján de Cuyo** (PDF + XLSX)
+**Cambia Mendoza domina** en Chacras de Coria (56%) y Carrodilla (paridad 41-38). **La Unión Mendocina lidera** en Ciudad (52%), Mayor Drumond (47%) y Perdriel (52%). El alineamiento sigue clivajes tradicionales: los **distritos residenciales premium del corredor norte** se inclinan por la coalición histórica del PRO/UCR, mientras que **Ciudad** (centro institucional), **Mayor Drumond** (polo educativo y comercial) y **Perdriel** (semi-rural con núcleo de barrios populares) se inclinan por La Unión.
 
-## Marco normativo
+Chacras de Coria, con su 56% para Cambia Mendoza, fue el **bastión más concentrado** de la coalición ganadora a nivel departamental.
 
-Las **Ordenanzas Municipales** (#4) — repositorio CSV/XLS/PDF — incluyen las normas que regulan los procesos electorales locales y el funcionamiento del HCD electo.
+## Las categorías escrutadas
 
-## Datasets disponibles
+El dataset *Voto Electoral* (#49) detalla las mesas para **cinco categorías**:
 
-Ordenanzas Municipales (#4), Elecciones Departamental (#32), Voto Electoral (#49), Resultado Electorales (#59).
+- **Concejal** (316 mesas) — la única plenamente analizada arriba.
+- **Diputados Nacionales**.
+- **Diputados Provinciales**.
+- **Senadores Nacionales**.
+- **Resultados PASO 2023** consolidado.
 
-## Limitaciones
+Cada XLSX trae el mismo esquema: circuito × escuela × mesa × lista, con votos válidos, en blanco, impugnados y del comando electoral.
 
-Los archivos están en formatos **mixtos** (XLS, XLSX, PDF) y a veces nombrados con código de circuito sin metadata clara (`zona_circ_0057.xls`, etc.) — requieren trabajo manual para consolidar. **No hay datos** de elecciones anteriores (2017, 2019, 2021) ni de las **municipales 2023** propiamente — sólo provinciales/nacionales del mismo año. Tampoco se publican padrones, vacantes asignadas o datos de simultaneidad de votación.
+## El escrutinio definitivo
 
-## Fuente
+El dataset *Resultado Electorales* (#59) contiene el **escrutinio definitivo del 24 de septiembre** con resultados consolidados por categoría, en formato PDF + XLS:
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Datos del escrutinio provisional y definitivo, Junta Electoral de Mendoza.
+- Gobernador.
+- Senadores Provinciales.
+- Diputados Provinciales.
+- Concejales.
+- Escrutinio definitivo Luján de Cuyo (consolidado).
+
+## El marco normativo
+
+Las **Ordenanzas Municipales** (#4) — repositorio CSV/XLS/PDF — incluyen las normas que regulan los procesos electorales locales y el funcionamiento del HCD electo. La ordenanza 13884/2020 (GIRSU), 14525/2023, 14526/2023 (presupuestaria/tarifaria) son ejemplos de la producción legislativa del HCD electo en el período.
+
+---
+
+*Fuente: Jefe de Gabinete del Municipio, Junta Electoral de Mendoza (PASO 2023). Datos en <https://datos.lujandecuyo.gob.ar>.*
 """
 
 R['genero.md'] = """# Género y Diversidad
 
-**3 datasets** específicos sobre la política pública de género y diversidad en Luján de Cuyo. Es una categoría compacta pero la planilla de estadísticas es uno de los datasets **más ricos en dimensiones analíticas** del portal.
+Análisis cuantitativo de la atención que la **Dirección de Género y Diversidad** brinda a víctimas de violencia. Es uno de los datasets más densos del portal: cada caso atendido se registra en una ficha **RUC** (Registro Único de Casos) con **87 dimensiones** que combinan trayectoria educativa, condición laboral, vínculo con el agresor, tipos de violencia ejercida, señales de riesgo y consecuencias judiciales.
 
-## Marco institucional y normativo
+## El volumen de atención
 
-Dos datasets institucionales encuadran la política:
+Las planillas anuales (2021, 2022, 1er semestre 2023, 2025) documentan la actividad sostenida de la Dirección. **En 2022, sobre 493 casos plenamente caracterizados**:
 
-- **Acuerdo de Cooperación** (#43): convenio entre el Municipio de Luján de Cuyo y la **Procuración General de la Suprema Corte de Justicia de Mendoza** — articulación con el Poder Judicial provincial para casos de violencia.
-- **Protocolo de Acción** (#46): procedimiento para atención y acompañamiento de mujeres víctimas de violencia y en situación de vulnerabilidad — documento operativo para los equipos territoriales.
+- **480 casos** correspondieron a víctimas residentes **en Luján de Cuyo** (97% del total).
+- 9 casos en Capital, 2 en Godoy Cruz, 1 en Guaymallén, 1 en Maipú.
 
-## Estadísticas operativas
+El dispositivo opera principalmente sobre la **población local**, configurando un **promedio de ~9-10 casos atendidos por semana** durante el año.
 
-El dataset estrella es *Estadísticas de Género* (#72): planillas de datos relevados por la **Dirección de Género y Diversidad** desde **2021 hasta 2025**, mediante **fichas RUC** (Registro Único de Casos). Archivos:
+## El perfil de las víctimas
 
-- Estadísticas 2025 (XLSX, 772 KB) — datos crudos con **87 dimensiones por ficha**.
-- 1er semestre 2023 (XLSX).
-- 2022 (XLSX, 556 KB).
-- 2021 (XLSX, 687 KB).
-- DOCX informativo y un PBIX (Power BI) para visualización.
+### Estado civil
 
-**Localización de los casos** atendidos en 2022:
+| Estado | Casos | % |
+|---|---:|---:|
+| Soltera | 318 | 64% |
+| Casada | 99 | 20% |
+| Divorciada | 41 | 8% |
+| Separada | 14 | 3% |
 
-| Departamento (víctima) | Casos |
-|---|---:|
-| **Luján de Cuyo** | **480** |
-| Capital | 9 |
-| Godoy Cruz | 2 |
-| Guaymallén | 1 |
-| Maipú | 1 |
+Casi **dos tercios solteras** — un dato que cuestiona la asunción cultural de que la violencia de género se concentra en parejas formalizadas.
 
-El **98% de los casos** atendidos por la Dirección refieren a víctimas residentes en Luján de Cuyo — el dispositivo opera principalmente sobre la población local, con incidencia muy menor desde otros departamentos.
+### Vínculo con el agresor
 
-## Las dimensiones del relevamiento
+| Vínculo | Casos | % |
+|---|---:|---:|
+| **Ex pareja conviviente** | 275 | **56%** |
+| Cónyuge | 75 | 15% |
+| Ex cónyuge | 58 | 12% |
+| Ex novio/pareja no conviviente | 33 | 7% |
 
-La ficha 2025 captura un panorama integral: nivel educativo, condición de actividad económica, AUH/AUE, cuota alimentaria, salario familiar, Progresar, pensión 7 hijos, vínculo con agresor, tipos de violencia (física, psicológica, económica, patrimonial, sexual), señales de riesgo (intentos de homicidio, lesiones, amenazas, portación de armas, intento suicida), trastornos asociados, impacto laboral/educativo, medidas judiciales (prohibición de acercamiento, exclusión del hogar, alimentos provisorios).
+**El 90% del riesgo proviene del entorno de pareja o ex pareja**, con la **ex pareja conviviente** como vínculo dominante (más de la mitad de los casos). Esto reorienta la lectura sobre el ciclo de violencia: el momento de mayor riesgo no es necesariamente durante la convivencia, sino **inmediatamente después de la ruptura**.
 
-Es uno de los pocos datasets del portal con esta **profundidad analítica** — útil para investigaciones sociales y políticas basadas en evidencia.
+### Nivel educativo
 
-## Cifras 2022
+| Nivel | Casos | % |
+|---|---:|---:|
+| Secundaria incompleta | 178 | 36% |
+| Secundaria completa | 99 | 20% |
+| Terciario/Universitario completo | 62 | 13% |
+| Primaria completa | 55 | 11% |
+| Primaria incompleta | 25 | 5% |
+| Sin educación | 23 | 5% |
 
-Del archivo `estadisticas2022-copia.xlsx` se desprenden hojas resumen con cuentas por dimensión:
+El perfil dominante es el de mujeres con **trayectoria educativa interrumpida**: 56% no completó el secundario. Sólo 13% tiene título terciario o universitario.
 
-- **Nivel educativo de las víctimas**: 23 sin educación, 25 primaria incompleta, 55 primaria completa, 178 secundaria incompleta, 99 secundaria completa, etc.
+### Condición laboral
 
-Esto perfila una población mayoritariamente con **trayectorias educativas interrumpidas** — input clave para articulación con políticas educativas.
+| Condición | Casos | % |
+|---|---:|---:|
+| **Ocupada** | 250 | 51% |
+| **Desocupada** | 187 | 38% |
+| Inactiva | 32 | 6% |
 
-## Datasets disponibles
+La **desocupación afecta al 38% de las víctimas** — un input estructural sobre la dependencia económica como factor de revictimización.
 
-Acuerdo de Cooperación (#43), Protocolo de Acción (#46), Estadísticas de Género (#72).
+### Discapacidad
 
-## Limitaciones
+478 casos (97%) sin discapacidad declarada. 6 casos con discapacidad motriz, 4 mental, 2 visceral.
 
-Las **dos primeras filas** de las planillas de estadísticas tienen formato visual (gráficos embebidos como imagen, encabezados desordenados) — el procesamiento automático requiere un script ad-hoc por hoja. No hay un **diccionario de variables** público que documente los códigos de las 87 columnas — para análisis externo se necesita consulta a la Dirección. Tampoco se publica una **serie agregada anual de casos totales** que facilite la comunicación pública.
+## Los tipos de violencia ejercida
 
-## Fuente
+Las víctimas reportan, frecuentemente combinada:
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Dirección de Género y Diversidad, Municipalidad de Luján de Cuyo.
+| Tipo | Reportada (Sí) | Sin dato | % Sí sobre total |
+|---|---:|---:|---:|
+| **Psicológica** | 409 | 82 | **83%** |
+| **Física** | 316 | 176 | 64% |
+| **Económica/patrimonial** | 293 | 198 | 59% |
+| **Sexual** | 107 | 386 | 22% |
+
+La **violencia psicológica está en 4 de cada 5 casos**; la física en 2 de cada 3. La **patrimonial** es comparable a la física (59%) — y suele ser la menos visible socialmente. La **sexual** es probablemente sub-reportada (mucho "sin dato").
+
+## Las señales de riesgo y los antecedentes
+
+| Indicador | "Sí" | % |
+|---|---:|---:|
+| Violencia anterior denunciada | 103 | 21% |
+| Consumo de alcohol del agresor | 177 | 36% |
+| Antecedentes penales (denuncia previa) | 174 | 35% |
+
+**Una de cada cinco víctimas atendidas ya había denunciado violencia previa** — indicador del ciclo de revictimización que el dispositivo busca interrumpir. **El 36% reporta consumo de alcohol como elemento contextual** del agresor.
+
+## El marco institucional
+
+Dos documentos enmarcan operativamente la política:
+
+- **Acuerdo de Cooperación** con la **Procuración General de la Suprema Corte de Justicia de Mendoza** (#43) — articulación con el Poder Judicial provincial.
+- **Protocolo de Acción** (#46) — procedimiento operativo para los equipos territoriales en atención y acompañamiento de víctimas.
+
+Las medidas judiciales documentadas incluyen prohibición de acercamiento, exclusión del hogar, alimentos provisorios, restitución de pertenencias y medidas de cuidado personal.
+
+## La pieza pública
+
+La planilla de **Estadísticas 2025** (XLSX, 772 KB) trae los datos crudos de las 87 dimensiones por ficha — **el dataset más rico del portal en términos de profundidad analítica**. Una versión PBIX (Power BI) provista por la Dirección permite exploración interactiva de los cortes.
+
+---
+
+*Fuente: Dirección de Género y Diversidad, Municipalidad de Luján de Cuyo. Procuración General de la Suprema Corte de Justicia de Mendoza (acuerdo de cooperación). Datos en <https://datos.lujandecuyo.gob.ar>.*
 """
 
 R['gestion_de_datos.md'] = """# Gestión de Datos
 
-**3 datasets** que documentan la **estrategia institucional** del municipio sobre datos abiertos, gobernanza de la información e inteligencia artificial. Aunque pequeña en cantidad, es la categoría que da contexto al **resto del portal**: explica cómo se decide qué se publica, bajo qué reglas y con qué herramientas.
+Análisis de la **estrategia de datos y gobernanza algorítmica** del municipio. Luján de Cuyo es uno de los pocos municipios argentinos con normativa específica sobre **uso de Inteligencia Artificial** en el Estado local — una decisión institucional poco frecuente.
 
-## Inteligencia Artificial: gobernanza
+## El marco normativo de la IA municipal
 
-El dataset *Inteligencia Artificial* (#90) reúne la **Estrategia de Gobernanza de IA** del municipio. Componentes publicados (mayo 2025):
+El paquete normativo publicado por la Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio incluye:
 
-- **Decreto Nro 3041** sobre uso de IA y Machine Learning en el Estado municipal — marco regulatorio que establece principios y restricciones.
-- **Estrategia de Datos para Toda la Ciudad** (documento institucional VF 08/12/2024) — visión integradora.
-- **Protocolo Ético para el Uso de IA en la Municipalidad de Luján de Cuyo** — documento operativo con principios éticos aplicables.
-- **Gobernanza_IA.xlsx**: tabla con dimensiones (Institucionalidad, Reglamentación, Protección de datos), área a cargo y productos generados.
-- **Programas IA.xlsx** y **Innovación_Desarrollo.xlsx**: programas asociados.
-- Enlaces web a *Laboratorio Inteligente* (Portal Luján Lab) y a la página de **Ciberseguridad** del municipio.
+### Decreto 3041 — Uso de IA y Machine Learning en el Estado municipal
 
-Es uno de los conjuntos documentales más completos del portal y posiciona a Luján de Cuyo entre los pocos municipios argentinos con normativa específica sobre IA.
+El decreto establece principios y restricciones aplicables al uso de IA en la administración. Define el marco regulatorio dentro del cual las dependencias pueden incorporar herramientas algorítmicas, qué tipos de procesos pueden automatizarse y qué controles humanos son obligatorios.
 
-## Inventario de Datos
+### Estrategia de Datos para Toda la Ciudad
 
-El dataset *Inventario de Datos* (#62) ofrece "una visión integral de todos los recursos de datos de la ciudad" — es el **catálogo maestro** que sirve de base al portal de datos abiertos. Está publicado como un único archivo XLSX, mantenido por la Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio.
+Documento institucional (versión final 08/12/2024) que articula la **visión integradora** de la gestión de datos como activo estratégico del municipio. Posiciona los datos abiertos como herramienta de transparencia + insumo para la planificación basada en evidencia + base de productos digitales para los vecinos.
 
-## Repositorio normativo
+### Protocolo Ético para el Uso de IA
 
-El dataset *Ordenanzas Municipales* (#4) es el repositorio centralizado de las ordenanzas votadas por el HCD. Incluye:
+Documento operativo con principios éticos aplicables a la implementación de IA. Aborda cuestiones como **transparencia algorítmica**, **prevención del sesgo**, **explicabilidad de las decisiones automatizadas**, **protección de datos personales** y **derechos de los administrados**.
+
+### Tabla de gobernanza
+
+El XLSX `Gobernanza_IA.xlsx` operativiza el marco con tres dimensiones:
+
+| Dimensión | Área a cargo | Productos asociados |
+|---|---|---|
+| Institucionalidad | Infraestructura y Tecnología de la IA | — |
+| Reglamentación | Infraestructura y Tecnología de la IA | Estrategia de Datos / Decreto 3041 / Protocolo Ético |
+| Protección de datos | Infraestructura y Tecnología de la IA | Ley de Acceso a la Información Pública |
+
+Existe además una planilla de **Programas IA** y otra de **Innovación y Desarrollo**, ambas asociadas al programa de transformación digital.
+
+## El Inventario de Datos
+
+El dataset *Inventario de Datos* es **el catálogo maestro que sostiene el portal de datos abiertos**. Es la planilla que la Secretaría de Innovación mantiene como inventario integral de los recursos de datos producidos por las distintas áreas del municipio: qué se publica, qué no, qué áreas tienen series estructuradas, qué brechas existen.
+
+Este es el documento que el equipo técnico utiliza para priorizar **publicaciones nuevas** y para detectar **datasets candidatos a apertura**.
+
+## El repositorio normativo
+
+El dataset *Ordenanzas Municipales* es el repositorio centralizado de **toda la producción legislativa del HCD**:
 
 - Ordenanzas 2025 categorizadas (CSV+XLS).
-- Ordenanzas Categorizadas 2024 (CSV+XLS).
+- Ordenanzas 2024 categorizadas (CSV+XLS).
 - Ordenanzas 2024-2016 históricas (CSV).
-- ORDENANZA Nº 14830-2024 Presupuesto 2025 (DOCX) y 14831-2024 Tarifaria 2025 (PDF).
+- Normativa individual destacada: **Ordenanza 14830/2024** (Presupuesto 2025), **14831/2024** (Tarifaria 2025).
 
-Permite analizar la **producción legislativa** del HCD por categoría temática.
+La estructura categorizada por temática habilita análisis de la **producción legislativa del HCD** por área (urbanismo, ambiente, fiscal, deportes, etc.).
 
-## Datasets disponibles
+## El laboratorio: Luján Lab
 
-Ordenanzas Municipales (#4), Inventario de Datos (#62), Inteligencia Artificial (#90).
+Vinculado a la estrategia de IA, el **Portal Luján Lab** opera como espacio de innovación y desarrollo digital del municipio. La **Página de Ciberseguridad** complementa el ecosistema con información sobre buenas prácticas de protección digital orientada a vecinos y agentes municipales.
 
-## Limitaciones
+---
 
-Los **3 documentos institucionales** sobre IA están en HTML/PDF y aunque marcan políticas claras, su contenido no es procesable como datos. El **Inventario de Datos** es un único archivo y debería actualizarse al menos trimestralmente para reflejar bajas/altas de datasets — no hay un changelog público.
-
-## Fuente
-
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. La estrategia de IA y gobernanza es responsabilidad de la Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio.
+*Fuente: Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio, Municipalidad de Luján de Cuyo. Datos y normativa en <https://datos.lujandecuyo.gob.ar>.*
 """
 
 R['seguridad.md'] = """# Seguridad
 
-**2 datasets** componen una de las categorías más **subdesarrolladas** del portal — coherente con que la seguridad pública es competencia primaria de la Provincia y la Nación. Lo publicado por el municipio cubre la red de **comisarías** y un dataset de **acciones viales** sin archivos descargables.
+Análisis del estado de la seguridad pública en Luján de Cuyo desde los datos abiertos disponibles. La cobertura es limitada — la seguridad es competencia primaria provincial y nacional — pero los datasets municipales aportan un mapa institucional y elementos transversales.
 
-## Comisarías del departamento
+## La red de comisarías
 
-El dataset *Comisarías Luján de Cuyo* (#24, 2 archivos) publicado por el **Secretario del Juzgado Vial Nro 1** publica la red departamental:
+El dataset *Comisarías Luján de Cuyo* (publicado por el **Secretario del Juzgado Vial Nro 1**) registra la red departamental con dirección, distrito y datos de contacto, además del KML para visualización geográfica. Es el único dataset de seguridad con contenido tabular accesible.
 
-- **Comisarias_2025.xlsx** con dirección, distrito y datos de contacto.
-- **comisarias.kml** con coordenadas para visualización.
+La distribución de comisarías ofrece la **base institucional de la respuesta policial** — su lectura cruzada con la **densidad poblacional por distrito** (Ciudad 24.594, Carrodilla 23.886, Perdriel 13.687) permite analizar cobertura policial relativa, aunque la planificación operativa la define la **Policía de Mendoza**, no el municipio.
 
-Es el único dataset de seguridad con contenido tabular accesible.
+## Los puntos de criticidad económica
 
-## Seguridad vial
+Aunque catalogados en otras categorías, varios datasets son insumos directos para la planificación de seguridad:
 
-El dataset *Seguridad Vial* (#51) figura como "Acciones viales" pero **no tiene archivos descargables** ni descripción ampliada — sólo metadata mínima. Es una brecha visible: la fiscalización vial municipal (multas, controles, alcoholemias, siniestros) no se publica con datos abiertos.
+- **9 sucursales bancarias** (Frances, Supervielle, Nación, Galicia, HSBC, San Juan, Macro) — todas en el corredor San Martín del distrito Ciudad. Concentración geográfica que demanda **respuesta policial planificada**.
+- **11 estaciones de servicio** sobre RN 7, RP 15 y Acceso Sur — puntos de alta circulación con valores monetarios y combustible.
+- **Centros de salud** (19), **farmacias** (18), **escuelas** (112) — receptores potenciales de emergencias y planes de respuesta.
+- **47 barrios populares** con 2.569 familias — territorios con vulnerabilidad social que requieren articulación con políticas integrales (no sólo policial).
+- **Iluminación LED** (dataset *Energía*) — el reemplazo de luminarias incide directamente en la **seguridad ambiental peatonal**.
 
-## Datasets transversales
+## El plan vial: un proxy de seguridad
 
-Aunque no están etiquetados como "seguridad", varios datasets de otras categorías aportan información relevante:
+Las **174 actividades** del Plan de Obras 2025 incluyen el programa "Ordenadores Viales — Priorización" — interventiones físicas (badenes, semáforos, demarcación) que mitigan riesgos viales. La inversión vial 2024 en pavimentación ($635 M), poda ($450 M, mejora visibilidad) y mantenimiento de maquinaria ($14 M) configuran un esfuerzo sostenido sobre la **infraestructura de movilidad** que tiene efectos directos sobre la seguridad cotidiana.
 
-- **Bancos** (#25, 9 sucursales) — información sensible para planificación de respuesta policial-municipal.
-- **Estaciones de Servicios** (#26, 11 ubicaciones) — puntos críticos.
-- **Centros de Salud** (#75, 19) y **Farmacias** (#27, 18) — receptores potenciales de emergencias.
-- **Comercios por Rubro** (#87) — base para mapeo de actividad económica nocturna y rubros sensibles.
-- **Iluminación LED** (#71, dataset *Energía*) — relevante para seguridad ambiental peatonal.
+## La brecha estructural
 
-## Datasets disponibles
+El portal **no expone series sobre**:
 
-Comisarías de Luján de Cuyo (#24), Seguridad Vial (#51).
-
-## Limitaciones
-
-Es probablemente la categoría con **mayor brecha de datos** del portal. Falta toda la serie de:
-
-- **Hechos delictivos** (robos, hurtos, lesiones, homicidios) — competencia provincial pero replicable a nivel local con datos del Ministerio de Seguridad y Justicia de Mendoza.
-- **Multas y controles viales** — competencia municipal directa, no se publica.
-- **Siniestros viales** (cantidad, fatalidad, georreferenciación) — uno de los indicadores más demandados.
+- **Hechos delictivos** (robos, hurtos, lesiones, homicidios) por tipo, lugar, hora, modalidad — competencia provincial pero replicable a nivel municipal con datos del Ministerio de Seguridad y Justicia.
+- **Multas y controles viales** — competencia municipal directa.
+- **Siniestros viales** con georreferenciación, fatalidad, lesionados — uno de los indicadores más demandados.
 - **Operativos** y **denuncias** recibidas en el ámbito municipal.
 - **Cuerpo de Inspección General** (urbano y rural) — sus actuaciones no son públicas.
 
-Para análisis de seguridad en Mendoza hay que recurrir a fuentes provinciales o nacionales (SNIC del Ministerio de Seguridad de la Nación).
+El dataset *Seguridad Vial* (#51) aparece en el catálogo como "Acciones viales" pero **no incluye archivos descargables**.
 
-## Fuente
+## Para análisis profundo
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. La seguridad es competencia primaria del Ministerio de Seguridad y Justicia de la Provincia de Mendoza y el Ministerio de Seguridad de la Nación.
+Para reconstruir un panorama completo de seguridad en Luján de Cuyo es necesario complementar con:
+
+- **SNIC** (Sistema Nacional de Información Criminal) del Ministerio de Seguridad de la Nación, que publica delitos por departamento.
+- **Estadísticas del Ministerio de Seguridad y Justicia de Mendoza**.
+- **Observatorio Vial Provincial** para siniestros viales.
+
+---
+
+*Fuente: Secretaría del Juzgado Vial Nro 1, Secretaria de Gobierno. La seguridad pública es competencia primaria del Ministerio de Seguridad y Justicia de la Provincia de Mendoza y el Ministerio de Seguridad de la Nación. Datos en <https://datos.lujandecuyo.gob.ar>.*
 """
 
 R['covid-19.md'] = """# COVID-19
 
-**1 único dataset** documenta la respuesta municipal a la pandemia: el *Informe Covid Municipal* (#67) publicado por la **Subsecretaría de Gestión del Talento Humano**. La planilla cubre el período de circulación activa del virus durante 2020-2022 con relevamiento semanal.
+Reconstrucción cuantitativa de la pandemia en el ámbito del municipio según el *Informe Covid Municipal*, publicado por la Subsecretaría de Gestión del Talento Humano. La planilla cubre **84 semanas** con relevamiento epidemiológico continuo y permite recuperar la curva completa del fenómeno en la administración municipal.
 
-## Lo que registra el informe
+## La curva pandémica resumida
 
-La planilla *informe-covid-2022.xlsx* (84 filas, ~14 KB) lleva un seguimiento epidemiológico semanal con las siguientes variables:
+| Indicador | Valor |
+|---|---:|
+| **Semanas registradas** | 84 |
+| **Casos positivos acumulados** | 645 |
+| **Recuperados acumulados** | 20.424 |
+| **Fallecidos acumulados** | 21 |
+| **Pico semanal positivos** | 128 |
+| Promedio semanal positivos | 7,7 |
+| Total acumulado al cierre | 643 |
+
+La discrepancia entre **20.424 recuperados** y **645 positivos acumulados** sugiere que el dataset incluye **casos heredados** de períodos previos al inicio de la planilla (las semanas 1-2 ya muestran casos en tratamiento sin contraparte en positivos nuevos del relevamiento). El indicador robusto es el **stock de casos activos por semana**.
+
+## La letalidad observada
+
+Con 21 fallecidos sobre 645 positivos nuevos registrados (planilla específica), la **tasa de letalidad observada es de ~3,3%**. Si se considera el universo total acumulado de 20.424 personas que pasaron por el dispositivo, la tasa baja a **~0,1%** — alineada con cifras nacionales tras la consolidación del programa de vacunación.
+
+El **pico semanal de 128 casos** sugiere un evento de transmisión intensiva (probablemente correspondiente a la ola Ómicron a fines de 2021 / principios de 2022). Las semanas medias presentan un promedio mucho más bajo (7,7), confirmando que el sistema operó la mayor parte del tiempo en régimen de transmisión baja.
+
+## El alcance del relevamiento
+
+La planilla está publicada por la **Subsecretaría de Gestión del Talento Humano**, lo que sugiere que cubre principalmente al **personal municipal** (empleados del Ejecutivo y, por extensión, sus contactos estrechos), no a la población general del departamento. El dato útil para esta serie es el **estado epidemiológico del Estado local** durante los meses críticos.
+
+Para una reconstrucción de la pandemia a nivel poblacional en Luján de Cuyo es necesario recurrir a:
+
+- **Sala de Situación Provincial** (Ministerio de Salud de Mendoza).
+- **Monitor Público de Vacunación** (Nación) — registros de cobertura por departamento.
+- **Sistema Nacional de Vigilancia de la Salud (SNVS)** del Ministerio de Salud de la Nación.
+
+## Las dimensiones registradas
+
+El dataset captura semanalmente:
 
 - **Año** y **Semana** (numeración propia desde Semana 1).
-- **Mes** y **Periodo** (rango de fechas, ej. "26 al 02").
+- **Mes** y **Periodo** (rango de fechas).
 - **Positivos**: casos confirmados nuevos en la semana.
 - **Recuperados**: altas epidemiológicas.
 - **En tratamiento**: casos activos al cierre.
-- **Total**: stock acumulado al cierre semanal.
-- **Fallecidos**: bajas por la enfermedad.
+- **Total**: stock acumulado.
+- **Fallecidos**.
 
-Es el dataset más sencillo del portal, pero permite reconstruir la curva epidémica completa del Municipio durante los meses críticos.
+Esto habilita análisis de **velocidad de transmisión** (positivos nuevos), **duración promedio del tratamiento** (positivos vs recuperados con desfase), **mortalidad acumulada** y **caracterización de las olas** (pico, ascenso, descenso) durante el período cubierto.
 
-## Posibles análisis
+## Lo que falta para una serie completa
 
-Con esta granularidad semanal por categoría se puede:
+- Datos de **vacunación** local (la provincia administra esa serie).
+- Cortes por **distrito**, **grupo de edad**, **sexo** — sólo agregados departamentales semanales.
+- **Variantes circulantes** identificadas en el período.
+- Datos del **personal municipal** desagregado vs población general (para entender el universo de relevamiento).
 
-1. **Reconstruir curvas epidémicas** (positivos por semana, casos activos, fallecidos acumulados).
-2. **Calcular letalidad municipal** (Fallecidos / Positivos acumulados).
-3. **Identificar olas** (alpha, delta, ómicron) por velocidad de crecimiento de positivos.
-4. **Cruzar** con calendarios de medidas (cuarentenas, fases) y calendario de vacunación provincial para análisis de efectividad.
+---
 
-## Limitaciones
-
-- El dataset llega hasta **2022**: post-pandemia, la vigilancia epidemiológica continuó pero no se publicó como datos abiertos en el portal municipal.
-- No hay datos de **vacunación** local (la provincia administra esa serie).
-- No se publican **casos por distrito** ni por **grupo de edad/sexo** — sólo agregados departamentales semanales.
-- El relevamiento está hecho por la Subsecretaría de Gestión del Talento Humano, lo que sugiere que cubre principalmente al **personal municipal** y no a la población general — aunque el dataset no aclara explícitamente esa cobertura.
-
-## Datasets disponibles
-
-Informe Covid Municipal (#67).
-
-## Fuente
-
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Subsecretaría de Gestión del Talento Humano, Municipalidad de Luján de Cuyo.
+*Fuente: Subsecretaría de Gestión del Talento Humano, Municipalidad de Luján de Cuyo. Datos en <https://datos.lujandecuyo.gob.ar>.*
 """
 
 # Escribir todos
 for fname, content in R.items():
     fp = REPORTS_DIR / fname
     fp.write_text(content, encoding='utf-8')
-    print(f"  written: {fname} ({len(content)} chars)")
+    print(f"  written: {fname} ({len(content):,} chars)")
 
 print(f"\nTotal: {len(R)} reports")

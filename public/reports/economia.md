@@ -1,51 +1,75 @@
 # Economía
 
-**19 datasets** que retratan la economía pública y privada del departamento. Cubre el universo fiscal del municipio (presupuesto, gasto, tarifaria), la registración comercial (comercios por rubro, bancos, estaciones de servicio) y elementos de geografía económica (barrios populares, distritos, obras).
+Análisis ejecutivo de la economía pública y privada del departamento. Cubre la estructura fiscal del municipio, el universo comercial registrado, la inversión en obras y la geografía socio-económica del territorio.
 
-## Áreas que publican
+## Las finanzas del municipio
 
-Lidera la **Secretaría de Economía e Ingresos Públicos**, seguida por la **Secretaría de Hacienda** y la **Intendencia**. Hay datos agregados desde el ejercicio 2021 (formato PDF) y planillas de detalle desde 2022 (XLSX).
+El **presupuesto 2025** alcanza los **$111,8 mil millones** según la ejecución publicada al 04/07/2025. La estructura del gasto:
 
-## La economía privada en cifras
+- **Erogaciones corrientes**: $71,1 mil M (64%) — operación cotidiana.
+- **Erogaciones de capital**: $38,9 mil M (35%) — inversión en infraestructura.
+- **Otras**: $160 M (0,1%).
 
-- **11.630 comercios registrados** en el padrón municipal 2025 (dataset #87 *Comercios por Rubro*), distribuidos en **273 rubros** distintos.
-- **Valor total declarado** (Unidades Tributarias × valor): **$14.391 millones**.
-- **6.975 comercios facturan** (60%) y 4.655 no facturan (40%).
-- Rubro dominante: "GENERICO" con 8.129 registros (70%); el resto se reparte entre comercios de almacén, productos no clasificados, servicios, golosinas/cigarrillos, frutas y verduras.
+El **gasto en personal** suma $20,8 mil M considerando Ejecutivo ($19,5 mil M) y HCD ($1,3 mil M), equivalente al **19% del presupuesto total**. La carga financiera por intereses de deuda es marginal (<0,1%).
 
-Otra mirada: **9 sucursales bancarias** (Frances, Supervielle, Nación, Galicia, HSBC, San Juan, Macro), **11 estaciones de servicio** (YPF, Vistalba GNC, Comercial Manitta, etc.) y **47 barrios populares** RENABAP que albergan **2.569 familias**.
+Las **compras y contrataciones 2024** totalizaron **$5,1 mil millones** distribuidos en 1.585 órdenes de compra entre 225 proveedores. La concentración es significativa: los **10 mayores proveedores capturaron el 52% del monto** anual, y un solo contrato (Plan Pavimentación 2024 — VIALMANI) representó **$635 millones** (12,5% del total contratado).
 
-## Gasto y presupuesto público
+Por modalidad, **84% del monto** se ejecutó por licitación pública, 7% por compra directa y 7% por contratación privada — patrón típicamente conservador desde el punto de vista normativo.
 
-El dataset *Gasto Público Municipal* (#56) publica las planillas de ejecución 2021-2025. La planilla 2025 (al 04/07/2025) detalla el cuadro de cuentas:
+## El padrón comercial
 
-- Presupuesto de gastos: **$4.443 millones**.
-- Erogaciones corrientes: $2.966 M (67%); de operación $2.802 M; **personal $1.518 M** (34% del total); bienes de consumo $271 M; servicios $1.013 M.
-- Erogaciones de capital: $1.338 M (30%).
-- Intereses y gastos de la deuda: $24 M (<1%).
-- Transferencias: $140 M.
+El **Padrón de Comercios 2025** registra **11.630 unidades comerciales** distribuidas en 273 rubros distintos:
 
-El dataset *Presupuesto de Gobierno* (#58) publica recursos y gastos mensuales — útil para análisis de estacionalidad.
+- **60% factura** (6.975 comercios), **40% no factura** (4.655) — la base imponible efectiva del comercio departamental.
+- **Valor total declarado** (Unidades Tributarias × valor): **$14,4 mil millones**.
+- **3.501 comercios** tienen rubro identificado (no genérico). Los restantes 8.129 figuran bajo el rubro "GENERICO 999999".
 
-## Obras públicas
+**Top 10 rubros identificados**:
 
-En *Obras Públicas 2025* (#74) figuran **174 actividades** registradas:
+| Rubro | Comercios |
+|---|---:|
+| Venta al por menor de productos de almacén | 314 |
+| Venta de productos no clasificados en otros | 181 |
+| Venta de productos alimenticios — almacenes | 166 |
+| Servicios empresariales | 115 |
+| Venta de bombones, golosinas, confitería | 109 |
+| Venta al por menor de frutas y verduras | 106 |
+| Venta de tabacos, cigarros y cigarrillos | 102 |
+| Venta de prendas y accesorios | 92 |
+| Servicios inmobiliarios | 91 |
 
-- **67 cumplidas** (39%), **40 no iniciadas** (23%), **34 en implementación** (20%), **18 atrasadas** (10%) y **11 canceladas** (6%).
-- **165 actividades** corresponden al eje "Transformación del espacio público"; **9** al eje "Luján Sustentable".
+El núcleo comercial de Luján de Cuyo es marcadamente **alimentario y de cercanía**: almacenes, productos alimenticios, frutas/verduras y golosinas concentran el grueso del padrón identificado.
 
-## Compras del año fiscal
+## Bancos y servicios financieros
 
-Las contrataciones de 2024 (cargadas en *Compras y Contrataciones*) totalizan **$5.065 millones** en 1.585 órdenes — el **20% del presupuesto** se ejecuta vía compras directas/licitaciones. Top contrato: Plan Pavimentación 2024 ($635 M).
+El departamento cuenta con **9 sucursales bancarias** registradas (Banco Francés, Supervielle, Nación, Galicia (×2), HSBC, San Juan, Macro). La concentración geográfica es absoluta: todas se ubican en el corredor San Martín — Mariano Boedo — Aguinaga del distrito Ciudad. Para los distritos rurales (Agrelo, Ugarteche, El Carrizal, Cacheuta, Potrerillos), el acceso a un banco implica desplazarse al cordón urbano.
 
-## Datasets disponibles
+Complementariamente, el municipio registra **11 estaciones de servicio** distribuidas a lo largo de las arterias troncales (RN 7, RP 15, Acceso Sur), incluyendo dos GNC.
 
-Comercios por Rubro 2025 (#87), Gasto Público 2025 (#84), **Planilla de Licitación 2025** (#82), Barrios Populares (#5), **Limites Administrativos** (#8), Bancos (#25), **Pauta Publicitaria** (#42), Tarifaria/Presupuestaria 2021-2023 (#37, #38, #52, #61, #65, #68), Gasto Público Municipal (#56), Presupuesto de Gobierno (#58), **Unidades Comerciales** (#64), Obras Públicas (#74).
+## Geografía económica de la pobreza
 
-## Limitaciones
+Los **47 barrios populares** registrados por el RENABAP (Registro Nacional de Barrios Populares) albergan **2.569 familias**. Top 5 por población:
 
-Las ordenanzas presupuestaria/tarifaria de cada año vienen como **PDF/DOCX**, no procesables. La planilla de comercios concentra el 70% en el rubro genérico, lo que limita el análisis sectorial fino. No hay datos directos de **empleo** (registración formal/informal) ni de **producción** (vitivinícola, construcción, servicios).
+- Valle Encantado (Chacras de Coria) — 290 familias.
+- Tierras Vivas (Agrelo) — 170.
+- Patrono Santiago (Ciudad) — 160.
+- Virgen de Lourdes (Perdriel) — 135.
+- Costanera Sur (Ciudad) — 132.
 
-## Fuente
+La distribución muestra **focos urbanos** (Ciudad concentra varios) y **focos rurales** (Agrelo, Ugarteche, Perdriel) — geografía relevante para políticas de regularización dominial e infraestructura.
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>.
+## La inversión en obras
+
+El plan de obras 2025 (*Obras Públicas*) registra **174 actividades** ejecutadas por la Secretaría de Obras y Espacios Públicos. Estado de avance al cierre del relevamiento:
+
+- **39%** cumplido (67 actividades).
+- 23% no iniciado (40).
+- 20% en implementación (34).
+- 10% atrasado (18).
+- 6% cancelado (11).
+
+El 95% del plan corresponde al eje **"Transformación del espacio público"** (165 actividades, programas de ordenadores viales, paseos, plazas). El restante 5% se enmarca en **"Luján Sustentable"** (9 actividades). El programa *Movilidad Sustentable* concentra 9 actividades específicas dentro del plan.
+
+---
+
+*Fuente: Secretaría de Hacienda, Secretaría de Economía e Ingresos Públicos, Secretaría de Obras y Espacios Públicos. Cifras nominales en pesos argentinos. Datos en <https://datos.lujandecuyo.gob.ar>.*

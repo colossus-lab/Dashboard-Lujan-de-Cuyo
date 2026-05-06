@@ -1,41 +1,58 @@
 # COVID-19
 
-**1 único dataset** documenta la respuesta municipal a la pandemia: el *Informe Covid Municipal* (#67) publicado por la **Subsecretaría de Gestión del Talento Humano**. La planilla cubre el período de circulación activa del virus durante 2020-2022 con relevamiento semanal.
+Reconstrucción cuantitativa de la pandemia en el ámbito del municipio según el *Informe Covid Municipal*, publicado por la Subsecretaría de Gestión del Talento Humano. La planilla cubre **84 semanas** con relevamiento epidemiológico continuo y permite recuperar la curva completa del fenómeno en la administración municipal.
 
-## Lo que registra el informe
+## La curva pandémica resumida
 
-La planilla *informe-covid-2022.xlsx* (84 filas, ~14 KB) lleva un seguimiento epidemiológico semanal con las siguientes variables:
+| Indicador | Valor |
+|---|---:|
+| **Semanas registradas** | 84 |
+| **Casos positivos acumulados** | 645 |
+| **Recuperados acumulados** | 20.424 |
+| **Fallecidos acumulados** | 21 |
+| **Pico semanal positivos** | 128 |
+| Promedio semanal positivos | 7,7 |
+| Total acumulado al cierre | 643 |
+
+La discrepancia entre **20.424 recuperados** y **645 positivos acumulados** sugiere que el dataset incluye **casos heredados** de períodos previos al inicio de la planilla (las semanas 1-2 ya muestran casos en tratamiento sin contraparte en positivos nuevos del relevamiento). El indicador robusto es el **stock de casos activos por semana**.
+
+## La letalidad observada
+
+Con 21 fallecidos sobre 645 positivos nuevos registrados (planilla específica), la **tasa de letalidad observada es de ~3,3%**. Si se considera el universo total acumulado de 20.424 personas que pasaron por el dispositivo, la tasa baja a **~0,1%** — alineada con cifras nacionales tras la consolidación del programa de vacunación.
+
+El **pico semanal de 128 casos** sugiere un evento de transmisión intensiva (probablemente correspondiente a la ola Ómicron a fines de 2021 / principios de 2022). Las semanas medias presentan un promedio mucho más bajo (7,7), confirmando que el sistema operó la mayor parte del tiempo en régimen de transmisión baja.
+
+## El alcance del relevamiento
+
+La planilla está publicada por la **Subsecretaría de Gestión del Talento Humano**, lo que sugiere que cubre principalmente al **personal municipal** (empleados del Ejecutivo y, por extensión, sus contactos estrechos), no a la población general del departamento. El dato útil para esta serie es el **estado epidemiológico del Estado local** durante los meses críticos.
+
+Para una reconstrucción de la pandemia a nivel poblacional en Luján de Cuyo es necesario recurrir a:
+
+- **Sala de Situación Provincial** (Ministerio de Salud de Mendoza).
+- **Monitor Público de Vacunación** (Nación) — registros de cobertura por departamento.
+- **Sistema Nacional de Vigilancia de la Salud (SNVS)** del Ministerio de Salud de la Nación.
+
+## Las dimensiones registradas
+
+El dataset captura semanalmente:
 
 - **Año** y **Semana** (numeración propia desde Semana 1).
-- **Mes** y **Periodo** (rango de fechas, ej. "26 al 02").
+- **Mes** y **Periodo** (rango de fechas).
 - **Positivos**: casos confirmados nuevos en la semana.
 - **Recuperados**: altas epidemiológicas.
 - **En tratamiento**: casos activos al cierre.
-- **Total**: stock acumulado al cierre semanal.
-- **Fallecidos**: bajas por la enfermedad.
+- **Total**: stock acumulado.
+- **Fallecidos**.
 
-Es el dataset más sencillo del portal, pero permite reconstruir la curva epidémica completa del Municipio durante los meses críticos.
+Esto habilita análisis de **velocidad de transmisión** (positivos nuevos), **duración promedio del tratamiento** (positivos vs recuperados con desfase), **mortalidad acumulada** y **caracterización de las olas** (pico, ascenso, descenso) durante el período cubierto.
 
-## Posibles análisis
+## Lo que falta para una serie completa
 
-Con esta granularidad semanal por categoría se puede:
+- Datos de **vacunación** local (la provincia administra esa serie).
+- Cortes por **distrito**, **grupo de edad**, **sexo** — sólo agregados departamentales semanales.
+- **Variantes circulantes** identificadas en el período.
+- Datos del **personal municipal** desagregado vs población general (para entender el universo de relevamiento).
 
-1. **Reconstruir curvas epidémicas** (positivos por semana, casos activos, fallecidos acumulados).
-2. **Calcular letalidad municipal** (Fallecidos / Positivos acumulados).
-3. **Identificar olas** (alpha, delta, ómicron) por velocidad de crecimiento de positivos.
-4. **Cruzar** con calendarios de medidas (cuarentenas, fases) y calendario de vacunación provincial para análisis de efectividad.
+---
 
-## Limitaciones
-
-- El dataset llega hasta **2022**: post-pandemia, la vigilancia epidemiológica continuó pero no se publicó como datos abiertos en el portal municipal.
-- No hay datos de **vacunación** local (la provincia administra esa serie).
-- No se publican **casos por distrito** ni por **grupo de edad/sexo** — sólo agregados departamentales semanales.
-- El relevamiento está hecho por la Subsecretaría de Gestión del Talento Humano, lo que sugiere que cubre principalmente al **personal municipal** y no a la población general — aunque el dataset no aclara explícitamente esa cobertura.
-
-## Datasets disponibles
-
-Informe Covid Municipal (#67).
-
-## Fuente
-
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. Subsecretaría de Gestión del Talento Humano, Municipalidad de Luján de Cuyo.
+*Fuente: Subsecretaría de Gestión del Talento Humano, Municipalidad de Luján de Cuyo. Datos en <https://datos.lujandecuyo.gob.ar>.*

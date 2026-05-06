@@ -8,125 +8,97 @@
   },
   "kpis": [
     {
-      "id": "kpi-datasets",
-      "label": "Datasets",
-      "value": 9,
-      "formatted": "9"
+      "id": "concejales",
+      "label": "Concejales (mandato 2023/2027)",
+      "value": 13,
+      "formatted": "13"
     },
     {
-      "id": "kpi-archivos",
-      "label": "Archivos descargables",
-      "value": 32,
-      "formatted": "32"
+      "id": "mesas",
+      "label": "Mesas escrutadas (Concejal)",
+      "value": 316,
+      "formatted": "316"
     },
     {
-      "id": "kpi-mb",
-      "label": "MB publicados",
-      "value": 21,
-      "formatted": "20.6 MB"
+      "id": "votos",
+      "label": "Votos analizados",
+      "value": 10934,
+      "formatted": "10.934"
     },
     {
-      "id": "kpi-orgs",
-      "label": "Áreas que publican",
-      "value": 6,
-      "formatted": "6"
+      "id": "personal",
+      "label": "Gasto en personal HCD",
+      "value": 1300000000,
+      "formatted": "$1,3 mil M",
+      "unit": "6% del personal total"
     }
   ],
   "charts": [
     {
-      "id": "chart-orgs",
-      "type": "bar",
-      "title": "Datasets por área que publica",
-      "sectionId": "areas-que-publican",
+      "id": "paso-2023-pie",
+      "type": "pie",
+      "title": "PASO 2023 — Concejal (% votos)",
+      "sectionId": "la-composicion-del-cuerpo",
       "data": [
         {
-          "id": "Honorable Concejo Deliberante de Luján de Cuyo",
-          "datasets": 3
+          "id": "Cambia Mendoza",
+          "label": "Cambia Mendoza",
+          "value": 4670
         },
         {
-          "id": "Secretaría de Economía e Ingresos Públicos",
-          "datasets": 2
+          "id": "La Unión Mendocina",
+          "label": "La Unión Mendocina",
+          "value": 4499
         },
         {
-          "id": "Secretaria de Gobierno",
-          "datasets": 1
+          "id": "Elegí Mendoza",
+          "label": "Elegí Mendoza",
+          "value": 1006
         },
         {
-          "id": "Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio",
-          "datasets": 1
+          "id": "FIT",
+          "label": "FIT",
+          "value": 404
         },
         {
-          "id": "Jefe de Gabinete",
-          "datasets": 1
+          "id": "Partido Verde",
+          "label": "Partido Verde",
+          "value": 355
+        }
+      ]
+    },
+    {
+      "id": "paso-distrito",
+      "type": "bar",
+      "title": "Total votos por distrito relevado",
+      "sectionId": "geografia-del-voto",
+      "data": [
+        {
+          "distrito": "Chacras de Coria",
+          "votos": 4452
         },
         {
-          "id": "Intendencia Municipalidad de Luján de Cuyo",
-          "datasets": 1
+          "distrito": "Carrodilla",
+          "votos": 2164
+        },
+        {
+          "distrito": "Perdriel",
+          "votos": 2105
+        },
+        {
+          "distrito": "Mayor Drumond",
+          "votos": 1116
+        },
+        {
+          "distrito": "Ciudad",
+          "votos": 1097
         }
       ],
       "config": {
-        "xAxis": "id",
-        "layout": "horizontal"
+        "xAxis": "distrito"
       }
-    },
-    {
-      "id": "chart-formats",
-      "type": "pie",
-      "title": "Distribución de formatos",
-      "sectionId": "formatos-disponibles",
-      "data": [
-        {
-          "id": "XLSX",
-          "label": "XLSX",
-          "value": 19
-        },
-        {
-          "id": "PDF",
-          "label": "PDF",
-          "value": 11
-        },
-        {
-          "id": "DOCX",
-          "label": "DOCX",
-          "value": 1
-        },
-        {
-          "id": "XLS",
-          "label": "XLS",
-          "value": 1
-        }
-      ]
     }
   ],
-  "rankings": [
-    {
-      "id": "rank-datasets-archivos",
-      "title": "Datasets con más archivos",
-      "sectionId": "",
-      "items": [
-        {
-          "name": "Funcionarios Públicos Municipal",
-          "value": 10
-        },
-        {
-          "name": "Resultado Electorales",
-          "value": 8
-        },
-        {
-          "name": "Información Pública",
-          "value": 5
-        },
-        {
-          "name": "Tarifaria 2023",
-          "value": 3
-        },
-        {
-          "name": "Declaraciones Juradas",
-          "value": 2
-        }
-      ],
-      "order": "desc"
-    }
-  ],
+  "rankings": [],
   "mapData": []
 }

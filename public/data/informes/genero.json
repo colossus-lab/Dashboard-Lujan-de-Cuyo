@@ -8,92 +8,156 @@
   },
   "kpis": [
     {
-      "id": "kpi-datasets",
-      "label": "Datasets",
-      "value": 3,
-      "formatted": "3"
+      "id": "casos",
+      "label": "Casos atendidos en Luján 2022",
+      "value": 480,
+      "formatted": "480"
     },
     {
-      "id": "kpi-archivos",
-      "label": "Archivos descargables",
-      "value": 9,
-      "formatted": "9"
+      "id": "pareja-ex",
+      "label": "Riesgo desde pareja/ex",
+      "value": 90,
+      "formatted": "90%",
+      "unit": "de los casos"
     },
     {
-      "id": "kpi-mb",
-      "label": "MB publicados",
-      "value": 9,
-      "formatted": "9.0 MB"
+      "id": "desocupada",
+      "label": "Víctimas desocupadas",
+      "value": 38,
+      "formatted": "38%"
     },
     {
-      "id": "kpi-orgs",
-      "label": "Áreas que publican",
-      "value": 1,
-      "formatted": "1"
+      "id": "dimensiones",
+      "label": "Dimensiones por ficha RUC",
+      "value": 87,
+      "formatted": "87"
     }
   ],
   "charts": [
     {
-      "id": "chart-orgs",
-      "type": "bar",
-      "title": "Datasets por área que publica",
-      "sectionId": "areas-que-publican",
+      "id": "vinculo",
+      "type": "pie",
+      "title": "Vínculo con el agresor (cat. Concejal 2022)",
+      "sectionId": "vinculo-con-el-agresor",
       "data": [
         {
-          "id": "Dirección de Género y Diversidad",
-          "datasets": 3
+          "id": "Ex pareja conviviente",
+          "label": "Ex pareja conviv.",
+          "value": 275
+        },
+        {
+          "id": "Cónyuge",
+          "label": "Cónyuge",
+          "value": 75
+        },
+        {
+          "id": "Ex cónyuge",
+          "label": "Ex cónyuge",
+          "value": 58
+        },
+        {
+          "id": "Ex novio/no conv.",
+          "label": "Ex novio/no conv.",
+          "value": 33
+        },
+        {
+          "id": "Otros",
+          "label": "Otros",
+          "value": 52
+        }
+      ]
+    },
+    {
+      "id": "estado-civil",
+      "type": "bar",
+      "title": "Estado civil de las víctimas",
+      "sectionId": "estado-civil",
+      "data": [
+        {
+          "estado": "Soltera",
+          "casos": 318
+        },
+        {
+          "estado": "Casada",
+          "casos": 99
+        },
+        {
+          "estado": "Divorciada",
+          "casos": 41
+        },
+        {
+          "estado": "Separada",
+          "casos": 14
         }
       ],
       "config": {
-        "xAxis": "id",
+        "xAxis": "estado"
+      }
+    },
+    {
+      "id": "niv-educ",
+      "type": "bar",
+      "title": "Nivel educativo de las víctimas",
+      "sectionId": "nivel-educativo",
+      "data": [
+        {
+          "nivel": "Sec. incompleta",
+          "casos": 178
+        },
+        {
+          "nivel": "Sec. completa",
+          "casos": 99
+        },
+        {
+          "nivel": "Terc./Univ. completo",
+          "casos": 62
+        },
+        {
+          "nivel": "Primaria completa",
+          "casos": 55
+        },
+        {
+          "nivel": "Primaria incompleta",
+          "casos": 25
+        },
+        {
+          "nivel": "Sin educación",
+          "casos": 23
+        }
+      ],
+      "config": {
+        "xAxis": "nivel",
         "layout": "horizontal"
       }
     },
     {
-      "id": "chart-formats",
-      "type": "pie",
-      "title": "Distribución de formatos",
-      "sectionId": "formatos-disponibles",
+      "id": "tipo-violencia",
+      "type": "bar",
+      "title": "Tipos de violencia reportada (% casos)",
+      "sectionId": "los-tipos-de-violencia-ejercida",
       "data": [
         {
-          "id": "XLSX",
-          "label": "XLSX",
-          "value": 6
+          "tipo": "Psicológica",
+          "porcentaje": 83
         },
         {
-          "id": "PDF",
-          "label": "PDF",
-          "value": 2
+          "tipo": "Física",
+          "porcentaje": 64
         },
         {
-          "id": "DOC",
-          "label": "DOC",
-          "value": 1
-        }
-      ]
-    }
-  ],
-  "rankings": [
-    {
-      "id": "rank-datasets-archivos",
-      "title": "Datasets con más archivos",
-      "sectionId": "",
-      "items": [
-        {
-          "name": "Estadísticas de Género",
-          "value": 7
+          "tipo": "Económica/Patrim.",
+          "porcentaje": 59
         },
         {
-          "name": "Acuerdo de cooperación",
-          "value": 1
-        },
-        {
-          "name": "Protocolo de Acción",
-          "value": 1
+          "tipo": "Sexual",
+          "porcentaje": 22
         }
       ],
-      "order": "desc"
+      "config": {
+        "xAxis": "tipo"
+      }
     }
   ],
+  "rankings": [],
   "mapData": []
 }

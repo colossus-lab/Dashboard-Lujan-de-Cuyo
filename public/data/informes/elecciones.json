@@ -8,110 +8,127 @@
   },
   "kpis": [
     {
-      "id": "kpi-datasets",
-      "label": "Datasets",
-      "value": 4,
-      "formatted": "4"
+      "id": "mesas",
+      "label": "Mesas escrutadas (Concejal)",
+      "value": 316,
+      "formatted": "316"
     },
     {
-      "id": "kpi-archivos",
-      "label": "Archivos descargables",
-      "value": 34,
-      "formatted": "34"
+      "id": "votos",
+      "label": "Votos analizados",
+      "value": 10934,
+      "formatted": "10.934"
     },
     {
-      "id": "kpi-mb",
-      "label": "MB publicados",
-      "value": 16,
-      "formatted": "16.2 MB"
+      "id": "cm",
+      "label": "Cambia Mendoza",
+      "value": 4670,
+      "formatted": "42,7%"
     },
     {
-      "id": "kpi-orgs",
-      "label": "Áreas que publican",
-      "value": 2,
-      "formatted": "2"
+      "id": "lu",
+      "label": "La Unión Mendocina",
+      "value": 4499,
+      "formatted": "41,1%"
     }
   ],
   "charts": [
     {
-      "id": "chart-orgs",
-      "type": "bar",
-      "title": "Datasets por área que publica",
-      "sectionId": "areas-que-publican",
+      "id": "paso-pie",
+      "type": "pie",
+      "title": "PASO 2023 — Concejal (votos)",
+      "sectionId": "el-mapa-politico-paridad-y-dos-polos",
       "data": [
         {
-          "id": "Jefe de Gabinete",
-          "datasets": 3
+          "id": "Cambia Mendoza",
+          "label": "Cambia Mendoza",
+          "value": 4670
         },
         {
-          "id": "Intendencia Municipalidad de Luján de Cuyo",
-          "datasets": 1
+          "id": "La Unión Mendocina",
+          "label": "La Unión Mendocina",
+          "value": 4499
+        },
+        {
+          "id": "Elegí Mendoza",
+          "label": "Elegí Mendoza",
+          "value": 1006
+        },
+        {
+          "id": "FIT",
+          "label": "FIT",
+          "value": 404
+        },
+        {
+          "id": "Partido Verde",
+          "label": "Partido Verde",
+          "value": 355
+        }
+      ]
+    },
+    {
+      "id": "paso-distrito-cm",
+      "type": "bar",
+      "title": "% Cambia Mendoza por distrito (cat. Concejal)",
+      "sectionId": "la-geografia-del-voto-dos-lujanes",
+      "data": [
+        {
+          "distrito": "Chacras de Coria",
+          "porcentaje": 56
+        },
+        {
+          "distrito": "Carrodilla",
+          "porcentaje": 41
+        },
+        {
+          "distrito": "Mayor Drumond",
+          "porcentaje": 34
+        },
+        {
+          "distrito": "Ciudad",
+          "porcentaje": 29
+        },
+        {
+          "distrito": "Perdriel",
+          "porcentaje": 28
         }
       ],
       "config": {
-        "xAxis": "id",
-        "layout": "horizontal"
+        "xAxis": "distrito"
       }
     },
     {
-      "id": "chart-formats",
-      "type": "pie",
-      "title": "Distribución de formatos",
-      "sectionId": "formatos-disponibles",
+      "id": "paso-distrito-lu",
+      "type": "bar",
+      "title": "% La Unión Mendocina por distrito",
+      "sectionId": "la-geografia-del-voto-dos-lujanes",
       "data": [
         {
-          "id": "XLS",
-          "label": "XLS",
-          "value": 15
+          "distrito": "Ciudad",
+          "porcentaje": 52
         },
         {
-          "id": "XLSX",
-          "label": "XLSX",
-          "value": 10
+          "distrito": "Perdriel",
+          "porcentaje": 52
         },
         {
-          "id": "PDF",
-          "label": "PDF",
-          "value": 7
+          "distrito": "Mayor Drumond",
+          "porcentaje": 47
         },
         {
-          "id": "CSV",
-          "label": "CSV",
-          "value": 1
+          "distrito": "Carrodilla",
+          "porcentaje": 38
         },
         {
-          "id": "DOCX",
-          "label": "DOCX",
-          "value": 1
-        }
-      ]
-    }
-  ],
-  "rankings": [
-    {
-      "id": "rank-datasets-archivos",
-      "title": "Datasets con más archivos",
-      "sectionId": "",
-      "items": [
-        {
-          "name": "Elecciones Departamental",
-          "value": 14
-        },
-        {
-          "name": "Resultado Electorales",
-          "value": 8
-        },
-        {
-          "name": "Ordenanzas Municipales",
-          "value": 6
-        },
-        {
-          "name": "Voto electoral",
-          "value": 6
+          "distrito": "Chacras de Coria",
+          "porcentaje": 34
         }
       ],
-      "order": "desc"
+      "config": {
+        "xAxis": "distrito"
+      }
     }
   ],
+  "rankings": [],
   "mapData": []
 }

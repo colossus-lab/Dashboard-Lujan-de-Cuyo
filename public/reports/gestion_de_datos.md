@@ -1,43 +1,56 @@
 # Gestión de Datos
 
-**3 datasets** que documentan la **estrategia institucional** del municipio sobre datos abiertos, gobernanza de la información e inteligencia artificial. Aunque pequeña en cantidad, es la categoría que da contexto al **resto del portal**: explica cómo se decide qué se publica, bajo qué reglas y con qué herramientas.
+Análisis de la **estrategia de datos y gobernanza algorítmica** del municipio. Luján de Cuyo es uno de los pocos municipios argentinos con normativa específica sobre **uso de Inteligencia Artificial** en el Estado local — una decisión institucional poco frecuente.
 
-## Inteligencia Artificial: gobernanza
+## El marco normativo de la IA municipal
 
-El dataset *Inteligencia Artificial* (#90) reúne la **Estrategia de Gobernanza de IA** del municipio. Componentes publicados (mayo 2025):
+El paquete normativo publicado por la Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio incluye:
 
-- **Decreto Nro 3041** sobre uso de IA y Machine Learning en el Estado municipal — marco regulatorio que establece principios y restricciones.
-- **Estrategia de Datos para Toda la Ciudad** (documento institucional VF 08/12/2024) — visión integradora.
-- **Protocolo Ético para el Uso de IA en la Municipalidad de Luján de Cuyo** — documento operativo con principios éticos aplicables.
-- **Gobernanza_IA.xlsx**: tabla con dimensiones (Institucionalidad, Reglamentación, Protección de datos), área a cargo y productos generados.
-- **Programas IA.xlsx** y **Innovación_Desarrollo.xlsx**: programas asociados.
-- Enlaces web a *Laboratorio Inteligente* (Portal Luján Lab) y a la página de **Ciberseguridad** del municipio.
+### Decreto 3041 — Uso de IA y Machine Learning en el Estado municipal
 
-Es uno de los conjuntos documentales más completos del portal y posiciona a Luján de Cuyo entre los pocos municipios argentinos con normativa específica sobre IA.
+El decreto establece principios y restricciones aplicables al uso de IA en la administración. Define el marco regulatorio dentro del cual las dependencias pueden incorporar herramientas algorítmicas, qué tipos de procesos pueden automatizarse y qué controles humanos son obligatorios.
 
-## Inventario de Datos
+### Estrategia de Datos para Toda la Ciudad
 
-El dataset *Inventario de Datos* (#62) ofrece "una visión integral de todos los recursos de datos de la ciudad" — es el **catálogo maestro** que sirve de base al portal de datos abiertos. Está publicado como un único archivo XLSX, mantenido por la Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio.
+Documento institucional (versión final 08/12/2024) que articula la **visión integradora** de la gestión de datos como activo estratégico del municipio. Posiciona los datos abiertos como herramienta de transparencia + insumo para la planificación basada en evidencia + base de productos digitales para los vecinos.
 
-## Repositorio normativo
+### Protocolo Ético para el Uso de IA
 
-El dataset *Ordenanzas Municipales* (#4) es el repositorio centralizado de las ordenanzas votadas por el HCD. Incluye:
+Documento operativo con principios éticos aplicables a la implementación de IA. Aborda cuestiones como **transparencia algorítmica**, **prevención del sesgo**, **explicabilidad de las decisiones automatizadas**, **protección de datos personales** y **derechos de los administrados**.
+
+### Tabla de gobernanza
+
+El XLSX `Gobernanza_IA.xlsx` operativiza el marco con tres dimensiones:
+
+| Dimensión | Área a cargo | Productos asociados |
+|---|---|---|
+| Institucionalidad | Infraestructura y Tecnología de la IA | — |
+| Reglamentación | Infraestructura y Tecnología de la IA | Estrategia de Datos / Decreto 3041 / Protocolo Ético |
+| Protección de datos | Infraestructura y Tecnología de la IA | Ley de Acceso a la Información Pública |
+
+Existe además una planilla de **Programas IA** y otra de **Innovación y Desarrollo**, ambas asociadas al programa de transformación digital.
+
+## El Inventario de Datos
+
+El dataset *Inventario de Datos* es **el catálogo maestro que sostiene el portal de datos abiertos**. Es la planilla que la Secretaría de Innovación mantiene como inventario integral de los recursos de datos producidos por las distintas áreas del municipio: qué se publica, qué no, qué áreas tienen series estructuradas, qué brechas existen.
+
+Este es el documento que el equipo técnico utiliza para priorizar **publicaciones nuevas** y para detectar **datasets candidatos a apertura**.
+
+## El repositorio normativo
+
+El dataset *Ordenanzas Municipales* es el repositorio centralizado de **toda la producción legislativa del HCD**:
 
 - Ordenanzas 2025 categorizadas (CSV+XLS).
-- Ordenanzas Categorizadas 2024 (CSV+XLS).
+- Ordenanzas 2024 categorizadas (CSV+XLS).
 - Ordenanzas 2024-2016 históricas (CSV).
-- ORDENANZA Nº 14830-2024 Presupuesto 2025 (DOCX) y 14831-2024 Tarifaria 2025 (PDF).
+- Normativa individual destacada: **Ordenanza 14830/2024** (Presupuesto 2025), **14831/2024** (Tarifaria 2025).
 
-Permite analizar la **producción legislativa** del HCD por categoría temática.
+La estructura categorizada por temática habilita análisis de la **producción legislativa del HCD** por área (urbanismo, ambiente, fiscal, deportes, etc.).
 
-## Datasets disponibles
+## El laboratorio: Luján Lab
 
-Ordenanzas Municipales (#4), Inventario de Datos (#62), Inteligencia Artificial (#90).
+Vinculado a la estrategia de IA, el **Portal Luján Lab** opera como espacio de innovación y desarrollo digital del municipio. La **Página de Ciberseguridad** complementa el ecosistema con información sobre buenas prácticas de protección digital orientada a vecinos y agentes municipales.
 
-## Limitaciones
+---
 
-Los **3 documentos institucionales** sobre IA están en HTML/PDF y aunque marcan políticas claras, su contenido no es procesable como datos. El **Inventario de Datos** es un único archivo y debería actualizarse al menos trimestralmente para reflejar bajas/altas de datasets — no hay un changelog público.
-
-## Fuente
-
-Portal oficial: <https://datos.lujandecuyo.gob.ar>. La estrategia de IA y gobernanza es responsabilidad de la Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio.
+*Fuente: Secretaría de Innovación, Gobierno Abierto y Gestión del Territorio, Municipalidad de Luján de Cuyo. Datos y normativa en <https://datos.lujandecuyo.gob.ar>.*

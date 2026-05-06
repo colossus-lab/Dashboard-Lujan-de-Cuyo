@@ -1,40 +1,64 @@
 # Honorable Concejo Deliberante
 
-**9 datasets** específicos del Poder Legislativo municipal de Luján de Cuyo. Reúnen información institucional sobre la composición del cuerpo (concejales, antecedentes, estructura), su nómina de personal, los pedidos de información que recibe, las declaraciones juradas patrimoniales y los resultados electorales que constituyen al cuerpo.
+Análisis del cuerpo legislativo municipal: composición política derivada del último proceso electoral, transparencia patrimonial, gestión de pedidos de información y posicionamiento institucional.
 
-## Áreas que publican
+## La composición del cuerpo
 
-El propio **HCD de Luján de Cuyo** publica organigrama, nómina, antecedentes profesionales y estructura. La **Secretaría de Economía e Ingresos Públicos** publica funcionarios públicos (incluyendo HCD) y normativa presupuestaria. La **Secretaría de Innovación** centraliza los pedidos de información. Las **DDJJ** del HCD se publican en conjunto con las del Ejecutivo.
+El HCD vigente fue electo en las **PASO Provinciales 2023** y se constituyó con mandato 2023/2027. La composición política puede inferirse del escrutinio publicado para la categoría Concejal, donde se relevaron 316 mesas en el departamento:
 
-## Composición del cuerpo
+| Agrupación | Votos | % |
+|---|---:|---:|
+| **CAMBIA MENDOZA** | 4.670 | **42,7%** |
+| **LA UNIÓN MENDOCINA** | 4.499 | **41,1%** |
+| ELEGÍ MENDOZA | 1.006 | 9,2% |
+| Frente de Izquierda y de Trabajadores | 404 | 3,7% |
+| Partido Verde | 355 | 3,2% |
 
-- **13 declaraciones juradas** publicadas para el HCD (mayo 2025), correspondientes a concejales en mandato 2023/2027 y secretarios del Concejo: Andrés Sconfienza, Adrián Devia, Claudio Ogando (Secretario), Guillermo Trentacoste, Malena Abalos, Carlos Sala, Rubén Lazaro, Paloma Scalco, entre otros (DDJJ HCD 2025, #60).
-- **Antecedentes profesionales** y **CVs** del HCD se publican en PDF (#19) — útil para escrutinio público.
-- La **Estructura HCD** está disponible como organigrama PDF (#73).
+El cuerpo refleja una **paridad electoral** entre Cambia Mendoza y La Unión Mendocina (1,6 puntos de diferencia), sumando entre ambos el 84% de los votos válidos. La **fragmentación periférica** (Elegí 9,2%, FIT 3,7%, Verde 3,2%) configura una representación con dos grandes bloques y voces minoritarias.
 
-## Pedidos de información pública
+## Geografía del voto
 
-El cuerpo gestiona pedidos AIP (Acceso a la Información Pública) — hay una planilla de **garantes-hcd** y "pedidos de información pública 2024" en *Información Pública* (#57). Junto al pulido por el Ejecutivo, en lo que va de 2025 se registran **82 tickets** AIP combinados (Ejecutivo + HCD).
+Cruzando con distrito de origen (planilla parcial con 5 distritos relevados):
 
-## Resultados electorales
+| Distrito | Total votos | 1° lugar | % | 2° lugar | % |
+|---|---:|---|---:|---|---:|
+| Carrodilla | 2.164 | Cambia Mendoza | 41% | La Unión | 38% |
+| Chacras de Coria | 4.452 | **Cambia Mendoza** | **56%** | La Unión | 34% |
+| Ciudad | 1.097 | **La Unión** | 52% | Cambia | 29% |
+| Mayor Drummond | 1.116 | La Unión | 47% | Cambia | 34% |
+| Perdriel | 2.105 | **La Unión** | 52% | Cambia | 28% |
 
-Las **elecciones provinciales PASO 2023** definieron la composición vigente. El detalle escrutado se publica en *Resultado Electorales* (#59):
+**Chacras de Coria** y **Carrodilla** se inclinaron hacia **Cambia Mendoza**; **Ciudad**, **Mayor Drumond** y **Perdriel** hacia **La Unión Mendocina**. La asimetría territorial sugiere bases sociales distintas: los distritos residenciales premium del corredor norte vs. los distritos centrales y rurales.
 
-- Categorías publicadas: Gobernador, Senadores Provinciales, Diputados Provinciales, **Concejal**, escrutinio definitivo del 24/09/2024 — total 8 archivos PDF + XLS.
-- El dataset *Voto electoral* (#49) detalla las **316 mesas** de la categoría Concejales con desglose por agrupación, votos en blanco, impugnados, comando electoral.
+## Transparencia patrimonial
 
-## Sueldos del Cuerpo
+Los **13 miembros del HCD** publican declaración jurada patrimonial bajo la Ley provincial de Ética Pública 2025 (planilla *DDJJ HCD 2025*). Los nombres registrados incluyen:
 
-El dataset *Funcionarios Públicos Municipal* (#55) publica también la **Nómina HCD 2025** (4 archivos XLSX). Junto a la nómina del Ejecutivo conforma el padrón completo de empleados del Estado municipal.
+- Andrés Sconfienza, Adrián Devia (Concejal 2023/2027)
+- Claudio Ogando (Secretario HCD)
+- Guillermo Trentacoste, Malena Abalos, Carlos Sala, Rubén Lazaro, Paloma Scalco (Concejales)
 
-## Datasets disponibles
+Los antecedentes profesionales y CVs se publican en formato PDF en el dataset *Antecedentes Profesionales*.
 
-Nómina de Concejales (#17), Antecedentes Profesionales HCD (#19), Tarifaria 2023 (#52), **Funcionarios Públicos Municipal** (#55, parcialmente HCD), **Información Pública** (#57), Resultado Electorales (#59), Declaraciones Juradas (#60), Presupuestaria (#68), **Estructura HCD** (#73).
+## Función legislativa: ordenanzas
 
-## Limitaciones
+Aunque el portal no expone una serie estructurada de proyectos votados, el dataset *Ordenanzas Municipales* publica el **repositorio normativo** producido por el cuerpo:
 
-La mayoría de los datos del HCD están en **PDF** (organigramas, nóminas, antecedentes, presupuestaria) — no son datos estructurados. Para análisis de la actividad legislativa (proyectos presentados, votaciones nominales, asistencia de concejales) hay que recurrir al sitio del HCD directamente: el portal de datos abiertos no expone esa serie.
+- Ordenanzas 2025 categorizadas (CSV).
+- Ordenanzas 2024 categorizadas (CSV).
+- Ordenanzas 2024-2016 históricas (CSV).
+- Normas individuales destacadas: Ordenanza 14830/2024 (Presupuesto 2025), 14831/2024 (Tarifaria 2025), 13884/2020 (GIRSU), 14525/2023 y 14526/2023 (Tarifaria/Presupuesto).
 
-## Fuente
+Esto permite trazar la **producción legislativa por categoría temática** a lo largo del período.
 
-Portal oficial: <https://datos.lujandecuyo.gob.ar>.
+## Estructura interna
+
+El **organigrama HCD** se publica como PDF (#73). Con 13 concejales más cargos políticos y técnicos, el cuerpo emplea personal cuya nómina está incluida en la **Planilla HCD 2025** (cuatro archivos del dataset *Funcionarios Públicos Municipal*). El HCD aporta **$1,3 mil M** al gasto en personal del Estado municipal — alrededor del 6% del total de personal.
+
+## El acceso a la información
+
+El dataset *Información Pública* incluye una planilla específica **garantes-hcd** y registros de "pedidos de información pública 2024" gestionados por el cuerpo. En conjunto con los pedidos del Ejecutivo, el sistema AIP municipal procesó **82 tickets** en lo que va de 2025.
+
+---
+
+*Fuente: Honorable Concejo Deliberante de Luján de Cuyo, Secretaría de Economía e Ingresos Públicos, Junta Electoral de Mendoza (PASO 2023). Datos en <https://datos.lujandecuyo.gob.ar>.*

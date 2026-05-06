@@ -8,144 +8,125 @@
   },
   "kpis": [
     {
-      "id": "kpi-datasets",
-      "label": "Datasets",
-      "value": 23,
-      "formatted": "23"
+      "id": "residuos",
+      "label": "Residuos a relleno 2023",
+      "value": 36284,
+      "formatted": "36.284 ton",
+      "unit": "pico de la serie"
     },
     {
-      "id": "kpi-archivos",
-      "label": "Archivos descargables",
-      "value": 38,
-      "formatted": "38"
+      "id": "per-capita",
+      "label": "Per cápita 2023",
+      "value": 211,
+      "formatted": "211 kg/hab/año"
     },
     {
-      "id": "kpi-mb",
-      "label": "MB publicados",
-      "value": 10,
-      "formatted": "10.3 MB"
+      "id": "mediciones-aire",
+      "label": "Mediciones aire (sensor)",
+      "value": 9632,
+      "formatted": "9.632"
     },
     {
-      "id": "kpi-orgs",
-      "label": "Áreas que publican",
-      "value": 5,
-      "formatted": "5"
+      "id": "plantas-agua",
+      "label": "Plantas potabilizadoras",
+      "value": 2,
+      "formatted": "2",
+      "unit": "Cipolletti + Santa Elena"
     }
   ],
   "charts": [
     {
-      "id": "chart-orgs",
+      "id": "residuos-evolucion",
       "type": "bar",
-      "title": "Datasets por área que publica",
-      "sectionId": "areas-que-publican",
+      "title": "Residuos dispuestos en El Borbollón (toneladas/año)",
+      "sectionId": "la-curva-de-los-residuos",
       "data": [
         {
-          "id": "Secretaría de Infraestructura y Desarrollo Sostenible",
-          "datasets": 12
+          "anio": "2021",
+          "toneladas": 8970
         },
         {
-          "id": "Coordinación de la Unidad de Aguas y Servicios Sanitarios",
-          "datasets": 5
+          "anio": "2022",
+          "toneladas": 21470
         },
         {
-          "id": "Secretaría de Higiene Urbana y Mantenimiento del Espacio Público",
-          "datasets": 4
+          "anio": "2023",
+          "toneladas": 36284
         },
         {
-          "id": "Intendencia Municipalidad de Luján de Cuyo",
-          "datasets": 1
+          "anio": "2024 *",
+          "toneladas": 8985
         },
         {
-          "id": "Apoderado Municipal",
-          "datasets": 1
+          "anio": "2025 *",
+          "toneladas": 3115
         }
       ],
       "config": {
-        "xAxis": "id",
-        "layout": "horizontal"
+        "xAxis": "anio"
       }
     },
     {
-      "id": "chart-formats",
-      "type": "pie",
-      "title": "Distribución de formatos",
-      "sectionId": "formatos-disponibles",
+      "id": "aire-medianas",
+      "type": "bar",
+      "title": "Calidad del aire — medianas medidas en Parque Cívico",
+      "sectionId": "calidad-del-aire-lo-que-mide-el-sensor-del-parque-civico",
       "data": [
         {
-          "id": "XLSX",
-          "label": "XLSX",
-          "value": 27
+          "parametro": "Temperatura (°C)",
+          "valor": 20.6
         },
         {
-          "id": "PDF",
-          "label": "PDF",
-          "value": 5
+          "parametro": "Humedad (%)",
+          "valor": 25.1
         },
         {
-          "id": "CSV",
-          "label": "CSV",
-          "value": 2
+          "parametro": "PM 2,5 (µg/m³)",
+          "valor": 3.0
         },
         {
-          "id": "KML",
-          "label": "KML",
-          "value": 2
+          "parametro": "PM 10 (µg/m³)",
+          "valor": 4.0
         },
         {
-          "id": "JPG",
-          "label": "JPG",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "id": "chart-timeline",
-      "type": "line",
-      "title": "Datasets publicados por mes",
-      "sectionId": "timeline-de-publicacion",
-      "data": [
-        {
-          "mes": "2025-05",
-          "datasets": 17
-        },
-        {
-          "mes": "2025-07",
-          "datasets": 6
+          "parametro": "NO₂ (µg/m³)",
+          "valor": 6.1
         }
       ],
       "config": {
-        "xAxis": "mes"
+        "xAxis": "parametro",
+        "layout": "horizontal"
       }
     }
   ],
   "rankings": [
     {
-      "id": "rank-datasets-archivos",
-      "title": "Datasets con más archivos",
+      "id": "reciclaje",
+      "title": "Centro Verde — material recuperado promedio mensual (kg, ene-may 2025)",
       "sectionId": "",
+      "order": "desc",
       "items": [
         {
-          "name": "Calidad del Agua",
-          "value": 11
+          "name": "Cartón",
+          "value": 9000,
+          "meta": "~9.000 kg/mes"
         },
         {
-          "name": "Residuos",
-          "value": 10
+          "name": "Plástico",
+          "value": 2500,
+          "meta": "~2.500 kg/mes"
         },
         {
-          "name": "Espacios Verdes",
-          "value": 3
+          "name": "Tetra brik",
+          "value": 240,
+          "meta": "~240 kg/mes"
         },
         {
-          "name": "Calidad del Aire",
-          "value": 2
-        },
-        {
-          "name": "Energía",
-          "value": 2
+          "name": "Aluminio + Chatarra",
+          "value": 1800,
+          "meta": "~1.800 kg/mes"
         }
-      ],
-      "order": "desc"
+      ]
     }
   ],
   "mapData": []
