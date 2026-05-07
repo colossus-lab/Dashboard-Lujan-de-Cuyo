@@ -9,15 +9,17 @@
   "kpis": [
     {
       "id": "obras",
-      "label": "Obras 2025",
-      "value": 174,
-      "formatted": "174 actividades"
+      "label": "Obras del Plan 2025",
+      "value": 42,
+      "formatted": "42",
+      "unit": "174 actividades en total"
     },
     {
       "id": "cumplido",
-      "label": "Obras cumplidas",
+      "label": "Actividades cumplidas",
       "value": 67,
-      "formatted": "39%"
+      "formatted": "39%",
+      "unit": "sobre 174 actividades"
     },
     {
       "id": "inv-vial",

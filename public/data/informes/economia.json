@@ -16,8 +16,9 @@
     {
       "id": "comercios",
       "label": "Comercios registrados",
-      "value": 11630,
-      "formatted": "11.630"
+      "value": 7245,
+      "formatted": "7.245",
+      "unit": "11.630 registros de rubro"
     },
     {
       "id": "compras",

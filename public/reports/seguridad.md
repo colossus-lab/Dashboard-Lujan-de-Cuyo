@@ -4,9 +4,19 @@ Análisis del estado de la seguridad pública en Luján de Cuyo desde los datos 
 
 ## La red de comisarías
 
-El dataset *Comisarías Luján de Cuyo* (publicado por el **Secretario del Juzgado Vial Nro 1**) registra la red departamental con dirección, distrito y datos de contacto, además del KML para visualización geográfica. Es el único dataset de seguridad con contenido tabular accesible.
+El dataset *Comisarías Luján de Cuyo* (publicado por el **Secretario del Juzgado Vial Nro 1**) registra **6 comisarías** y un complejo penitenciario (Almafuerte) en el departamento, con dirección, distrito, teléfono y datos de contacto, además del KML para visualización geográfica:
 
-La distribución de comisarías ofrece la **base institucional de la respuesta policial** — su lectura cruzada con la **densidad poblacional por distrito** (Ciudad 24.594, Carrodilla 23.886, Perdriel 13.687) permite analizar cobertura policial relativa, aunque la planificación operativa la define la **Policía de Mendoza**, no el municipio.
+| Dependencia | Distrito | Domicilio |
+|---|---|---|
+| Comisaría 11° | Ciudad | Guiñazú 340 |
+| Comisaría 47° | Carrodilla | San Martín 7686 |
+| Comisaría 48° | Agrelo | Ruta 15 km 27 — B° Valle de Uco |
+| Comisaría 53° | Potrerillos | Ex RN 7 y Av. Los Cóndores |
+| Subcomisaría Ugarteche | Agrelo | Ruta 16 s/n |
+| Sub-Comisaría Ruiz Quipildor | El Carrizal | Ruta 61 km 41½ |
+| Complejo Penitenciario Almafuerte | Cacheuta | — |
+
+Las **6 comisarías cubren 7 de los 15 distritos** del departamento. Distritos densamente poblados como **Carrodilla, Chacras de Coria, Perdriel y Mayor Drumond** dependen operativamente de comisarías ubicadas en distritos vecinos. La planificación operativa la define la **Policía de Mendoza**, no el municipio.
 
 ## Los puntos de criticidad económica
 

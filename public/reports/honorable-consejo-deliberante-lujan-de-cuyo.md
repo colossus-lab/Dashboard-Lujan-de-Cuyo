@@ -32,7 +32,7 @@ Cruzando con distrito de origen (planilla parcial con 5 distritos relevados):
 
 ## Transparencia patrimonial
 
-Los **13 miembros del HCD** publican declaración jurada patrimonial bajo la Ley provincial de Ética Pública 2025 (planilla *DDJJ HCD 2025*). Los nombres registrados incluyen:
+El HCD está integrado por **12 concejales** electos en el período 2023/2027. Las **13 declaraciones juradas** publicadas en la planilla *DDJJ HCD 2025* corresponden a los 12 concejales más el **Secretario del Concejo** (Claudio Mariano Ogando), que también queda alcanzado por la Ley provincial de Ética Pública. Los nombres registrados incluyen:
 
 - Andrés Sconfienza, Adrián Devia (Concejal 2023/2027)
 - Claudio Ogando (Secretario HCD)
@@ -53,7 +53,7 @@ Esto permite trazar la **producción legislativa por categoría temática** a lo
 
 ## Estructura interna
 
-El **organigrama HCD** se publica como PDF (#73). Con 13 concejales más cargos políticos y técnicos, el cuerpo emplea personal cuya nómina está incluida en la **Planilla HCD 2025** (cuatro archivos del dataset *Funcionarios Públicos Municipal*). El HCD aporta **$1,3 mil M** al gasto en personal del Estado municipal — alrededor del 6% del total de personal.
+El **organigrama HCD** se publica como PDF (#73). Con sus 12 concejales, secretarios y personal técnico/administrativo, el cuerpo emplea personal cuya nómina está incluida en la **Planilla HCD 2025** (cuatro archivos del dataset *Funcionarios Públicos Municipal*). El HCD aporta **$1,3 mil M** al gasto en personal del Estado municipal — alrededor del 6% del total de personal.
 
 ## El acceso a la información
 

@@ -128,7 +128,7 @@ build_data['economia'] = build(
     'economia', 'Economía',
     [
         kpi('presup', 'Presupuesto 2025', 111800000000, '$111,8 mil M'),
-        kpi('comercios', 'Comercios registrados', 11630, '11.630'),
+        kpi('comercios', 'Comercios registrados', 7245, '7.245', '11.630 registros de rubro'),
         kpi('compras', 'Compras 2024', 5065000000, '$5,1 mil M'),
         kpi('barrios-pop', 'Familias en barrios populares', 2569, '2.569', 'en 47 barrios'),
     ],
@@ -261,9 +261,9 @@ build_data['deporte-educacion-y-salud'] = build(
 build_data['honorable-consejo-deliberante-lujan-de-cuyo'] = build(
     'honorable-consejo-deliberante-lujan-de-cuyo', 'Honorable Concejo Deliberante',
     [
-        kpi('concejales', 'Concejales (mandato 2023/2027)', 13, '13'),
+        kpi('concejales', 'Concejales (mandato 2023/2027)', 12, '12'),
+        kpi('ddjj', 'Declaraciones juradas publicadas', 13, '13', '12 concejales + 1 secretario'),
         kpi('mesas', 'Mesas escrutadas (Concejal)', 316, '316'),
-        kpi('votos', 'Votos analizados', 10934, '10.934'),
         kpi('personal', 'Gasto en personal HCD', 1300000000, '$1,3 mil M', '6% del personal total'),
     ],
     [
@@ -354,8 +354,8 @@ build_data['desarrollo-humano'] = build(
 build_data['movilidad'] = build(
     'movilidad', 'Movilidad',
     [
-        kpi('obras', 'Obras 2025', 174, '174 actividades'),
-        kpi('cumplido', 'Obras cumplidas', 67, '39%'),
+        kpi('obras', 'Obras del Plan 2025', 42, '42', '174 actividades en total'),
+        kpi('cumplido', 'Actividades cumplidas', 67, '39%', 'sobre 174 actividades'),
         kpi('inv-vial', 'Inversión vial 2024 (top 5 contratos)', 1772700000, '$1,77 mil M'),
         kpi('plan-pavi', 'Plan Pavimentación 2024', 635000000, '$635 M', 'VIALMANI'),
     ],
@@ -480,7 +480,7 @@ build_data['gestion_de_datos'] = build(
 build_data['seguridad'] = build(
     'seguridad', 'Seguridad',
     [
-        kpi('comisarias', 'Comisarías', 0, 'Sin dato', 'red departamental'),
+        kpi('comisarias', 'Comisarías', 6, '6', '+ 1 complejo penitenciario'),
         kpi('bancos', 'Bancos (puntos críticos)', 9, '9 sucursales'),
         kpi('estaciones', 'Estaciones de servicio', 11, '11', 'sobre RN 7 / RP 15 / Acceso Sur'),
         kpi('barrios-pop', 'Barrios populares', 47, '47', '2.569 familias'),
