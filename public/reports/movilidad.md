@@ -17,9 +17,9 @@ El **Circuito de Ciclovías** se publica en formato **My Maps** (Google Maps) co
 
 El dataset complementario **Bicisendas Inclusivas** (programa "Pedaleando Juntos") está publicado como página web sin datos descargables.
 
-## El plan de obras 2025: 174 actividades
+## El plan de obras 2025: 42 proyectos, 174 actividades
 
-El dataset *Obras Públicas 2025* documenta **174 actividades** ejecutadas por la **Secretaría de Obras y Espacios Públicos**. Estado de avance al cierre del relevamiento:
+El dataset *Obras Públicas 2025* documenta **42 proyectos** desagregados en **174 actividades** ejecutadas por la **Secretaría de Obras y Espacios Públicos** (cada proyecto se compone de varias actividades — etapas, frentes de trabajo, entregables parciales). Los proyectos más extensos son el #495 (23 actividades), el #814 (20), el #384 (12), el #376 (11) y el #825 (11). Estado de avance de las actividades al cierre del relevamiento:
 
 | Estado | Actividades | % |
 |---|---:|---:|

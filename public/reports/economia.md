@@ -18,11 +18,13 @@ Por modalidad, **84% del monto** se ejecutó por licitación pública, 7% por co
 
 ## El padrón comercial
 
-El **Padrón de Comercios 2025** registra **11.630 unidades comerciales** distribuidas en 273 rubros distintos:
+El **Padrón de Comercios 2025** registra **7.245 comercios únicos** (por número de padrón) con un total de **11.630 registros de actividad** — porque cada comercio puede declarar múltiples rubros o sucursales. El padrón se compone de 273 rubros distintos:
 
-- **60% factura** (6.975 comercios), **40% no factura** (4.655) — la base imponible efectiva del comercio departamental.
+- **60% de los registros facturan** (6.975), **40% no facturan** (4.655).
+- **Padrones únicos que facturan: 4.439** comercios.
+- **Padrones con Unidades Tributarias en cero**: 2.525 (probables bajas o registros inactivos).
 - **Valor total declarado** (Unidades Tributarias × valor): **$14,4 mil millones**.
-- **3.501 comercios** tienen rubro identificado (no genérico). Los restantes 8.129 figuran bajo el rubro "GENERICO 999999".
+- **3.501 registros** tienen rubro identificado (no genérico). Los restantes 8.129 figuran bajo el rubro "GENERICO 999999".
 
 **Top 10 rubros identificados**:
 
@@ -60,7 +62,7 @@ La distribución muestra **focos urbanos** (Ciudad concentra varios) y **focos r
 
 ## La inversión en obras
 
-El plan de obras 2025 (*Obras Públicas*) registra **174 actividades** ejecutadas por la Secretaría de Obras y Espacios Públicos. Estado de avance al cierre del relevamiento:
+El plan de obras 2025 (*Obras Públicas*) registra **42 proyectos** que se desagregan en **174 actividades** ejecutadas por la Secretaría de Obras y Espacios Públicos (cada proyecto incluye varias actividades — etapas, frentes de trabajo, productos parciales). Estado de avance de las actividades al cierre del relevamiento:
 
 - **39%** cumplido (67 actividades).
 - 23% no iniciado (40).

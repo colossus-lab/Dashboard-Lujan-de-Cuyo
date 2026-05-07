@@ -168,11 +168,13 @@ Por modalidad, **84% del monto** se ejecutó por licitación pública, 7% por co
 
 ## El padrón comercial
 
-El **Padrón de Comercios 2025** registra **11.630 unidades comerciales** distribuidas en 273 rubros distintos:
+El **Padrón de Comercios 2025** registra **7.245 comercios únicos** (por número de padrón) con un total de **11.630 registros de actividad** — porque cada comercio puede declarar múltiples rubros o sucursales. El padrón se compone de 273 rubros distintos:
 
-- **60% factura** (6.975 comercios), **40% no factura** (4.655) — la base imponible efectiva del comercio departamental.
+- **60% de los registros facturan** (6.975), **40% no facturan** (4.655).
+- **Padrones únicos que facturan: 4.439** comercios.
+- **Padrones con Unidades Tributarias en cero**: 2.525 (probables bajas o registros inactivos).
 - **Valor total declarado** (Unidades Tributarias × valor): **$14,4 mil millones**.
-- **3.501 comercios** tienen rubro identificado (no genérico). Los restantes 8.129 figuran bajo el rubro "GENERICO 999999".
+- **3.501 registros** tienen rubro identificado (no genérico). Los restantes 8.129 figuran bajo el rubro "GENERICO 999999".
 
 **Top 10 rubros identificados**:
 
@@ -210,7 +212,7 @@ La distribución muestra **focos urbanos** (Ciudad concentra varios) y **focos r
 
 ## La inversión en obras
 
-El plan de obras 2025 (*Obras Públicas*) registra **174 actividades** ejecutadas por la Secretaría de Obras y Espacios Públicos. Estado de avance al cierre del relevamiento:
+El plan de obras 2025 (*Obras Públicas*) registra **42 proyectos** que se desagregan en **174 actividades** ejecutadas por la Secretaría de Obras y Espacios Públicos (cada proyecto incluye varias actividades — etapas, frentes de trabajo, productos parciales). Estado de avance de las actividades al cierre del relevamiento:
 
 - **39%** cumplido (67 actividades).
 - 23% no iniciado (40).
@@ -443,7 +445,7 @@ Cruzando con distrito de origen (planilla parcial con 5 distritos relevados):
 
 ## Transparencia patrimonial
 
-Los **13 miembros del HCD** publican declaración jurada patrimonial bajo la Ley provincial de Ética Pública 2025 (planilla *DDJJ HCD 2025*). Los nombres registrados incluyen:
+El HCD está integrado por **12 concejales** electos en el período 2023/2027. Las **13 declaraciones juradas** publicadas en la planilla *DDJJ HCD 2025* corresponden a los 12 concejales más el **Secretario del Concejo** (Claudio Mariano Ogando), que también queda alcanzado por la Ley provincial de Ética Pública. Los nombres registrados incluyen:
 
 - Andrés Sconfienza, Adrián Devia (Concejal 2023/2027)
 - Claudio Ogando (Secretario HCD)
@@ -464,7 +466,7 @@ Esto permite trazar la **producción legislativa por categoría temática** a lo
 
 ## Estructura interna
 
-El **organigrama HCD** se publica como PDF (#73). Con 13 concejales más cargos políticos y técnicos, el cuerpo emplea personal cuya nómina está incluida en la **Planilla HCD 2025** (cuatro archivos del dataset *Funcionarios Públicos Municipal*). El HCD aporta **$1,3 mil M** al gasto en personal del Estado municipal — alrededor del 6% del total de personal.
+El **organigrama HCD** se publica como PDF (#73). Con sus 12 concejales, secretarios y personal técnico/administrativo, el cuerpo emplea personal cuya nómina está incluida en la **Planilla HCD 2025** (cuatro archivos del dataset *Funcionarios Públicos Municipal*). El HCD aporta **$1,3 mil M** al gasto en personal del Estado municipal — alrededor del 6% del total de personal.
 
 ## El acceso a la información
 
@@ -626,9 +628,9 @@ El **Circuito de Ciclovías** se publica en formato **My Maps** (Google Maps) co
 
 El dataset complementario **Bicisendas Inclusivas** (programa "Pedaleando Juntos") está publicado como página web sin datos descargables.
 
-## El plan de obras 2025: 174 actividades
+## El plan de obras 2025: 42 proyectos, 174 actividades
 
-El dataset *Obras Públicas 2025* documenta **174 actividades** ejecutadas por la **Secretaría de Obras y Espacios Públicos**. Estado de avance al cierre del relevamiento:
+El dataset *Obras Públicas 2025* documenta **42 proyectos** desagregados en **174 actividades** ejecutadas por la **Secretaría de Obras y Espacios Públicos** (cada proyecto se compone de varias actividades — etapas, frentes de trabajo, entregables parciales). Los proyectos más extensos son el #495 (23 actividades), el #814 (20), el #384 (12), el #376 (11) y el #825 (11). Estado de avance de las actividades al cierre del relevamiento:
 
 | Estado | Actividades | % |
 |---|---:|---:|
@@ -908,9 +910,19 @@ Análisis del estado de la seguridad pública en Luján de Cuyo desde los datos 
 
 ## La red de comisarías
 
-El dataset *Comisarías Luján de Cuyo* (publicado por el **Secretario del Juzgado Vial Nro 1**) registra la red departamental con dirección, distrito y datos de contacto, además del KML para visualización geográfica. Es el único dataset de seguridad con contenido tabular accesible.
+El dataset *Comisarías Luján de Cuyo* (publicado por el **Secretario del Juzgado Vial Nro 1**) registra **6 comisarías** y un complejo penitenciario (Almafuerte) en el departamento, con dirección, distrito, teléfono y datos de contacto, además del KML para visualización geográfica:
 
-La distribución de comisarías ofrece la **base institucional de la respuesta policial** — su lectura cruzada con la **densidad poblacional por distrito** (Ciudad 24.594, Carrodilla 23.886, Perdriel 13.687) permite analizar cobertura policial relativa, aunque la planificación operativa la define la **Policía de Mendoza**, no el municipio.
+| Dependencia | Distrito | Domicilio |
+|---|---|---|
+| Comisaría 11° | Ciudad | Guiñazú 340 |
+| Comisaría 47° | Carrodilla | San Martín 7686 |
+| Comisaría 48° | Agrelo | Ruta 15 km 27 — B° Valle de Uco |
+| Comisaría 53° | Potrerillos | Ex RN 7 y Av. Los Cóndores |
+| Subcomisaría Ugarteche | Agrelo | Ruta 16 s/n |
+| Sub-Comisaría Ruiz Quipildor | El Carrizal | Ruta 61 km 41½ |
+| Complejo Penitenciario Almafuerte | Cacheuta | — |
+
+Las **6 comisarías cubren 7 de los 15 distritos** del departamento. Distritos densamente poblados como **Carrodilla, Chacras de Coria, Perdriel y Mayor Drumond** dependen operativamente de comisarías ubicadas en distritos vecinos. La planificación operativa la define la **Policía de Mendoza**, no el municipio.
 
 ## Los puntos de criticidad económica
 

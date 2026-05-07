@@ -10,9 +10,9 @@
     {
       "id": "comisarias",
       "label": "Comisarías",
-      "value": 0,
-      "formatted": "Sin dato",
-      "unit": "red departamental"
+      "value": 6,
+      "formatted": "6",
+      "unit": "+ 1 complejo penitenciario"
     },
     {
       "id": "bancos",

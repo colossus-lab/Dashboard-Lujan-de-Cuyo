@@ -10,20 +10,21 @@
     {
       "id": "concejales",
       "label": "Concejales (mandato 2023/2027)",
+      "value": 12,
+      "formatted": "12"
+    },
+    {
+      "id": "ddjj",
+      "label": "Declaraciones juradas publicadas",
       "value": 13,
-      "formatted": "13"
+      "formatted": "13",
+      "unit": "12 concejales + 1 secretario"
     },
     {
       "id": "mesas",
       "label": "Mesas escrutadas (Concejal)",
       "value": 316,
       "formatted": "316"
-    },
-    {
-      "id": "votos",
-      "label": "Votos analizados",
-      "value": 10934,
-      "formatted": "10.934"
     },
     {
       "id": "personal",
