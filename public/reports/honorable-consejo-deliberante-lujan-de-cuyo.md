@@ -4,31 +4,17 @@ Análisis del cuerpo legislativo municipal: composición política derivada del 
 
 ## La composición del cuerpo
 
-El HCD vigente fue electo en las **PASO Provinciales 2023** y se constituyó con mandato 2023/2027. La composición política puede inferirse del escrutinio publicado para la categoría Concejal, donde se relevaron 316 mesas en el departamento:
+El HCD vigente fue electo en los comicios generales de **2023** y se constituyó con mandato 2023/2027. El escrutinio definitivo de Concejales (334 mesas, 69.868 votos positivos) publicado por el municipio muestra:
 
-| Agrupación | Votos | % |
+| Agrupación | Votos | % sobre afirmativos |
 |---|---:|---:|
-| **CAMBIA MENDOZA** | 4.670 | **42,7%** |
-| **LA UNIÓN MENDOCINA** | 4.499 | **41,1%** |
-| ELEGÍ MENDOZA | 1.006 | 9,2% |
-| Frente de Izquierda y de Trabajadores | 404 | 3,7% |
-| Partido Verde | 355 | 3,2% |
+| **LA UNIÓN MENDOCINA** | 32.166 | **46,0%** |
+| **CAMBIA MENDOZA** | 22.644 | **32,4%** |
+| ELEGÍ MENDOZA | 6.694 | 9,6% |
+| Partido Verde | 5.837 | 8,4% |
+| Frente de Izquierda y de Trabajadores | 2.527 | 3,6% |
 
-El cuerpo refleja una **paridad electoral** entre Cambia Mendoza y La Unión Mendocina (1,6 puntos de diferencia), sumando entre ambos el 84% de los votos válidos. La **fragmentación periférica** (Elegí 9,2%, FIT 3,7%, Verde 3,2%) configura una representación con dos grandes bloques y voces minoritarias.
-
-## Geografía del voto
-
-Cruzando con distrito de origen (planilla parcial con 5 distritos relevados):
-
-| Distrito | Total votos | 1° lugar | % | 2° lugar | % |
-|---|---:|---|---:|---|---:|
-| Carrodilla | 2.164 | Cambia Mendoza | 41% | La Unión | 38% |
-| Chacras de Coria | 4.452 | **Cambia Mendoza** | **56%** | La Unión | 34% |
-| Ciudad | 1.097 | **La Unión** | 52% | Cambia | 29% |
-| Mayor Drummond | 1.116 | La Unión | 47% | Cambia | 34% |
-| Perdriel | 2.105 | **La Unión** | 52% | Cambia | 28% |
-
-**Chacras de Coria** y **Carrodilla** se inclinaron hacia **Cambia Mendoza**; **Ciudad**, **Mayor Drumond** y **Perdriel** hacia **La Unión Mendocina**. La asimetría territorial sugiere bases sociales distintas: los distritos residenciales premium del corredor norte vs. los distritos centrales y rurales.
+La elección consagró una **ventaja amplia** (~13,6 puntos) de La Unión Mendocina sobre Cambia Mendoza, con un cuerpo terciario (Elegí + Verde + FIT) que reunió el 21,6% restante.
 
 ## Transparencia patrimonial
 

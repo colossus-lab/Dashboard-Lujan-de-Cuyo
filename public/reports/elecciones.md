@@ -1,43 +1,34 @@
 # Elecciones
 
-Análisis de los resultados electorales en Luján de Cuyo a partir del escrutinio de las **PASO Provinciales 2023** y elecciones nacionales subsiguientes. Es la única categoría del portal con granularidad **por mesa electoral**.
+Análisis de los resultados electorales en Luján de Cuyo a partir del **escrutinio definitivo del 24 de septiembre de 2023** (dataset #59) y los datos de mesa por mesa publicados por el municipio (dataset #49).
 
-## El mapa político: paridad y dos polos
+## El mapa político: La Unión sobre Cambia Mendoza
 
-En la categoría **Concejal** (escrutinio mesa por mesa, 316 mesas relevadas), la consolidada para 2023 muestra:
+En la categoría **Concejal**, el escrutinio definitivo cubrió 334 mesas y 69.868 votos positivos:
 
-| Agrupación | Votos | % |
+| Agrupación | Votos | % sobre afirmativos |
 |---|---:|---:|
-| **CAMBIA MENDOZA** | 4.670 | **42,7%** |
-| **LA UNIÓN MENDOCINA** | 4.499 | **41,1%** |
-| ELEGÍ MENDOZA | 1.006 | 9,2% |
-| Frente de Izquierda y de Trabajadores - Unidad | 404 | 3,7% |
-| Partido Verde | 355 | 3,2% |
-| Otros (Compromiso Federal, Dignidad Popular, Partido Federal) | <1% c/u | — |
+| **LA UNIÓN MENDOCINA** | 32.166 | **46,0%** |
+| **CAMBIA MENDOZA** | 22.644 | **32,4%** |
+| ELEGÍ MENDOZA | 6.694 | 9,6% |
+| Partido Verde | 5.837 | 8,4% |
+| Frente de Izquierda y de Trabajadores - Unidad | 2.527 | 3,6% |
 
-**Paridad técnica** entre las dos coaliciones principales (1,6 puntos) que sumaron 84% del electorado. La fragmentación periférica fue contenida: tres fuerzas (Elegí, FIT, Verde) capturaron el 16% restante.
+A diferencia de un escenario de paridad, la elección de Concejales 2023 mostró una **ventaja de ~13,6 puntos** de La Unión Mendocina sobre Cambia Mendoza, con un cuerpo terciario (Elegí + Verde + FIT) que sumó el 21,6% restante.
 
-## La geografía del voto: dos Lujanes
+## Resumen de votos
 
-Los 5 distritos relevados con detalle revelan una **fractura territorial nítida**:
+Sobre el padrón de 115.277 ciudadanos habilitados, votaron 82.201 (71,3%). El escrutinio Concejal arrojó:
 
-| Distrito | Total votos | 1° lugar | % | 2° lugar | % |
-|---|---:|---|---:|---|---:|
-| Carrodilla | 2.164 | Cambia Mendoza | 41% | La Unión Mendocina | 38% |
-| **Chacras de Coria** | 4.452 | **Cambia Mendoza** | **56%** | La Unión | 34% |
-| Ciudad | 1.097 | **La Unión Mendocina** | 52% | Cambia | 29% |
-| Mayor Drumond | 1.116 | La Unión Mendocina | 47% | Cambia | 34% |
-| **Perdriel** | 2.105 | **La Unión Mendocina** | **52%** | Cambia | 28% |
-
-**Cambia Mendoza domina** en Chacras de Coria (56%) y Carrodilla (paridad 41-38). **La Unión Mendocina lidera** en Ciudad (52%), Mayor Drumond (47%) y Perdriel (52%). El alineamiento sigue clivajes tradicionales: los **distritos residenciales premium del corredor norte** se inclinan por la coalición histórica del PRO/UCR, mientras que **Ciudad** (centro institucional), **Mayor Drumond** (polo educativo y comercial) y **Perdriel** (semi-rural con núcleo de barrios populares) se inclinan por La Unión.
-
-Chacras de Coria, con su 56% para Cambia Mendoza, fue el **bastión más concentrado** de la coalición ganadora a nivel departamental.
+- **Positivos**: 69.868 (84,96% del total).
+- **En blanco**: 9.925 (12,07%).
+- **Nulos**: 2.443 (2,97%).
 
 ## Las categorías escrutadas
 
 El dataset *Voto Electoral* (#49) detalla las mesas para **cinco categorías**:
 
-- **Concejal** (316 mesas) — la única plenamente analizada arriba.
+- **Concejal** — escrutinio mesa por mesa.
 - **Diputados Nacionales**.
 - **Diputados Provinciales**.
 - **Senadores Nacionales**.
@@ -47,7 +38,7 @@ Cada XLSX trae el mismo esquema: circuito × escuela × mesa × lista, con votos
 
 ## El escrutinio definitivo
 
-El dataset *Resultado Electorales* (#59) contiene el **escrutinio definitivo del 24 de septiembre** con resultados consolidados por categoría, en formato PDF + XLS:
+El dataset *Resultado Electorales* (#59) — del que provienen los números arriba — contiene el **escrutinio definitivo del 24 de septiembre** con resultados consolidados por categoría, en formato PDF + XLS:
 
 - Gobernador.
 - Senadores Provinciales.

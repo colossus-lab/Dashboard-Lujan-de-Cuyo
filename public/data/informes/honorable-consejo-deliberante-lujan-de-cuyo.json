@@ -4,7 +4,7 @@
     "title": "Honorable Concejo Deliberante",
     "category": "Honorable Concejo Deliberante",
     "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
-    "date": "2026-05-06"
+    "date": "2026-05-08"
   },
   "kpis": [
     {
@@ -23,8 +23,8 @@
     {
       "id": "mesas",
       "label": "Mesas escrutadas (Concejal)",
-      "value": 316,
-      "formatted": "316"
+      "value": 334,
+      "formatted": "334"
     },
     {
       "id": "personal",
@@ -36,67 +36,51 @@
   ],
   "charts": [
     {
-      "id": "paso-2023-pie",
+      "id": "concejal-2023-pie",
       "type": "pie",
-      "title": "PASO 2023 — Concejal (% votos)",
+      "title": "Concejales 2023 — escrutinio definitivo (votos)",
       "sectionId": "la-composicion-del-cuerpo",
       "data": [
         {
-          "id": "Cambia Mendoza",
-          "label": "Cambia Mendoza",
-          "value": 4670
-        },
-        {
           "id": "La Unión Mendocina",
           "label": "La Unión Mendocina",
-          "value": 4499
+          "value": 32166
+        },
+        {
+          "id": "Cambia Mendoza",
+          "label": "Cambia Mendoza",
+          "value": 22644
         },
         {
           "id": "Elegí Mendoza",
           "label": "Elegí Mendoza",
-          "value": 1006
-        },
-        {
-          "id": "FIT",
-          "label": "FIT",
-          "value": 404
+          "value": 6694
         },
         {
           "id": "Partido Verde",
           "label": "Partido Verde",
-          "value": 355
+          "value": 5837
+        },
+        {
+          "id": "FIT",
+          "label": "FIT",
+          "value": 2527
         }
       ]
     },
     {
-      "id": "paso-distrito",
+      "id": "hcd-personal",
       "type": "bar",
-      "title": "Total votos por distrito relevado",
+      "title": "Personal HCD por categoría",
       "sectionId": "geografia-del-voto",
       "data": [
         {
-          "distrito": "Chacras de Coria",
-          "votos": 4452
-        },
-        {
-          "distrito": "Carrodilla",
-          "votos": 2164
-        },
-        {
-          "distrito": "Perdriel",
-          "votos": 2105
-        },
-        {
-          "distrito": "Mayor Drumond",
-          "votos": 1116
-        },
-        {
-          "distrito": "Ciudad",
-          "votos": 1097
+          "categoria": "Concejal",
+          "personas": 13
         }
       ],
       "config": {
-        "xAxis": "distrito"
+        "xAxis": "categoria"
       }
     }
   ],

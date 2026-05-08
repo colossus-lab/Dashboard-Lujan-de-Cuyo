@@ -4,128 +4,89 @@
     "title": "Elecciones",
     "category": "Elecciones",
     "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
-    "date": "2026-05-06"
+    "date": "2026-05-08"
   },
   "kpis": [
     {
       "id": "mesas",
       "label": "Mesas escrutadas (Concejal)",
-      "value": 316,
-      "formatted": "316"
+      "value": 334,
+      "formatted": "334"
     },
     {
-      "id": "votos",
-      "label": "Votos analizados",
-      "value": 10934,
-      "formatted": "10.934"
-    },
-    {
-      "id": "cm",
-      "label": "Cambia Mendoza",
-      "value": 4670,
-      "formatted": "42,7%"
+      "id": "votos-pos",
+      "label": "Votos positivos (Concejal)",
+      "value": 69868,
+      "formatted": "69.868"
     },
     {
       "id": "lu",
       "label": "La Unión Mendocina",
-      "value": 4499,
-      "formatted": "41,1%"
+      "value": 32166,
+      "formatted": "46,0%"
+    },
+    {
+      "id": "cm",
+      "label": "Cambia Mendoza",
+      "value": 22644,
+      "formatted": "32,4%"
     }
   ],
   "charts": [
     {
-      "id": "paso-pie",
+      "id": "concejal-2023-pie",
       "type": "pie",
-      "title": "PASO 2023 — Concejal (votos)",
+      "title": "Concejales 2023 — escrutinio definitivo (votos)",
       "sectionId": "el-mapa-politico-paridad-y-dos-polos",
       "data": [
         {
-          "id": "Cambia Mendoza",
-          "label": "Cambia Mendoza",
-          "value": 4670
-        },
-        {
           "id": "La Unión Mendocina",
           "label": "La Unión Mendocina",
-          "value": 4499
+          "value": 32166
+        },
+        {
+          "id": "Cambia Mendoza",
+          "label": "Cambia Mendoza",
+          "value": 22644
         },
         {
           "id": "Elegí Mendoza",
           "label": "Elegí Mendoza",
-          "value": 1006
-        },
-        {
-          "id": "FIT",
-          "label": "FIT",
-          "value": 404
+          "value": 6694
         },
         {
           "id": "Partido Verde",
           "label": "Partido Verde",
-          "value": 355
+          "value": 5837
+        },
+        {
+          "id": "FIT",
+          "label": "FIT",
+          "value": 2527
         }
       ]
     },
     {
-      "id": "paso-distrito-cm",
+      "id": "resumen-votos",
       "type": "bar",
-      "title": "% Cambia Mendoza por distrito (cat. Concejal)",
+      "title": "Resumen de votos — Concejales 2023",
       "sectionId": "la-geografia-del-voto-dos-lujanes",
       "data": [
         {
-          "distrito": "Chacras de Coria",
-          "porcentaje": 56
+          "tipo": "Positivos",
+          "votos": 69868
         },
         {
-          "distrito": "Carrodilla",
-          "porcentaje": 41
+          "tipo": "En blanco",
+          "votos": 9925
         },
         {
-          "distrito": "Mayor Drumond",
-          "porcentaje": 34
-        },
-        {
-          "distrito": "Ciudad",
-          "porcentaje": 29
-        },
-        {
-          "distrito": "Perdriel",
-          "porcentaje": 28
+          "tipo": "Nulos",
+          "votos": 2443
         }
       ],
       "config": {
-        "xAxis": "distrito"
-      }
-    },
-    {
-      "id": "paso-distrito-lu",
-      "type": "bar",
-      "title": "% La Unión Mendocina por distrito",
-      "sectionId": "la-geografia-del-voto-dos-lujanes",
-      "data": [
-        {
-          "distrito": "Ciudad",
-          "porcentaje": 52
-        },
-        {
-          "distrito": "Perdriel",
-          "porcentaje": 52
-        },
-        {
-          "distrito": "Mayor Drumond",
-          "porcentaje": 47
-        },
-        {
-          "distrito": "Carrodilla",
-          "porcentaje": 38
-        },
-        {
-          "distrito": "Chacras de Coria",
-          "porcentaje": 34
-        }
-      ],
-      "config": {
-        "xAxis": "distrito"
+        "xAxis": "tipo"
       }
     }
   ],
