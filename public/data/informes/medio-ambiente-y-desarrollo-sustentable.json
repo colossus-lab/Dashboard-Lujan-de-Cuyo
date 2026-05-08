@@ -4,21 +4,21 @@
     "title": "Medio Ambiente y Desarrollo Sustentable",
     "category": "Medio Ambiente y Desarrollo Sustentable",
     "source": "Portal de Datos Abiertos – Luján de Cuyo (datos.lujandecuyo.gob.ar)",
-    "date": "2026-05-06"
+    "date": "2026-05-08"
   },
   "kpis": [
     {
       "id": "residuos",
       "label": "Residuos a relleno 2023",
-      "value": 36284,
-      "formatted": "36.284 ton",
+      "value": 18142,
+      "formatted": "18.142 ton",
       "unit": "pico de la serie"
     },
     {
       "id": "per-capita",
       "label": "Per cápita 2023",
-      "value": 211,
-      "formatted": "211 kg/hab/año"
+      "value": 105,
+      "formatted": "105 kg/hab/año"
     },
     {
       "id": "mediciones-aire",
@@ -43,23 +43,23 @@
       "data": [
         {
           "anio": "2021",
-          "toneladas": 8970
+          "toneladas": 4485
         },
         {
           "anio": "2022",
-          "toneladas": 21470
+          "toneladas": 10735
         },
         {
           "anio": "2023",
-          "toneladas": 36284
+          "toneladas": 18142
         },
         {
           "anio": "2024 *",
-          "toneladas": 8985
+          "toneladas": 4492
         },
         {
           "anio": "2025 *",
-          "toneladas": 3115
+          "toneladas": 1558
         }
       ],
       "config": {

@@ -87,21 +87,21 @@ Análisis ejecutivo del estado ambiental del municipio: gestión de residuos, ca
 
 ## La curva de los residuos
 
-El relleno sanitario controlado **El Borbollón** recibió **36.284 toneladas en 2023** — el año más alto de la serie. La trayectoria mostrada en la planilla oficial muestra una expansión acelerada desde 2021:
+El relleno sanitario controlado **El Borbollón** recibió **18.142 toneladas en 2023** — el año más alto de la serie. La trayectoria de la planilla oficial muestra una expansión acelerada desde 2021:
 
 | Año | Toneladas dispuestas | Promedio mensual | Per cápita anual* |
 |---|---:|---:|---:|
-| 2021 | 8.970 | 690 t/mes | — |
-| 2022 | 21.470 | 1.789 t/mes | **124,7 kg/hab** |
-| **2023** | **36.284** | **2.791 t/mes** | **210,8 kg/hab** |
-| 2024 (parcial) | 8.985 | 1.797 t/mes (n=5) | — |
-| 2025 (parcial) | 3.115 | 623 t/mes (n=5) | — |
+| 2021 | 4.485 | 374 t/mes | — |
+| 2022 | 10.735 | 894 t/mes | **62,4 kg/hab** |
+| **2023** | **18.142** | **1.512 t/mes** | **105,4 kg/hab** |
+| 2024 (parcial) | 4.492 | 1.123 t/mes (n=4) | — |
+| 2025 (parcial) | 1.558 | 519 t/mes (n=3) | — |
 
 \\* Sobre 172.109 habitantes (Censo 2021).
 
-El indicador per cápita pasó de **125 kg/hab/año en 2022 a 211 kg/hab/año en 2023** (+69%). Un vecino promedio del departamento generó casi **600 gramos diarios de residuos a relleno** en 2023, sin contar el material recuperado por el Centro Verde. La cifra triplica el aumento poblacional plausible y sugiere mayor cobertura efectiva del servicio de recolección o reactivación post-pandemia.
+El indicador per cápita pasó de **62 kg/hab/año en 2022 a 105 kg/hab/año en 2023** (+69%). Un vecino promedio del departamento generó cerca de **290 gramos diarios de residuos a relleno** en 2023, sin contar el material recuperado por el Centro Verde. El salto sugiere mayor cobertura efectiva del servicio de recolección o reactivación post-pandemia.
 
-Los datos parciales 2024-2025 sólo cubren cinco meses cada año — la serie completa post-2023 aún no está publicada.
+Los datos parciales 2024-2025 sólo cubren los primeros meses de cada año — la serie completa post-2023 aún no está publicada.
 
 ## El reciclaje como contracara
 
@@ -417,31 +417,17 @@ Análisis del cuerpo legislativo municipal: composición política derivada del 
 
 ## La composición del cuerpo
 
-El HCD vigente fue electo en las **PASO Provinciales 2023** y se constituyó con mandato 2023/2027. La composición política puede inferirse del escrutinio publicado para la categoría Concejal, donde se relevaron 316 mesas en el departamento:
+El HCD vigente fue electo en los comicios generales de **2023** y se constituyó con mandato 2023/2027. El escrutinio definitivo de Concejales (334 mesas, 69.868 votos positivos) publicado por el municipio muestra:
 
-| Agrupación | Votos | % |
+| Agrupación | Votos | % sobre afirmativos |
 |---|---:|---:|
-| **CAMBIA MENDOZA** | 4.670 | **42,7%** |
-| **LA UNIÓN MENDOCINA** | 4.499 | **41,1%** |
-| ELEGÍ MENDOZA | 1.006 | 9,2% |
-| Frente de Izquierda y de Trabajadores | 404 | 3,7% |
-| Partido Verde | 355 | 3,2% |
+| **LA UNIÓN MENDOCINA** | 32.166 | **46,0%** |
+| **CAMBIA MENDOZA** | 22.644 | **32,4%** |
+| ELEGÍ MENDOZA | 6.694 | 9,6% |
+| Partido Verde | 5.837 | 8,4% |
+| Frente de Izquierda y de Trabajadores | 2.527 | 3,6% |
 
-El cuerpo refleja una **paridad electoral** entre Cambia Mendoza y La Unión Mendocina (1,6 puntos de diferencia), sumando entre ambos el 84% de los votos válidos. La **fragmentación periférica** (Elegí 9,2%, FIT 3,7%, Verde 3,2%) configura una representación con dos grandes bloques y voces minoritarias.
-
-## Geografía del voto
-
-Cruzando con distrito de origen (planilla parcial con 5 distritos relevados):
-
-| Distrito | Total votos | 1° lugar | % | 2° lugar | % |
-|---|---:|---|---:|---|---:|
-| Carrodilla | 2.164 | Cambia Mendoza | 41% | La Unión | 38% |
-| Chacras de Coria | 4.452 | **Cambia Mendoza** | **56%** | La Unión | 34% |
-| Ciudad | 1.097 | **La Unión** | 52% | Cambia | 29% |
-| Mayor Drummond | 1.116 | La Unión | 47% | Cambia | 34% |
-| Perdriel | 2.105 | **La Unión** | 52% | Cambia | 28% |
-
-**Chacras de Coria** y **Carrodilla** se inclinaron hacia **Cambia Mendoza**; **Ciudad**, **Mayor Drumond** y **Perdriel** hacia **La Unión Mendocina**. La asimetría territorial sugiere bases sociales distintas: los distritos residenciales premium del corredor norte vs. los distritos centrales y rurales.
+La elección consagró una **ventaja amplia** (~13,6 puntos) de La Unión Mendocina sobre Cambia Mendoza, con un cuerpo terciario (Elegí + Verde + FIT) que reunió el 21,6% restante.
 
 ## Transparencia patrimonial
 
@@ -677,44 +663,35 @@ El dataset *Seguridad Vial* (#51) figura en el catálogo como "Acciones viales" 
 
 R['elecciones.md'] = """# Elecciones
 
-Análisis de los resultados electorales en Luján de Cuyo a partir del escrutinio de las **PASO Provinciales 2023** y elecciones nacionales subsiguientes. Es la única categoría del portal con granularidad **por mesa electoral**.
+Análisis de los resultados electorales en Luján de Cuyo a partir del **escrutinio definitivo del 24 de septiembre de 2023** (dataset #59) y los datos de mesa por mesa publicados por el municipio (dataset #49).
 
-## El mapa político: paridad y dos polos
+## El mapa político: La Unión sobre Cambia Mendoza
 
-En la categoría **Concejal** (escrutinio mesa por mesa, 316 mesas relevadas), la consolidada para 2023 muestra:
+En la categoría **Concejal**, el escrutinio definitivo cubrió 334 mesas y 69.868 votos positivos:
 
-| Agrupación | Votos | % |
+| Agrupación | Votos | % sobre afirmativos |
 |---|---:|---:|
-| **CAMBIA MENDOZA** | 4.670 | **42,7%** |
-| **LA UNIÓN MENDOCINA** | 4.499 | **41,1%** |
-| ELEGÍ MENDOZA | 1.006 | 9,2% |
-| Frente de Izquierda y de Trabajadores - Unidad | 404 | 3,7% |
-| Partido Verde | 355 | 3,2% |
-| Otros (Compromiso Federal, Dignidad Popular, Partido Federal) | <1% c/u | — |
+| **LA UNIÓN MENDOCINA** | 32.166 | **46,0%** |
+| **CAMBIA MENDOZA** | 22.644 | **32,4%** |
+| ELEGÍ MENDOZA | 6.694 | 9,6% |
+| Partido Verde | 5.837 | 8,4% |
+| Frente de Izquierda y de Trabajadores - Unidad | 2.527 | 3,6% |
 
-**Paridad técnica** entre las dos coaliciones principales (1,6 puntos) que sumaron 84% del electorado. La fragmentación periférica fue contenida: tres fuerzas (Elegí, FIT, Verde) capturaron el 16% restante.
+A diferencia de un escenario de paridad, la elección de Concejales 2023 mostró una **ventaja de ~13,6 puntos** de La Unión Mendocina sobre Cambia Mendoza, con un cuerpo terciario (Elegí + Verde + FIT) que sumó el 21,6% restante.
 
-## La geografía del voto: dos Lujanes
+## Resumen de votos
 
-Los 5 distritos relevados con detalle revelan una **fractura territorial nítida**:
+Sobre el padrón de 115.277 ciudadanos habilitados, votaron 82.201 (71,3%). El escrutinio Concejal arrojó:
 
-| Distrito | Total votos | 1° lugar | % | 2° lugar | % |
-|---|---:|---|---:|---|---:|
-| Carrodilla | 2.164 | Cambia Mendoza | 41% | La Unión Mendocina | 38% |
-| **Chacras de Coria** | 4.452 | **Cambia Mendoza** | **56%** | La Unión | 34% |
-| Ciudad | 1.097 | **La Unión Mendocina** | 52% | Cambia | 29% |
-| Mayor Drumond | 1.116 | La Unión Mendocina | 47% | Cambia | 34% |
-| **Perdriel** | 2.105 | **La Unión Mendocina** | **52%** | Cambia | 28% |
-
-**Cambia Mendoza domina** en Chacras de Coria (56%) y Carrodilla (paridad 41-38). **La Unión Mendocina lidera** en Ciudad (52%), Mayor Drumond (47%) y Perdriel (52%). El alineamiento sigue clivajes tradicionales: los **distritos residenciales premium del corredor norte** se inclinan por la coalición histórica del PRO/UCR, mientras que **Ciudad** (centro institucional), **Mayor Drumond** (polo educativo y comercial) y **Perdriel** (semi-rural con núcleo de barrios populares) se inclinan por La Unión.
-
-Chacras de Coria, con su 56% para Cambia Mendoza, fue el **bastión más concentrado** de la coalición ganadora a nivel departamental.
+- **Positivos**: 69.868 (84,96% del total).
+- **En blanco**: 9.925 (12,07%).
+- **Nulos**: 2.443 (2,97%).
 
 ## Las categorías escrutadas
 
 El dataset *Voto Electoral* (#49) detalla las mesas para **cinco categorías**:
 
-- **Concejal** (316 mesas) — la única plenamente analizada arriba.
+- **Concejal** — escrutinio mesa por mesa.
 - **Diputados Nacionales**.
 - **Diputados Provinciales**.
 - **Senadores Nacionales**.
@@ -724,7 +701,7 @@ Cada XLSX trae el mismo esquema: circuito × escuela × mesa × lista, con votos
 
 ## El escrutinio definitivo
 
-El dataset *Resultado Electorales* (#59) contiene el **escrutinio definitivo del 24 de septiembre** con resultados consolidados por categoría, en formato PDF + XLS:
+El dataset *Resultado Electorales* (#59) — del que provienen los números arriba — contiene el **escrutinio definitivo del 24 de septiembre** con resultados consolidados por categoría, en formato PDF + XLS:
 
 - Gobernador.
 - Senadores Provinciales.

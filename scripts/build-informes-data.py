@@ -88,18 +88,18 @@ build_data['gobierto-y-sector-publico'] = build(
 build_data['medio-ambiente-y-desarrollo-sustentable'] = build(
     'medio-ambiente-y-desarrollo-sustentable', 'Medio Ambiente y Desarrollo Sustentable',
     [
-        kpi('residuos', 'Residuos a relleno 2023', 36284, '36.284 ton', 'pico de la serie'),
-        kpi('per-capita', 'Per cápita 2023', 211, '211 kg/hab/año'),
+        kpi('residuos', 'Residuos a relleno 2023', 18142, '18.142 ton', 'pico de la serie'),
+        kpi('per-capita', 'Per cápita 2023', 105, '105 kg/hab/año'),
         kpi('mediciones-aire', 'Mediciones aire (sensor)', 9632, '9.632'),
         kpi('plantas-agua', 'Plantas potabilizadoras', 2, '2', 'Cipolletti + Santa Elena'),
     ],
     [
         chart('residuos-evolucion', 'bar', 'Residuos dispuestos en El Borbollón (toneladas/año)', 'la-curva-de-los-residuos', [
-            {'anio': '2021', 'toneladas': 8970},
-            {'anio': '2022', 'toneladas': 21470},
-            {'anio': '2023', 'toneladas': 36284},
-            {'anio': '2024 *', 'toneladas': 8985},
-            {'anio': '2025 *', 'toneladas': 3115},
+            {'anio': '2021', 'toneladas': 4485},
+            {'anio': '2022', 'toneladas': 10735},
+            {'anio': '2023', 'toneladas': 18142},
+            {'anio': '2024 *', 'toneladas': 4492},
+            {'anio': '2025 *', 'toneladas': 1558},
         ], {'xAxis': 'anio'}),
         chart('aire-medianas', 'bar', 'Calidad del aire — medianas medidas en Parque Cívico', 'calidad-del-aire-lo-que-mide-el-sensor-del-parque-civico', [
             {'parametro': 'Temperatura (°C)', 'valor': 20.6},
@@ -263,24 +263,20 @@ build_data['honorable-consejo-deliberante-lujan-de-cuyo'] = build(
     [
         kpi('concejales', 'Concejales (mandato 2023/2027)', 12, '12'),
         kpi('ddjj', 'Declaraciones juradas publicadas', 13, '13', '12 concejales + 1 secretario'),
-        kpi('mesas', 'Mesas escrutadas (Concejal)', 316, '316'),
+        kpi('mesas', 'Mesas escrutadas (Concejal)', 334, '334'),
         kpi('personal', 'Gasto en personal HCD', 1300000000, '$1,3 mil M', '6% del personal total'),
     ],
     [
-        chart('paso-2023-pie', 'pie', 'PASO 2023 — Concejal (% votos)', 'la-composicion-del-cuerpo', [
-            {'id': 'Cambia Mendoza', 'label': 'Cambia Mendoza', 'value': 4670},
-            {'id': 'La Unión Mendocina', 'label': 'La Unión Mendocina', 'value': 4499},
-            {'id': 'Elegí Mendoza', 'label': 'Elegí Mendoza', 'value': 1006},
-            {'id': 'FIT', 'label': 'FIT', 'value': 404},
-            {'id': 'Partido Verde', 'label': 'Partido Verde', 'value': 355},
+        chart('concejal-2023-pie', 'pie', 'Concejales 2023 — escrutinio definitivo (votos)', 'la-composicion-del-cuerpo', [
+            {'id': 'La Unión Mendocina', 'label': 'La Unión Mendocina', 'value': 32166},
+            {'id': 'Cambia Mendoza', 'label': 'Cambia Mendoza', 'value': 22644},
+            {'id': 'Elegí Mendoza', 'label': 'Elegí Mendoza', 'value': 6694},
+            {'id': 'Partido Verde', 'label': 'Partido Verde', 'value': 5837},
+            {'id': 'FIT', 'label': 'FIT', 'value': 2527},
         ]),
-        chart('paso-distrito', 'bar', 'Total votos por distrito relevado', 'geografia-del-voto', [
-            {'distrito': 'Chacras de Coria', 'votos': 4452},
-            {'distrito': 'Carrodilla', 'votos': 2164},
-            {'distrito': 'Perdriel', 'votos': 2105},
-            {'distrito': 'Mayor Drumond', 'votos': 1116},
-            {'distrito': 'Ciudad', 'votos': 1097},
-        ], {'xAxis': 'distrito'}),
+        chart('hcd-personal', 'bar', 'Personal HCD por categoría', 'geografia-del-voto', [
+            {'categoria': 'Concejal', 'personas': 13},
+        ], {'xAxis': 'categoria'}),
     ]
 )
 
@@ -381,37 +377,28 @@ build_data['movilidad'] = build(
     ]
 )
 
-# 10. ELECCIONES
+# 10. ELECCIONES (Escrutinio Definitivo Concejales 2023 — dataset #59)
 build_data['elecciones'] = build(
     'elecciones', 'Elecciones',
     [
-        kpi('mesas', 'Mesas escrutadas (Concejal)', 316, '316'),
-        kpi('votos', 'Votos analizados', 10934, '10.934'),
-        kpi('cm', 'Cambia Mendoza', 4670, '42,7%'),
-        kpi('lu', 'La Unión Mendocina', 4499, '41,1%'),
+        kpi('mesas', 'Mesas escrutadas (Concejal)', 334, '334'),
+        kpi('votos-pos', 'Votos positivos (Concejal)', 69868, '69.868'),
+        kpi('lu', 'La Unión Mendocina', 32166, '46,0%'),
+        kpi('cm', 'Cambia Mendoza', 22644, '32,4%'),
     ],
     [
-        chart('paso-pie', 'pie', 'PASO 2023 — Concejal (votos)', 'el-mapa-politico-paridad-y-dos-polos', [
-            {'id': 'Cambia Mendoza', 'label': 'Cambia Mendoza', 'value': 4670},
-            {'id': 'La Unión Mendocina', 'label': 'La Unión Mendocina', 'value': 4499},
-            {'id': 'Elegí Mendoza', 'label': 'Elegí Mendoza', 'value': 1006},
-            {'id': 'FIT', 'label': 'FIT', 'value': 404},
-            {'id': 'Partido Verde', 'label': 'Partido Verde', 'value': 355},
+        chart('concejal-2023-pie', 'pie', 'Concejales 2023 — escrutinio definitivo (votos)', 'el-mapa-politico-paridad-y-dos-polos', [
+            {'id': 'La Unión Mendocina', 'label': 'La Unión Mendocina', 'value': 32166},
+            {'id': 'Cambia Mendoza', 'label': 'Cambia Mendoza', 'value': 22644},
+            {'id': 'Elegí Mendoza', 'label': 'Elegí Mendoza', 'value': 6694},
+            {'id': 'Partido Verde', 'label': 'Partido Verde', 'value': 5837},
+            {'id': 'FIT', 'label': 'FIT', 'value': 2527},
         ]),
-        chart('paso-distrito-cm', 'bar', '% Cambia Mendoza por distrito (cat. Concejal)', 'la-geografia-del-voto-dos-lujanes', [
-            {'distrito': 'Chacras de Coria', 'porcentaje': 56},
-            {'distrito': 'Carrodilla', 'porcentaje': 41},
-            {'distrito': 'Mayor Drumond', 'porcentaje': 34},
-            {'distrito': 'Ciudad', 'porcentaje': 29},
-            {'distrito': 'Perdriel', 'porcentaje': 28},
-        ], {'xAxis': 'distrito'}),
-        chart('paso-distrito-lu', 'bar', '% La Unión Mendocina por distrito', 'la-geografia-del-voto-dos-lujanes', [
-            {'distrito': 'Ciudad', 'porcentaje': 52},
-            {'distrito': 'Perdriel', 'porcentaje': 52},
-            {'distrito': 'Mayor Drumond', 'porcentaje': 47},
-            {'distrito': 'Carrodilla', 'porcentaje': 38},
-            {'distrito': 'Chacras de Coria', 'porcentaje': 34},
-        ], {'xAxis': 'distrito'}),
+        chart('resumen-votos', 'bar', 'Resumen de votos — Concejales 2023', 'la-geografia-del-voto-dos-lujanes', [
+            {'tipo': 'Positivos', 'votos': 69868},
+            {'tipo': 'En blanco', 'votos': 9925},
+            {'tipo': 'Nulos', 'votos': 2443},
+        ], {'xAxis': 'tipo'}),
     ]
 )
 

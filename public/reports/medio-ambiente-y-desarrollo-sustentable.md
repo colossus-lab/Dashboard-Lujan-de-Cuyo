@@ -4,21 +4,21 @@ Análisis ejecutivo del estado ambiental del municipio: gestión de residuos, ca
 
 ## La curva de los residuos
 
-El relleno sanitario controlado **El Borbollón** recibió **36.284 toneladas en 2023** — el año más alto de la serie. La trayectoria mostrada en la planilla oficial muestra una expansión acelerada desde 2021:
+El relleno sanitario controlado **El Borbollón** recibió **18.142 toneladas en 2023** — el año más alto de la serie. La trayectoria de la planilla oficial muestra una expansión acelerada desde 2021:
 
 | Año | Toneladas dispuestas | Promedio mensual | Per cápita anual* |
 |---|---:|---:|---:|
-| 2021 | 8.970 | 690 t/mes | — |
-| 2022 | 21.470 | 1.789 t/mes | **124,7 kg/hab** |
-| **2023** | **36.284** | **2.791 t/mes** | **210,8 kg/hab** |
-| 2024 (parcial) | 8.985 | 1.797 t/mes (n=5) | — |
-| 2025 (parcial) | 3.115 | 623 t/mes (n=5) | — |
+| 2021 | 4.485 | 374 t/mes | — |
+| 2022 | 10.735 | 894 t/mes | **62,4 kg/hab** |
+| **2023** | **18.142** | **1.512 t/mes** | **105,4 kg/hab** |
+| 2024 (parcial) | 4.492 | 1.123 t/mes (n=4) | — |
+| 2025 (parcial) | 1.558 | 519 t/mes (n=3) | — |
 
 \* Sobre 172.109 habitantes (Censo 2021).
 
-El indicador per cápita pasó de **125 kg/hab/año en 2022 a 211 kg/hab/año en 2023** (+69%). Un vecino promedio del departamento generó casi **600 gramos diarios de residuos a relleno** en 2023, sin contar el material recuperado por el Centro Verde. La cifra triplica el aumento poblacional plausible y sugiere mayor cobertura efectiva del servicio de recolección o reactivación post-pandemia.
+El indicador per cápita pasó de **62 kg/hab/año en 2022 a 105 kg/hab/año en 2023** (+69%). Un vecino promedio del departamento generó cerca de **290 gramos diarios de residuos a relleno** en 2023, sin contar el material recuperado por el Centro Verde. El salto sugiere mayor cobertura efectiva del servicio de recolección o reactivación post-pandemia.
 
-Los datos parciales 2024-2025 sólo cubren cinco meses cada año — la serie completa post-2023 aún no está publicada.
+Los datos parciales 2024-2025 sólo cubren los primeros meses de cada año — la serie completa post-2023 aún no está publicada.
 
 ## El reciclaje como contracara
 
