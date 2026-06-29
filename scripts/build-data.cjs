@@ -34,6 +34,25 @@ const DATA_DIR = path.resolve(ROOT, 'data');
 const PUBLIC_DIR = path.join(ROOT, 'public');
 const MAX_PREVIEW_ROWS = 5000;
 
+// ─── Guard de datos personales (PII) ───
+// El portal de origen publica, en algunos datasets, planillas con datos
+// personales de ciudadanos (CUIL/DNI, email, teléfono) mal etiquetadas.
+// El dashboard NO debe re-exponerlas. Si las columnas de un archivo matchean
+// estos identificadores fuertes, se omite ese archivo del preview (y se intenta
+// con el siguiente candidato del dataset).
+const PII_COLUMN_RE = /(^|[\s_./-])(cuil|cuit|dni|e-?mail|correo(\s+electr)?|tel[eé]fono|celular)([\s_./-]|$)/i;
+function piiColumns(colNames) {
+  return colNames.filter(n => PII_COLUMN_RE.test(String(n)));
+}
+
+// Recursos descargables que apuntan a planillas con PII en el portal de origen.
+// Aunque el archivo siga online en datos.lujandecuyo.gob.ar, no enlazamos a él
+// desde el dashboard. (Reportar al municipio para que lo despublique.)
+const RESOURCE_BLOCKLIST = new Set([
+  'ordenanzas-2024_2016.csv',   // dataset 4: padrón de emprendedores, no ordenanzas
+  'ordenanzas-2024_2016.xlsx',  // dataset 4: misma planilla en xlsx
+]);
+
 // Categorías → slugs (deben matchear con app/src/data/reportRegistry.ts)
 const CATEGORY_REGISTRY = [
   { slug: 'gobierto-y-sector-publico', title: 'Gobierno Municipal' },
@@ -164,6 +183,14 @@ function buildPreview(archivosDir) {
     // Sanitizar y tipar columnas
     const colNames = Object.keys(rows[0] || {});
     if (colNames.length === 0) continue;
+
+    // Guard PII: si el archivo trae identificadores personales, no lo
+    // exponemos como preview y probamos con el siguiente candidato.
+    const pii = piiColumns(colNames);
+    if (pii.length > 0) {
+      console.warn(`  ⚠ PII detectada en "${f}" (${pii.join(', ')}) — se omite del preview`);
+      continue;
+    }
 
     const totalRows = rows.length;
     const limited = rows.slice(0, MAX_PREVIEW_ROWS);
@@ -438,7 +465,9 @@ for (const d of datasetsList) {
       formato: (r.formato || '').toUpperCase() || inferFormatoFromFile(r.url_origen || ''),
       url: r.url_origen,
       bytes: Number(r.bytes) || 0,
-    }));
+    }))
+    // No enlazar a recursos del portal que exponen datos personales.
+    .filter(r => !RESOURCE_BLOCKLIST.has(r.nombre));
 
   // Construir preview solo si hay CSV/XLSX/etc. analizable
   const preview = buildPreview(archivosDir);
